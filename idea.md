@@ -35,14 +35,10 @@ Local Streamlit admin app
 id
 title
 summary
-publication_date
 date_added
 url
-source
 primary_category
 tags
-status
-featured
 created_at
 updated_at
 
@@ -55,9 +51,11 @@ The user interface should have these features / components:
 - ability to view existing entries in the database within a specific date range
 - ability to edit or delete existing entries
 - button to create or publish a report based on the entries in the database
-- enties should have the following fields: title, summary, date, url, and tags
+- entries should have the following fields: title, summary, date added, url, primary category, and tags
+- primary category should be selected from Software & Tools, Cancer Research,
+  AI & Machine Learning, Technology Platforms, Security, Community, or Other
 
-The report should look like a newsletter. There should be a title : "BBSR Omics Radar". And a subtitle: "Scanning the frontiers of bioinformatics, AI, and cancer research." Simple straight forward design with a clean layout. Next should be the report date window, typically for a monthly interval. Next there should be sections based on the tags of the entries, with each section containing the title, summary, and url of the entries that fall under that tag.
+The report should look like a newsletter. There should be a title : "BBSR Omics Radar". And a subtitle: "Scanning the frontiers of bioinformatics, AI, and cancer research." Simple straight forward design with a clean layout. Next should be the report date window, typically for a monthly interval. Next there should be sections based on the primary category of the entries, with each section containing the title, summary, and url of the entries in that category.
 
 can this be published to github pages?
 if so:

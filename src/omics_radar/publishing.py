@@ -50,7 +50,6 @@ main { padding: 2.5rem 0 5rem; }
 .date-window { color: var(--muted); white-space: nowrap; }
 .category { margin: 3rem 0 1.25rem; padding-bottom: .55rem; border-bottom: 3px solid var(--accent); font-size: 1.35rem; }
 .article { padding: 1.5rem 0; border-bottom: 1px solid var(--line); }
-.article.featured { margin: 1rem 0; padding: 1.5rem; border: 1px solid #b8d8d4; border-radius: 12px; background: var(--accent-soft); }
 .article h3 { margin: 0 0 .55rem; font-family: Georgia, "Times New Roman", serif; font-size: 1.5rem; line-height: 1.25; }
 .article h3 a { color: var(--ink); text-decoration-thickness: 1px; text-underline-offset: 4px; }
 .article p { margin: .4rem 0; }
@@ -102,14 +101,10 @@ def _page(*, title: str, body: str, asset_prefix: str = "", canonical_url: str =
 
 def _article_html(article: dict[str, Any]) -> str:
     tags = "".join(f'<span class="tag">{escape(tag)}</span>' for tag in article.get("tags", []))
-    source = escape(article.get("source") or "Research article")
-    featured_class = " featured" if article.get("featured") else ""
-    featured_label = '<span class="eyebrow">Featured</span>' if article.get("featured") else ""
     return f"""
-<article class="article{featured_class}">
-  {featured_label}
+<article class="article">
   <h3><a href="{escape(article['url'], quote=True)}" rel="noopener noreferrer">{escape(article['title'])}</a></h3>
-  <p class="meta">{source} · {_date_label(article['publication_date'])}</p>
+  <p class="meta">Added {_date_label(article['date_added'])}</p>
   <p>{escape(article['summary'])}</p>
   <div class="tags" aria-label="Tags">{tags}</div>
 </article>"""
@@ -118,7 +113,7 @@ def _article_html(article: dict[str, Any]) -> str:
 def render_issue_body(report: dict[str, Any], entries: Iterable[dict[str, Any]]) -> str:
     sections: dict[str, list[dict[str, Any]]] = defaultdict(list)
     for entry in entries:
-        sections[entry.get("primary_category") or "Uncategorized"].append(entry)
+        sections[entry.get("primary_category") or "Other"].append(entry)
     content = [
         '<section class="issue-heading">',
         f"<div><div class=\"eyebrow\">Monthly briefing</div><h2>{escape(report['title'])}</h2></div>",
@@ -126,7 +121,7 @@ def render_issue_body(report: dict[str, Any], entries: Iterable[dict[str, Any]])
         "</section>",
     ]
     if not sections:
-        content.append('<p class="empty">No articles were selected for this issue.</p>')
+        content.append('<p class="empty">No entries were selected for this issue.</p>')
     for category, articles in sections.items():
         content.append(f'<section><h2 class="category">{escape(category)}</h2>')
         content.extend(_article_html(article) for article in articles)

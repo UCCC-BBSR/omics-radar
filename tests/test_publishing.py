@@ -18,12 +18,10 @@ def test_publish_builds_site_and_snapshots_article(tmp_path):
         database,
         title="New cancer atlas",
         summary="Researchers present a new atlas.",
-        publication_date=date(2026, 7, 12),
+        date_added=date(2026, 7, 12),
         url="https://example.org/atlas",
-        source="Example Journal",
         primary_category="Cancer Research",
         tags=("atlas", "single-cell"),
-        status="ready",
     )
     report_id = save_published_report(
         database,
@@ -56,17 +54,15 @@ def test_republishing_slug_replaces_snapshot(tmp_path):
         database,
         title="First",
         summary="First summary",
-        publication_date=date(2026, 7, 1),
+        date_added=date(2026, 7, 1),
         url="https://example.org/first",
-        status="ready",
     )
     second = create_article(
         database,
         title="Second",
         summary="Second summary",
-        publication_date=date(2026, 7, 2),
+        date_added=date(2026, 7, 2),
         url="https://example.org/second",
-        status="ready",
     )
     report_id = save_published_report(
         database,

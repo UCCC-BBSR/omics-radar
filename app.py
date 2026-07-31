@@ -14,7 +14,7 @@ if str(SRC) not in sys.path:
     sys.path.insert(0, str(SRC))
 
 from omics_radar.database import (  # noqa: E402
-    ARTICLE_STATUSES,
+    PRIMARY_CATEGORIES,
     create_article,
     delete_article,
     get_article,
@@ -37,7 +37,7 @@ def month_window(today: date) -> tuple[date, date]:
 def show_error(error: Exception) -> None:
     message = str(error)
     if "Duplicate key" in message and "url" in message.lower():
-        message = "An article with this URL already exists."
+        message = "An entry with this URL already exists."
     st.error(message)
 
 
@@ -47,84 +47,75 @@ initialize_database(DATABASE_PATH)
 st.title("BBSR Omics Radar")
 st.caption("Local editorial workspace · changes remain local until generated files are committed and pushed")
 
-add_tab, manage_tab, publish_tab = st.tabs(["Add article", "Manage articles", "Publish issue"])
+add_tab, manage_tab, publish_tab = st.tabs(["Add entry", "Manage entries", "Publish issue"])
 
 with add_tab:
-    st.subheader("Add an article")
-    with st.form("add_article", clear_on_submit=True):
+    st.subheader("Add an entry")
+    with st.form("add_entry", clear_on_submit=True):
         title = st.text_input("Title")
         summary = st.text_area("Summary", height=150)
         left, right = st.columns(2)
-        publication_date = left.date_input("Publication date", value=date.today())
+        date_added = left.date_input("Date added", value=date.today())
         url = right.text_input("URL", placeholder="https://…")
-        source = left.text_input("Source", placeholder="Journal, lab, or publication")
-        category = right.text_input("Primary category", value="Uncategorized")
+        category = left.selectbox("Primary category", PRIMARY_CATEGORIES)
         tags = st.text_input("Tags", placeholder="bioinformatics, AI, cancer research")
-        status = left.selectbox("Status", ARTICLE_STATUSES, index=0)
-        featured = right.checkbox("Featured article")
-        submitted = st.form_submit_button("Add article", type="primary")
+        submitted = st.form_submit_button("Add entry", type="primary")
     if submitted:
         try:
             create_article(
                 DATABASE_PATH,
                 title=title,
                 summary=summary,
-                publication_date=publication_date,
+                date_added=date_added,
                 url=url,
-                source=source,
                 primary_category=category,
                 tags=tags,
-                status=status,
-                featured=featured,
             )
-            st.success("Article added.")
+            st.success("Entry added.")
         except Exception as error:
             show_error(error)
 
 with manage_tab:
     st.subheader("Review and edit")
     default_start, default_end = month_window(date.today())
-    filters = st.columns([1, 1, 2])
+    filters = st.columns(2)
     filter_start = filters[0].date_input("From", value=default_start, key="manage_start")
     filter_end = filters[1].date_input("Through", value=default_end, key="manage_end")
-    filter_statuses = filters[2].multiselect("Statuses", ARTICLE_STATUSES, default=list(ARTICLE_STATUSES))
-    articles = list_articles(
-        DATABASE_PATH, start_date=filter_start, end_date=filter_end, statuses=filter_statuses
-    )
-    st.write(f"{len(articles)} article{'s' if len(articles) != 1 else ''}")
+    articles = list_articles(DATABASE_PATH, start_date=filter_start, end_date=filter_end)
+    st.write(f"{len(articles)} entr{'ies' if len(articles) != 1 else 'y'}")
     if articles:
         st.dataframe(
             [
                 {
-                    "Date": article["publication_date"],
+                    "Date added": article["date_added"],
                     "Title": article["title"],
                     "Category": article["primary_category"],
                     "Tags": ", ".join(article["tags"]),
-                    "Status": article["status"],
-                    "Featured": article["featured"],
                 }
                 for article in articles
             ],
             use_container_width=True,
             hide_index=True,
         )
-        labels = {article["id"]: f"{article['publication_date']} · {article['title']}" for article in articles}
-        selected_id = st.selectbox("Article to edit", labels, format_func=labels.get)
+        labels = {article["id"]: f"{article['date_added']} · {article['title']}" for article in articles}
+        selected_id = st.selectbox("Entry to edit", labels, format_func=labels.get)
         selected = get_article(DATABASE_PATH, selected_id)
         if selected:
-            with st.form("edit_article"):
+            category_options = list(PRIMARY_CATEGORIES)
+            if selected["primary_category"] not in category_options:
+                category_options.append(selected["primary_category"])
+            with st.form("edit_entry"):
                 edit_title = st.text_input("Title", value=selected["title"])
                 edit_summary = st.text_area("Summary", value=selected["summary"], height=150)
                 edit_left, edit_right = st.columns(2)
-                edit_date = edit_left.date_input("Publication date", value=selected["publication_date"])
+                edit_date = edit_left.date_input("Date added", value=selected["date_added"])
                 edit_url = edit_right.text_input("URL", value=selected["url"])
-                edit_source = edit_left.text_input("Source", value=selected["source"])
-                edit_category = edit_right.text_input("Primary category", value=selected["primary_category"])
-                edit_tags = st.text_input("Tags", value=", ".join(selected["tags"]))
-                edit_status = edit_left.selectbox(
-                    "Status", ARTICLE_STATUSES, index=ARTICLE_STATUSES.index(selected["status"])
+                edit_category = edit_left.selectbox(
+                    "Primary category",
+                    category_options,
+                    index=category_options.index(selected["primary_category"]),
                 )
-                edit_featured = edit_right.checkbox("Featured article", value=selected["featured"])
+                edit_tags = st.text_input("Tags", value=", ".join(selected["tags"]))
                 saved = st.form_submit_button("Save changes", type="primary")
             if saved:
                 try:
@@ -133,26 +124,23 @@ with manage_tab:
                         selected_id,
                         title=edit_title,
                         summary=edit_summary,
-                        publication_date=edit_date,
+                        date_added=edit_date,
                         url=edit_url,
-                        source=edit_source,
                         primary_category=edit_category,
                         tags=edit_tags,
-                        status=edit_status,
-                        featured=edit_featured,
                     )
-                    st.success("Article updated.")
+                    st.success("Entry updated.")
                     st.rerun()
                 except Exception as error:
                     show_error(error)
-            with st.expander("Delete this article"):
+            with st.expander("Delete this entry"):
                 confirm_delete = st.checkbox("I understand this cannot be undone", key=f"confirm_{selected_id}")
-                if st.button("Delete article", disabled=not confirm_delete, type="secondary"):
+                if st.button("Delete entry", disabled=not confirm_delete, type="secondary"):
                     delete_article(DATABASE_PATH, selected_id)
-                    st.success("Article deleted.")
+                    st.success("Entry deleted.")
                     st.rerun()
     else:
-        st.info("No articles match this date range and status filter.")
+        st.info("No entries match this date range.")
 
 with publish_tab:
     st.subheader("Preview and publish an issue")
@@ -163,14 +151,12 @@ with publish_tab:
     issue_slug = publish_left.text_input("Issue slug", value=issue_start.strftime("%Y-%m"))
     issue_title = publish_right.text_input("Issue title", value=issue_start.strftime("%B %Y"))
     base_url = st.text_input("Public site URL", value=DEFAULT_BASE_URL)
-    candidates = list_articles(
-        DATABASE_PATH, start_date=issue_start, end_date=issue_end, statuses=("ready", "published")
-    )
+    candidates = list_articles(DATABASE_PATH, start_date=issue_start, end_date=issue_end)
     candidate_labels = {
         article["id"]: f"{article['primary_category']} · {article['title']}" for article in candidates
     }
     selected_ids = st.multiselect(
-        "Articles in this issue",
+        "Entries in this issue",
         candidate_labels,
         default=list(candidate_labels),
         format_func=candidate_labels.get,
@@ -190,7 +176,7 @@ with publish_tab:
                 scrolling=True,
             )
         else:
-            st.warning("Select at least one article to preview.")
+            st.warning("Select at least one entry to preview.")
     if publish_col.button("Publish static issue", type="primary", use_container_width=True):
         try:
             if issue_start > issue_end:

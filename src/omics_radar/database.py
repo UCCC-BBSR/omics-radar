@@ -10,7 +10,15 @@ from uuid import uuid4
 import duckdb
 
 
-ARTICLE_STATUSES = ("draft", "ready", "published")
+PRIMARY_CATEGORIES = (
+    "Software & Tools",
+    "Cancer Research",
+    "AI & Machine Learning",
+    "Technology Platforms",
+    "Security",
+    "Community",
+    "Other",
+)
 
 
 def _now() -> datetime:
@@ -25,23 +33,77 @@ def _connect(database_path: str | Path) -> duckdb.DuckDBPyConnection:
 
 def initialize_database(database_path: str | Path) -> None:
     with _connect(database_path) as connection:
-        connection.execute(
+        articles_exist = connection.execute(
             """
+            SELECT 1 FROM information_schema.tables
+            WHERE table_schema = 'main' AND table_name = 'articles'
+            """
+        ).fetchone()
+        article_columns = (
+            {row[1] for row in connection.execute("PRAGMA table_info('articles')").fetchall()}
+            if articles_exist
+            else set()
+        )
+        if "publication_date" in article_columns:
+            connection.begin()
+            try:
+                connection.execute("ALTER TABLE report_entries RENAME TO report_entries_legacy_v1")
+                connection.execute("ALTER TABLE reports RENAME TO reports_legacy_v1")
+                connection.execute("ALTER TABLE articles RENAME TO articles_legacy_v1")
+                _create_schema(connection)
+                connection.execute(
+                    """
+                    INSERT INTO articles
+                    SELECT id, title, summary, publication_date, url,
+                           CASE WHEN primary_category = 'Uncategorized' THEN 'Other'
+                                ELSE primary_category END,
+                           tags, created_at, updated_at
+                    FROM articles_legacy_v1
+                    """
+                )
+                connection.execute(
+                    """
+                    INSERT INTO reports
+                    SELECT id, slug, title, period_start, period_end, published_at,
+                           created_at, updated_at
+                    FROM reports_legacy_v1
+                    """
+                )
+                connection.execute(
+                    """
+                    INSERT INTO report_entries
+                    SELECT report_id, article_id, sort_order, title, summary,
+                           publication_date, url,
+                           CASE WHEN primary_category = 'Uncategorized' THEN 'Other'
+                                ELSE primary_category END,
+                           tags
+                    FROM report_entries_legacy_v1
+                    """
+                )
+                connection.execute("DROP TABLE report_entries_legacy_v1")
+                connection.execute("DROP TABLE reports_legacy_v1")
+                connection.execute("DROP TABLE articles_legacy_v1")
+                connection.commit()
+            except Exception:
+                connection.rollback()
+                raise
+        else:
+            _create_schema(connection)
+
+
+def _create_schema(connection: duckdb.DuckDBPyConnection) -> None:
+    connection.execute(
+        """
             CREATE TABLE IF NOT EXISTS articles (
                 id VARCHAR PRIMARY KEY,
                 title VARCHAR NOT NULL,
                 summary VARCHAR NOT NULL,
-                publication_date DATE NOT NULL,
                 date_added DATE NOT NULL,
                 url VARCHAR NOT NULL UNIQUE,
-                source VARCHAR NOT NULL,
                 primary_category VARCHAR NOT NULL,
                 tags VARCHAR NOT NULL,
-                status VARCHAR NOT NULL,
-                featured BOOLEAN NOT NULL DEFAULT FALSE,
                 created_at TIMESTAMPTZ NOT NULL,
-                updated_at TIMESTAMPTZ NOT NULL,
-                CHECK (status IN ('draft', 'ready', 'published'))
+                updated_at TIMESTAMPTZ NOT NULL
             );
 
             CREATE TABLE IF NOT EXISTS reports (
@@ -50,11 +112,9 @@ def initialize_database(database_path: str | Path) -> None:
                 title VARCHAR NOT NULL,
                 period_start DATE NOT NULL,
                 period_end DATE NOT NULL,
-                status VARCHAR NOT NULL,
                 published_at TIMESTAMPTZ,
                 created_at TIMESTAMPTZ NOT NULL,
-                updated_at TIMESTAMPTZ NOT NULL,
-                CHECK (status IN ('draft', 'published'))
+                updated_at TIMESTAMPTZ NOT NULL
             );
 
             CREATE TABLE IF NOT EXISTS report_entries (
@@ -63,16 +123,14 @@ def initialize_database(database_path: str | Path) -> None:
                 sort_order INTEGER NOT NULL,
                 title VARCHAR NOT NULL,
                 summary VARCHAR NOT NULL,
-                publication_date DATE NOT NULL,
+                date_added DATE NOT NULL,
                 url VARCHAR NOT NULL,
-                source VARCHAR NOT NULL,
                 primary_category VARCHAR NOT NULL,
                 tags VARCHAR NOT NULL,
-                featured BOOLEAN NOT NULL,
                 PRIMARY KEY (report_id, article_id)
             );
-            """
-        )
+        """
+    )
 
 
 def _rows(connection: duckdb.DuckDBPyConnection) -> list[dict[str, Any]]:
@@ -108,16 +166,11 @@ def create_article(
     *,
     title: str,
     summary: str,
-    publication_date: date,
+    date_added: date,
     url: str,
-    source: str = "",
-    primary_category: str = "Uncategorized",
+    primary_category: str = "Other",
     tags: str | Iterable[str] = (),
-    status: str = "draft",
-    featured: bool = False,
 ) -> str:
-    if status not in ARTICLE_STATUSES:
-        raise ValueError(f"Unknown article status: {status}")
     if not title.strip() or not summary.strip():
         raise ValueError("Title and summary are required.")
     article_id = str(uuid4())
@@ -125,20 +178,16 @@ def create_article(
     with _connect(database_path) as connection:
         connection.execute(
             """
-            INSERT INTO articles VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+            INSERT INTO articles VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
             """,
             [
                 article_id,
                 title.strip(),
                 summary.strip(),
-                publication_date,
-                date.today(),
+                date_added,
                 validate_url(url),
-                source.strip(),
-                primary_category.strip() or "Uncategorized",
+                primary_category.strip() or "Other",
                 json.dumps(normalize_tags(tags)),
-                status,
-                featured,
                 timestamp,
                 timestamp,
             ],
@@ -150,19 +199,14 @@ def update_article(database_path: str | Path, article_id: str, **values: Any) ->
     allowed = {
         "title",
         "summary",
-        "publication_date",
+        "date_added",
         "url",
-        "source",
         "primary_category",
         "tags",
-        "status",
-        "featured",
     }
     unknown = set(values) - allowed
     if unknown:
-        raise ValueError(f"Unknown article fields: {', '.join(sorted(unknown))}")
-    if "status" in values and values["status"] not in ARTICLE_STATUSES:
-        raise ValueError(f"Unknown article status: {values['status']}")
+        raise ValueError(f"Unknown entry fields: {', '.join(sorted(unknown))}")
     if "url" in values:
         values["url"] = validate_url(values["url"])
     if "tags" in values:
@@ -171,8 +215,8 @@ def update_article(database_path: str | Path, article_id: str, **values: Any) ->
         if required in values and not str(values[required]).strip():
             raise ValueError(f"{required.title()} is required.")
     if "primary_category" in values:
-        values["primary_category"] = str(values["primary_category"]).strip() or "Uncategorized"
-    for field in ("title", "summary", "source"):
+        values["primary_category"] = str(values["primary_category"]).strip() or "Other"
+    for field in ("title", "summary"):
         if field in values:
             values[field] = str(values[field]).strip()
     values["updated_at"] = _now()
@@ -183,7 +227,7 @@ def update_article(database_path: str | Path, article_id: str, **values: Any) ->
             f"UPDATE articles SET {assignments} WHERE id = ? RETURNING id", parameters
         ).fetchone()
     if result is None:
-        raise KeyError(f"Article not found: {article_id}")
+        raise KeyError(f"Entry not found: {article_id}")
 
 
 def delete_article(database_path: str | Path, article_id: str) -> None:
@@ -206,26 +250,21 @@ def list_articles(
     *,
     start_date: date | None = None,
     end_date: date | None = None,
-    statuses: Iterable[str] | None = None,
 ) -> list[dict[str, Any]]:
     clauses: list[str] = []
     parameters: list[Any] = []
     if start_date:
-        clauses.append("publication_date >= ?")
+        clauses.append("date_added >= ?")
         parameters.append(start_date)
     if end_date:
-        clauses.append("publication_date <= ?")
+        clauses.append("date_added <= ?")
         parameters.append(end_date)
-    if statuses:
-        selected = list(statuses)
-        clauses.append(f"status IN ({', '.join('?' for _ in selected)})")
-        parameters.extend(selected)
     where = f"WHERE {' AND '.join(clauses)}" if clauses else ""
     with _connect(database_path) as connection:
         result = connection.execute(
             f"""
             SELECT * FROM articles {where}
-            ORDER BY featured DESC, publication_date DESC, title
+            ORDER BY date_added DESC, title
             """,
             parameters,
         )
@@ -245,7 +284,7 @@ def save_published_report(
     article_ids: list[str],
 ) -> str:
     if not article_ids:
-        raise ValueError("Select at least one article before publishing.")
+        raise ValueError("Select at least one entry before publishing.")
     timestamp = _now()
     with _connect(database_path) as connection:
         existing = connection.execute("SELECT id FROM reports WHERE slug = ?", [slug]).fetchone()
@@ -256,7 +295,7 @@ def save_published_report(
                 connection.execute(
                     """
                     UPDATE reports SET title = ?, period_start = ?, period_end = ?,
-                        status = 'published', published_at = ?, updated_at = ?
+                        published_at = ?, updated_at = ?
                     WHERE id = ?
                     """,
                     [title.strip(), period_start, period_end, timestamp, timestamp, report_id],
@@ -264,28 +303,24 @@ def save_published_report(
                 connection.execute("DELETE FROM report_entries WHERE report_id = ?", [report_id])
             else:
                 connection.execute(
-                    "INSERT INTO reports VALUES (?, ?, ?, ?, ?, 'published', ?, ?, ?)",
+                    "INSERT INTO reports VALUES (?, ?, ?, ?, ?, ?, ?, ?)",
                     [report_id, slug, title.strip(), period_start, period_end, timestamp, timestamp, timestamp],
                 )
             for sort_order, article_id in enumerate(article_ids):
                 article = connection.execute(
                     """
-                    SELECT id, title, summary, publication_date, url, source,
-                           primary_category, tags, featured
+                    SELECT id, title, summary, date_added, url,
+                           primary_category, tags
                     FROM articles WHERE id = ?
                     """,
                     [article_id],
                 ).fetchone()
                 if article is None:
-                    raise KeyError(f"Article not found: {article_id}")
+                    raise KeyError(f"Entry not found: {article_id}")
                 connection.execute(
-                    "INSERT INTO report_entries VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)",
+                    "INSERT INTO report_entries VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)",
                     [report_id, article[0], sort_order, *article[1:]],
                 )
-            connection.execute(
-                f"UPDATE articles SET status = 'published', updated_at = ? WHERE id IN ({', '.join('?' for _ in article_ids)})",
-                [timestamp, *article_ids],
-            )
             connection.commit()
         except Exception:
             connection.rollback()
@@ -297,7 +332,7 @@ def list_published_reports(database_path: str | Path) -> list[dict[str, Any]]:
     with _connect(database_path) as connection:
         result = connection.execute(
             """
-            SELECT * FROM reports WHERE status = 'published'
+            SELECT * FROM reports
             ORDER BY period_end DESC, published_at DESC
             """
         )

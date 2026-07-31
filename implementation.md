@@ -2,7 +2,7 @@
 
 ## Objective
 
-Build a local editorial application for collecting and reviewing articles, then
+Build a local editorial application for collecting and reviewing entries, then
 publish a static monthly newsletter for the `UCCC-BBSR/omics-radar` GitHub
 repository.
 
@@ -14,9 +14,9 @@ frontiers of bioinformatics, AI, and cancer research.**
 ```text
 Local Streamlit admin app
         |
-        +-- Add, edit, and delete articles
-        +-- Filter and review articles in DuckDB
-        +-- Select articles and preview an issue
+        +-- Add, edit, and delete entries
+        +-- Filter and review entries in DuckDB
+        +-- Select entries and preview an issue
         +-- Publish static output
                     |
                     v
@@ -63,20 +63,29 @@ omics-radar/
 - `id`: UUID string
 - `title`
 - `summary`
-- `publication_date`
 - `date_added`
 - `url`
-- `source`
 - `primary_category`
 - `tags`: JSON array stored as text
-- `status`: `draft`, `ready`, or `published`
-- `featured`: boolean
 - `created_at`
 - `updated_at`
 
 `primary_category` determines the newsletter section. Tags are secondary labels
-used for discovery and filtering. This prevents multi-tag articles from being
+used for discovery and filtering. This prevents multi-tag entries from being
 duplicated across newsletter sections.
+
+The category dropdown initially contains:
+
+- Software & Tools
+- Cancer Research
+- AI & Machine Learning
+- Technology Platforms
+- Security
+- Community
+- Other
+
+The choices live in one shared constant so categories can be added later without
+changing the database schema.
 
 ### `reports`
 
@@ -85,25 +94,24 @@ duplicated across newsletter sections.
 - `title`
 - `period_start`
 - `period_end`
-- `status`
 - `published_at`
 - `created_at`
 - `updated_at`
 
 ### `report_entries`
 
-This table records the selected article IDs and a snapshot of their publishable
+This table records the selected entry IDs and a snapshot of their publishable
 fields. Snapshots ensure a published issue does not silently change when the
-working article is edited later.
+working entry is edited later.
 
 ## Editorial workflow
 
 1. Clone or pull `UCCC-BBSR/omics-radar`.
 2. Run `uv sync`.
 3. Start the editor with `uv run streamlit run app.py`.
-4. Add imported or manually curated articles.
-5. Review, categorize, and mark articles as ready.
-6. Choose a reporting window and select articles.
+4. Add imported or manually curated entries.
+5. Review and categorize entries.
+6. Choose a reporting window; all entries in that window are available for selection.
 7. Preview the issue.
 8. Publish the issue.
 9. The application regenerates the latest-issue homepage, archive, issue pages,
@@ -129,7 +137,7 @@ contents and repository visibility.
 
 ## Milestones
 
-1. **MVP:** database schema, article CRUD, date filtering, issue selection,
+1. **MVP:** database schema, entry CRUD, date filtering, issue selection,
    preview, static publishing, archive, and RSS.
 2. **Editorial improvements:** bulk import, duplicate URL detection, richer
    search, validation, and configurable category ordering.

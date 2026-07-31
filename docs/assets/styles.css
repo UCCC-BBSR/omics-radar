@@ -31,7 +31,6 @@ main { padding: 2.5rem 0 5rem; }
 .date-window { color: var(--muted); white-space: nowrap; }
 .category { margin: 3rem 0 1.25rem; padding-bottom: .55rem; border-bottom: 3px solid var(--accent); font-size: 1.35rem; }
 .article { padding: 1.5rem 0; border-bottom: 1px solid var(--line); }
-.article.featured { margin: 1rem 0; padding: 1.5rem; border: 1px solid #b8d8d4; border-radius: 12px; background: var(--accent-soft); }
 .article h3 { margin: 0 0 .55rem; font-family: Georgia, "Times New Roman", serif; font-size: 1.5rem; line-height: 1.25; }
 .article h3 a { color: var(--ink); text-decoration-thickness: 1px; text-underline-offset: 4px; }
 .article p { margin: .4rem 0; }
