@@ -89,6 +89,7 @@ with manage_tab:
                 {
                     "Date added": article["date_added"],
                     "Title": article["title"],
+                    "URL": article["url"],
                     "Category": article["primary_category"],
                     "Tags": ", ".join(article["tags"]),
                 }
@@ -96,6 +97,7 @@ with manage_tab:
             ],
             use_container_width=True,
             hide_index=True,
+            column_config={"URL": st.column_config.LinkColumn("URL", display_text="Open")},
         )
         labels = {article["id"]: f"{article['date_added']} · {article['title']}" for article in articles}
         selected_id = st.selectbox("Entry to edit", labels, format_func=labels.get)
