@@ -1,5 +1,9 @@
 # BBSR Omics Radar
 
+Static site located at:
+
+https://uccc-bbsr.github.io/omics-radar/index.html
+
 A local Streamlit editorial application and static newsletter publisher for the
 University of Colorado Cancer Center Biostatistics and Bioinformatics Shared
 Resource.
