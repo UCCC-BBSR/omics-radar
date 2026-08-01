@@ -53,7 +53,7 @@ main { padding: 2.5rem 0 5rem; }
 .article h3 { margin: 0 0 .55rem; font-family: Georgia, "Times New Roman", serif; font-size: 1.5rem; line-height: 1.25; }
 .article h3 a { color: var(--ink); text-decoration-thickness: 1px; text-underline-offset: 4px; }
 .article p { margin: .4rem 0; }
-.meta, .tags { color: var(--muted); font-size: .88rem; }
+.tags { color: var(--muted); font-size: .88rem; }
 .tag { display: inline-block; margin: .3rem .25rem 0 0; padding: .14rem .48rem; border-radius: 999px; background: #edf1ef; }
 .archive-list { list-style: none; padding: 0; }
 .archive-list li { display: flex; justify-content: space-between; gap: 1rem; padding: 1rem 0; border-bottom: 1px solid var(--line); }
@@ -104,7 +104,6 @@ def _article_html(article: dict[str, Any]) -> str:
     return f"""
 <article class="article">
   <h3><a href="{escape(article['url'], quote=True)}" rel="noopener noreferrer">{escape(article['title'])}</a></h3>
-  <p class="meta">Added {_date_label(article['date_added'])}</p>
   <p>{escape(article['summary'])}</p>
   <div class="tags" aria-label="Tags">{tags}</div>
 </article>"""

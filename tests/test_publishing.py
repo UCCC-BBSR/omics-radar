@@ -44,6 +44,7 @@ def test_publish_builds_site_and_snapshots_article(tmp_path):
     assert "New cancer atlas" in issue
     assert "Working copy changed" not in issue
     assert "Cancer Research" in issue
+    assert "Added July" not in issue
     assert "../assets/styles.css" in issue
 
 
