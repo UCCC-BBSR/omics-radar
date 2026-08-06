@@ -16,7 +16,7 @@ uv run streamlit run app.py
 ```
 
 The app creates its local database at `data/omics_radar.duckdb`. The database is
-ignored by Git. Add and manage entries locally, then publish an issue to write
+pushed to GitHub. Database could be split in the future if it gets too big. Add and manage entries locally, then publish an issue to write
 the public site to `docs/`.
 
 ## Test
