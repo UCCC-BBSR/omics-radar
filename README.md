@@ -25,5 +25,21 @@ the public site to `docs/`.
 uv run pytest
 ```
 
+## Sources list:
+
+- [Bioinformatics (Springer)](https://link.springer.com/journal/12859)
+- [Bioinformatics Blogs Aggregator](https://bioinf-bloggers.com)
+- [Genome Biology](https://link.springer.com/journal/13059)
+- [Ming Tang Blog](https://divingintogeneticsandgenomics.com/)
+- [Nature Methods - Comp Bio](https://www.nature.com/subjects/computational-biology-and-bioinformatics/nmeth)
+- [PLOS Computational Biology](https://journals.plos.org/ploscompbiol/)
+- [Planet Python](https://planetpython.org/)
+- [Posit Open Source Blog](https://opensource.posit.co/blog/)
+- [Python Bytes Podcast](https://pythonbytes.fm/)
+- [R Bloggers](https://www.r-bloggers.com/)
+- [RNA-seq Blog](https://www.rna-seqblog.com/)
+- [bioRxiv Bioinformatics](https://www.biorxiv.org)
+
+
 See [implementation.md](implementation.md) for the architecture, data model,
 workflow, and roadmap.
