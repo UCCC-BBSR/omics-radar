@@ -38,7 +38,16 @@ uv run pytest
 - [Python Bytes Podcast](https://pythonbytes.fm/)
 - [R Bloggers](https://www.r-bloggers.com/)
 - [RNA-seq Blog](https://www.rna-seqblog.com/)
-- [bioRxiv Bioinformatics](https://www.biorxiv.org)
+- [bioRxiv](https://www.biorxiv.org/) — bioinformatics, genomics, cancer biology, and systems biology preprints; [official metadata API](https://api.biorxiv.org/)
+
+Use [monthly-prompt.md](monthly-prompt.md) for monthly curation, including source
+coverage checks, date rules, and lessons from earlier retrieval gaps.
+
+Monthly software checks cover **Python, R, uv, renv, Nextflow, RStudio, Positron,
+VS Code, ChatGPT, Codex, Claude, and Claude Code**. The
+[software watchlist](monthly-prompt.md#software-and-ai-product-watchlist) contains
+official release sources, additional research-computing projects, and criteria
+for selecting meaningful updates and recording coverage.
 
 
 See [implementation.md](implementation.md) for the architecture, data model,

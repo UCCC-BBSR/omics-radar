@@ -1,0 +1,2857 @@
+{
+  "publication_start": "2026-09-01",
+  "publication_end": "2026-09-30",
+  "date_added": "2026-09-30",
+  "status": "verified",
+  "entries": [
+    {
+      "title": "Handling biological replicates in long-read RNA sequencing data by joining or not joining",
+      "publication_date": "2026-09-01",
+      "source": "Nature Communications",
+      "url": "https://www.nature.com/articles/s41467-026-77367-6",
+      "evidence_url": "https://www.nature.com/articles/s41467-026-77367-6",
+      "primary_category": "Software & Tools",
+      "tags": [
+        "RNA-seq",
+        "long reads",
+        "benchmarks"
+      ],
+      "summary": "This study compares pooling reads before transcript reconstruction with reconstructing each replicate before merging annotations, across six tools and two sequencing platforms. Its results offer practical guidance for multi-sample long-read RNA-seq: the best strategy depends on the tool and whether novel isoform discovery or scaling to many replicates is the priority.",
+      "date_added": "2026-09-30",
+      "id": "311e4d07-a6e4-4acc-8543-9180a0669b80",
+      "discovery_source": "RNA-seq Blog",
+      "discovery_url": "https://www.rna-seqblog.com/how-should-biological-replicates-be-handled-in-long-read-rna-sequencing/",
+      "blog_post_date": "2026-10-05",
+      "eligibility_basis": "September primary paper; October blog used for discovery"
+    },
+    {
+      "title": "vitals 0.4.0: expanded agent evaluation from R",
+      "publication_date": "2026-09-03",
+      "source": "Posit",
+      "url": "https://opensource.posit.co/blog/2026-09-03_vitals-0-4-0/",
+      "evidence_url": "https://opensource.posit.co/blog/2026-09-03_vitals-0-4-0/",
+      "primary_category": "AI & Machine Learning",
+      "tags": [
+        "R",
+        "ai",
+        "benchmarks"
+      ],
+      "summary": "The vitals release adds interfaces for comparing custom R agents with coding agents, along with helpers for reading evaluation logs back into R. These capabilities support systematic testing of analysis assistants and inspection of their behavior on research tasks.",
+      "date_added": "2026-09-30",
+      "id": "568c604c-82ec-494f-8f54-c5cc45031509"
+    },
+    {
+      "title": "Positron September release: data import and package vulnerability scanning",
+      "publication_date": "2026-09-09",
+      "source": "Posit",
+      "url": "https://opensource.posit.co/blog/2026-09-09_positron-2026-09-release/",
+      "evidence_url": "https://opensource.posit.co/blog/2026-09-09_positron-2026-09-release/",
+      "primary_category": "Software & Tools",
+      "tags": [
+        "positron",
+        "R",
+        "python"
+      ],
+      "summary": "Positron's September release adds a code-generating data import dialog, expanded data connections, package vulnerability scanning, and improvements to environment setup. The updates can simplify routine R/Python analysis while making data-loading steps easier to reproduce.",
+      "date_added": "2026-09-30",
+      "id": "16ad505d-9f40-4a29-aa95-c3bf4071a19d"
+    },
+    {
+      "title": "orbital 0.7.0 expands in-database prediction for tidymodels",
+      "publication_date": "2026-09-09",
+      "source": "Posit",
+      "url": "https://opensource.posit.co/blog/2026-09-09_orbital-0-7-0/",
+      "evidence_url": "https://opensource.posit.co/blog/2026-09-09_orbital-0-7-0/",
+      "primary_category": "Software & Tools",
+      "tags": [
+        "R",
+        "machine learning",
+        "SQL"
+      ],
+      "summary": "orbital 0.7.0 and tidypredict 1.2.0 extend translation of fitted models into equations for prediction inside databases, adding support for methods such as discriminant analysis, neural networks, and partial least squares. This gives research teams more options for scoring large tables without moving them into an R session.",
+      "date_added": "2026-09-30",
+      "id": "ba11534f-51ce-49eb-91ca-6fe6037452d3"
+    },
+    {
+      "title": "Gradient-based optimization for mRNA sequence design",
+      "publication_date": "2026-09-10",
+      "source": "Bioinformatics",
+      "url": "https://academic.oup.com/bioinformatics/article/42/9/btag667/8790037",
+      "evidence_url": "https://academic.oup.com/bioinformatics/article/42/9/btag667/8790037",
+      "primary_category": "Software & Tools",
+      "tags": [
+        "RNA",
+        "sequence design",
+        "optimization"
+      ],
+      "summary": "ID3 optimizes mRNA codon choices through continuous probability distributions while constraining the encoded amino acid sequence. The computational framework combines RNA accessibility and codon-adaptation objectives, with code and reproduction scripts available for evaluating its usefulness in sequence-design workflows.",
+      "date_added": "2026-09-30",
+      "id": "740d0a79-d408-4ffa-b5a1-119677e11b73"
+    },
+    {
+      "title": "ViSTA learns mutation-aware DNA representations for breast cancer subtyping",
+      "publication_date": "2026-09-10",
+      "source": "Genome Biology",
+      "url": "https://link.springer.com/article/10.1186/s13059-026-04275-9",
+      "evidence_url": "https://link.springer.com/article/10.1186/s13059-026-04275-9",
+      "primary_category": "AI & Machine Learning",
+      "tags": [
+        "cancer",
+        "genomics",
+        "deep learning"
+      ],
+      "summary": "ViSTA trains a DNA language model on variant-centered tumor-exome sequences to predict breast cancer subtypes and examine subtype-associated sequence patterns. The study illustrates a mutation-aware representation strategy for cancer genomics; its reported classification results do not establish clinical diagnostic utility.",
+      "date_added": "2026-09-30",
+      "id": "8cae3c13-1724-4cf3-9def-5541df87d802"
+    },
+    {
+      "title": "ellmer 0.5.0 adds document handling and web-search citations",
+      "publication_date": "2026-09-14",
+      "source": "Posit",
+      "url": "https://opensource.posit.co/blog/2026-09-14_ellmer-0-5-0/",
+      "evidence_url": "https://opensource.posit.co/blog/2026-09-14_ellmer-0-5-0/",
+      "primary_category": "AI & Machine Learning",
+      "tags": [
+        "R",
+        "llm",
+        "reproducibility"
+      ],
+      "summary": "ellmer 0.5.0 extends its R interface to language models with document inputs, file uploads, web-search citations, and developer hooks for tool execution. These features can help research teams build analysis assistants with more inspectable source references, while the release also changes expectations for tool return types.",
+      "date_added": "2026-09-30",
+      "id": "9edefd84-f826-4868-af16-4ba70f71e478"
+    },
+    {
+      "title": "commons: a framework for data analysis agents in R and Python",
+      "publication_date": "2026-09-15",
+      "source": "Posit",
+      "url": "https://opensource.posit.co/blog/2026-09-15_commons-0-1-0/",
+      "evidence_url": "https://opensource.posit.co/blog/2026-09-15_commons-0-1-0/",
+      "primary_category": "AI & Machine Learning",
+      "tags": [
+        "R",
+        "python",
+        "agents"
+      ],
+      "summary": "Posit introduces commons, a framework for building self-service data analysis agents on its open-source language-model and chat libraries. It offers a starting point for researcher-facing analysis interfaces; the Python package was still a prerelease beta at announcement.",
+      "date_added": "2026-09-30",
+      "id": "0b261d5b-206d-4e99-b25b-2901036957d7"
+    },
+    {
+      "title": "Decoding the cancer microbiome: multi-omics, AI, and translational opportunities",
+      "publication_date": "2026-09-16",
+      "source": "Genome Biology",
+      "url": "https://link.springer.com/article/10.1186/s13059-026-04284-8",
+      "evidence_url": "https://link.springer.com/article/10.1186/s13059-026-04284-8",
+      "primary_category": "Cancer Research",
+      "tags": [
+        "cancer",
+        "microbiome",
+        "multi-omics",
+        "ai"
+      ],
+      "summary": "This review examines how multi-omics data and AI can support cancer microbiome research, emphasizing model interpretation, validation, and biological reliability. It provides a useful planning resource for integrated microbiome studies while distinguishing research opportunities from established clinical applications.",
+      "date_added": "2026-09-30",
+      "id": "c8449023-de81-4a92-8fbe-2776e78e5aba"
+    },
+    {
+      "title": "When models choose metrics: hidden geometry in computational biology",
+      "publication_date": "2026-09-17",
+      "source": "PLOS Computational Biology",
+      "url": "https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1014789",
+      "evidence_url": "https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1014789",
+      "primary_category": "Other",
+      "tags": [
+        "biostatistics",
+        "RNA-seq",
+        "methods"
+      ],
+      "summary": "This perspective explains how statistical models imply distance measures and when familiar transformations, including RNA-seq variance stabilization, approximate those distances. It encourages explicit metric choices and sensitivity checks when dependence, nuisance variation, or model misspecification make a standard distance unreliable.",
+      "date_added": "2026-09-30",
+      "id": "38943235-8bc5-4a9e-a695-671cee475aee"
+    },
+    {
+      "title": "Evolutionary rescue model explores strategies for cancer cell extinction",
+      "publication_date": "2026-09-18",
+      "source": "PLOS Computational Biology",
+      "url": "https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1014803",
+      "evidence_url": "https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1014803",
+      "primary_category": "Cancer Research",
+      "tags": [
+        "cancer",
+        "simulation",
+        "drug resistance"
+      ],
+      "summary": "An evolutionary simulation study compares sequential two-strike treatment with combination treatment and examines how switch timing and cross-resistance affect tumor-cell extinction. The results suggest hypotheses for treatment-scheduling research, but are computational findings rather than evidence of patient benefit.",
+      "date_added": "2026-09-30",
+      "id": "1519a203-75d5-4288-85e8-16816de9cebe"
+    },
+    {
+      "title": "Shiny for Python 1.8 adds in-memory server testing",
+      "publication_date": "2026-09-22",
+      "source": "Posit",
+      "url": "https://opensource.posit.co/blog/2026-09-22_shiny-python-1-8/",
+      "evidence_url": "https://opensource.posit.co/blog/2026-09-22_shiny-python-1-8/",
+      "primary_category": "Software & Tools",
+      "tags": [
+        "python",
+        "shiny",
+        "testing"
+      ],
+      "summary": "Shiny for Python 1.8 introduces browser-free testing of reactive server logic, support for complete HTML documents as app interfaces, and reconnection to live sessions. These additions make it easier to validate and maintain interactive research dashboards.",
+      "date_added": "2026-09-30",
+      "id": "380d1553-b7d3-41ec-b012-89874201947a"
+    },
+    {
+      "title": "Dreamlet enables cohort-scale single-cell differential expression analysis",
+      "publication_date": "2026-09-23",
+      "source": "Nature Communications",
+      "url": "https://www.nature.com/articles/s41467-026-75680-8",
+      "evidence_url": "https://www.nature.com/articles/s41467-026-75680-8",
+      "primary_category": "Software & Tools",
+      "tags": [
+        "R",
+        "single cell",
+        "differential expression"
+      ],
+      "summary": "Dreamlet uses precision-weighted pseudobulk linear mixed models to test cell-type-specific expression differences across subjects while accommodating complex study designs. The paper evaluates computational and statistical performance on large datasets, offering a practical approach for cohort-scale single-cell studies.",
+      "date_added": "2026-09-30",
+      "id": "16d60b57-3e93-4487-be2d-26ac520e63ab"
+    },
+    {
+      "title": "ggsql 0.5.0 reaches beta with expanded database readers and writers",
+      "publication_date": "2026-09-24",
+      "source": "Posit",
+      "url": "https://opensource.posit.co/blog/2026-09-24_ggsql_0_5_0/",
+      "evidence_url": "https://opensource.posit.co/blog/2026-09-24_ggsql_0_5_0/",
+      "primary_category": "Software & Tools",
+      "tags": [
+        "SQL",
+        "visualization",
+        "data analysis"
+      ],
+      "summary": "ggsql 0.5.0 advances to beta and expands its reader and writer architecture for working with database-backed visualizations. Support for ADBC alongside existing database interfaces broadens options for plotting research data close to where it is stored.",
+      "date_added": "2026-09-30",
+      "id": "79dcfd46-7584-42ed-9032-db76aba8dbb7"
+    },
+    {
+      "title": "Single-cell phylogenetics explores non-small cell lung cancer evolution",
+      "publication_date": "2026-09-24",
+      "source": "Oncogene",
+      "url": "https://www.nature.com/articles/s41388-026-03997-1",
+      "evidence_url": "https://www.nature.com/articles/s41388-026-03997-1",
+      "primary_category": "Cancer Research",
+      "tags": [
+        "cancer",
+        "single cell",
+        "phylogenetics"
+      ],
+      "summary": "Researchers apply phylogenetic and phylodynamic methods to exome data from 351 tumor cells across 11 patients to investigate lung cancer evolution. The inferred trajectories motivate a multi-phase evolutionary hypothesis, with the small cohort and focus on primary and early-stage tumors limiting generalization.",
+      "date_added": "2026-09-30",
+      "id": "27dd7247-48da-4431-9cd8-78b55087c584"
+    },
+    {
+      "title": "BioC2026 conference recap and community resources",
+      "publication_date": "2026-09-30",
+      "source": "Bioconductor",
+      "url": "https://blog.bioconductor.org/posts/2026-09-30-BioC2026-recap/index.html",
+      "evidence_url": "https://blog.bioconductor.org/posts/2026-09-30-BioC2026-recap/index.html",
+      "primary_category": "Community",
+      "tags": [
+        "R",
+        "Bioconductor",
+        "training"
+      ],
+      "summary": "This September recap summarizes the August BioC2026 meeting, including research talks, package demonstrations, conference materials, and post-conference activities. It offers a route to learning resources and community developments relevant to reproducible computational biology.",
+      "date_added": "2026-09-30",
+      "id": "1928ee0c-cddf-42d1-992f-ba1db419aa8b"
+    },
+    {
+      "title": "scLS screens genes for pseudotime-associated expression changes",
+      "url": "https://www.rna-seqblog.com/scls-a-computationally-efficient-differentially-expressed-gene-detection-algorithm/",
+      "source": "RNA-seq Blog",
+      "discovery_source": "RNA-seq Blog",
+      "discovery_url": "https://www.rna-seqblog.com/scls-a-computationally-efficient-differentially-expressed-gene-detection-algorithm/",
+      "publication_date": "2026-09-02",
+      "blog_post_date": "2026-09-02",
+      "evidence_url": "https://www.rna-seqblog.com/tag/scrna-seq/",
+      "blog_date_evidence_url": "https://www.rna-seqblog.com/tag/scrna-seq/",
+      "paper_publication_date": "2026-07-16",
+      "paper_url": "https://academic.oup.com/nar/article/54/13/gkag682/8735595",
+      "paper_source": "Nucleic Acids Research",
+      "paper_date_evidence_url": "https://academic.oup.com/nar/article/54/13/gkag682/8735595",
+      "eligibility_basis": "September blog coverage",
+      "date_added": "2026-09-30",
+      "primary_category": "Software & Tools",
+      "tags": [
+        "single cell",
+        "differential expression",
+        "R"
+      ],
+      "summary": "September coverage highlights scLS, a July method that uses Lomb\u2013Scargle spectra to screen for dynamic and condition-dependent expression patterns along pseudotime. It can prioritize genes without explicit branch assignments, but does not localize changes to individual lineages and should be complemented by lineage-aware analysis.",
+      "date_evidence_note": "Blog date from dated tag-listing content returned by search; full blog post and primary paper read separately. Direct archive opens sometimes returned stale snapshots.",
+      "id": "66ed0ee2-625d-4308-9566-29b815f10a2f"
+    },
+    {
+      "title": "Single-cell approaches connect cancer genotypes with cell states",
+      "url": "https://www.rna-seqblog.com/single-cell-rna-sequencing-links-genetic-mutations-to-cell-behavior-in-cancer/",
+      "source": "RNA-seq Blog",
+      "discovery_source": "RNA-seq Blog",
+      "discovery_url": "https://www.rna-seqblog.com/single-cell-rna-sequencing-links-genetic-mutations-to-cell-behavior-in-cancer/",
+      "publication_date": "2026-09-09",
+      "blog_post_date": "2026-09-09",
+      "evidence_url": "https://www.rna-seqblog.com/tag/precision-oncology/",
+      "blog_date_evidence_url": "https://www.rna-seqblog.com/tag/precision-oncology/",
+      "paper_publication_date": "2026-09-08",
+      "paper_url": "https://www.nature.com/articles/s41568-026-00970-8",
+      "paper_source": "Nature Reviews Cancer",
+      "paper_date_evidence_url": "https://www.nature.com/articles/s41568-026-00970-8",
+      "eligibility_basis": "September blog coverage",
+      "date_added": "2026-09-30",
+      "primary_category": "Cancer Research",
+      "tags": [
+        "cancer",
+        "single cell",
+        "genomics"
+      ],
+      "summary": "This review examines how joint measurements of genetic alterations and cellular phenotypes can reveal cancer clonal evolution. It provides a framework for combining single-cell and phylogenetic methods to study mutant-cell behavior and potential vulnerabilities, rather than evidence of an established clinical test.",
+      "date_evidence_note": "Blog date from dated tag-listing content returned by search; full blog post and primary paper read separately. Direct archive opens sometimes returned stale snapshots.",
+      "id": "7df29f17-4e7f-407c-a579-1efc8c3f80f0"
+    },
+    {
+      "title": "qMAP measures differential RNA fragmentation beyond abundance",
+      "url": "https://www.rna-seqblog.com/qmap-reveals-rna-fragmentation-patterns-linked-to-development-and-disease/",
+      "source": "RNA-seq Blog",
+      "discovery_source": "RNA-seq Blog",
+      "discovery_url": "https://www.rna-seqblog.com/qmap-reveals-rna-fragmentation-patterns-linked-to-development-and-disease/",
+      "publication_date": "2026-09-14",
+      "blog_post_date": "2026-09-14",
+      "evidence_url": "https://www.rna-seqblog.com/tag/transcriptomics/",
+      "blog_date_evidence_url": "https://www.rna-seqblog.com/tag/transcriptomics/",
+      "paper_publication_date": "2026-07-20",
+      "paper_url": "https://link.springer.com/article/10.1038/s44320-026-00237-2",
+      "paper_source": "Molecular Systems Biology",
+      "paper_date_evidence_url": "https://link.springer.com/article/10.1038/s44320-026-00237-2",
+      "eligibility_basis": "September blog coverage",
+      "date_added": "2026-09-30",
+      "primary_category": "Software & Tools",
+      "tags": [
+        "RNA-seq",
+        "small RNA",
+        "methods"
+      ],
+      "summary": "September coverage revisits qMAP, a July computational framework for comparing fragmentation patterns along parental RNAs and identifying the small RNA species driving those differences. Its developmental and disease examples suggest an additional analysis dimension beyond abundance, while disease-classification findings remain research results.",
+      "date_evidence_note": "Blog date from dated tag-listing content returned by search; full blog post and primary paper read separately. Direct archive opens sometimes returned stale snapshots.",
+      "id": "c7add224-42ac-4eee-ae78-1ea39791e8d1"
+    },
+    {
+      "title": "Sequencing strategy affects estimates of A-to-I RNA editing",
+      "url": "https://www.rna-seqblog.com/short-read-rna-seq-yields-lower-estimates-of-a-to-i-rna-editing-levels-than-long-read-cdna-sequencing/",
+      "source": "RNA-seq Blog",
+      "discovery_source": "RNA-seq Blog",
+      "discovery_url": "https://www.rna-seqblog.com/short-read-rna-seq-yields-lower-estimates-of-a-to-i-rna-editing-levels-than-long-read-cdna-sequencing/",
+      "publication_date": "2026-09-15",
+      "blog_post_date": "2026-09-15",
+      "evidence_url": "https://www.rna-seqblog.com/tag/transcriptomics/",
+      "blog_date_evidence_url": "https://www.rna-seqblog.com/tag/transcriptomics/",
+      "paper_publication_date": "2026-07-22",
+      "paper_url": "https://link.springer.com/article/10.1007/s44307-026-00123-w",
+      "paper_source": "Advanced Biotechnology",
+      "paper_date_evidence_url": "https://link.springer.com/article/10.1007/s44307-026-00123-w",
+      "eligibility_basis": "September blog coverage",
+      "date_added": "2026-09-30",
+      "primary_category": "Technology Platforms",
+      "tags": [
+        "RNA-seq",
+        "long reads",
+        "RNA editing"
+      ],
+      "summary": "This September post covers a July study comparing A-to-I editing estimates from short-read RNA-seq and long-read cDNA sequencing in human cell lines. Short reads tended to yield lower estimates, with alignment of heavily edited reads contributing to the discrepancy; the result motivates platform-aware validation rather than assuming measurements are interchangeable.",
+      "date_evidence_note": "Blog date from dated tag-listing content returned by search; full blog post and primary paper read separately. Direct archive opens sometimes returned stale snapshots.",
+      "id": "41f3f612-0375-4e4f-98ce-1325c86c9f5b"
+    },
+    {
+      "title": "ResolVI addresses molecule misassignment in spatial transcriptomics",
+      "url": "https://www.rna-seqblog.com/resolvi-improves-accuracy-in-spatial-transcriptomics-analysis/",
+      "source": "RNA-seq Blog",
+      "discovery_source": "RNA-seq Blog",
+      "discovery_url": "https://www.rna-seqblog.com/resolvi-improves-accuracy-in-spatial-transcriptomics-analysis/",
+      "publication_date": "2026-09-28",
+      "blog_post_date": "2026-09-28",
+      "evidence_url": "https://www.rna-seqblog.com/tag/rna-sequencing/",
+      "blog_date_evidence_url": "https://www.rna-seqblog.com/tag/rna-sequencing/",
+      "paper_publication_date": "2026-09-24",
+      "paper_url": "https://www.nature.com/articles/s41592-026-03212-9",
+      "paper_source": "Nature Methods",
+      "paper_date_evidence_url": "https://www.nature.com/articles/s41592-026-03212-9",
+      "eligibility_basis": "September blog coverage",
+      "date_added": "2026-09-30",
+      "primary_category": "Software & Tools",
+      "tags": [
+        "spatial transcriptomics",
+        "single cell",
+        "python"
+      ],
+      "summary": "ResolVI models molecule misassignment, background contamination, and batch effects in spatial transcriptomics to improve downstream expression analysis. Available through scvi-tools, it supports integrated cell-state analysis, although correction quality still depends on the starting segmentation and available validation data.",
+      "date_evidence_note": "Blog date from dated tag-listing content returned by search; full blog post and primary paper read separately. Direct archive opens sometimes returned stale snapshots.",
+      "id": "8f066b40-bd4b-4197-a62b-cd269b6eb8e3"
+    },
+    {
+      "title": "APALORD analyzes alternative polyadenylation from long RNA reads",
+      "url": "https://www.rna-seqblog.com/long-read-rna-sequencing-reveals-how-neurons-choose-alternative-rna-endings/",
+      "source": "RNA-seq Blog",
+      "discovery_source": "RNA-seq Blog",
+      "discovery_url": "https://www.rna-seqblog.com/long-read-rna-sequencing-reveals-how-neurons-choose-alternative-rna-endings/",
+      "publication_date": "2026-09-29",
+      "blog_post_date": "2026-09-29",
+      "evidence_url": "https://www.rna-seqblog.com/tag/transcriptomics/",
+      "blog_date_evidence_url": "https://www.rna-seqblog.com/tag/transcriptomics/",
+      "paper_publication_date": "2026-08-25",
+      "paper_url": "https://www.nature.com/articles/s41467-026-76377-8",
+      "paper_source": "Nature Communications",
+      "paper_date_evidence_url": "https://www.nature.com/articles/s41467-026-76377-8",
+      "eligibility_basis": "September blog coverage",
+      "date_added": "2026-09-30",
+      "primary_category": "Software & Tools",
+      "tags": [
+        "RNA-seq",
+        "long reads",
+        "R",
+        "alternative polyadenylation"
+      ],
+      "summary": "September coverage highlights the August APALORD framework for detecting polyadenylation sites and comparing RNA cleavage-site distributions between conditions. Applications to human neuronal differentiation and Drosophila demonstrate how long reads can expose RNA-ending changes and expand incomplete annotations.",
+      "date_evidence_note": "Blog date from dated tag-listing content returned by search; full blog post and primary paper read separately. Direct archive opens sometimes returned stale snapshots.",
+      "id": "bafe0836-a78a-4ff4-8b93-c53c4f7c515d"
+    },
+    {
+      "title": "DeOPUS estimates cell-type composition from bulk RNA-seq",
+      "url": "https://www.rna-seqblog.com/deopus-improves-cell-type-estimates-from-bulk-rna-sequencing/",
+      "source": "RNA-seq Blog",
+      "discovery_source": "RNA-seq Blog",
+      "discovery_url": "https://www.rna-seqblog.com/deopus-improves-cell-type-estimates-from-bulk-rna-sequencing/",
+      "publication_date": "2026-09-29",
+      "blog_post_date": "2026-09-29",
+      "evidence_url": "https://www.rna-seqblog.com/tag/rna-sequencing/",
+      "blog_date_evidence_url": "https://www.rna-seqblog.com/tag/rna-sequencing/",
+      "paper_publication_date": "2026-09-26",
+      "paper_url": "https://doi.org/10.1093/bib/bbag524",
+      "paper_source": "Briefings in Bioinformatics",
+      "paper_date_evidence_url": "https://doi.org/10.1093/bib/bbag524",
+      "eligibility_basis": "September blog coverage",
+      "date_added": "2026-09-30",
+      "primary_category": "Software & Tools",
+      "tags": [
+        "RNA-seq",
+        "deconvolution",
+        "R"
+      ],
+      "summary": "DeOPUS combines shrinkage, power transformations, and constrained unmixing to estimate cell-type proportions from bulk RNA-seq using reference profiles. Its multi-tissue benchmarks offer a tool to evaluate for cohort-scale deconvolution, with applicability dependent on reference quality and the tissues represented.",
+      "date_evidence_note": "Blog date from dated tag-listing content returned by search; full blog post and primary paper read separately. Direct archive opens sometimes returned stale snapshots.",
+      "id": "3c93e977-a999-4478-925f-e708f1d237bd"
+    },
+    {
+      "title": "ComboBatch benchmarks bulk RNA-seq harmonization in lymphoma",
+      "summary": "This preprint evaluates harmonization strategies across 88 B-cell lymphoma cohorts and provides the ComboBatch pipeline for comparing batch-removal and imputation choices. Its results favor different methods for mixed-platform and RNA-seq-only data, offering practical guidance whose generalizability beyond the evaluated cohorts still needs assessment.",
+      "primary_category": "Software & Tools",
+      "tags": [
+        "RNA-seq",
+        "cancer",
+        "benchmarks",
+        "preprint"
+      ],
+      "url": "https://www.biorxiv.org/content/10.64898/2026.09.15.751825v1",
+      "source": "bioRxiv",
+      "discovery_source": "bioRxiv official API",
+      "discovery_url": "https://api.biorxiv.org/details/biorxiv/10.64898/2026.09.15.751825/na/json",
+      "evidence_url": "https://api.biorxiv.org/details/biorxiv/10.64898/2026.09.15.751825/na/json",
+      "publication_date": "2026-09-17",
+      "first_posted_date": "2026-09-17",
+      "version": "1",
+      "version_posted_date": "2026-09-17",
+      "original_title": "Benchmarking of bulk transcriptomic harmonization tools in a multi-platform B-cell lymphoma cohort identifies feature-specific quantile normalization and surrogate variable analysis as top-performing methods",
+      "doi": "10.64898/2026.09.15.751825",
+      "date_added": "2026-09-30",
+      "eligibility_basis": "First preprint posting in September; latest September version reviewed",
+      "access_note": "Official bioRxiv API abstract and version metadata reviewed; full manuscript not reviewed. Curated version is a preprint; findings provisional.",
+      "published_doi": "NA",
+      "id": "c03ce771-d4ec-4557-9fb5-6dd9a8f4c1c1"
+    },
+    {
+      "title": "scAtlasPy supports disk-based analysis of large single-cell atlases",
+      "summary": "This preprint introduces scAtlasPy, which keeps data on disk to reduce the memory requirements of atlas-scale single-cell analysis. The authors report large-scale processing and minibatch-retrieval benchmarks, making it a candidate for teams whose datasets exceed workstation memory; these performance claims have not been independently checked here.",
+      "primary_category": "Software & Tools",
+      "tags": [
+        "single cell",
+        "python",
+        "single cell atlas",
+        "preprint"
+      ],
+      "url": "https://www.biorxiv.org/content/10.64898/2026.09.03.748766v1",
+      "source": "bioRxiv",
+      "discovery_source": "bioRxiv official API",
+      "discovery_url": "https://api.biorxiv.org/details/biorxiv/10.64898/2026.09.03.748766/na/json",
+      "evidence_url": "https://api.biorxiv.org/details/biorxiv/10.64898/2026.09.03.748766/na/json",
+      "publication_date": "2026-09-08",
+      "first_posted_date": "2026-09-08",
+      "version": "1",
+      "version_posted_date": "2026-09-08",
+      "original_title": "Atlas-scale single-cell analysis beyond in-memory paradigm with scAtlasPy",
+      "doi": "10.64898/2026.09.03.748766",
+      "date_added": "2026-09-30",
+      "eligibility_basis": "First preprint posting in September; latest September version reviewed",
+      "access_note": "Official bioRxiv API abstract and version metadata reviewed; full manuscript not reviewed. Curated version is a preprint; findings provisional.",
+      "published_doi": "NA",
+      "id": "4c9ceda8-404b-456b-ab09-44b7dee78659"
+    },
+    {
+      "title": "spaCraft estimates sample-size requirements for spatial transcriptomics",
+      "summary": "This preprint presents spaCraft, which uses replicated pilot data to estimate power for spatial differential-expression and composition endpoints. Its simulations repeat domain recovery to account for clustering uncertainty, offering study-planning guidance conditional on the pilot data and analysis model.",
+      "primary_category": "Software & Tools",
+      "tags": [
+        "spatial transcriptomics",
+        "biostatistics",
+        "simulation",
+        "preprint"
+      ],
+      "url": "https://www.biorxiv.org/content/10.64898/2026.09.04.749534v1",
+      "source": "bioRxiv",
+      "discovery_source": "bioRxiv official API",
+      "discovery_url": "https://api.biorxiv.org/details/biorxiv/10.64898/2026.09.04.749534/na/json",
+      "evidence_url": "https://api.biorxiv.org/details/biorxiv/10.64898/2026.09.04.749534/na/json",
+      "publication_date": "2026-09-10",
+      "first_posted_date": "2026-09-10",
+      "version": "1",
+      "version_posted_date": "2026-09-10",
+      "original_title": "spaCraft: calibrated power analysis and sample-size planning for multi-sample spatial transcriptomics",
+      "doi": "10.64898/2026.09.04.749534",
+      "date_added": "2026-09-30",
+      "eligibility_basis": "First preprint posting in September; latest September version reviewed",
+      "access_note": "Official bioRxiv API abstract and version metadata reviewed; full manuscript not reviewed. Curated version is a preprint; findings provisional.",
+      "published_doi": "NA",
+      "id": "075f2147-538e-401d-adde-bfaf48449f35"
+    },
+    {
+      "title": "Post-selection bias can affect phenotype testing in single-cell studies",
+      "summary": "This preprint studies the bias introduced when the same expression data are used to define cell groups and test sample-level phenotype differences. Simulations identify settings with inflated false discoveries and evaluate correction and diagnostic strategies, motivating checks for phenotype imbalance before interpreting differential expression.",
+      "primary_category": "Other",
+      "tags": [
+        "single cell",
+        "biostatistics",
+        "differential expression",
+        "preprint"
+      ],
+      "url": "https://www.biorxiv.org/content/10.64898/2026.09.17.752411v1",
+      "source": "bioRxiv",
+      "discovery_source": "bioRxiv official API",
+      "discovery_url": "https://api.biorxiv.org/details/biorxiv/10.64898/2026.09.17.752411/na/json",
+      "evidence_url": "https://api.biorxiv.org/details/biorxiv/10.64898/2026.09.17.752411/na/json",
+      "publication_date": "2026-09-18",
+      "first_posted_date": "2026-09-18",
+      "version": "1",
+      "version_posted_date": "2026-09-18",
+      "original_title": "Post-selection inference in testing for phenotypic differences with scRNA-Seq",
+      "doi": "10.64898/2026.09.17.752411",
+      "date_added": "2026-09-30",
+      "eligibility_basis": "First preprint posting in September; latest September version reviewed",
+      "access_note": "Official bioRxiv API abstract and version metadata reviewed; full manuscript not reviewed. Curated version is a preprint; findings provisional.",
+      "published_doi": "NA",
+      "id": "9476b166-7508-4d5d-a305-7fce97387369"
+    },
+    {
+      "title": "Treehouse Splice Compendium provides pediatric cancer splicing profiles",
+      "summary": "This preprint describes uniformly processed alternative-splicing profiles from 1,152 TARGET pediatric cancer samples and 1,098 GTEx comparator samples. A reproducible workflow accompanies the Treehouse Splice Compendium, supporting exploratory pediatric cancer splicing analyses while requiring care when comparing tumor and non-diseased cohorts.",
+      "primary_category": "Cancer Research",
+      "tags": [
+        "cancer",
+        "RNA-seq",
+        "reproducibility",
+        "preprint"
+      ],
+      "url": "https://www.biorxiv.org/content/10.64898/2026.09.14.750241v1",
+      "source": "bioRxiv",
+      "discovery_source": "bioRxiv official API",
+      "discovery_url": "https://api.biorxiv.org/details/biorxiv/10.64898/2026.09.14.750241/na/json",
+      "evidence_url": "https://api.biorxiv.org/details/biorxiv/10.64898/2026.09.14.750241/na/json",
+      "publication_date": "2026-09-21",
+      "first_posted_date": "2026-09-21",
+      "version": "1",
+      "version_posted_date": "2026-09-21",
+      "original_title": "Uniformly processed transcriptome-wide alternative splicing profiles for pediatric cancer research",
+      "doi": "10.64898/2026.09.14.750241",
+      "date_added": "2026-09-30",
+      "eligibility_basis": "First preprint posting in September; latest September version reviewed",
+      "access_note": "Official bioRxiv API abstract and version metadata reviewed; full manuscript not reviewed. Curated version is a preprint; findings provisional.",
+      "published_doi": "NA",
+      "id": "544b8345-c45f-402f-b442-a32d0008d844"
+    },
+    {
+      "title": "MINT combines histology and spatial measurements to infer cell transcriptomes",
+      "summary": "This preprint introduces MINT, which combines paired histology with sample-specific spatial measurements to infer cell-resolved expression without an external single-cell reference. Evaluations include spatial-platform comparisons and lung adenocarcinoma tissue, but inferred expression should remain distinguishable from directly measured transcripts.",
+      "primary_category": "AI & Machine Learning",
+      "tags": [
+        "spatial transcriptomics",
+        "cancer",
+        "machine learning",
+        "preprint"
+      ],
+      "url": "https://www.biorxiv.org/content/10.64898/2026.09.16.751717v1",
+      "source": "bioRxiv",
+      "discovery_source": "bioRxiv official API",
+      "discovery_url": "https://api.biorxiv.org/details/biorxiv/10.64898/2026.09.16.751717/na/json",
+      "evidence_url": "https://api.biorxiv.org/details/biorxiv/10.64898/2026.09.16.751717/na/json",
+      "publication_date": "2026-09-22",
+      "first_posted_date": "2026-09-22",
+      "version": "1",
+      "version_posted_date": "2026-09-22",
+      "original_title": "MINT infers the latent single-cell spatial transcriptome from paired histology",
+      "doi": "10.64898/2026.09.16.751717",
+      "date_added": "2026-09-30",
+      "eligibility_basis": "First preprint posting in September; latest September version reviewed",
+      "access_note": "Official bioRxiv API abstract and version metadata reviewed; full manuscript not reviewed. Curated version is a preprint; findings provisional.",
+      "published_doi": "NA",
+      "id": "58b405b7-c3c0-4cc5-8828-ecca945cc23b"
+    },
+    {
+      "title": "MERFISHEYES enables browser-based spatial transcriptomics exploration",
+      "summary": "This preprint describes MERFISHEYES, a browser platform for viewing and sharing single-cell and single-molecule spatial transcriptomics datasets. It supports marker exploration, subcellular localization, and cross-dataset comparisons, with demonstrations on Brain Image Library datasets; its reported scalability was not independently tested here.",
+      "primary_category": "Software & Tools",
+      "tags": [
+        "spatial transcriptomics",
+        "visualization",
+        "single cell",
+        "preprint"
+      ],
+      "url": "https://www.biorxiv.org/content/10.64898/2026.09.20.753029v2",
+      "source": "bioRxiv",
+      "discovery_source": "bioRxiv official API",
+      "discovery_url": "https://api.biorxiv.org/details/biorxiv/10.64898/2026.09.20.753029/na/json",
+      "evidence_url": "https://api.biorxiv.org/details/biorxiv/10.64898/2026.09.20.753029/na/json",
+      "publication_date": "2026-09-25",
+      "first_posted_date": "2026-09-25",
+      "version": "2",
+      "version_posted_date": "2026-09-25",
+      "original_title": "MERFISHEYES: Web-based Visualization and Sharing Platform for Single-cell and Single-molecule Spatial Transcriptomics",
+      "doi": "10.64898/2026.09.20.753029",
+      "date_added": "2026-09-30",
+      "eligibility_basis": "First preprint posting in September; latest September version reviewed",
+      "access_note": "Official bioRxiv API abstract and version metadata reviewed; full manuscript not reviewed. Curated version is a preprint; findings provisional.",
+      "published_doi": "NA",
+      "id": "67106297-c168-4f80-b9a0-1b516be34bc0"
+    },
+    {
+      "title": "BEACON improves sample demultiplexing for single-cell RNA-seq",
+      "summary": "This preprint introduces BEACON, which learns background barcode counts to improve sample assignment in multiplexed single-cell experiments. The authors also extend the approach to protein-transcriptome measurements, suggesting a tool to evaluate for reducing ambiguous assignments and recovering protein signals.",
+      "primary_category": "Software & Tools",
+      "tags": [
+        "single cell",
+        "RNA-seq",
+        "methods",
+        "preprint"
+      ],
+      "url": "https://www.biorxiv.org/content/10.64898/2026.09.26.754667v1",
+      "source": "bioRxiv",
+      "discovery_source": "bioRxiv official API",
+      "discovery_url": "https://api.biorxiv.org/details/biorxiv/10.64898/2026.09.26.754667/na/json",
+      "evidence_url": "https://api.biorxiv.org/details/biorxiv/10.64898/2026.09.26.754667/na/json",
+      "publication_date": "2026-09-30",
+      "first_posted_date": "2026-09-30",
+      "version": "1",
+      "version_posted_date": "2026-09-30",
+      "original_title": "Accurate and scalable demultiplexing of single-cell RNA sequencing using BEACON",
+      "doi": "10.64898/2026.09.26.754667",
+      "date_added": "2026-09-30",
+      "eligibility_basis": "First preprint posting in September; latest September version reviewed",
+      "access_note": "Official bioRxiv API abstract and version metadata reviewed; full manuscript not reviewed. Curated version is a preprint; findings provisional.",
+      "published_doi": "NA",
+      "id": "bf65c9b7-2361-4803-81d9-d44831bd1d24"
+    },
+    {
+      "title": "Benchmark compares four long-read single-nucleus RNA-seq workflows",
+      "summary": "This preprint compares four commercial library workflows using Oxford Nanopore sequencing of a standardized multi-species nuclei sample. Differences in transcript coverage, isoform recovery, and yield provide study-design guidance, although rankings depend on the tested sample and sequencing setup.",
+      "primary_category": "Technology Platforms",
+      "tags": [
+        "long reads",
+        "single cell",
+        "benchmarks",
+        "preprint"
+      ],
+      "url": "https://www.biorxiv.org/content/10.64898/2026.09.01.748518v1",
+      "source": "bioRxiv",
+      "discovery_source": "bioRxiv official API",
+      "discovery_url": "https://api.biorxiv.org/details/biorxiv/10.64898/2026.09.01.748518/na/json",
+      "evidence_url": "https://api.biorxiv.org/details/biorxiv/10.64898/2026.09.01.748518/na/json",
+      "publication_date": "2026-09-04",
+      "first_posted_date": "2026-09-04",
+      "version": "1",
+      "version_posted_date": "2026-09-04",
+      "original_title": "Systematic benchmarking of commercial workflows for isoform-resolved single-nucleus transcriptomics",
+      "doi": "10.64898/2026.09.01.748518",
+      "date_added": "2026-09-30",
+      "eligibility_basis": "First preprint posting in September; latest September version reviewed",
+      "access_note": "Official bioRxiv API abstract and version metadata reviewed; full manuscript not reviewed. Curated version is a preprint; findings provisional.",
+      "published_doi": "NA",
+      "id": "f87f6526-75ec-42ba-98a1-e0ece2219127"
+    },
+    {
+      "title": "RIPIN explores RNA-aware preservation for spatial transcriptomics",
+      "summary": "This preprint investigates how tissue RNase activity affects spatial transcriptomics and introduces RIPIN, a preservation approach combining rapid RNase inhibition with chemical inactivation. MERFISH experiments across human and mouse tissues support evaluating RNA-aware processing, without establishing equivalent performance for every spatial assay.",
+      "primary_category": "Technology Platforms",
+      "tags": [
+        "spatial transcriptomics",
+        "RNA-seq",
+        "methods",
+        "preprint"
+      ],
+      "url": "https://www.biorxiv.org/content/10.64898/2026.09.07.749899v1",
+      "source": "bioRxiv",
+      "discovery_source": "bioRxiv official API",
+      "discovery_url": "https://api.biorxiv.org/details/biorxiv/10.64898/2026.09.07.749899/na/json",
+      "evidence_url": "https://api.biorxiv.org/details/biorxiv/10.64898/2026.09.07.749899/na/json",
+      "publication_date": "2026-09-11",
+      "first_posted_date": "2026-09-11",
+      "version": "1",
+      "version_posted_date": "2026-09-11",
+      "original_title": "RNA-aware tissue preservation workflows for high-quality spatial transcriptomics",
+      "doi": "10.64898/2026.09.07.749899",
+      "date_added": "2026-09-30",
+      "eligibility_basis": "First preprint posting in September; latest September version reviewed",
+      "access_note": "Official bioRxiv API abstract and version metadata reviewed; full manuscript not reviewed. Curated version is a preprint; findings provisional.",
+      "published_doi": "NA",
+      "id": "2a59b4a3-98aa-43bb-87f8-1a35e34a5f91"
+    },
+    {
+      "title": "Bramble projects genomic alignments for transcript quantification",
+      "summary": "This preprint presents Bramble, which converts spliced genomic alignments into transcriptomic coordinates for downstream abundance estimation. Simulations with short and long reads suggest improved quantification when annotations are incomplete; these results remain dependent on the simulated settings and reference quality.",
+      "primary_category": "Software & Tools",
+      "tags": [
+        "RNA-seq",
+        "long reads",
+        "methods",
+        "preprint"
+      ],
+      "url": "https://www.biorxiv.org/content/10.64898/2026.09.09.750464v1",
+      "source": "bioRxiv",
+      "discovery_source": "bioRxiv official API",
+      "discovery_url": "https://api.biorxiv.org/details/biorxiv/10.64898/2026.09.09.750464/na/json",
+      "evidence_url": "https://api.biorxiv.org/details/biorxiv/10.64898/2026.09.09.750464/na/json",
+      "publication_date": "2026-09-15",
+      "first_posted_date": "2026-09-15",
+      "version": "1",
+      "version_posted_date": "2026-09-15",
+      "original_title": "Bramble: projection of spliced genomic alignments into transcriptomic space for improved transcript quantification",
+      "doi": "10.64898/2026.09.09.750464",
+      "date_added": "2026-09-30",
+      "eligibility_basis": "First preprint posting in September; latest September version reviewed",
+      "access_note": "Official bioRxiv API abstract and version metadata reviewed; full manuscript not reviewed. Curated version is a preprint; findings provisional.",
+      "published_doi": "NA",
+      "id": "2fc7f879-92af-4310-b20c-62191073cfd6"
+    },
+    {
+      "title": "Large single-cell cohorts can still lack power for small expression effects",
+      "summary": "This preprint uses sex-biased expression across 1,494 donors and three brain cell types to investigate statistical power and reproducibility. Its findings emphasize the joint importance of donor numbers, cell counts, and sequencing depth, while the studied tissues and biological contrast limit direct transfer of its power estimates.",
+      "primary_category": "Other",
+      "tags": [
+        "single cell",
+        "biostatistics",
+        "differential expression",
+        "preprint"
+      ],
+      "url": "https://www.biorxiv.org/content/10.64898/2026.09.17.752063v1",
+      "source": "bioRxiv",
+      "discovery_source": "bioRxiv official API",
+      "discovery_url": "https://api.biorxiv.org/details/biorxiv/10.64898/2026.09.17.752063/na/json",
+      "evidence_url": "https://api.biorxiv.org/details/biorxiv/10.64898/2026.09.17.752063/na/json",
+      "publication_date": "2026-09-19",
+      "first_posted_date": "2026-09-19",
+      "version": "1",
+      "version_posted_date": "2026-09-19",
+      "original_title": "Single-Cell Study Designs Are Systematically Underpowered for Small-Effect Genes",
+      "doi": "10.64898/2026.09.17.752063",
+      "date_added": "2026-09-30",
+      "eligibility_basis": "First preprint posting in September; latest September version reviewed",
+      "access_note": "Official bioRxiv API abstract and version metadata reviewed; full manuscript not reviewed. Curated version is a preprint; findings provisional.",
+      "published_doi": "NA",
+      "id": "f5e83857-5440-44fc-a0d8-a6bd4d9a9d4c"
+    },
+    {
+      "title": "Multi-omic atlas connects gene regulation across 21 adult human tissues",
+      "summary": "This preprint combines single-nucleus expression and chromatin-accessibility measurements across 21 adult human tissues to map regulatory elements and predict variant effects. The resource supports cross-tissue regulatory analysis, but its four-donor sampling limits population-level generalization.",
+      "primary_category": "Other",
+      "tags": [
+        "single cell atlas",
+        "multi-omics",
+        "genomics",
+        "preprint"
+      ],
+      "url": "https://www.biorxiv.org/content/10.64898/2026.09.25.754561v2",
+      "source": "bioRxiv",
+      "discovery_source": "bioRxiv official API",
+      "discovery_url": "https://api.biorxiv.org/details/biorxiv/10.64898/2026.09.25.754561/na/json",
+      "evidence_url": "https://api.biorxiv.org/details/biorxiv/10.64898/2026.09.25.754561/na/json",
+      "publication_date": "2026-09-27",
+      "first_posted_date": "2026-09-27",
+      "version": "2",
+      "version_posted_date": "2026-09-30",
+      "original_title": "Single-Nucleus Multi-Omic Atlas Maps Regulatory Architecture and Non-Coding Variant Effects across Adult Human Tissues",
+      "doi": "10.64898/2026.09.25.754561",
+      "date_added": "2026-09-30",
+      "eligibility_basis": "First preprint posting in September; latest September version reviewed",
+      "access_note": "Official bioRxiv API abstract and version metadata reviewed; full manuscript not reviewed. Curated version is a preprint; findings provisional.",
+      "published_doi": "NA",
+      "id": "c55ceeba-d6bc-4910-8ad7-e7d6bb51fcd8"
+    },
+    {
+      "title": "LIGER2 scales single-cell integration with on-disk datasets",
+      "summary": "This preprint updates LIGER with parallel factorization and on-demand disk loading to reduce the time and memory costs of integrating large single-cell datasets. It also introduces an embedding-alignment approach intended to preserve biological variation while aligning corresponding cell types; suitability should be evaluated on the intended integration task.",
+      "primary_category": "Software & Tools",
+      "tags": [
+        "single cell",
+        "multi-omics",
+        "methods",
+        "preprint"
+      ],
+      "url": "https://www.biorxiv.org/content/10.64898/2026.09.08.750130v1",
+      "source": "bioRxiv",
+      "discovery_source": "bioRxiv official API",
+      "discovery_url": "https://api.biorxiv.org/details/biorxiv/10.64898/2026.09.08.750130/na/json",
+      "evidence_url": "https://api.biorxiv.org/details/biorxiv/10.64898/2026.09.08.750130/na/json",
+      "publication_date": "2026-09-14",
+      "first_posted_date": "2026-09-14",
+      "version": "1",
+      "version_posted_date": "2026-09-14",
+      "original_title": "LIGER2: Scalable Single-Cell Integration with On-Disk Datasets",
+      "doi": "10.64898/2026.09.08.750130",
+      "date_added": "2026-09-30",
+      "eligibility_basis": "First preprint posting in September; latest September version reviewed",
+      "access_note": "Official bioRxiv API abstract and version metadata reviewed; full manuscript not reviewed. Curated version is a preprint; findings provisional.",
+      "published_doi": "NA",
+      "id": "0fe28fe6-d221-46a7-b875-3334d86fe134"
+    },
+    {
+      "title": "CellDot uses optimal transport to correct spatial transcript assignments",
+      "summary": "This preprint introduces CellDot, which combines spatial information and reference expression to retain, reassign, or remove individual transcripts in imaging-based spatial data. Tumor-dataset evaluations suggest benefits for cell-state and niche analyses, with correction depending on the reference and assignment assumptions.",
+      "primary_category": "Software & Tools",
+      "tags": [
+        "spatial transcriptomics",
+        "cancer",
+        "methods",
+        "preprint"
+      ],
+      "url": "https://www.biorxiv.org/content/10.64898/2026.09.09.750350v1",
+      "source": "bioRxiv",
+      "discovery_source": "bioRxiv official API",
+      "discovery_url": "https://api.biorxiv.org/details/biorxiv/10.64898/2026.09.09.750350/na/json",
+      "evidence_url": "https://api.biorxiv.org/details/biorxiv/10.64898/2026.09.09.750350/na/json",
+      "publication_date": "2026-09-15",
+      "first_posted_date": "2026-09-15",
+      "version": "1",
+      "version_posted_date": "2026-09-15",
+      "original_title": "Accurate and scalable decontamination of imaging-based spatial transcriptomics via optimal transport",
+      "doi": "10.64898/2026.09.09.750350",
+      "date_added": "2026-09-30",
+      "eligibility_basis": "First preprint posting in September; latest September version reviewed",
+      "access_note": "Official bioRxiv API abstract and version metadata reviewed; full manuscript not reviewed. Curated version is a preprint; findings provisional.",
+      "published_doi": "NA",
+      "id": "42ecdc8a-50b3-4001-8dbd-757df4141087"
+    },
+    {
+      "title": "HARP provides a community PBMC reference and hierarchical label transfer",
+      "summary": "This preprint presents HARP, a community-annotated PBMC reference integrating approximately nine million cells from more than 2,600 donors across health and disease. Its scTiger label-transfer framework supports harmonized immune-cell annotation, while the reported research applications do not establish clinical diagnostic performance.",
+      "primary_category": "Software & Tools",
+      "tags": [
+        "single cell atlas",
+        "single cell",
+        "methods",
+        "preprint"
+      ],
+      "url": "https://www.biorxiv.org/content/10.64898/2026.09.21.749940v1",
+      "source": "bioRxiv",
+      "discovery_source": "bioRxiv official API",
+      "discovery_url": "https://api.biorxiv.org/details/biorxiv/10.64898/2026.09.21.749940/na/json",
+      "evidence_url": "https://api.biorxiv.org/details/biorxiv/10.64898/2026.09.21.749940/na/json",
+      "publication_date": "2026-09-25",
+      "first_posted_date": "2026-09-25",
+      "version": "1",
+      "version_posted_date": "2026-09-25",
+      "original_title": "A Community-Driven Single-Cell PBMC Reference Integrating Landmark Datasets Spanning Health and Disease",
+      "doi": "10.64898/2026.09.21.749940",
+      "date_added": "2026-09-30",
+      "eligibility_basis": "First preprint posting in September; latest September version reviewed",
+      "access_note": "Official bioRxiv API abstract and version metadata reviewed; full manuscript not reviewed. Curated version is a preprint; findings provisional.",
+      "published_doi": "NA",
+      "id": "fdcf2407-52bc-46a5-a30a-fa189a7427b7"
+    },
+    {
+      "product": "Python",
+      "title": "Python September releases fix security issues and move 3.13 to security-only support",
+      "summary": "Python 3.14.8 and 3.12.15 address security issues involving TLS and archive handling; 3.13.16 is the final full maintenance release of the 3.13 series. This September 30 release cycle matters for research environments that process external files and for planning maintenance of pinned Python versions. Subsequent Python 3.13 releases will contain security fixes only.",
+      "url": "https://www.python.org/downloads/release/python-3148/",
+      "publication_date": "2026-09-30",
+      "date_added": "2026-09-30",
+      "source": "Python official release notes",
+      "evidence_url": "https://www.python.org/downloads/release/python-3148/",
+      "primary_category": "Security",
+      "tags": [
+        "python",
+        "security",
+        "reproducibility"
+      ],
+      "eligibility_basis": "Dated software release or announcement",
+      "channel": "stable",
+      "versions": [
+        "3.14.8",
+        "3.13.16",
+        "3.12.15"
+      ],
+      "additional_evidence_urls": [
+        "https://www.python.org/downloads/release/python-31316/",
+        "https://www.python.org/downloads/release/python-31215/"
+      ],
+      "release_evidence": [
+        {
+          "version": "3.14.8, 3.13.16, 3.12.15",
+          "date": "2026-09-30",
+          "url": "https://www.python.org/downloads/release/python-3148/",
+          "channel": "stable"
+        }
+      ],
+      "id": "f3dbb93b-d19c-4d59-9f69-e64663d43e7f"
+    },
+    {
+      "product": "renv",
+      "title": "renv 1.3.0 hardens Git restoration and improves reproducibility",
+      "summary": "renv 1.3.0 tightens handling of Git URLs, refs, and commits to prevent crafted package records from triggering unintended commands. It also records resolved Git commits and improves transactional restore retries, helping teams recreate the same R environment more reliably.",
+      "url": "https://rstudio.github.io/renv/news/index.html#renv-130",
+      "publication_date": "2026-09-29",
+      "date_added": "2026-09-30",
+      "source": "renv official release notes",
+      "evidence_url": "https://rstudio.github.io/renv/news/index.html#renv-130",
+      "primary_category": "Security",
+      "tags": [
+        "renv",
+        "R",
+        "reproducibility",
+        "security"
+      ],
+      "eligibility_basis": "Dated software release or announcement",
+      "channel": "stable",
+      "versions": [
+        "1.3.0"
+      ],
+      "additional_evidence_urls": [],
+      "release_evidence": [
+        {
+          "version": "1.3.0",
+          "date": "2026-09-29",
+          "url": "https://rstudio.github.io/renv/news/index.html#renv-130",
+          "channel": "stable"
+        }
+      ],
+      "id": "a1fdfe3e-6b50-46c9-a1f8-ceac2cd01d48"
+    },
+    {
+      "product": "uv",
+      "title": "uv September updates improve package integrity and environment checks",
+      "summary": "uv 0.12.18 fixes a Windows wheel-installation path traversal weakness and adds read-only environment checks with JSON output. Related September releases add signed macOS/Windows binaries and strengthen repeated-requirement hash checks and recovery after interrupted project changes. These changes support safer, auditable Python environment management.",
+      "url": "https://github.com/astral-sh/uv/releases/tag/0.12.18",
+      "publication_date": "2026-09-22",
+      "date_added": "2026-09-30",
+      "source": "uv official release notes",
+      "evidence_url": "https://github.com/astral-sh/uv/releases/tag/0.12.18",
+      "primary_category": "Security",
+      "tags": [
+        "uv",
+        "python",
+        "reproducibility",
+        "security"
+      ],
+      "eligibility_basis": "Dated software release or announcement",
+      "channel": "stable",
+      "versions": [
+        "0.12.12",
+        "0.12.18",
+        "0.12.20"
+      ],
+      "additional_evidence_urls": [
+        "https://github.com/astral-sh/uv/releases/tag/0.12.12",
+        "https://github.com/astral-sh/uv/releases/tag/0.12.20"
+      ],
+      "release_evidence": [
+        {
+          "version": "0.12.20",
+          "date": "2026-09-28",
+          "published_at": "2026-09-28T23:20:35Z",
+          "url": "https://github.com/astral-sh/uv/releases/tag/0.12.20",
+          "channel": "stable"
+        },
+        {
+          "version": "0.12.18",
+          "date": "2026-09-22",
+          "published_at": "2026-09-22T23:00:51Z",
+          "url": "https://github.com/astral-sh/uv/releases/tag/0.12.18",
+          "channel": "stable"
+        },
+        {
+          "version": "0.12.12",
+          "date": "2026-09-09",
+          "published_at": "2026-09-09T16:45:15Z",
+          "url": "https://github.com/astral-sh/uv/releases/tag/0.12.12",
+          "channel": "stable"
+        }
+      ],
+      "id": "6711ea7b-8506-40ee-a40a-a0cac999491d"
+    },
+    {
+      "product": "RStudio",
+      "title": "RStudio 2026.09 adds split source views and managed Assistant controls",
+      "summary": "RStudio 2026.09.0 adds horizontal and vertical source-editor splits that share edits while allowing independent navigation. It also adds controls for administrator-managed Posit Assistant installations, helping teams review long analysis scripts and maintain consistent tooling. Separate Workbench-only features should not be assumed available in the open-source IDE.",
+      "url": "https://docs.posit.co/ide/news/index.html#rstudio-2026.09.0",
+      "publication_date": "2026-09-10",
+      "date_added": "2026-09-30",
+      "source": "RStudio official release notes",
+      "evidence_url": "https://docs.posit.co/ide/news/index.html#rstudio-2026.09.0",
+      "primary_category": "Software & Tools",
+      "tags": [
+        "RStudio",
+        "R",
+        "data analysis"
+      ],
+      "eligibility_basis": "Dated software release or announcement",
+      "channel": "stable",
+      "versions": [
+        "2026.09.0"
+      ],
+      "additional_evidence_urls": [],
+      "release_evidence": [
+        {
+          "version": "2026.09.0",
+          "date": "2026-09-10",
+          "url": "https://docs.posit.co/ide/news/index.html#rstudio-2026.09.0",
+          "channel": "stable"
+        }
+      ],
+      "id": "5918afdf-b88d-4d5e-b1e9-6ff4b695d772"
+    },
+    {
+      "product": "VS Code",
+      "title": "VS Code 1.136.2 addresses agent and workspace security issues",
+      "summary": "VS Code 1.136.2 is a security update covering issues in agent network filtering, remote agent connections, workspace restrictions, and related components. Teams using coding agents or external repositories should include this release in their editor security review.",
+      "url": "https://github.com/microsoft/vscode/releases/tag/1.136.2",
+      "publication_date": "2026-09-08",
+      "date_added": "2026-09-30",
+      "source": "VS Code official release notes",
+      "evidence_url": "https://github.com/microsoft/vscode/releases/tag/1.136.2",
+      "primary_category": "Security",
+      "tags": [
+        "VS Code",
+        "security",
+        "agents"
+      ],
+      "eligibility_basis": "Dated software release or announcement",
+      "channel": "stable",
+      "versions": [
+        "1.136.2"
+      ],
+      "additional_evidence_urls": [
+        "https://code.visualstudio.com/updates/v1_136",
+        "https://github.com/microsoft/vscode/issues?q=is%3Aclosed+milestone%3A%221.136.2%22"
+      ],
+      "release_evidence": [
+        {
+          "version": "1.136.2",
+          "date": "2026-09-08",
+          "published_at": "2026-09-08T17:54:34Z",
+          "url": "https://github.com/microsoft/vscode/releases/tag/1.136.2",
+          "channel": "stable"
+        }
+      ],
+      "id": "754645da-cf71-4779-a18e-268d28e79e70"
+    },
+    {
+      "product": "VS Code",
+      "title": "VS Code September updates bring agent sessions into development containers",
+      "summary": "VS Code 1.138 adds local Dev Container agent sessions and expanded Codex integration; 1.139 extends container sessions to SSH, Tunnel, and WSL hosts. Version 1.140 adds a Copilot harness and enterprise AI controls, while multi-folder sessions and shared worktree folders remain experimental. Together these changes help coding agents use project-specific dependencies across local and remote environments.",
+      "url": "https://code.visualstudio.com/updates/v1_140",
+      "publication_date": "2026-09-30",
+      "date_added": "2026-09-30",
+      "source": "VS Code official release notes",
+      "evidence_url": "https://code.visualstudio.com/updates/v1_140",
+      "primary_category": "Software & Tools",
+      "tags": [
+        "VS Code",
+        "agents",
+        "docker",
+        "reproducibility"
+      ],
+      "eligibility_basis": "Dated software release or announcement",
+      "channel": "stable release with explicitly labeled experimental features",
+      "versions": [
+        "1.138.0",
+        "1.139.0",
+        "1.140.0"
+      ],
+      "additional_evidence_urls": [
+        "https://code.visualstudio.com/updates/v1_138",
+        "https://code.visualstudio.com/updates/v1_139"
+      ],
+      "release_evidence": [
+        {
+          "version": "1.140.0",
+          "date": "2026-09-30",
+          "published_at": "2026-09-30T22:00:22Z",
+          "url": "https://github.com/microsoft/vscode/releases/tag/1.140.0",
+          "channel": "stable"
+        },
+        {
+          "version": "1.139.0",
+          "date": "2026-09-23",
+          "published_at": "2026-09-23T10:32:34Z",
+          "url": "https://github.com/microsoft/vscode/releases/tag/1.139.0",
+          "channel": "stable"
+        },
+        {
+          "version": "1.138.0",
+          "date": "2026-09-16",
+          "published_at": "2026-09-16T07:14:47Z",
+          "url": "https://github.com/microsoft/vscode/releases/tag/1.138.0",
+          "channel": "stable"
+        }
+      ],
+      "id": "8427c7b7-0b75-4b49-82e8-3a7f67829e19"
+    },
+    {
+      "product": "DuckDB",
+      "title": "DuckDB 1.5.6 fixes analytical query correctness and recovery issues",
+      "summary": "DuckDB 1.5.6 fixes incorrect results involving Top-N window optimizations, NULL ordering, and timezone state during timestamp parsing. It also addresses duplicate output chunks and failed multi-statement rollback paths, making this maintenance release relevant to reliable SQL-based research analysis.",
+      "url": "https://github.com/duckdb/duckdb/releases/tag/v1.5.6",
+      "publication_date": "2026-09-28",
+      "date_added": "2026-09-30",
+      "source": "DuckDB official release notes",
+      "evidence_url": "https://github.com/duckdb/duckdb/releases/tag/v1.5.6",
+      "primary_category": "Software & Tools",
+      "tags": [
+        "DuckDB",
+        "SQL",
+        "data analysis",
+        "reproducibility"
+      ],
+      "eligibility_basis": "Dated software release or announcement",
+      "channel": "stable",
+      "versions": [
+        "1.5.6"
+      ],
+      "additional_evidence_urls": [],
+      "release_evidence": [
+        {
+          "version": "v1.5.6",
+          "date": "2026-09-28",
+          "published_at": "2026-09-28T13:35:11Z",
+          "url": "https://github.com/duckdb/duckdb/releases/tag/v1.5.6",
+          "channel": "stable"
+        }
+      ],
+      "id": "bdcad7b7-d739-46b9-bcaa-ce17abe50d20"
+    },
+    {
+      "product": "nf-core pipelines",
+      "title": "nf-core/rnaseq 3.27.0 expands screening and restores strandedness handling",
+      "summary": "nf-core/rnaseq 3.27.0 adds raw or trimmed-read contamination screening and support for prebuilt Bowtie2 rRNA indexes. It restores StringTie strandedness flags and fixes failures involving Azure indexes, NCBI annotations, and kallisto-only runs. The pipeline now requires Nextflow 25.10.4 or newer, which matters when updating reproducible RNA-seq workflows.",
+      "url": "https://github.com/nf-core/rnaseq/releases/tag/3.27.0",
+      "publication_date": "2026-09-23",
+      "date_added": "2026-09-30",
+      "source": "nf-core pipelines official release notes",
+      "evidence_url": "https://github.com/nf-core/rnaseq/releases/tag/3.27.0",
+      "primary_category": "Software & Tools",
+      "tags": [
+        "RNA-seq",
+        "nf-core",
+        "Nextflow",
+        "reproducibility"
+      ],
+      "eligibility_basis": "Dated software release or announcement",
+      "channel": "stable",
+      "versions": [
+        "3.27.0"
+      ],
+      "additional_evidence_urls": [],
+      "release_evidence": [
+        {
+          "version": "3.27.0",
+          "date": "2026-09-23",
+          "published_at": "2026-09-23T12:58:42Z",
+          "url": "https://github.com/nf-core/rnaseq/releases/tag/3.27.0",
+          "channel": "stable"
+        }
+      ],
+      "id": "2d96c4c5-423c-4b9a-bbfd-d5eaf316a00f"
+    },
+    {
+      "product": "Ruff",
+      "title": "Ruff 0.16.8 improves autofix safety and Python compatibility",
+      "summary": "Ruff 0.16.8 preserves operand order in SIM109 fixes and required parentheses in multiline UP040 conversions, and marks UP040 fixes as unsafe. These changes matter when automated linting edits analysis code, where apparently small rewrites can change behavior; the release also extends Python 3.15 compatibility.",
+      "url": "https://github.com/astral-sh/ruff/releases/tag/0.16.8",
+      "publication_date": "2026-09-16",
+      "date_added": "2026-09-30",
+      "source": "Ruff official release notes",
+      "evidence_url": "https://github.com/astral-sh/ruff/releases/tag/0.16.8",
+      "primary_category": "Software & Tools",
+      "tags": [
+        "Ruff",
+        "python",
+        "testing"
+      ],
+      "eligibility_basis": "Dated software release or announcement",
+      "channel": "stable",
+      "versions": [
+        "0.16.8"
+      ],
+      "additional_evidence_urls": [],
+      "release_evidence": [
+        {
+          "version": "0.16.8",
+          "date": "2026-09-16",
+          "published_at": "2026-09-16T15:56:22Z",
+          "url": "https://github.com/astral-sh/ruff/releases/tag/0.16.8",
+          "channel": "stable"
+        }
+      ],
+      "id": "7715bf8b-3959-4efb-9d33-d2556b5460e3"
+    },
+    {
+      "product": "Codex",
+      "title": "GPT-6 Sol, Luna, and GPT-6.1 Sol arrive in Codex and ChatGPT Work",
+      "summary": "September brought GPT-6 Sol and Luna, followed by GPT-6.1 Sol, to Codex and ChatGPT Work. Model choices for coding and document workflows depend on rollout, plan, client, and workspace settings; these announcements do not establish availability in Chat.",
+      "url": "https://learn.chatgpt.com/docs/changelog#codex-2026-09-29-gpt-61-sol",
+      "publication_date": "2026-09-29",
+      "date_added": "2026-09-30",
+      "source": "Codex official release notes",
+      "evidence_url": "https://learn.chatgpt.com/docs/changelog#codex-2026-09-29-gpt-61-sol",
+      "primary_category": "AI & Machine Learning",
+      "tags": [
+        "Codex",
+        "ChatGPT",
+        "llm"
+      ],
+      "eligibility_basis": "Dated software release or announcement",
+      "channel": "staged product rollout",
+      "versions": [
+        "gpt-6-sol",
+        "gpt-6-luna",
+        "gpt-6.1-sol"
+      ],
+      "additional_evidence_urls": [
+        "https://learn.chatgpt.com/docs/changelog#codex-2026-09-22-gpt-6-sol-luna"
+      ],
+      "release_evidence": [
+        {
+          "version": "GPT-6 Sol / Luna",
+          "date": "2026-09-22",
+          "url": "https://learn.chatgpt.com/docs/changelog#codex-2026-09-22-gpt-6-sol-luna"
+        },
+        {
+          "version": "GPT-6.1 Sol",
+          "date": "2026-09-29",
+          "url": "https://learn.chatgpt.com/docs/changelog#codex-2026-09-29-gpt-61-sol"
+        }
+      ],
+      "id": "c8e71137-f01c-48a9-bd87-51728df555ca"
+    },
+    {
+      "product": "Codex",
+      "title": "OpenAI desktop macOS update fixes CVE-2026-100754",
+      "summary": "The September 25 desktop changelog reports a macOS security fix in version 26.924.20706. This is relevant to teams maintaining ChatGPT/Codex desktop installations; the announcement gives no technical vulnerability details.",
+      "url": "https://learn.chatgpt.com/docs/changelog#codex-2026-09-25-app",
+      "publication_date": "2026-09-25",
+      "date_added": "2026-09-30",
+      "source": "Codex official release notes",
+      "evidence_url": "https://learn.chatgpt.com/docs/changelog#codex-2026-09-25-app",
+      "primary_category": "Security",
+      "tags": [
+        "Codex",
+        "macOS",
+        "security"
+      ],
+      "eligibility_basis": "Dated software release or announcement",
+      "channel": "stable",
+      "versions": [
+        "26.924.20706"
+      ],
+      "additional_evidence_urls": [],
+      "release_evidence": [
+        {
+          "version": "26.924.20706",
+          "date": "2026-09-25",
+          "url": "https://learn.chatgpt.com/docs/changelog#codex-2026-09-25-app",
+          "channel": "stable"
+        }
+      ],
+      "id": "1cbe3f8c-8abd-4ce2-b6c2-98d1df0a5aef"
+    },
+    {
+      "product": "Codex",
+      "title": "Codex removes its MCP server command",
+      "summary": "The September 5 release removes the codex mcp-server command and standalone binary. Integrations using that interface need revision; external MCP connections remain supported, while app-server is experimental.",
+      "url": "https://learn.chatgpt.com/docs/changelog#codex-2026-09-05",
+      "publication_date": "2026-09-05",
+      "date_added": "2026-09-30",
+      "source": "Codex official release notes",
+      "evidence_url": "https://learn.chatgpt.com/docs/changelog#codex-2026-09-05",
+      "primary_category": "Software & Tools",
+      "tags": [
+        "Codex",
+        "mcp",
+        "cli"
+      ],
+      "eligibility_basis": "Dated software release or announcement",
+      "channel": "stable",
+      "versions": [
+        "September 5 removal"
+      ],
+      "additional_evidence_urls": [],
+      "release_evidence": [
+        {
+          "version": "September 5 removal",
+          "date": "2026-09-05",
+          "url": "https://learn.chatgpt.com/docs/changelog#codex-2026-09-05",
+          "channel": "stable"
+        }
+      ],
+      "id": "4516c2a6-6204-4353-9b64-f545227bcba9"
+    },
+    {
+      "product": "Codex",
+      "title": "September model notices require Codex configuration changes",
+      "summary": "GPT-5.3-Codex-Spark became unavailable on September 14; a separate notice announced GPT-5.5 retirement from ChatGPT, Work, and Codex for October 14. Teams should update saved model selections; the GPT-5.5 notice excludes the API.",
+      "url": "https://learn.chatgpt.com/docs/changelog#codex-2026-09-14-codex-spark-deprecation",
+      "publication_date": "2026-09-14",
+      "date_added": "2026-09-30",
+      "source": "Codex official release notes",
+      "evidence_url": "https://learn.chatgpt.com/docs/changelog#codex-2026-09-14-codex-spark-deprecation",
+      "primary_category": "Software & Tools",
+      "tags": [
+        "Codex",
+        "ChatGPT",
+        "llm"
+      ],
+      "eligibility_basis": "Dated software release or announcement",
+      "channel": "removal and future retirement notice",
+      "versions": [
+        "gpt-5.3-codex-spark",
+        "gpt-5.5"
+      ],
+      "additional_evidence_urls": [
+        "https://learn.chatgpt.com/docs/changelog#codex-2026-09-14-gpt-55-retirement"
+      ],
+      "release_evidence": [
+        {
+          "version": "Spark removal",
+          "date": "2026-09-14",
+          "url": "https://learn.chatgpt.com/docs/changelog#codex-2026-09-14-codex-spark-deprecation"
+        },
+        {
+          "version": "GPT-5.5 retirement notice",
+          "date": "2026-09-14",
+          "effective_date": "2026-10-14",
+          "url": "https://learn.chatgpt.com/docs/changelog#codex-2026-09-14-gpt-55-retirement"
+        }
+      ],
+      "id": "67ece2b0-c6ae-40db-84fc-ebca2b098ff0"
+    },
+    {
+      "product": "ChatGPT",
+      "title": "ChatGPT adds shared Spaces and synced Work tasks",
+      "summary": "The September 29 announcement introduces ChatGPT Space for files, Pages, and collaboration, alongside new Work tasks that sync across desktop, web, and mobile. Local-file operations still require an online connected computer, and existing tasks retain their original mode.",
+      "url": "https://learn.chatgpt.com/docs/whats-new/devday-2026#chatgpt",
+      "publication_date": "2026-09-29",
+      "date_added": "2026-09-30",
+      "source": "ChatGPT official release notes",
+      "evidence_url": "https://learn.chatgpt.com/docs/whats-new/devday-2026#chatgpt",
+      "primary_category": "Software & Tools",
+      "tags": [
+        "ChatGPT",
+        "data analysis",
+        "agents"
+      ],
+      "eligibility_basis": "Dated software release or announcement",
+      "channel": "product announcement",
+      "versions": [
+        "DevDay 2026"
+      ],
+      "additional_evidence_urls": [],
+      "release_evidence": [
+        {
+          "version": "DevDay 2026",
+          "date": "2026-09-29",
+          "url": "https://learn.chatgpt.com/docs/whats-new/devday-2026#chatgpt",
+          "channel": "product announcement"
+        }
+      ],
+      "id": "be43d1cc-a931-46be-b3cb-253a9579d7d4"
+    },
+    {
+      "product": "Codex",
+      "title": "Codex introduces reusable cloud development environments",
+      "summary": "Codex can prepare and test a development environment, then reuse its filesystem in isolated cloud workspaces. Announced September 29, this supports repeatable coding tasks that continue while the local computer sleeps.",
+      "url": "https://learn.chatgpt.com/docs/whats-new/devday-2026#reusable-cloud-environments",
+      "publication_date": "2026-09-29",
+      "date_added": "2026-09-30",
+      "source": "Codex official release notes",
+      "evidence_url": "https://learn.chatgpt.com/docs/whats-new/devday-2026#reusable-cloud-environments",
+      "primary_category": "Software & Tools",
+      "tags": [
+        "Codex",
+        "agents",
+        "reproducibility"
+      ],
+      "eligibility_basis": "Dated software release or announcement",
+      "channel": "product announcement",
+      "versions": [
+        "DevDay 2026"
+      ],
+      "additional_evidence_urls": [],
+      "release_evidence": [
+        {
+          "version": "DevDay 2026",
+          "date": "2026-09-29",
+          "url": "https://learn.chatgpt.com/docs/whats-new/devday-2026#reusable-cloud-environments",
+          "channel": "product announcement"
+        }
+      ],
+      "id": "0ea182be-024e-4405-bc6b-08e739838db0"
+    },
+    {
+      "product": "Claude",
+      "title": "Claude September model releases expand coding and analysis options",
+      "summary": "Claude Code added Fable 5.1 on September 1, Opus 5.5 on September 22, and Sonnet 5.5 on September 28. Anthropic positions Opus for complex work and Sonnet for faster focused tasks; performance claims remain vendor evaluations. API integrations should check migration requirements, including changes to thinking controls and preserved conversation context.",
+      "url": "https://www.anthropic.com/claude-opus-5-5",
+      "publication_date": "2026-09-22",
+      "date_added": "2026-09-30",
+      "source": "Claude official release notes",
+      "evidence_url": "https://www.anthropic.com/claude-opus-5-5",
+      "primary_category": "AI & Machine Learning",
+      "tags": [
+        "claude",
+        "llm",
+        "data analysis"
+      ],
+      "eligibility_basis": "Dated software release or announcement",
+      "channel": "model releases; Claude Code availability independently verified",
+      "versions": [
+        "Fable 5.1",
+        "Opus 5.5",
+        "Sonnet 5.5"
+      ],
+      "additional_evidence_urls": [
+        "https://www.anthropic.com/claude-sonnet-5-5",
+        "https://github.com/anthropics/claude-code/releases/tag/v2.1.257",
+        "https://github.com/anthropics/claude-code/releases/tag/v2.1.280",
+        "https://github.com/anthropics/claude-code/releases/tag/v2.1.284"
+      ],
+      "release_evidence": [
+        {
+          "version": "Fable 5.1 in Claude Code",
+          "date": "2026-09-01",
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.257"
+        },
+        {
+          "version": "Opus 5.5",
+          "date": "2026-09-22",
+          "url": "https://www.anthropic.com/claude-opus-5-5"
+        },
+        {
+          "version": "Sonnet 5.5",
+          "date": "2026-09-28",
+          "url": "https://www.anthropic.com/claude-sonnet-5-5"
+        }
+      ],
+      "id": "c11411fc-50f7-4e84-9ce8-9305c84e85b5"
+    },
+    {
+      "product": "Claude",
+      "title": "Claude combines Cowork and chat with document and slide editing",
+      "summary": "Anthropic began merging Cowork and chat on September 16, initially rolling out to Pro and Max users across web, desktop, and mobile. The announcement also introduced Docs and Slides and in-conversation Design as paid-plan betas, with Enterprise administrator controls. This brings drafting, editing, and longer-running report work into a shared conversation.",
+      "url": "https://claude.com/resources/articles/cowork-is-now-claude",
+      "publication_date": "2026-09-16",
+      "date_added": "2026-09-30",
+      "source": "Claude official release notes",
+      "evidence_url": "https://claude.com/resources/articles/cowork-is-now-claude",
+      "primary_category": "Software & Tools",
+      "tags": [
+        "claude",
+        "agents",
+        "data analysis"
+      ],
+      "eligibility_basis": "Dated software release or announcement",
+      "channel": "staged rollout; document features in beta",
+      "versions": [
+        "September 16 rollout"
+      ],
+      "additional_evidence_urls": [],
+      "release_evidence": [
+        {
+          "version": "September 16 rollout",
+          "date": "2026-09-16",
+          "url": "https://claude.com/resources/articles/cowork-is-now-claude",
+          "channel": "staged rollout; document features in beta"
+        }
+      ],
+      "id": "6f328e22-79e8-4375-9d4f-22ddab55b339"
+    },
+    {
+      "product": "Claude Code",
+      "title": "Claude Code September updates add evaluations and tighter permission controls",
+      "summary": "September Claude Code releases add reproducible plugin evaluations and a prompt audit for instructions written for older models. Managed model allow/deny controls and permission fixes support more consistent agent use, while a late-month fix prevents session-resume failures from losing parallel tool-call history. These are grouped workflow and reliability updates rather than separate entries for each daily patch.",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.283",
+      "publication_date": "2026-09-25",
+      "date_added": "2026-09-30",
+      "source": "Claude Code official release notes",
+      "evidence_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.283",
+      "primary_category": "Software & Tools",
+      "tags": [
+        "claude",
+        "cli",
+        "agents",
+        "testing"
+      ],
+      "eligibility_basis": "Dated software release or announcement",
+      "channel": "stable",
+      "versions": [
+        "2.1.259",
+        "2.1.265",
+        "2.1.269",
+        "2.1.283",
+        "2.1.286"
+      ],
+      "additional_evidence_urls": [
+        "https://github.com/anthropics/claude-code/releases/tag/v2.1.259",
+        "https://github.com/anthropics/claude-code/releases/tag/v2.1.265",
+        "https://github.com/anthropics/claude-code/releases/tag/v2.1.269",
+        "https://github.com/anthropics/claude-code/releases/tag/v2.1.286"
+      ],
+      "release_evidence": [
+        {
+          "version": "v2.1.286",
+          "date": "2026-09-30",
+          "published_at": "2026-09-30T19:10:13Z",
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.286",
+          "channel": "stable"
+        },
+        {
+          "version": "v2.1.283",
+          "date": "2026-09-25",
+          "published_at": "2026-09-25T21:50:12Z",
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.283",
+          "channel": "stable"
+        },
+        {
+          "version": "v2.1.269",
+          "date": "2026-09-11",
+          "published_at": "2026-09-11T19:17:55Z",
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.269",
+          "channel": "stable"
+        },
+        {
+          "version": "v2.1.265",
+          "date": "2026-09-08",
+          "published_at": "2026-09-08T20:37:31Z",
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.265",
+          "channel": "stable"
+        },
+        {
+          "version": "v2.1.259",
+          "date": "2026-09-02",
+          "published_at": "2026-09-02T22:33:51Z",
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.259",
+          "channel": "stable"
+        }
+      ],
+      "id": "d1b179e0-11e7-45c1-889d-98d8932b28b3"
+    }
+  ],
+  "backup_path": "/Users/mkaufman/BBSR_Projects/Misc/omics-radar/data/backups/omics_radar-before-2026-09-20261014T040628Z.duckdb",
+  "before_count": 44,
+  "after_count": 101,
+  "inserted_count": 57,
+  "verification": {
+    "existing_articles_unchanged": true,
+    "reports_unchanged": true,
+    "report_entries_unchanged": true,
+    "inserted_fields_read_back": true
+  },
+  "coverage": [
+    {
+      "source": "RNA-seq Blog",
+      "url": "https://www.rna-seqblog.com/",
+      "selected": 8,
+      "notes": "Seven September blog entries added after deeper topic/tag searches and reading full posts and linked papers, plus one previously selected September paper discovered via an October blog post. Discovery count overlaps publication-source counts. Dates read from dated tag-listing content returned by search; direct archives sometimes stale or inaccessible. Selective coverage, not an exhaustive inventory."
+    },
+    {
+      "source": "Nature portfolio",
+      "url": "https://www.nature.com/",
+      "selected": 3,
+      "notes": "Targeted September searches and primary pages; three selected including Oncogene. Four other candidate pages could not be opened."
+    },
+    {
+      "source": "Science",
+      "url": "https://www.science.org/",
+      "selected": 0,
+      "notes": "Targeted search returned Science Partner Journal candidates; Science Advances issue page and MSI candidate page could not be opened. Coverage incomplete."
+    },
+    {
+      "source": "Python Weekly",
+      "url": "https://www.pythonweekly.com/archive/",
+      "selected": 0,
+      "notes": "Opened all four September issues. NumPy tutorial candidate unresolved; general development stories not selected."
+    },
+    {
+      "source": "R-bloggers",
+      "url": "https://www.r-bloggers.com/",
+      "selected": 0,
+      "notes": "Homepage accessible; September archive inaccessible and targeted searches did not establish qualifying original posts. Coverage incomplete."
+    },
+    {
+      "source": "Posit",
+      "url": "https://opensource.posit.co/blog/",
+      "selected": 7,
+      "notes": "Dated original release posts verified; August recipes and cuda.ml posts excluded."
+    },
+    {
+      "source": "Bioconductor",
+      "url": "https://blog.bioconductor.org/",
+      "selected": 1,
+      "notes": "September conference recap verified; August event date distinguished from September recap date."
+    },
+    {
+      "source": "scverse",
+      "url": "https://scverse.org/blog/",
+      "selected": 0,
+      "notes": "No September posts found in blog listing; most recent listed post June 30."
+    },
+    {
+      "source": "nf-core",
+      "url": "https://nf-co.re/blog",
+      "selected": 0,
+      "notes": "No September posts found in blog listing; most recent listed post July 29."
+    },
+    {
+      "source": "Ming Tang / Chatomics",
+      "url": "https://divingintogeneticsandgenomics.com/",
+      "selected": 0,
+      "notes": "Homepage scanned; no qualifying September post established. Not an exhaustive archive search."
+    },
+    {
+      "source": "Genome Biology",
+      "url": "https://link.springer.com/journal/13059",
+      "selected": 2,
+      "notes": "Targeted September search; cancer microbiome review and ViSTA primary pages verified."
+    },
+    {
+      "source": "BMC Bioinformatics",
+      "url": "https://link.springer.com/journal/12859",
+      "selected": 0,
+      "notes": "September candidates searched; PEN paper opened but deprioritized relative to cancer and RNA-seq methods."
+    },
+    {
+      "source": "Bioinformatics",
+      "url": "https://academic.oup.com/bioinformatics",
+      "selected": 1,
+      "notes": "September listings and ID3 paper checked. COBRA page inaccessible and indexed dates conflicted."
+    },
+    {
+      "source": "PLOS Computational Biology",
+      "url": "https://journals.plos.org/ploscompbiol/",
+      "selected": 2,
+      "notes": "September issue discovery and two original articles verified."
+    },
+    {
+      "source": "bioRxiv",
+      "url": "https://www.biorxiv.org/",
+      "selected": 16,
+      "notes": "Official API: all 50 pages retrieved for bioinformatics, genomics, cancer biology and systems biology, covering September 1\u201330. 1,431 version records / 1,345 distinct DOIs; 287 keyword title candidates. Selective abstract review, 15 entries selected from those categories plus HARP from immunology. Version histories checked for all 16 additions. Full texts not reviewed; not exhaustive across all bioRxiv subjects. Narrow site searches were empty; landing pages failed and the monthly directory exceeded reader size limits. Evidence and screening manifest saved separately.",
+      "status": "checked"
+    },
+    {
+      "source": "PyCoder's Weekly",
+      "url": "https://pycoders.com/issues",
+      "selected": 0,
+      "notes": "September archive titles scanned; no additional original item verified."
+    },
+    {
+      "source": "Bioinformatics Blogs",
+      "url": "https://bioinf-bloggers.com/",
+      "selected": 0,
+      "notes": "Homepage opened for supplementary discovery; no additional September original item verified."
+    },
+    {
+      "source": "Planet Python",
+      "url": "https://planetpython.org/",
+      "selected": 0,
+      "notes": "Homepage opened for supplementary discovery; no additional September original item verified."
+    },
+    {
+      "source": "Python Bytes",
+      "url": "https://pythonbytes.fm/",
+      "selected": 0,
+      "notes": "Homepage opened for supplementary discovery; no additional September original item verified."
+    }
+  ],
+  "unresolved": [
+    {
+      "title": "DR-GEM",
+      "url": "https://www.nature.com/articles/s41467-026-77908-z",
+      "reason": "Primary-page opening failed; indexed abstract and date alone not used for insertion."
+    },
+    {
+      "title": "CytoVI",
+      "url": "https://www.nature.com/articles/s41592-026-03224-5",
+      "reason": "Primary-page opening failed."
+    },
+    {
+      "title": "ConvexGating",
+      "url": "https://www.nature.com/articles/s41467-026-77360-z",
+      "reason": "Primary-page opening failed."
+    },
+    {
+      "title": "scSTAMP-seq",
+      "url": "https://www.nature.com/articles/s41587-026-03328-5",
+      "reason": "Primary-page opening failed; indexed abstract only."
+    },
+    {
+      "title": "Reference-free microsatellite instability detection",
+      "url": "https://spj.science.org/doi/abs/10.34133/csbj.0219",
+      "reason": "Primary-page opening failed."
+    },
+    {
+      "title": "COBRA",
+      "url": "https://academic.oup.com/bioinformatics/article/42/9/btag660/8779981",
+      "reason": "Primary-page opening failed; search records showed conflicting August 31 and September 2 dates."
+    },
+    {
+      "title": "Teaching NumPy's ufuncs new tricks",
+      "url": "https://www.pythonweekly.com/p/python-weekly-issue-762-september-10-2026",
+      "reason": "Linked Quansight page failed to open; newsletter date insufficient."
+    }
+  ],
+  "skipped": [
+    {
+      "title": "recipes 1.4.0",
+      "url": "https://opensource.posit.co/blog/2026-08-26_recipes-1-4-0/",
+      "reason": "Published August 26, outside the September window."
+    },
+    {
+      "title": "cuda.ml 0.4.0",
+      "url": "https://opensource.posit.co/blog/2026-08-21_cuda-ml-0-4-0/",
+      "reason": "Published August 21, outside the September window."
+    },
+    {
+      "title": "Protein Expression Net",
+      "url": "https://link.springer.com/article/10.1186/s12859-026-06645-3",
+      "reason": "September 11 candidate; lower editorial priority than the selected cancer and transcriptomics methods. Potential follow-up."
+    },
+    {
+      "title": "XpBrew and PanXpresso - automatic RNA-seq processing workflow and comprehensive collection of gene expression data",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.08.27.747620v1",
+      "reason": "Useful RNA-seq processing workflow and cross-species expression resource; overflow after prioritizing cohort methods, study design, and cancer resources. Official API abstract read; not inserted."
+    },
+    {
+      "title": "Cell-type separability predicts annotation accuracy and outweighs algorithm choice: a factorial benchmark across seven scRNA paradigms",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.08.28.747622v1",
+      "reason": "Useful cell-annotation benchmark; overflow for a follow-up methods review. Official API abstract read; not inserted."
+    },
+    {
+      "title": "Ultra-fast and scalable high-resolution full-length single-cell RNA sequencing using CHART-seq",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.09.18.752546v1",
+      "reason": "CHART-seq is relevant technology overflow; abstract explicitly notes unavailable independent biological replicates for its biological example. Official API abstract read; not inserted."
+    }
+  ],
+  "counts": {
+    "added": 57,
+    "skipped_tracked_candidates": 6,
+    "unresolved_tracked_candidates": 7,
+    "duplicate_selected_candidates": 0,
+    "partial_failures": 0
+  },
+  "scope_note": "Counts refer to tracked candidates, not every search result. Coverage is selective and access limitations are recorded. No newsletter publication or Git commit/push performed.",
+  "preexisting_duplicate_notes": [
+    "Existing long-read benchmark entries share DOI 10.1093/nargab/lqag070 under different URLs.",
+    "Existing MIRACLE and cancer-genetic-background stories have both aggregator and original-paper entries. Existing records were preserved."
+  ],
+  "supplemental_runs": [
+    {
+      "status": "verified",
+      "before_count": 60,
+      "backup_path": "/Users/mkaufman/BBSR_Projects/Misc/omics-radar/data/backups/omics_radar-before-rnaseq-supplement-20261014T042817Z.duckdb",
+      "inserted_ids": [
+        "66ed0ee2-625d-4308-9566-29b815f10a2f",
+        "7df29f17-4e7f-407c-a579-1efc8c3f80f0",
+        "c7add224-42ac-4eee-ae78-1ea39791e8d1",
+        "41f3f612-0375-4e4f-98ce-1325c86c9f5b",
+        "8f066b40-bd4b-4197-a62b-cd269b6eb8e3",
+        "bafe0836-a78a-4ff4-8b93-c53c4f7c515d",
+        "3c93e977-a999-4478-925f-e708f1d237bd"
+      ],
+      "after_count": 67,
+      "inserted_count": 7,
+      "verification": {
+        "existing_articles_unchanged": true,
+        "reports_unchanged": true,
+        "report_entries_unchanged": true,
+        "inserted_fields_read_back": true
+      }
+    },
+    {
+      "source": "bioRxiv",
+      "status": "verified",
+      "before_count": 67,
+      "backup_path": "/Users/mkaufman/BBSR_Projects/Misc/omics-radar/data/backups/omics_radar-before-biorxiv-supplement-20261014T043303Z.duckdb",
+      "inserted_ids": [
+        "c03ce771-d4ec-4557-9fb5-6dd9a8f4c1c1",
+        "4c9ceda8-404b-456b-ab09-44b7dee78659",
+        "075f2147-538e-401d-adde-bfaf48449f35",
+        "9476b166-7508-4d5d-a305-7fce97387369",
+        "544b8345-c45f-402f-b442-a32d0008d844",
+        "58b405b7-c3c0-4cc5-8828-ecca945cc23b",
+        "67106297-c168-4f80-b9a0-1b516be34bc0",
+        "bf65c9b7-2361-4803-81d9-d44831bd1d24",
+        "f87f6526-75ec-42ba-98a1-e0ece2219127",
+        "2a59b4a3-98aa-43bb-87f8-1a35e34a5f91",
+        "2fc7f879-92af-4310-b20c-62191073cfd6",
+        "f5e83857-5440-44fc-a0d8-a6bd4d9a9d4c",
+        "c55ceeba-d6bc-4910-8ad7-e7d6bb51fcd8",
+        "0fe28fe6-d221-46a7-b875-3334d86fe134",
+        "42ecdc8a-50b3-4001-8dbd-757df4141087",
+        "fdcf2407-52bc-46a5-a30a-fa189a7427b7"
+      ],
+      "evidence_path": "/Users/mkaufman/BBSR_Projects/Misc/omics-radar/data/curation-2026-09-biorxiv-evidence.json",
+      "after_count": 83,
+      "inserted_count": 16,
+      "verification": {
+        "existing_articles_unchanged": true,
+        "reports_unchanged": true,
+        "report_entries_unchanged": true,
+        "inserted_fields_read_back": true
+      }
+    },
+    {
+      "source": "Software watchlist",
+      "status": "verified",
+      "before_count": 83,
+      "backup_path": "/Users/mkaufman/BBSR_Projects/Misc/omics-radar/data/backups/omics_radar-before-software-supplement-20261014T044857Z.duckdb",
+      "inserted_ids": [
+        "f3dbb93b-d19c-4d59-9f69-e64663d43e7f",
+        "a1fdfe3e-6b50-46c9-a1f8-ceac2cd01d48",
+        "6711ea7b-8506-40ee-a40a-a0cac999491d",
+        "5918afdf-b88d-4d5e-b1e9-6ff4b695d772",
+        "754645da-cf71-4779-a18e-268d28e79e70",
+        "8427c7b7-0b75-4b49-82e8-3a7f67829e19",
+        "bdcad7b7-d739-46b9-bcaa-ce17abe50d20",
+        "2d96c4c5-423c-4b9a-bbfd-d5eaf316a00f",
+        "7715bf8b-3959-4efb-9d33-d2556b5460e3",
+        "c8e71137-f01c-48a9-bd87-51728df555ca",
+        "1cbe3f8c-8abd-4ce2-b6c2-98d1df0a5aef",
+        "4516c2a6-6204-4353-9b64-f545227bcba9",
+        "67ece2b0-c6ae-40db-84fc-ebca2b098ff0",
+        "be43d1cc-a931-46be-b3cb-253a9579d7d4",
+        "0ea182be-024e-4405-bc6b-08e739838db0",
+        "c11411fc-50f7-4e84-9ce8-9305c84e85b5",
+        "6f328e22-79e8-4375-9d4f-22ddab55b339",
+        "d1b179e0-11e7-45c1-889d-98d8932b28b3"
+      ],
+      "evidence_path": "/Users/mkaufman/BBSR_Projects/Misc/omics-radar/data/curation-2026-09-software-evidence.json",
+      "counts": {
+        "selected_entries": 18,
+        "required_products_checked": 12,
+        "additional_projects_checked": 8,
+        "already_covered_products": 1,
+        "products_without_new_entries": 8,
+        "partial_coverage_products": 1
+      },
+      "after_count": 101,
+      "inserted_count": 18,
+      "verification": {
+        "existing_articles_unchanged": true,
+        "reports_unchanged": true,
+        "report_entries_unchanged": true,
+        "inserted_fields_read_back": true,
+        "backup_verified": true
+      }
+    }
+  ],
+  "date_policy": "Substantive September blog coverage qualifies even when the underlying paper is older; blog and paper dates recorded separately. Approved by user for this supplement and future monthly runs.",
+  "resolved_candidates": [
+    {
+      "title": "Community-driven PBMC reference (HARP)",
+      "previous_blocker": "Landing page could not be opened in the initial pass.",
+      "resolution": "Official bioRxiv DOI API supplied the abstract and verified first posting on September 25, 2026; added in bioRxiv supplement."
+    }
+  ],
+  "coverage_lessons_path": "/Users/mkaufman/BBSR_Projects/Misc/omics-radar/monthly-prompt.md",
+  "software_coverage": [
+    {
+      "product": "Python",
+      "required": true,
+      "status": "added",
+      "date_span": [
+        "2026-09-01",
+        "2026-09-30"
+      ],
+      "source_url": "https://www.python.org/downloads/",
+      "added_count": 1,
+      "decision_reason": "Security fixes and 3.13 support transition grouped; Python 3.15 previews not treated as stable.",
+      "limitation": "",
+      "versions_considered": [
+        {
+          "version": "3.14.8, 3.13.16, 3.12.15",
+          "date": "2026-09-30",
+          "url": "https://www.python.org/downloads/release/python-3148/",
+          "channel": "stable"
+        }
+      ],
+      "entry_titles": [
+        "Python September releases fix security issues and move 3.13 to security-only support"
+      ]
+    },
+    {
+      "product": "R",
+      "required": true,
+      "status": "no release found",
+      "date_span": [
+        "2026-09-01",
+        "2026-09-30"
+      ],
+      "source_url": "https://cran.r-project.org/src/base/R-4/",
+      "added_count": 0,
+      "decision_reason": "CRAN source archive lists 4.6.1 (June 24) as latest stable; no September stable release observed.",
+      "limitation": "R core only; individual CRAN packages were not exhaustively searched.",
+      "versions_considered": [],
+      "entry_titles": []
+    },
+    {
+      "product": "uv",
+      "required": true,
+      "status": "added",
+      "date_span": [
+        "2026-09-01",
+        "2026-09-30"
+      ],
+      "source_url": "https://github.com/astral-sh/uv/releases",
+      "added_count": 1,
+      "decision_reason": "13 September release records screened; related security and reproducibility changes grouped.",
+      "limitation": "",
+      "versions_considered": [
+        {
+          "tag_name": "0.12.21",
+          "name": "0.12.21",
+          "published_at": "2026-09-29T21:14:06Z",
+          "html_url": "https://github.com/astral-sh/uv/releases/tag/0.12.21",
+          "prerelease": false,
+          "draft": false
+        },
+        {
+          "tag_name": "0.12.20",
+          "name": "0.12.20",
+          "published_at": "2026-09-28T23:20:35Z",
+          "html_url": "https://github.com/astral-sh/uv/releases/tag/0.12.20",
+          "prerelease": false,
+          "draft": false
+        },
+        {
+          "tag_name": "0.12.19",
+          "name": "0.12.19",
+          "published_at": "2026-09-25T00:33:02Z",
+          "html_url": "https://github.com/astral-sh/uv/releases/tag/0.12.19",
+          "prerelease": false,
+          "draft": false
+        },
+        {
+          "tag_name": "0.12.18",
+          "name": "0.12.18",
+          "published_at": "2026-09-22T23:00:51Z",
+          "html_url": "https://github.com/astral-sh/uv/releases/tag/0.12.18",
+          "prerelease": false,
+          "draft": false
+        },
+        {
+          "tag_name": "0.12.17",
+          "name": "0.12.17",
+          "published_at": "2026-09-18T18:59:24Z",
+          "html_url": "https://github.com/astral-sh/uv/releases/tag/0.12.17",
+          "prerelease": false,
+          "draft": false
+        },
+        {
+          "tag_name": "0.12.16",
+          "name": "0.12.16",
+          "published_at": "2026-09-18T01:01:42Z",
+          "html_url": "https://github.com/astral-sh/uv/releases/tag/0.12.16",
+          "prerelease": false,
+          "draft": false
+        },
+        {
+          "tag_name": "0.12.15",
+          "name": "0.12.15",
+          "published_at": "2026-09-15T12:09:40Z",
+          "html_url": "https://github.com/astral-sh/uv/releases/tag/0.12.15",
+          "prerelease": false,
+          "draft": false
+        },
+        {
+          "tag_name": "0.12.14",
+          "name": "0.12.14",
+          "published_at": "2026-09-15T02:19:30Z",
+          "html_url": "https://github.com/astral-sh/uv/releases/tag/0.12.14",
+          "prerelease": false,
+          "draft": false
+        },
+        {
+          "tag_name": "0.12.13",
+          "name": "0.12.13",
+          "published_at": "2026-09-10T19:27:24Z",
+          "html_url": "https://github.com/astral-sh/uv/releases/tag/0.12.13",
+          "prerelease": false,
+          "draft": false
+        },
+        {
+          "tag_name": "0.12.12",
+          "name": "0.12.12",
+          "published_at": "2026-09-09T16:45:15Z",
+          "html_url": "https://github.com/astral-sh/uv/releases/tag/0.12.12",
+          "prerelease": false,
+          "draft": false
+        },
+        {
+          "tag_name": "0.12.11",
+          "name": "0.12.11",
+          "published_at": "2026-09-08T20:45:27Z",
+          "html_url": "https://github.com/astral-sh/uv/releases/tag/0.12.11",
+          "prerelease": false,
+          "draft": false
+        },
+        {
+          "tag_name": "0.12.10",
+          "name": "0.12.10",
+          "published_at": "2026-09-04T23:15:57Z",
+          "html_url": "https://github.com/astral-sh/uv/releases/tag/0.12.10",
+          "prerelease": false,
+          "draft": false
+        },
+        {
+          "tag_name": "0.12.9",
+          "name": "0.12.9",
+          "published_at": "2026-09-01T21:58:26Z",
+          "html_url": "https://github.com/astral-sh/uv/releases/tag/0.12.9",
+          "prerelease": false,
+          "draft": false
+        }
+      ],
+      "entry_titles": [
+        "uv September updates improve package integrity and environment checks"
+      ]
+    },
+    {
+      "product": "renv",
+      "required": true,
+      "status": "added",
+      "date_span": [
+        "2026-09-01",
+        "2026-09-30"
+      ],
+      "source_url": "https://rstudio.github.io/renv/news/index.html",
+      "added_count": 1,
+      "decision_reason": "1.3.0 qualifies; 1.3.1 on October 6 excluded.",
+      "limitation": "",
+      "versions_considered": [
+        {
+          "version": "1.3.0",
+          "date": "2026-09-29",
+          "url": "https://rstudio.github.io/renv/news/index.html#renv-130",
+          "channel": "stable"
+        }
+      ],
+      "entry_titles": [
+        "renv 1.3.0 hardens Git restoration and improves reproducibility"
+      ]
+    },
+    {
+      "product": "Nextflow",
+      "required": true,
+      "status": "only routine updates",
+      "date_span": [
+        "2026-09-01",
+        "2026-09-30"
+      ],
+      "source_url": "https://github.com/nextflow-io/nextflow/releases",
+      "added_count": 0,
+      "decision_reason": "25.10.8 maintenance not selected; 26.09.0-edge and 26.09.1-edge excluded as previews. Pipeline-specific migration need captured in nf-core/rnaseq entry.",
+      "limitation": "26.09.1-edge release body was empty; no stable-release claim inferred.",
+      "versions_considered": [
+        {
+          "tag_name": "v25.10.8",
+          "name": "Version 25.10.8",
+          "published_at": "2026-09-29T16:12:24Z",
+          "html_url": "https://github.com/nextflow-io/nextflow/releases/tag/v25.10.8",
+          "prerelease": false,
+          "draft": false
+        },
+        {
+          "tag_name": "v26.09.1-edge",
+          "name": "Version 26.09.1-edge",
+          "published_at": "2026-09-25T14:07:32Z",
+          "html_url": "https://github.com/nextflow-io/nextflow/releases/tag/v26.09.1-edge",
+          "prerelease": true,
+          "draft": false
+        },
+        {
+          "tag_name": "v26.09.0-edge",
+          "name": "Version 26.09.0-edge",
+          "published_at": "2026-09-22T18:46:50Z",
+          "html_url": "https://github.com/nextflow-io/nextflow/releases/tag/v26.09.0-edge",
+          "prerelease": true,
+          "draft": false
+        }
+      ],
+      "entry_titles": []
+    },
+    {
+      "product": "RStudio",
+      "required": true,
+      "status": "added",
+      "date_span": [
+        "2026-09-01",
+        "2026-09-30"
+      ],
+      "source_url": "https://docs.posit.co/ide/news/index.html",
+      "added_count": 1,
+      "decision_reason": "2026.09.0 selected; IDE changes separated from Workbench-only features.",
+      "limitation": "",
+      "versions_considered": [
+        {
+          "version": "2026.09.0",
+          "date": "2026-09-10",
+          "url": "https://docs.posit.co/ide/news/index.html#rstudio-2026.09.0",
+          "channel": "stable"
+        }
+      ],
+      "entry_titles": [
+        "RStudio 2026.09 adds split source views and managed Assistant controls"
+      ]
+    },
+    {
+      "product": "Positron",
+      "required": true,
+      "status": "already covered",
+      "date_span": [
+        "2026-09-01",
+        "2026-09-30"
+      ],
+      "source_url": "https://github.com/posit-dev/positron/releases",
+      "added_count": 0,
+      "decision_reason": "2026.09.0-256 shipped September 3 and 2026.09.1-2 September 4; the existing September 9 blog entry covers the feature release. Plot fix alone not re-added.",
+      "limitation": "Latest-only release-notes page showed October; GitHub history supplied September records. Existing blog date retained.",
+      "versions_considered": [
+        {
+          "tag_name": "2026.09.1-2",
+          "name": "2026.09.1-2",
+          "published_at": "2026-09-04T20:40:28Z",
+          "html_url": "https://github.com/posit-dev/positron/releases/tag/2026.09.1-2",
+          "prerelease": false,
+          "draft": false
+        },
+        {
+          "tag_name": "2026.09.0-256",
+          "name": "2026.09.0-256",
+          "published_at": "2026-09-03T15:34:53Z",
+          "html_url": "https://github.com/posit-dev/positron/releases/tag/2026.09.0-256",
+          "prerelease": false,
+          "draft": false
+        }
+      ],
+      "entry_titles": []
+    },
+    {
+      "product": "VS Code",
+      "required": true,
+      "status": "added",
+      "date_span": [
+        "2026-09-01",
+        "2026-09-30"
+      ],
+      "source_url": "https://code.visualstudio.com/updates/archive",
+      "added_count": 2,
+      "decision_reason": "Eight release records checked across 1.136\u20131.140; grouped stable workflow changes and a separate security update. Preview automations/agent merge and cosmetic changes not separately selected.",
+      "limitation": "Archive returned stale January listing; GitHub dates and five version-specific official pages used instead.",
+      "versions_considered": [
+        {
+          "tag_name": "1.140.0",
+          "name": "1.140.0",
+          "published_at": "2026-09-30T22:00:22Z",
+          "html_url": "https://github.com/microsoft/vscode/releases/tag/1.140.0",
+          "prerelease": false,
+          "draft": false
+        },
+        {
+          "tag_name": "1.139.1",
+          "name": "1.139.1",
+          "published_at": "2026-09-25T09:58:03Z",
+          "html_url": "https://github.com/microsoft/vscode/releases/tag/1.139.1",
+          "prerelease": false,
+          "draft": false
+        },
+        {
+          "tag_name": "1.139.0",
+          "name": "1.139.0",
+          "published_at": "2026-09-23T10:32:34Z",
+          "html_url": "https://github.com/microsoft/vscode/releases/tag/1.139.0",
+          "prerelease": false,
+          "draft": false
+        },
+        {
+          "tag_name": "1.138.0",
+          "name": "1.138.0",
+          "published_at": "2026-09-16T07:14:47Z",
+          "html_url": "https://github.com/microsoft/vscode/releases/tag/1.138.0",
+          "prerelease": false,
+          "draft": false
+        },
+        {
+          "tag_name": "1.137.0",
+          "name": "1.137.0",
+          "published_at": "2026-09-09T15:32:58Z",
+          "html_url": "https://github.com/microsoft/vscode/releases/tag/1.137.0",
+          "prerelease": false,
+          "draft": false
+        },
+        {
+          "tag_name": "1.136.2",
+          "name": "1.136.2",
+          "published_at": "2026-09-08T17:54:34Z",
+          "html_url": "https://github.com/microsoft/vscode/releases/tag/1.136.2",
+          "prerelease": false,
+          "draft": false
+        },
+        {
+          "tag_name": "1.136.1",
+          "name": "1.136.1",
+          "published_at": "2026-09-03T15:25:32Z",
+          "html_url": "https://github.com/microsoft/vscode/releases/tag/1.136.1",
+          "prerelease": false,
+          "draft": false
+        },
+        {
+          "tag_name": "1.136.0",
+          "name": "1.136.0",
+          "published_at": "2026-09-02T16:18:16Z",
+          "html_url": "https://github.com/microsoft/vscode/releases/tag/1.136.0",
+          "prerelease": false,
+          "draft": false
+        }
+      ],
+      "entry_titles": [
+        "VS Code 1.136.2 addresses agent and workspace security issues",
+        "VS Code September updates bring agent sessions into development containers"
+      ]
+    },
+    {
+      "product": "ChatGPT",
+      "required": true,
+      "status": "added",
+      "date_span": [
+        "2026-09-01",
+        "2026-09-30"
+      ],
+      "source_url": "https://learn.chatgpt.com/docs/changelog",
+      "added_count": 1,
+      "decision_reason": "DevDay Work/Space announcement selected; model and desktop changes shared with Codex are cross-listed there.",
+      "limitation": "Uses current unified official changelog and DevDay roundup. Routine mobile patches and limited-preview feature overflow not separately inserted.",
+      "versions_considered": [
+        {
+          "version": "DevDay 2026",
+          "date": "2026-09-29",
+          "url": "https://learn.chatgpt.com/docs/whats-new/devday-2026#chatgpt",
+          "channel": "product announcement"
+        }
+      ],
+      "entry_titles": [
+        "ChatGPT adds shared Spaces and synced Work tasks"
+      ]
+    },
+    {
+      "product": "Codex",
+      "required": true,
+      "status": "added",
+      "date_span": [
+        "2026-09-01",
+        "2026-09-30"
+      ],
+      "source_url": "https://learn.chatgpt.com/docs/changelog",
+      "added_count": 5,
+      "decision_reason": "Model, interface, security, migration and cloud changes selected as distinct developments.",
+      "limitation": "Plan/client restrictions retained. GPT-5.5 October retirement is a September notice, not a September removal.",
+      "versions_considered": [
+        {
+          "version": "GPT-6 Sol / Luna",
+          "date": "2026-09-22",
+          "url": "https://learn.chatgpt.com/docs/changelog#codex-2026-09-22-gpt-6-sol-luna"
+        },
+        {
+          "version": "GPT-6.1 Sol",
+          "date": "2026-09-29",
+          "url": "https://learn.chatgpt.com/docs/changelog#codex-2026-09-29-gpt-61-sol"
+        },
+        {
+          "version": "26.924.20706",
+          "date": "2026-09-25",
+          "url": "https://learn.chatgpt.com/docs/changelog#codex-2026-09-25-app",
+          "channel": "stable"
+        },
+        {
+          "version": "September 5 removal",
+          "date": "2026-09-05",
+          "url": "https://learn.chatgpt.com/docs/changelog#codex-2026-09-05",
+          "channel": "stable"
+        },
+        {
+          "version": "Spark removal",
+          "date": "2026-09-14",
+          "url": "https://learn.chatgpt.com/docs/changelog#codex-2026-09-14-codex-spark-deprecation"
+        },
+        {
+          "version": "GPT-5.5 retirement notice",
+          "date": "2026-09-14",
+          "effective_date": "2026-10-14",
+          "url": "https://learn.chatgpt.com/docs/changelog#codex-2026-09-14-gpt-55-retirement"
+        },
+        {
+          "version": "DevDay 2026",
+          "date": "2026-09-29",
+          "url": "https://learn.chatgpt.com/docs/whats-new/devday-2026#reusable-cloud-environments",
+          "channel": "product announcement"
+        }
+      ],
+      "entry_titles": [
+        "GPT-6 Sol, Luna, and GPT-6.1 Sol arrive in Codex and ChatGPT Work",
+        "OpenAI desktop macOS update fixes CVE-2026-100754",
+        "Codex removes its MCP server command",
+        "September model notices require Codex configuration changes",
+        "Codex introduces reusable cloud development environments"
+      ]
+    },
+    {
+      "product": "Claude",
+      "required": true,
+      "status": "added; partial coverage",
+      "date_span": [
+        "2026-09-01",
+        "2026-09-30"
+      ],
+      "source_url": "https://support.claude.com/en/articles/12138966-release-notes",
+      "added_count": 2,
+      "decision_reason": "Dated official model and Cowork announcements verified; Code release records corroborate model availability.",
+      "limitation": "Direct retrieval returned 403; web-reader page was stale despite newer search snippets. Dated Anthropic/Claude announcements used as fallback; complete app-release enumeration remains unverified.",
+      "versions_considered": [
+        {
+          "version": "Fable 5.1 in Claude Code",
+          "date": "2026-09-01",
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.257"
+        },
+        {
+          "version": "Opus 5.5",
+          "date": "2026-09-22",
+          "url": "https://www.anthropic.com/claude-opus-5-5"
+        },
+        {
+          "version": "Sonnet 5.5",
+          "date": "2026-09-28",
+          "url": "https://www.anthropic.com/claude-sonnet-5-5"
+        },
+        {
+          "version": "September 16 rollout",
+          "date": "2026-09-16",
+          "url": "https://claude.com/resources/articles/cowork-is-now-claude",
+          "channel": "staged rollout; document features in beta"
+        }
+      ],
+      "entry_titles": [
+        "Claude September model releases expand coding and analysis options",
+        "Claude combines Cowork and chat with document and slide editing"
+      ]
+    },
+    {
+      "product": "Claude Code",
+      "required": true,
+      "status": "added",
+      "date_span": [
+        "2026-09-01",
+        "2026-09-30"
+      ],
+      "source_url": "https://github.com/anthropics/claude-code/releases",
+      "added_count": 1,
+      "decision_reason": "27 release records screened; grouped evaluation, governance and reliability changes. Model introductions covered under Claude.",
+      "limitation": "",
+      "versions_considered": [
+        {
+          "tag_name": "v2.1.286",
+          "name": "v2.1.286",
+          "published_at": "2026-09-30T19:10:13Z",
+          "html_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.286",
+          "prerelease": false,
+          "draft": false
+        },
+        {
+          "tag_name": "v2.1.285",
+          "name": "v2.1.285",
+          "published_at": "2026-09-29T19:27:30Z",
+          "html_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.285",
+          "prerelease": false,
+          "draft": false
+        },
+        {
+          "tag_name": "v2.1.284",
+          "name": "v2.1.284",
+          "published_at": "2026-09-28T18:02:03Z",
+          "html_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.284",
+          "prerelease": false,
+          "draft": false
+        },
+        {
+          "tag_name": "v2.1.283",
+          "name": "v2.1.283",
+          "published_at": "2026-09-25T21:50:12Z",
+          "html_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.283",
+          "prerelease": false,
+          "draft": false
+        },
+        {
+          "tag_name": "v2.1.282",
+          "name": "v2.1.282",
+          "published_at": "2026-09-24T18:38:05Z",
+          "html_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.282",
+          "prerelease": false,
+          "draft": false
+        },
+        {
+          "tag_name": "v2.1.281",
+          "name": "v2.1.281",
+          "published_at": "2026-09-23T19:19:15Z",
+          "html_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.281",
+          "prerelease": false,
+          "draft": false
+        },
+        {
+          "tag_name": "v2.1.280",
+          "name": "v2.1.280",
+          "published_at": "2026-09-22T16:38:14Z",
+          "html_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.280",
+          "prerelease": false,
+          "draft": false
+        },
+        {
+          "tag_name": "v2.1.278",
+          "name": "v2.1.278",
+          "published_at": "2026-09-19T03:10:40Z",
+          "html_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.278",
+          "prerelease": false,
+          "draft": false
+        },
+        {
+          "tag_name": "v2.1.277",
+          "name": "v2.1.277",
+          "published_at": "2026-09-18T18:06:32Z",
+          "html_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.277",
+          "prerelease": false,
+          "draft": false
+        },
+        {
+          "tag_name": "v2.1.276",
+          "name": "v2.1.276",
+          "published_at": "2026-09-18T02:12:26Z",
+          "html_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.276",
+          "prerelease": false,
+          "draft": false
+        },
+        {
+          "tag_name": "v2.1.275",
+          "name": "v2.1.275",
+          "published_at": "2026-09-17T22:33:17Z",
+          "html_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.275",
+          "prerelease": false,
+          "draft": false
+        },
+        {
+          "tag_name": "v2.1.274",
+          "name": "v2.1.274",
+          "published_at": "2026-09-17T00:12:02Z",
+          "html_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.274",
+          "prerelease": false,
+          "draft": false
+        },
+        {
+          "tag_name": "v2.1.273",
+          "name": "v2.1.273",
+          "published_at": "2026-09-15T20:23:03Z",
+          "html_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.273",
+          "prerelease": false,
+          "draft": false
+        },
+        {
+          "tag_name": "v2.1.272",
+          "name": "v2.1.272",
+          "published_at": "2026-09-15T00:42:25Z",
+          "html_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.272",
+          "prerelease": false,
+          "draft": false
+        },
+        {
+          "tag_name": "v2.1.271",
+          "name": "v2.1.271",
+          "published_at": "2026-09-14T22:12:54Z",
+          "html_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.271",
+          "prerelease": false,
+          "draft": false
+        },
+        {
+          "tag_name": "v2.1.270",
+          "name": "v2.1.270",
+          "published_at": "2026-09-12T19:45:44Z",
+          "html_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.270",
+          "prerelease": false,
+          "draft": false
+        },
+        {
+          "tag_name": "v2.1.269",
+          "name": "v2.1.269",
+          "published_at": "2026-09-11T19:17:55Z",
+          "html_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.269",
+          "prerelease": false,
+          "draft": false
+        },
+        {
+          "tag_name": "v2.1.268",
+          "name": "v2.1.268",
+          "published_at": "2026-09-10T20:30:54Z",
+          "html_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.268",
+          "prerelease": false,
+          "draft": false
+        },
+        {
+          "tag_name": "v2.1.267",
+          "name": "v2.1.267",
+          "published_at": "2026-09-09T19:58:14Z",
+          "html_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.267",
+          "prerelease": false,
+          "draft": false
+        },
+        {
+          "tag_name": "v2.1.266",
+          "name": "v2.1.266",
+          "published_at": "2026-09-08T23:55:14Z",
+          "html_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.266",
+          "prerelease": false,
+          "draft": false
+        },
+        {
+          "tag_name": "v2.1.265",
+          "name": "v2.1.265",
+          "published_at": "2026-09-08T20:37:31Z",
+          "html_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.265",
+          "prerelease": false,
+          "draft": false
+        },
+        {
+          "tag_name": "v2.1.263",
+          "name": "v2.1.263",
+          "published_at": "2026-09-06T02:54:20Z",
+          "html_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.263",
+          "prerelease": false,
+          "draft": false
+        },
+        {
+          "tag_name": "v2.1.261",
+          "name": "v2.1.261",
+          "published_at": "2026-09-04T19:58:10Z",
+          "html_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.261",
+          "prerelease": false,
+          "draft": false
+        },
+        {
+          "tag_name": "v2.1.260",
+          "name": "v2.1.260",
+          "published_at": "2026-09-03T23:48:12Z",
+          "html_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.260",
+          "prerelease": false,
+          "draft": false
+        },
+        {
+          "tag_name": "v2.1.259",
+          "name": "v2.1.259",
+          "published_at": "2026-09-02T22:33:51Z",
+          "html_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.259",
+          "prerelease": false,
+          "draft": false
+        },
+        {
+          "tag_name": "v2.1.258",
+          "name": "v2.1.258",
+          "published_at": "2026-09-01T22:33:20Z",
+          "html_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.258",
+          "prerelease": false,
+          "draft": false
+        },
+        {
+          "tag_name": "v2.1.257",
+          "name": "v2.1.257",
+          "published_at": "2026-09-01T17:53:52Z",
+          "html_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.257",
+          "prerelease": false,
+          "draft": false
+        }
+      ],
+      "entry_titles": [
+        "Claude Code September updates add evaluations and tighter permission controls"
+      ]
+    },
+    {
+      "product": "Bioconductor",
+      "required": false,
+      "status": "no release found",
+      "date_span": [
+        "2026-09-01",
+        "2026-09-30"
+      ],
+      "source_url": "https://bioconductor.org/about/release-announcements/",
+      "added_count": 0,
+      "decision_reason": "Official core release table lists 3.23 on April 29; no September core release. Existing BioC2026 conference entry retained.",
+      "limitation": "Core distribution only; not all package updates.",
+      "versions_considered": [],
+      "entry_titles": []
+    },
+    {
+      "product": "Quarto",
+      "required": false,
+      "status": "only previews",
+      "date_span": [
+        "2026-09-01",
+        "2026-09-30"
+      ],
+      "source_url": "https://github.com/quarto-dev/quarto-cli/releases",
+      "added_count": 0,
+      "decision_reason": "1.11.2\u20131.11.5 are prereleases in GitHub metadata; no stable September release found.",
+      "limitation": "",
+      "versions_considered": [
+        {
+          "tag_name": "v1.11.5",
+          "name": "v1.11.5",
+          "published_at": "2026-09-17T13:00:38Z",
+          "html_url": "https://github.com/quarto-dev/quarto-cli/releases/tag/v1.11.5",
+          "prerelease": true,
+          "draft": false
+        },
+        {
+          "tag_name": "v1.11.4",
+          "name": "v1.11.4",
+          "published_at": "2026-09-09T15:20:23Z",
+          "html_url": "https://github.com/quarto-dev/quarto-cli/releases/tag/v1.11.4",
+          "prerelease": true,
+          "draft": false
+        },
+        {
+          "tag_name": "v1.11.3",
+          "name": "v1.11.3",
+          "published_at": "2026-09-03T09:30:13Z",
+          "html_url": "https://github.com/quarto-dev/quarto-cli/releases/tag/v1.11.3",
+          "prerelease": true,
+          "draft": false
+        },
+        {
+          "tag_name": "v1.11.2",
+          "name": "v1.11.2",
+          "published_at": "2026-09-02T15:31:28Z",
+          "html_url": "https://github.com/quarto-dev/quarto-cli/releases/tag/v1.11.2",
+          "prerelease": true,
+          "draft": false
+        }
+      ],
+      "entry_titles": []
+    },
+    {
+      "product": "Snakemake",
+      "required": false,
+      "status": "only routine updates",
+      "date_span": [
+        "2026-09-01",
+        "2026-09-30"
+      ],
+      "source_url": "https://github.com/snakemake/snakemake/releases",
+      "added_count": 0,
+      "decision_reason": "9.27.0 on September 11 adds unit-test diffs and targeted validation/notebook fixes; not selected as a substantial general update.",
+      "limitation": "",
+      "versions_considered": [
+        {
+          "tag_name": "v9.27.0",
+          "name": "v9.27.0",
+          "published_at": "2026-09-11T13:44:52Z",
+          "html_url": "https://github.com/snakemake/snakemake/releases/tag/v9.27.0",
+          "prerelease": false,
+          "draft": false
+        }
+      ],
+      "entry_titles": []
+    },
+    {
+      "product": "nf-core pipelines",
+      "required": false,
+      "status": "added",
+      "date_span": [
+        "2026-09-01",
+        "2026-09-30"
+      ],
+      "source_url": "https://nf-co.re/blog",
+      "added_count": 1,
+      "decision_reason": "rnaseq 3.27.0 selected for direct transcriptomics relevance and strandedness/migration changes.",
+      "limitation": "Blog and rnaseq release history checked; not exhaustive across every nf-core pipeline.",
+      "versions_considered": [
+        {
+          "tag_name": "3.27.0",
+          "name": "nf-core/rnaseq v3.27.0 - Vanadium Vulture",
+          "published_at": "2026-09-23T12:58:42Z",
+          "html_url": "https://github.com/nf-core/rnaseq/releases/tag/3.27.0",
+          "prerelease": false,
+          "draft": false
+        }
+      ],
+      "entry_titles": [
+        "nf-core/rnaseq 3.27.0 expands screening and restores strandedness handling"
+      ]
+    },
+    {
+      "product": "Scanpy / scverse",
+      "required": false,
+      "status": "no release found",
+      "date_span": [
+        "2026-09-01",
+        "2026-09-30"
+      ],
+      "source_url": "https://github.com/scverse/scanpy/releases",
+      "added_count": 0,
+      "decision_reason": "No September release in Scanpy GitHub history.",
+      "limitation": "Scanpy only; other scverse packages not exhaustively enumerated.",
+      "versions_considered": [],
+      "entry_titles": []
+    },
+    {
+      "product": "Ruff",
+      "required": false,
+      "status": "added",
+      "date_span": [
+        "2026-09-01",
+        "2026-09-30"
+      ],
+      "source_url": "https://github.com/astral-sh/ruff/releases",
+      "added_count": 1,
+      "decision_reason": "Four September versions reviewed; selected 0.16.8 because autofix safety affects code behavior. Other routine rule updates grouped out.",
+      "limitation": "",
+      "versions_considered": [
+        {
+          "tag_name": "0.16.9",
+          "name": "0.16.9",
+          "published_at": "2026-09-24T20:38:52Z",
+          "html_url": "https://github.com/astral-sh/ruff/releases/tag/0.16.9",
+          "prerelease": false,
+          "draft": false
+        },
+        {
+          "tag_name": "0.16.8",
+          "name": "0.16.8",
+          "published_at": "2026-09-16T15:56:22Z",
+          "html_url": "https://github.com/astral-sh/ruff/releases/tag/0.16.8",
+          "prerelease": false,
+          "draft": false
+        },
+        {
+          "tag_name": "0.16.7",
+          "name": "0.16.7",
+          "published_at": "2026-09-10T18:05:06Z",
+          "html_url": "https://github.com/astral-sh/ruff/releases/tag/0.16.7",
+          "prerelease": false,
+          "draft": false
+        },
+        {
+          "tag_name": "0.16.6",
+          "name": "0.16.6",
+          "published_at": "2026-09-03T17:20:13Z",
+          "html_url": "https://github.com/astral-sh/ruff/releases/tag/0.16.6",
+          "prerelease": false,
+          "draft": false
+        }
+      ],
+      "entry_titles": [
+        "Ruff 0.16.8 improves autofix safety and Python compatibility"
+      ]
+    },
+    {
+      "product": "Polars",
+      "required": false,
+      "status": "routine update and previews",
+      "date_span": [
+        "2026-09-01",
+        "2026-09-30"
+      ],
+      "source_url": "https://github.com/pola-rs/polars/releases",
+      "added_count": 0,
+      "decision_reason": "1.44.2 backport PR reviewed: Parquet fsync, diagnostics and monitoring changes did not warrant a separate entry. 2.0 release candidates excluded.",
+      "limitation": "",
+      "versions_considered": [
+        {
+          "tag_name": "py-2.0.0-rc.2",
+          "name": "Python Polars 2.0.0-rc.2",
+          "published_at": "2026-09-20T17:36:49Z",
+          "html_url": "https://github.com/pola-rs/polars/releases/tag/py-2.0.0-rc.2",
+          "prerelease": true,
+          "draft": false
+        },
+        {
+          "tag_name": "py-1.44.2",
+          "name": "Python Polars 1.44.2",
+          "published_at": "2026-09-09T07:42:33Z",
+          "html_url": "https://github.com/pola-rs/polars/releases/tag/py-1.44.2",
+          "prerelease": false,
+          "draft": false
+        },
+        {
+          "tag_name": "py-2.0.0-rc.1",
+          "name": "Python Polars 2.0.0-rc.1",
+          "published_at": "2026-09-02T11:49:46Z",
+          "html_url": "https://github.com/pola-rs/polars/releases/tag/py-2.0.0-rc.1",
+          "prerelease": true,
+          "draft": false
+        }
+      ],
+      "entry_titles": []
+    },
+    {
+      "product": "DuckDB",
+      "required": false,
+      "status": "added",
+      "date_span": [
+        "2026-09-01",
+        "2026-09-30"
+      ],
+      "source_url": "https://github.com/duckdb/duckdb/releases",
+      "added_count": 1,
+      "decision_reason": "1.5.6 selected for analytical correctness and recovery fixes.",
+      "limitation": "",
+      "versions_considered": [
+        {
+          "tag_name": "v1.5.6",
+          "name": "DuckDB v1.5.6 Bugfix Release",
+          "published_at": "2026-09-28T13:35:11Z",
+          "html_url": "https://github.com/duckdb/duckdb/releases/tag/v1.5.6",
+          "prerelease": false,
+          "draft": false
+        }
+      ],
+      "entry_titles": [
+        "DuckDB 1.5.6 fixes analytical query correctness and recovery issues"
+      ]
+    }
+  ]
+}

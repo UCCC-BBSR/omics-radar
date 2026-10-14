@@ -1,0 +1,3101 @@
+{
+  "period": [
+    "2026-09-01",
+    "2026-09-30"
+  ],
+  "categories": [
+    {
+      "category": "bioinformatics",
+      "version_records": 721,
+      "unique_dois": 673,
+      "pages": [
+        {
+          "url": "https://api.biorxiv.org/details/biorxiv/2026-09-01/2026-09-30/0?category=bioinformatics",
+          "status": "ok",
+          "category": "bioinformatics",
+          "interval": "2026-09-01:2026-09-30",
+          "cursor": 0,
+          "count": 30,
+          "count_new_papers": "498",
+          "total": "721"
+        },
+        {
+          "url": "https://api.biorxiv.org/details/biorxiv/2026-09-01/2026-09-30/30?category=bioinformatics",
+          "status": "ok",
+          "category": "bioinformatics",
+          "interval": "2026-09-01:2026-09-30",
+          "cursor": "30",
+          "count": 30,
+          "count_new_papers": "498",
+          "total": "721"
+        },
+        {
+          "url": "https://api.biorxiv.org/details/biorxiv/2026-09-01/2026-09-30/60?category=bioinformatics",
+          "status": "ok",
+          "category": "bioinformatics",
+          "interval": "2026-09-01:2026-09-30",
+          "cursor": "60",
+          "count": 30,
+          "count_new_papers": "498",
+          "total": "721"
+        },
+        {
+          "url": "https://api.biorxiv.org/details/biorxiv/2026-09-01/2026-09-30/90?category=bioinformatics",
+          "status": "ok",
+          "category": "bioinformatics",
+          "interval": "2026-09-01:2026-09-30",
+          "cursor": "90",
+          "count": 30,
+          "count_new_papers": "498",
+          "total": "721"
+        },
+        {
+          "url": "https://api.biorxiv.org/details/biorxiv/2026-09-01/2026-09-30/120?category=bioinformatics",
+          "status": "ok",
+          "category": "bioinformatics",
+          "interval": "2026-09-01:2026-09-30",
+          "cursor": "120",
+          "count": 30,
+          "count_new_papers": "498",
+          "total": "721"
+        },
+        {
+          "url": "https://api.biorxiv.org/details/biorxiv/2026-09-01/2026-09-30/150?category=bioinformatics",
+          "status": "ok",
+          "category": "bioinformatics",
+          "interval": "2026-09-01:2026-09-30",
+          "cursor": "150",
+          "count": 30,
+          "count_new_papers": "498",
+          "total": "721"
+        },
+        {
+          "url": "https://api.biorxiv.org/details/biorxiv/2026-09-01/2026-09-30/180?category=bioinformatics",
+          "status": "ok",
+          "category": "bioinformatics",
+          "interval": "2026-09-01:2026-09-30",
+          "cursor": "180",
+          "count": 30,
+          "count_new_papers": "498",
+          "total": "721"
+        },
+        {
+          "url": "https://api.biorxiv.org/details/biorxiv/2026-09-01/2026-09-30/210?category=bioinformatics",
+          "status": "ok",
+          "category": "bioinformatics",
+          "interval": "2026-09-01:2026-09-30",
+          "cursor": "210",
+          "count": 30,
+          "count_new_papers": "498",
+          "total": "721"
+        },
+        {
+          "url": "https://api.biorxiv.org/details/biorxiv/2026-09-01/2026-09-30/240?category=bioinformatics",
+          "status": "ok",
+          "category": "bioinformatics",
+          "interval": "2026-09-01:2026-09-30",
+          "cursor": "240",
+          "count": 30,
+          "count_new_papers": "498",
+          "total": "721"
+        },
+        {
+          "url": "https://api.biorxiv.org/details/biorxiv/2026-09-01/2026-09-30/270?category=bioinformatics",
+          "status": "ok",
+          "category": "bioinformatics",
+          "interval": "2026-09-01:2026-09-30",
+          "cursor": "270",
+          "count": 30,
+          "count_new_papers": "498",
+          "total": "721"
+        },
+        {
+          "url": "https://api.biorxiv.org/details/biorxiv/2026-09-01/2026-09-30/300?category=bioinformatics",
+          "status": "ok",
+          "category": "bioinformatics",
+          "interval": "2026-09-01:2026-09-30",
+          "cursor": "300",
+          "count": 30,
+          "count_new_papers": "498",
+          "total": "721"
+        },
+        {
+          "url": "https://api.biorxiv.org/details/biorxiv/2026-09-01/2026-09-30/330?category=bioinformatics",
+          "status": "ok",
+          "category": "bioinformatics",
+          "interval": "2026-09-01:2026-09-30",
+          "cursor": "330",
+          "count": 30,
+          "count_new_papers": "498",
+          "total": "721"
+        },
+        {
+          "url": "https://api.biorxiv.org/details/biorxiv/2026-09-01/2026-09-30/360?category=bioinformatics",
+          "status": "ok",
+          "category": "bioinformatics",
+          "interval": "2026-09-01:2026-09-30",
+          "cursor": "360",
+          "count": 30,
+          "count_new_papers": "498",
+          "total": "721"
+        },
+        {
+          "url": "https://api.biorxiv.org/details/biorxiv/2026-09-01/2026-09-30/390?category=bioinformatics",
+          "status": "ok",
+          "category": "bioinformatics",
+          "interval": "2026-09-01:2026-09-30",
+          "cursor": "390",
+          "count": 30,
+          "count_new_papers": "498",
+          "total": "721"
+        },
+        {
+          "url": "https://api.biorxiv.org/details/biorxiv/2026-09-01/2026-09-30/420?category=bioinformatics",
+          "status": "ok",
+          "category": "bioinformatics",
+          "interval": "2026-09-01:2026-09-30",
+          "cursor": "420",
+          "count": 30,
+          "count_new_papers": "498",
+          "total": "721"
+        },
+        {
+          "url": "https://api.biorxiv.org/details/biorxiv/2026-09-01/2026-09-30/450?category=bioinformatics",
+          "status": "ok",
+          "category": "bioinformatics",
+          "interval": "2026-09-01:2026-09-30",
+          "cursor": "450",
+          "count": 30,
+          "count_new_papers": "498",
+          "total": "721"
+        },
+        {
+          "url": "https://api.biorxiv.org/details/biorxiv/2026-09-01/2026-09-30/480?category=bioinformatics",
+          "status": "ok",
+          "category": "bioinformatics",
+          "interval": "2026-09-01:2026-09-30",
+          "cursor": "480",
+          "count": 30,
+          "count_new_papers": "498",
+          "total": "721"
+        },
+        {
+          "url": "https://api.biorxiv.org/details/biorxiv/2026-09-01/2026-09-30/510?category=bioinformatics",
+          "status": "ok",
+          "category": "bioinformatics",
+          "interval": "2026-09-01:2026-09-30",
+          "cursor": "510",
+          "count": 30,
+          "count_new_papers": "498",
+          "total": "721"
+        },
+        {
+          "url": "https://api.biorxiv.org/details/biorxiv/2026-09-01/2026-09-30/540?category=bioinformatics",
+          "status": "ok",
+          "category": "bioinformatics",
+          "interval": "2026-09-01:2026-09-30",
+          "cursor": "540",
+          "count": 30,
+          "count_new_papers": "498",
+          "total": "721"
+        },
+        {
+          "url": "https://api.biorxiv.org/details/biorxiv/2026-09-01/2026-09-30/570?category=bioinformatics",
+          "status": "ok",
+          "category": "bioinformatics",
+          "interval": "2026-09-01:2026-09-30",
+          "cursor": "570",
+          "count": 30,
+          "count_new_papers": "498",
+          "total": "721"
+        },
+        {
+          "url": "https://api.biorxiv.org/details/biorxiv/2026-09-01/2026-09-30/600?category=bioinformatics",
+          "status": "ok",
+          "category": "bioinformatics",
+          "interval": "2026-09-01:2026-09-30",
+          "cursor": "600",
+          "count": 30,
+          "count_new_papers": "498",
+          "total": "721"
+        },
+        {
+          "url": "https://api.biorxiv.org/details/biorxiv/2026-09-01/2026-09-30/630?category=bioinformatics",
+          "status": "ok",
+          "category": "bioinformatics",
+          "interval": "2026-09-01:2026-09-30",
+          "cursor": "630",
+          "count": 30,
+          "count_new_papers": "498",
+          "total": "721"
+        },
+        {
+          "url": "https://api.biorxiv.org/details/biorxiv/2026-09-01/2026-09-30/660?category=bioinformatics",
+          "status": "ok",
+          "category": "bioinformatics",
+          "interval": "2026-09-01:2026-09-30",
+          "cursor": "660",
+          "count": 30,
+          "count_new_papers": "498",
+          "total": "721"
+        },
+        {
+          "url": "https://api.biorxiv.org/details/biorxiv/2026-09-01/2026-09-30/690?category=bioinformatics",
+          "status": "ok",
+          "category": "bioinformatics",
+          "interval": "2026-09-01:2026-09-30",
+          "cursor": "690",
+          "count": 30,
+          "count_new_papers": "498",
+          "total": "721"
+        },
+        {
+          "url": "https://api.biorxiv.org/details/biorxiv/2026-09-01/2026-09-30/720?category=bioinformatics",
+          "status": "ok",
+          "category": "bioinformatics",
+          "interval": "2026-09-01:2026-09-30",
+          "cursor": "720",
+          "count": 1,
+          "count_new_papers": "498",
+          "total": "721"
+        }
+      ],
+      "all_pages_retrieved": true
+    },
+    {
+      "category": "cancer_biology",
+      "version_records": 327,
+      "unique_dois": 316,
+      "pages": [
+        {
+          "url": "https://api.biorxiv.org/details/biorxiv/2026-09-01/2026-09-30/0?category=cancer_biology",
+          "status": "ok",
+          "category": "cancer biology",
+          "interval": "2026-09-01:2026-09-30",
+          "cursor": 0,
+          "count": 30,
+          "count_new_papers": "260",
+          "total": "327"
+        },
+        {
+          "url": "https://api.biorxiv.org/details/biorxiv/2026-09-01/2026-09-30/30?category=cancer_biology",
+          "status": "ok",
+          "category": "cancer biology",
+          "interval": "2026-09-01:2026-09-30",
+          "cursor": "30",
+          "count": 30,
+          "count_new_papers": "260",
+          "total": "327"
+        },
+        {
+          "url": "https://api.biorxiv.org/details/biorxiv/2026-09-01/2026-09-30/60?category=cancer_biology",
+          "status": "ok",
+          "category": "cancer biology",
+          "interval": "2026-09-01:2026-09-30",
+          "cursor": "60",
+          "count": 30,
+          "count_new_papers": "260",
+          "total": "327"
+        },
+        {
+          "url": "https://api.biorxiv.org/details/biorxiv/2026-09-01/2026-09-30/90?category=cancer_biology",
+          "status": "ok",
+          "category": "cancer biology",
+          "interval": "2026-09-01:2026-09-30",
+          "cursor": "90",
+          "count": 30,
+          "count_new_papers": "260",
+          "total": "327"
+        },
+        {
+          "url": "https://api.biorxiv.org/details/biorxiv/2026-09-01/2026-09-30/120?category=cancer_biology",
+          "status": "ok",
+          "category": "cancer biology",
+          "interval": "2026-09-01:2026-09-30",
+          "cursor": "120",
+          "count": 30,
+          "count_new_papers": "260",
+          "total": "327"
+        },
+        {
+          "url": "https://api.biorxiv.org/details/biorxiv/2026-09-01/2026-09-30/150?category=cancer_biology",
+          "status": "ok",
+          "category": "cancer biology",
+          "interval": "2026-09-01:2026-09-30",
+          "cursor": "150",
+          "count": 30,
+          "count_new_papers": "260",
+          "total": "327"
+        },
+        {
+          "url": "https://api.biorxiv.org/details/biorxiv/2026-09-01/2026-09-30/180?category=cancer_biology",
+          "status": "ok",
+          "category": "cancer biology",
+          "interval": "2026-09-01:2026-09-30",
+          "cursor": "180",
+          "count": 30,
+          "count_new_papers": "260",
+          "total": "327"
+        },
+        {
+          "url": "https://api.biorxiv.org/details/biorxiv/2026-09-01/2026-09-30/210?category=cancer_biology",
+          "status": "ok",
+          "category": "cancer biology",
+          "interval": "2026-09-01:2026-09-30",
+          "cursor": "210",
+          "count": 30,
+          "count_new_papers": "260",
+          "total": "327"
+        },
+        {
+          "url": "https://api.biorxiv.org/details/biorxiv/2026-09-01/2026-09-30/240?category=cancer_biology",
+          "status": "ok",
+          "category": "cancer biology",
+          "interval": "2026-09-01:2026-09-30",
+          "cursor": "240",
+          "count": 30,
+          "count_new_papers": "260",
+          "total": "327"
+        },
+        {
+          "url": "https://api.biorxiv.org/details/biorxiv/2026-09-01/2026-09-30/270?category=cancer_biology",
+          "status": "ok",
+          "category": "cancer biology",
+          "interval": "2026-09-01:2026-09-30",
+          "cursor": "270",
+          "count": 30,
+          "count_new_papers": "260",
+          "total": "327"
+        },
+        {
+          "url": "https://api.biorxiv.org/details/biorxiv/2026-09-01/2026-09-30/300?category=cancer_biology",
+          "status": "ok",
+          "category": "cancer biology",
+          "interval": "2026-09-01:2026-09-30",
+          "cursor": "300",
+          "count": 27,
+          "count_new_papers": "260",
+          "total": "327"
+        }
+      ],
+      "all_pages_retrieved": true
+    },
+    {
+      "category": "genomics",
+      "version_records": 253,
+      "unique_dois": 231,
+      "pages": [
+        {
+          "url": "https://api.biorxiv.org/details/biorxiv/2026-09-01/2026-09-30/0?category=genomics",
+          "status": "ok",
+          "category": "genomics",
+          "interval": "2026-09-01:2026-09-30",
+          "cursor": 0,
+          "count": 30,
+          "count_new_papers": "179",
+          "total": "253"
+        },
+        {
+          "url": "https://api.biorxiv.org/details/biorxiv/2026-09-01/2026-09-30/30?category=genomics",
+          "status": "ok",
+          "category": "genomics",
+          "interval": "2026-09-01:2026-09-30",
+          "cursor": "30",
+          "count": 30,
+          "count_new_papers": "179",
+          "total": "253"
+        },
+        {
+          "url": "https://api.biorxiv.org/details/biorxiv/2026-09-01/2026-09-30/60?category=genomics",
+          "status": "ok",
+          "category": "genomics",
+          "interval": "2026-09-01:2026-09-30",
+          "cursor": "60",
+          "count": 30,
+          "count_new_papers": "179",
+          "total": "253"
+        },
+        {
+          "url": "https://api.biorxiv.org/details/biorxiv/2026-09-01/2026-09-30/90?category=genomics",
+          "status": "ok",
+          "category": "genomics",
+          "interval": "2026-09-01:2026-09-30",
+          "cursor": "90",
+          "count": 30,
+          "count_new_papers": "179",
+          "total": "253"
+        },
+        {
+          "url": "https://api.biorxiv.org/details/biorxiv/2026-09-01/2026-09-30/120?category=genomics",
+          "status": "ok",
+          "category": "genomics",
+          "interval": "2026-09-01:2026-09-30",
+          "cursor": "120",
+          "count": 30,
+          "count_new_papers": "179",
+          "total": "253"
+        },
+        {
+          "url": "https://api.biorxiv.org/details/biorxiv/2026-09-01/2026-09-30/150?category=genomics",
+          "status": "ok",
+          "category": "genomics",
+          "interval": "2026-09-01:2026-09-30",
+          "cursor": "150",
+          "count": 30,
+          "count_new_papers": "179",
+          "total": "253"
+        },
+        {
+          "url": "https://api.biorxiv.org/details/biorxiv/2026-09-01/2026-09-30/180?category=genomics",
+          "status": "ok",
+          "category": "genomics",
+          "interval": "2026-09-01:2026-09-30",
+          "cursor": "180",
+          "count": 30,
+          "count_new_papers": "179",
+          "total": "253"
+        },
+        {
+          "url": "https://api.biorxiv.org/details/biorxiv/2026-09-01/2026-09-30/210?category=genomics",
+          "status": "ok",
+          "category": "genomics",
+          "interval": "2026-09-01:2026-09-30",
+          "cursor": "210",
+          "count": 30,
+          "count_new_papers": "179",
+          "total": "253"
+        },
+        {
+          "url": "https://api.biorxiv.org/details/biorxiv/2026-09-01/2026-09-30/240?category=genomics",
+          "status": "ok",
+          "category": "genomics",
+          "interval": "2026-09-01:2026-09-30",
+          "cursor": "240",
+          "count": 13,
+          "count_new_papers": "179",
+          "total": "253"
+        }
+      ],
+      "all_pages_retrieved": true
+    },
+    {
+      "category": "systems_biology",
+      "version_records": 130,
+      "unique_dois": 125,
+      "pages": [
+        {
+          "url": "https://api.biorxiv.org/details/biorxiv/2026-09-01/2026-09-30/0?category=systems_biology",
+          "status": "ok",
+          "category": "systems biology",
+          "interval": "2026-09-01:2026-09-30",
+          "cursor": 0,
+          "count": 30,
+          "count_new_papers": "99",
+          "total": "130"
+        },
+        {
+          "url": "https://api.biorxiv.org/details/biorxiv/2026-09-01/2026-09-30/30?category=systems_biology",
+          "status": "ok",
+          "category": "systems biology",
+          "interval": "2026-09-01:2026-09-30",
+          "cursor": "30",
+          "count": 30,
+          "count_new_papers": "99",
+          "total": "130"
+        },
+        {
+          "url": "https://api.biorxiv.org/details/biorxiv/2026-09-01/2026-09-30/60?category=systems_biology",
+          "status": "ok",
+          "category": "systems biology",
+          "interval": "2026-09-01:2026-09-30",
+          "cursor": "60",
+          "count": 30,
+          "count_new_papers": "99",
+          "total": "130"
+        },
+        {
+          "url": "https://api.biorxiv.org/details/biorxiv/2026-09-01/2026-09-30/90?category=systems_biology",
+          "status": "ok",
+          "category": "systems biology",
+          "interval": "2026-09-01:2026-09-30",
+          "cursor": "90",
+          "count": 30,
+          "count_new_papers": "99",
+          "total": "130"
+        },
+        {
+          "url": "https://api.biorxiv.org/details/biorxiv/2026-09-01/2026-09-30/120?category=systems_biology",
+          "status": "ok",
+          "category": "systems biology",
+          "interval": "2026-09-01:2026-09-30",
+          "cursor": "120",
+          "count": 10,
+          "count_new_papers": "99",
+          "total": "130"
+        }
+      ],
+      "all_pages_retrieved": true
+    }
+  ],
+  "version_records": 1431,
+  "unique_dois": 1345,
+  "title_keyword_candidates": 287,
+  "selected": 16,
+  "screening_note": "Four categories enumerated completely; keyword title screening produced 287 candidates. Selective title review and abstract review of shortlisted methods/resources followed. Not a full-text review of every record. HARP retrieved separately from immunology to resolve prior audit candidate.",
+  "selected_evidence": [
+    {
+      "doi": "10.64898/2026.09.15.751825",
+      "evidence_url": "https://api.biorxiv.org/details/biorxiv/10.64898/2026.09.15.751825/na/json",
+      "versions": [
+        {
+          "title": "Benchmarking of bulk transcriptomic harmonization tools in a multi-platform B-cell lymphoma cohort identifies feature-specific quantile normalization and surrogate variable analysis as top-performing methods",
+          "doi": "10.64898/2026.09.15.751825",
+          "date": "2026-09-17",
+          "version": "1",
+          "category": "cancer biology",
+          "published": "NA"
+        }
+      ],
+      "reviewed_abstract_sha256": "f4ad4c1981d32cf0b9625ad4f83751b25cef1af502befcbb5af03e2c908a8a1b"
+    },
+    {
+      "doi": "10.64898/2026.09.03.748766",
+      "evidence_url": "https://api.biorxiv.org/details/biorxiv/10.64898/2026.09.03.748766/na/json",
+      "versions": [
+        {
+          "title": "Atlas-scale single-cell analysis beyond in-memory paradigm with scAtlasPy",
+          "doi": "10.64898/2026.09.03.748766",
+          "date": "2026-09-08",
+          "version": "1",
+          "category": "bioinformatics",
+          "published": "NA"
+        }
+      ],
+      "reviewed_abstract_sha256": "16cdc88a1eef876b808e53ee3a3a5b517f296e2aa4b0175d0ee3d3049e27445f"
+    },
+    {
+      "doi": "10.64898/2026.09.04.749534",
+      "evidence_url": "https://api.biorxiv.org/details/biorxiv/10.64898/2026.09.04.749534/na/json",
+      "versions": [
+        {
+          "title": "spaCraft: calibrated power analysis and sample-size planning for multi-sample spatial transcriptomics",
+          "doi": "10.64898/2026.09.04.749534",
+          "date": "2026-09-10",
+          "version": "1",
+          "category": "bioinformatics",
+          "published": "NA"
+        }
+      ],
+      "reviewed_abstract_sha256": "a24c540e37eb6e57697439ab6f0e79c4c07c915a2e924bf1626f0a1c9b8919fa"
+    },
+    {
+      "doi": "10.64898/2026.09.17.752411",
+      "evidence_url": "https://api.biorxiv.org/details/biorxiv/10.64898/2026.09.17.752411/na/json",
+      "versions": [
+        {
+          "title": "Post-selection inference in testing for phenotypic differences with scRNA-Seq",
+          "doi": "10.64898/2026.09.17.752411",
+          "date": "2026-09-18",
+          "version": "1",
+          "category": "bioinformatics",
+          "published": "NA"
+        }
+      ],
+      "reviewed_abstract_sha256": "5425cc3c948aee7a36553d43fd48ba7a56b281ce548ea151fb0d9a3b50ff1ffe"
+    },
+    {
+      "doi": "10.64898/2026.09.14.750241",
+      "evidence_url": "https://api.biorxiv.org/details/biorxiv/10.64898/2026.09.14.750241/na/json",
+      "versions": [
+        {
+          "title": "Uniformly processed transcriptome-wide alternative splicing profiles for pediatric cancer research",
+          "doi": "10.64898/2026.09.14.750241",
+          "date": "2026-09-21",
+          "version": "1",
+          "category": "bioinformatics",
+          "published": "NA"
+        }
+      ],
+      "reviewed_abstract_sha256": "5e3b45627495f964e075fc1744e0736363003ece5a720657281cc0ffa4c27107"
+    },
+    {
+      "doi": "10.64898/2026.09.16.751717",
+      "evidence_url": "https://api.biorxiv.org/details/biorxiv/10.64898/2026.09.16.751717/na/json",
+      "versions": [
+        {
+          "title": "MINT infers the latent single-cell spatial transcriptome from paired histology",
+          "doi": "10.64898/2026.09.16.751717",
+          "date": "2026-09-22",
+          "version": "1",
+          "category": "bioinformatics",
+          "published": "NA"
+        }
+      ],
+      "reviewed_abstract_sha256": "530cc4954686a97263ddeea0c17b32f36955e0250cefe4ad2237b567952def81"
+    },
+    {
+      "doi": "10.64898/2026.09.20.753029",
+      "evidence_url": "https://api.biorxiv.org/details/biorxiv/10.64898/2026.09.20.753029/na/json",
+      "versions": [
+        {
+          "title": "MERFISHEYES: Web-based Visualization and Sharing Platform for Single-cell and Single-molecule Spatial Transcriptomics",
+          "doi": "10.64898/2026.09.20.753029",
+          "date": "2026-09-25",
+          "version": "1",
+          "category": "bioinformatics",
+          "published": "NA"
+        },
+        {
+          "title": "MERFISHEYES: Web-based Visualization and Sharing Platform for Single-cell and Single-molecule Spatial Transcriptomics",
+          "doi": "10.64898/2026.09.20.753029",
+          "date": "2026-09-25",
+          "version": "2",
+          "category": "bioinformatics",
+          "published": "NA"
+        }
+      ],
+      "reviewed_abstract_sha256": "b5c0d8684e472664249ac0b35760ceba14700212adfa89eb6ec1144df1be757a"
+    },
+    {
+      "doi": "10.64898/2026.09.26.754667",
+      "evidence_url": "https://api.biorxiv.org/details/biorxiv/10.64898/2026.09.26.754667/na/json",
+      "versions": [
+        {
+          "title": "Accurate and scalable demultiplexing of single-cell RNA sequencing using BEACON",
+          "doi": "10.64898/2026.09.26.754667",
+          "date": "2026-09-30",
+          "version": "1",
+          "category": "bioinformatics",
+          "published": "NA"
+        }
+      ],
+      "reviewed_abstract_sha256": "58d48dc79a7135126a2e5cfd52035821e40204876e2bbd1b788a13c6e46d74f1"
+    },
+    {
+      "doi": "10.64898/2026.09.01.748518",
+      "evidence_url": "https://api.biorxiv.org/details/biorxiv/10.64898/2026.09.01.748518/na/json",
+      "versions": [
+        {
+          "title": "Systematic benchmarking of commercial workflows for isoform-resolved single-nucleus transcriptomics",
+          "doi": "10.64898/2026.09.01.748518",
+          "date": "2026-09-04",
+          "version": "1",
+          "category": "genomics",
+          "published": "NA"
+        }
+      ],
+      "reviewed_abstract_sha256": "e76fb26513b05484092a64c3491261da250a04380f00c2f058fef975c92c72ed"
+    },
+    {
+      "doi": "10.64898/2026.09.07.749899",
+      "evidence_url": "https://api.biorxiv.org/details/biorxiv/10.64898/2026.09.07.749899/na/json",
+      "versions": [
+        {
+          "title": "RNA-aware tissue preservation workflows for high-quality spatial transcriptomics",
+          "doi": "10.64898/2026.09.07.749899",
+          "date": "2026-09-11",
+          "version": "1",
+          "category": "genomics",
+          "published": "NA"
+        }
+      ],
+      "reviewed_abstract_sha256": "39084d22d337f2d832fd9c7eae5e48ac1d3e13b2c4da81bb38f2f1e2028ed427"
+    },
+    {
+      "doi": "10.64898/2026.09.09.750464",
+      "evidence_url": "https://api.biorxiv.org/details/biorxiv/10.64898/2026.09.09.750464/na/json",
+      "versions": [
+        {
+          "title": "Bramble: projection of spliced genomic alignments into transcriptomic space for improved transcript quantification",
+          "doi": "10.64898/2026.09.09.750464",
+          "date": "2026-09-15",
+          "version": "1",
+          "category": "genomics",
+          "published": "NA"
+        }
+      ],
+      "reviewed_abstract_sha256": "a5bfcdfc0b941fee8615d3e45002d3a9aeca0ec94a1d042b97971f44acf61fee"
+    },
+    {
+      "doi": "10.64898/2026.09.17.752063",
+      "evidence_url": "https://api.biorxiv.org/details/biorxiv/10.64898/2026.09.17.752063/na/json",
+      "versions": [
+        {
+          "title": "Single-Cell Study Designs Are Systematically Underpowered for Small-Effect Genes",
+          "doi": "10.64898/2026.09.17.752063",
+          "date": "2026-09-19",
+          "version": "1",
+          "category": "genomics",
+          "published": "NA"
+        }
+      ],
+      "reviewed_abstract_sha256": "f0197111b85795e137bbdebf3883ea3cd5fd18505a37a5eac34f66fcf0fc43ee"
+    },
+    {
+      "doi": "10.64898/2026.09.25.754561",
+      "evidence_url": "https://api.biorxiv.org/details/biorxiv/10.64898/2026.09.25.754561/na/json",
+      "versions": [
+        {
+          "title": "A single-nucleus multi-omic atlas of gene regulation across 21 adult human tissues",
+          "doi": "10.64898/2026.09.25.754561",
+          "date": "2026-09-27",
+          "version": "1",
+          "category": "genomics",
+          "published": "NA"
+        },
+        {
+          "title": "Single-Nucleus Multi-Omic Atlas Maps Regulatory Architecture and Non-Coding Variant Effects across Adult Human Tissues",
+          "doi": "10.64898/2026.09.25.754561",
+          "date": "2026-09-30",
+          "version": "2",
+          "category": "genomics",
+          "published": "NA"
+        }
+      ],
+      "reviewed_abstract_sha256": "d9f0f7b2fd21864ced0c45550ab73f46d04ad69688d1f320ec30ae48c4d16b50"
+    },
+    {
+      "doi": "10.64898/2026.09.08.750130",
+      "evidence_url": "https://api.biorxiv.org/details/biorxiv/10.64898/2026.09.08.750130/na/json",
+      "versions": [
+        {
+          "title": "LIGER2: Scalable Single-Cell Integration with On-Disk Datasets",
+          "doi": "10.64898/2026.09.08.750130",
+          "date": "2026-09-14",
+          "version": "1",
+          "category": "bioinformatics",
+          "published": "NA"
+        }
+      ],
+      "reviewed_abstract_sha256": "29b246cc2914c02a458e95172f0fa06f2679061615fd44ee7ae695864af01896"
+    },
+    {
+      "doi": "10.64898/2026.09.09.750350",
+      "evidence_url": "https://api.biorxiv.org/details/biorxiv/10.64898/2026.09.09.750350/na/json",
+      "versions": [
+        {
+          "title": "Accurate and scalable decontamination of imaging-based spatial transcriptomics via optimal transport",
+          "doi": "10.64898/2026.09.09.750350",
+          "date": "2026-09-15",
+          "version": "1",
+          "category": "bioinformatics",
+          "published": "NA"
+        }
+      ],
+      "reviewed_abstract_sha256": "26acf412b48fb34b0e447f7a9461afc90f37a571325d3f4a14b79f418562c488"
+    },
+    {
+      "doi": "10.64898/2026.09.21.749940",
+      "evidence_url": "https://api.biorxiv.org/details/biorxiv/10.64898/2026.09.21.749940/na/json",
+      "versions": [
+        {
+          "title": "A Community-Driven Single-Cell PBMC Reference Integrating Landmark Datasets Spanning Health and Disease",
+          "doi": "10.64898/2026.09.21.749940",
+          "date": "2026-09-25",
+          "version": "1",
+          "category": "immunology",
+          "published": "NA"
+        }
+      ],
+      "reviewed_abstract_sha256": "91f0d7c8215eb908e9de4e34b13506cbf664e230e164504e1eb76c087c78c477"
+    }
+  ],
+  "screened_candidates": [
+    {
+      "title": "Immune-metabolic-redox ecosystems define spatially organized tumor states in head and neck squamous cell carcinoma.",
+      "doi": "10.64898/2026.08.31.746545",
+      "date": "2026-09-01",
+      "version": "1",
+      "category": "cancer biology",
+      "selected": false
+    },
+    {
+      "title": "Spatial Mapping of the Lung Cancer Ecosystem Reveals Distinct Patterns of Intratumoral and Internodular Heterogeneity",
+      "doi": "10.64898/2026.08.31.748358",
+      "date": "2026-09-01",
+      "version": "1",
+      "category": "cancer biology",
+      "selected": false
+    },
+    {
+      "title": "VITAL-3D: Volumetric Single-Cell Quantification Reveals Microenvironment-Dependent Drug Responses in Breast Cancer",
+      "doi": "10.64898/2026.08.31.748448",
+      "date": "2026-09-02",
+      "version": "1",
+      "category": "cancer biology",
+      "selected": false
+    },
+    {
+      "title": "Single-cell Pharmacogenomic Landscapes of Epigenetic Drug Resistance Revealed by Gastric Cancer Perturb-seq",
+      "doi": "10.1101/2025.04.16.649236",
+      "date": "2026-09-03",
+      "version": "3",
+      "category": "cancer biology",
+      "selected": false
+    },
+    {
+      "title": "Volumetric Cyclic Immunofluorescence for 3D Spatial Profiling of Tumour, Stroma, and Immune Structures in Human FFPE Tissue",
+      "doi": "10.64898/2026.05.17.725158",
+      "date": "2026-09-03",
+      "version": "3",
+      "category": "cancer biology",
+      "selected": false
+    },
+    {
+      "title": "Integrative single cell analysis of CD8+ T-cells across early and advanced oral cancers reveals signatures of anti-tumour activity",
+      "doi": "10.64898/2026.09.02.748952",
+      "date": "2026-09-03",
+      "version": "1",
+      "category": "cancer biology",
+      "selected": false
+    },
+    {
+      "title": "AURORA: a longitudinal single-cell framework for resolving autophagy-associated remodeling under nutrient stress",
+      "doi": "10.1101/2025.03.12.642827",
+      "date": "2026-09-03",
+      "version": "2",
+      "category": "cancer biology",
+      "selected": false
+    },
+    {
+      "title": "Spatial multi-omics and single-cell transcriptomics uncover senescence-associated cellular programs during colon adenoma to cancer progression",
+      "doi": "10.64898/2026.08.06.743310",
+      "date": "2026-09-04",
+      "version": "2",
+      "category": "cancer biology",
+      "selected": false
+    },
+    {
+      "title": "MorphoNavigator-3D: Generalizable single-cell phenotyping of cancer spheroids using Bayesian-optimized deep-learning workflows",
+      "doi": "10.1101/2024.09.08.611898",
+      "date": "2026-09-06",
+      "version": "2",
+      "category": "cancer biology",
+      "selected": false
+    },
+    {
+      "title": "Chromosomal mutational signatures of DNA damaging agents at single cell resolution",
+      "doi": "10.64898/2026.08.30.748106",
+      "date": "2026-09-07",
+      "version": "1",
+      "category": "cancer biology",
+      "selected": false
+    },
+    {
+      "title": "Co-translational O-glycosylation driven by GALNTs spatial reprogramming fosters pancreatic cancer growth",
+      "doi": "10.64898/2026.09.04.749345",
+      "date": "2026-09-08",
+      "version": "1",
+      "category": "cancer biology",
+      "selected": false
+    },
+    {
+      "title": "The Indian Cancer Genome Atlas:A Multi-Omics Resource for Advancing Cancer Research",
+      "doi": "10.1101/2025.03.25.645286",
+      "date": "2026-09-08",
+      "version": "2",
+      "category": "cancer biology",
+      "selected": false
+    },
+    {
+      "title": "Spatial multi-omics resolve epithelium-fibroblast gradients and highlight NESTIN-NOTCH1-expressing subepithelial fibroblasts during human pancreatic tumorigenesis",
+      "doi": "10.64898/2026.09.04.749182",
+      "date": "2026-09-09",
+      "version": "1",
+      "category": "cancer biology",
+      "selected": false
+    },
+    {
+      "title": "Transcriptome profiling of cell-free RNAs in prostate cancer patients on active surveillance",
+      "doi": "10.64898/2026.09.03.744568",
+      "date": "2026-09-09",
+      "version": "1",
+      "category": "cancer biology",
+      "selected": false
+    },
+    {
+      "title": "Transcriptomic FOLFIRINOX sensitivity signatures stratify overall survival and reveal directional reclassification after neoadjuvant FOLFIRINOX in borderline resectable and locally advanced pancreatic cancer",
+      "doi": "10.64898/2026.09.07.749857",
+      "date": "2026-09-09",
+      "version": "1",
+      "category": "cancer biology",
+      "selected": false
+    },
+    {
+      "title": "Empirical Evaluation of Single-Cell Foundation Models for Predicting Cancer Outcomes",
+      "doi": "10.1101/2025.10.31.685892",
+      "date": "2026-09-09",
+      "version": "2",
+      "category": "cancer biology",
+      "selected": false
+    },
+    {
+      "title": "Single-cell proteomics maps circulating monocyte dynamics in advanced head and neck squamous cell carcinoma",
+      "doi": "10.64898/2026.09.08.750082",
+      "date": "2026-09-10",
+      "version": "1",
+      "category": "cancer biology",
+      "selected": false
+    },
+    {
+      "title": "ALK variants Differentially Modulate Neuroblastoma Tumor Behavior and Transcriptome in a Cellular Context-Dependent Manner",
+      "doi": "10.64898/2026.09.08.750106",
+      "date": "2026-09-10",
+      "version": "1",
+      "category": "cancer biology",
+      "selected": false
+    },
+    {
+      "title": "Pan-cancer prediction of tumor immune activation and response to immune checkpoint blockade from tumor transcriptomics and histopathology",
+      "doi": "10.1101/2025.06.27.661875",
+      "date": "2026-09-12",
+      "version": "3",
+      "category": "cancer biology",
+      "selected": false
+    },
+    {
+      "title": "Longitudinal single-cell and spatial transcriptomics reveals intratumor heterogeneity, therapeutic response, and comparative value of canine marginal zone lymphoma",
+      "doi": "10.64898/2026.09.10.750253",
+      "date": "2026-09-14",
+      "version": "1",
+      "category": "cancer biology",
+      "selected": false
+    },
+    {
+      "title": "An Oxidative Stress-Associated Seven-Gene Prognostic Signature in Lung Adenocarcinoma: Integrative Transcriptomic Analysis Across Public Cohorts",
+      "doi": "10.64898/2026.09.04.749312",
+      "date": "2026-09-15",
+      "version": "1",
+      "category": "cancer biology",
+      "selected": false
+    },
+    {
+      "title": "Primary tumor transcriptomic signature is associated with locoregional dissemination in canine mammary carcinoma",
+      "doi": "10.64898/2026.09.10.750581",
+      "date": "2026-09-15",
+      "version": "1",
+      "category": "cancer biology",
+      "selected": false
+    },
+    {
+      "title": "Spatially resolved gene expression and tumour-microenvironment interactions across malignant transformation in IDH-mutant glioma",
+      "doi": "10.64898/2026.09.08.749421",
+      "date": "2026-09-16",
+      "version": "1",
+      "category": "cancer biology",
+      "selected": false
+    },
+    {
+      "title": "Functional spatial transcriptomics uncover LMO7 as a fusion-regulated and clinically relevant driver of metastasis in Ewing sarcoma",
+      "doi": "10.64898/2026.08.27.747513",
+      "date": "2026-09-17",
+      "version": "2",
+      "category": "cancer biology",
+      "selected": false
+    },
+    {
+      "title": "Benchmarking of bulk transcriptomic harmonization tools in a multi-platform B-cell lymphoma cohort identifies feature-specific quantile normalization and surrogate variable analysis as top-performing methods",
+      "doi": "10.64898/2026.09.15.751825",
+      "date": "2026-09-17",
+      "version": "1",
+      "category": "cancer biology",
+      "selected": true
+    },
+    {
+      "title": "A Measurable Systemic Immune Phenotype Links Circulating Myeloid Dysfunction to Tumour Spatial Organization in Gastroesophageal Adenocarcinoma",
+      "doi": "10.64898/2026.09.17.752366",
+      "date": "2026-09-18",
+      "version": "1",
+      "category": "cancer biology",
+      "selected": false
+    },
+    {
+      "title": "Spatial/molecular heterogeneity and treatment response in HER2+ early breast cancer: Translational analyses from the DAPHNe trial",
+      "doi": "10.64898/2026.09.17.752407",
+      "date": "2026-09-18",
+      "version": "1",
+      "category": "cancer biology",
+      "selected": false
+    },
+    {
+      "title": "Telmisartan alters the transcriptomes of cancer associated fibroblasts and fibrocytes in a solid tumour model",
+      "doi": "10.64898/2026.09.12.751091",
+      "date": "2026-09-18",
+      "version": "1",
+      "category": "cancer biology",
+      "selected": false
+    },
+    {
+      "title": "Spatially resolved multimodal hallmarks of response to neoadjuvant immunotherapies in the melanoma ecosystem in 2D and 3D",
+      "doi": "10.64898/2026.09.12.751186",
+      "date": "2026-09-18",
+      "version": "1",
+      "category": "cancer biology",
+      "selected": false
+    },
+    {
+      "title": "Cross-species spatial profiling links progranulin to an immune suppressive niche in brain metastasis",
+      "doi": "10.64898/2026.09.13.751277",
+      "date": "2026-09-19",
+      "version": "1",
+      "category": "cancer biology",
+      "selected": false
+    },
+    {
+      "title": "Conserved Metastatic Cell States and Spatial Immune Microenvironment Remodeling Define Pancreatic Cancer Liver Metastases",
+      "doi": "10.64898/2026.05.27.728281",
+      "date": "2026-09-20",
+      "version": "2",
+      "category": "cancer biology",
+      "selected": false
+    },
+    {
+      "title": "Differential Cytotoxicity of PVP-Copper Nanoparticles in Breast Cancer Cell Lines: Insights from Basal Transcriptomic Profiles",
+      "doi": "10.64898/2026.09.21.753010",
+      "date": "2026-09-22",
+      "version": "1",
+      "category": "cancer biology",
+      "selected": false
+    },
+    {
+      "title": "A fibroblast-rich transcriptomic axis reflects stromal remodeling within the CMS4 phenotype in colorectal cancer",
+      "doi": "10.64898/2026.09.18.752659",
+      "date": "2026-09-22",
+      "version": "1",
+      "category": "cancer biology",
+      "selected": false
+    },
+    {
+      "title": "Spatially-resolved multimodal profiling identifies functionally-heterogeneous cancer-associated fibroblasts associated with poor radiotherapy outcomes in muscle-invasive bladder cancer.",
+      "doi": "10.64898/2026.09.18.752662",
+      "date": "2026-09-22",
+      "version": "1",
+      "category": "cancer biology",
+      "selected": false
+    },
+    {
+      "title": "Stromal innervation is prognostic in non-muscle-invasive bladder cancer and predicted by a distinct microenvironmental transcriptomic signature",
+      "doi": "10.64898/2026.09.21.751588",
+      "date": "2026-09-23",
+      "version": "1",
+      "category": "cancer biology",
+      "selected": false
+    },
+    {
+      "title": "Longitudinal transcriptomic analysis reveals adaptive transcript usage remodeling associated with PARP inhibitor resistance",
+      "doi": "10.64898/2026.09.22.753421",
+      "date": "2026-09-23",
+      "version": "1",
+      "category": "cancer biology",
+      "selected": false
+    },
+    {
+      "title": "CNN-based learning of single-cell transcriptomes reveals a blood-detectable multi-cancer signature of brain metastasis",
+      "doi": "10.1101/2024.03.08.584083",
+      "date": "2026-09-23",
+      "version": "6",
+      "category": "cancer biology",
+      "selected": false
+    },
+    {
+      "title": "Single-Cell Analysis of Non-Functioning Gonadotroph Tumors Identifies Lineage Infidelity and Tumor Growth Programs",
+      "doi": "10.64898/2026.09.17.752250",
+      "date": "2026-09-23",
+      "version": "1",
+      "category": "cancer biology",
+      "selected": false
+    },
+    {
+      "title": "Unsupervised transcriptomic analysis of paired pre- and post-treatment specimens reveals divergent chemoimmunomodulatory induction trajectories in breast cancer",
+      "doi": "10.64898/2026.09.24.754178",
+      "date": "2026-09-28",
+      "version": "1",
+      "category": "cancer biology",
+      "selected": false
+    },
+    {
+      "title": "Spatial immune profiling reveals lymphocyte confinement to myeloid-mesenchymal niches and heterogeneous therapeutic T-cell opportunity in pediatric ependymoma",
+      "doi": "10.64898/2026.09.24.754209",
+      "date": "2026-09-28",
+      "version": "1",
+      "category": "cancer biology",
+      "selected": false
+    },
+    {
+      "title": "Spatial analysis of canine glioma reveals heterogeneous intratumoral niches characterized by distinct patterns of cell plasticity and immunosuppression",
+      "doi": "10.64898/2026.09.24.754227",
+      "date": "2026-09-28",
+      "version": "1",
+      "category": "cancer biology",
+      "selected": false
+    },
+    {
+      "title": "Deciphering the association of spatial landscapes of DCIS with recurrence as invasive breast cancer",
+      "doi": "10.64898/2026.09.25.754326",
+      "date": "2026-09-28",
+      "version": "1",
+      "category": "cancer biology",
+      "selected": false
+    },
+    {
+      "title": "Integrated immunopeptidomics and transcriptomics reveal a cancer-restricted non-canonical HLA class I ligandome in medulloblastoma",
+      "doi": "10.64898/2026.09.26.754718",
+      "date": "2026-09-28",
+      "version": "1",
+      "category": "cancer biology",
+      "selected": false
+    },
+    {
+      "title": "ctDNA Release Heterogeneity in Luminal Breast Cancer Revealed by Single-Cell Multi-Omics Spatial Analysis",
+      "doi": "10.64898/2026.09.27.754855",
+      "date": "2026-09-28",
+      "version": "1",
+      "category": "cancer biology",
+      "selected": false
+    },
+    {
+      "title": "Single-cell informed metabolic modeling reveals organ-specific metabolic adaptations in breast cancer organotropism",
+      "doi": "10.64898/2026.09.01.748342",
+      "date": "2026-09-03",
+      "version": "1",
+      "category": "systems biology",
+      "selected": false
+    },
+    {
+      "title": "PhysiCelldFBA: Linking single-cell genome-scale metabolism to spatially explicit multicellular dynamics",
+      "doi": "10.64898/2026.09.02.748294",
+      "date": "2026-09-03",
+      "version": "1",
+      "category": "systems biology",
+      "selected": false
+    },
+    {
+      "title": "Living multicellular systems induce decodable spatial patterns in bacterial collectives",
+      "doi": "10.64898/2026.09.02.748853",
+      "date": "2026-09-03",
+      "version": "1",
+      "category": "systems biology",
+      "selected": false
+    },
+    {
+      "title": "Unravelling drug resistant proteotypes through phenotype-resolved proteomics of single-cell derived colonies",
+      "doi": "10.1101/2025.10.11.681009",
+      "date": "2026-09-03",
+      "version": "3",
+      "category": "systems biology",
+      "selected": false
+    },
+    {
+      "title": "Co-fluctuations of genes in single cells predict transcriptome-wide outcomes to perturbations",
+      "doi": "10.1101/2025.06.27.661814",
+      "date": "2026-09-03",
+      "version": "2",
+      "category": "systems biology",
+      "selected": false
+    },
+    {
+      "title": "Stable epigenetic states set single-cell activation thresholds in mammalian expression systems",
+      "doi": "10.64898/2026.09.04.749524",
+      "date": "2026-09-09",
+      "version": "1",
+      "category": "systems biology",
+      "selected": false
+    },
+    {
+      "title": "Multi-omic dissection of reversible and persistent molecular alterations in diet-induced obesity",
+      "doi": "10.64898/2026.09.08.749914",
+      "date": "2026-09-10",
+      "version": "1",
+      "category": "systems biology",
+      "selected": false
+    },
+    {
+      "title": "A single-cell view of human tissue aging reveals architectural decline beyond cellular composition",
+      "doi": "10.64898/2026.09.06.749715",
+      "date": "2026-09-13",
+      "version": "1",
+      "category": "systems biology",
+      "selected": false
+    },
+    {
+      "title": "Site-resolved spatial and structural interactome of a human cell",
+      "doi": "10.64898/2026.09.08.749775",
+      "date": "2026-09-14",
+      "version": "1",
+      "category": "systems biology",
+      "selected": false
+    },
+    {
+      "title": "Single-cell proteomics reveals cell-type-specific functional coordination in PBMCs",
+      "doi": "10.64898/2026.09.11.751068",
+      "date": "2026-09-14",
+      "version": "1",
+      "category": "systems biology",
+      "selected": false
+    },
+    {
+      "title": "Multi-omics reveals a monocyte-macrophage-fibroblast axis in post-COVID-19 fibroinflammatory lung remodelling",
+      "doi": "10.64898/2026.09.11.750491",
+      "date": "2026-09-14",
+      "version": "1",
+      "category": "systems biology",
+      "selected": false
+    },
+    {
+      "title": "Autonomous AI-Driven Nanoscale Spatial Mapping Reveals Novel Targets and Ternary Architectures in 5xFAD Alzheimer's Disease Model",
+      "doi": "10.64898/2026.09.09.750448",
+      "date": "2026-09-16",
+      "version": "1",
+      "category": "systems biology",
+      "selected": false
+    },
+    {
+      "title": "Multi-omics Reveals Divergent Endothelial Molecular Responses to New and Old World Hantaviruses",
+      "doi": "10.64898/2026.09.11.751079",
+      "date": "2026-09-16",
+      "version": "1",
+      "category": "systems biology",
+      "selected": false
+    },
+    {
+      "title": "Building dynamical models of multi-step state transitions from single cell gene expression trajectories",
+      "doi": "10.64898/2025.12.08.693064",
+      "date": "2026-09-17",
+      "version": "2",
+      "category": "systems biology",
+      "selected": false
+    },
+    {
+      "title": "Interpretable spherical geometry of single-cell state transitions from dominant principal components",
+      "doi": "10.64898/2026.09.11.751061",
+      "date": "2026-09-18",
+      "version": "1",
+      "category": "systems biology",
+      "selected": false
+    },
+    {
+      "title": "SPECTRA: predicting cellular perturbation responses with Graph Learning over Gene Regulatory Networks",
+      "doi": "10.64898/2026.09.21.752624",
+      "date": "2026-09-22",
+      "version": "1",
+      "category": "systems biology",
+      "selected": false
+    },
+    {
+      "title": "Remodeling of the hepatic circadian transcriptome across the estrous cycle.",
+      "doi": "10.64898/2026.06.22.733912",
+      "date": "2026-09-25",
+      "version": "2",
+      "category": "systems biology",
+      "selected": false
+    },
+    {
+      "title": "TxCyto: A machine learning framework for estimating cytokine activity from whole transcriptome",
+      "doi": "10.64898/2026.09.28.754405",
+      "date": "2026-09-29",
+      "version": "1",
+      "category": "systems biology",
+      "selected": false
+    },
+    {
+      "title": "SpaReg: sparsity-based 3D reconstruction of tissue microenvironments at native resolution across morphological and spatial molecular modalities",
+      "doi": "10.64898/2026.09.28.754175",
+      "date": "2026-09-29",
+      "version": "1",
+      "category": "systems biology",
+      "selected": false
+    },
+    {
+      "title": "Multi-Omic, Multi-Tissue Responses to Acute Exercise in Sedentary Adults: Findings from the Molecular Transducers of Physical Activity Consortium",
+      "doi": "10.64898/2026.02.27.702183",
+      "date": "2026-09-30",
+      "version": "3",
+      "category": "systems biology",
+      "selected": false
+    },
+    {
+      "title": "Stress-recovery dynamics reveal a separatrix in transcriptomic landscapes across organs and aging",
+      "doi": "10.64898/2026.09.29.755524",
+      "date": "2026-09-30",
+      "version": "1",
+      "category": "systems biology",
+      "selected": false
+    },
+    {
+      "title": "An Integrated Transcriptomic Landscape of Lung Cancer Identifies Tumor Clusters of Biological Significance",
+      "doi": "10.64898/2026.03.16.712177",
+      "date": "2026-09-01",
+      "version": "2",
+      "category": "bioinformatics",
+      "selected": false
+    },
+    {
+      "title": "Spatial Transcriptomics As Rasterized Image Tensors (STARIT) characterizes cell states with subcellular molecular heterogeneity",
+      "doi": "10.64898/2025.12.18.695193",
+      "date": "2026-09-01",
+      "version": "2",
+      "category": "bioinformatics",
+      "selected": false
+    },
+    {
+      "title": "Spatial Transcriptomics Reveals Compartment-Specific Immune Activation Signatures in Ileal and Lymph Node Tissue in Treated HIV Infection",
+      "doi": "10.64898/2026.08.28.747869",
+      "date": "2026-09-01",
+      "version": "1",
+      "category": "bioinformatics",
+      "selected": false
+    },
+    {
+      "title": "The first OpenBind release: An open experimental structure-affinity dataset and benchmark for structure-based AI",
+      "doi": "10.64898/2026.08.27.747600",
+      "date": "2026-09-01",
+      "version": "1",
+      "category": "bioinformatics",
+      "selected": false
+    },
+    {
+      "title": "RECON infers regions of interest from H&E images and reconstructs whole-slide molecular profiles at single-cell resolution",
+      "doi": "10.64898/2026.08.25.747122",
+      "date": "2026-09-01",
+      "version": "1",
+      "category": "bioinformatics",
+      "selected": false
+    },
+    {
+      "title": "Mural-VISTA: A tool for mural cell-vessel interaction assessment and multiscale single-cell topo-morphological analysis",
+      "doi": "10.64898/2026.08.27.747487",
+      "date": "2026-09-01",
+      "version": "1",
+      "category": "bioinformatics",
+      "selected": false
+    },
+    {
+      "title": "Integrated Transcriptomic and CRISPR Dependency Analysis Prioritizes a CDK1-AURKB Mitotic Vulnerability Axis in Diffuse Intrinsic Pontine Glioma",
+      "doi": "10.64898/2026.08.30.748149",
+      "date": "2026-09-01",
+      "version": "1",
+      "category": "bioinformatics",
+      "selected": false
+    },
+    {
+      "title": "TomatoPGFM: A graph-conditioned foundation model for tomato pangenomes",
+      "doi": "10.64898/2026.08.31.748176",
+      "date": "2026-09-01",
+      "version": "1",
+      "category": "bioinformatics",
+      "selected": false
+    },
+    {
+      "title": "XpBrew and PanXpresso - automatic RNA-seq processing workflow and comprehensive collection of gene expression data",
+      "doi": "10.64898/2026.08.27.747620",
+      "date": "2026-09-01",
+      "version": "1",
+      "category": "bioinformatics",
+      "selected": false
+    },
+    {
+      "title": "Scaling recipes for single-cell RNA sequencing foundation models: when do scaling laws hold?",
+      "doi": "10.64898/2026.08.31.747783",
+      "date": "2026-09-01",
+      "version": "1",
+      "category": "bioinformatics",
+      "selected": false
+    },
+    {
+      "title": "Accessible and reproducible deployment reveals the practical boundaries of single-cell foundation models",
+      "doi": "10.64898/2026.01.06.698060",
+      "date": "2026-09-02",
+      "version": "2",
+      "category": "bioinformatics",
+      "selected": false
+    },
+    {
+      "title": "OT-knn: a neighborhood-aware optimal transport framework for aligning spatial transcriptomics data",
+      "doi": "10.64898/2026.02.19.706743",
+      "date": "2026-09-02",
+      "version": "2",
+      "category": "bioinformatics",
+      "selected": false
+    },
+    {
+      "title": "Transcriptomic profile of a rat jaw opener (anterior digastric) and a jaw closer (superficial masseter).",
+      "doi": "10.64898/2026.08.28.747950",
+      "date": "2026-09-02",
+      "version": "1",
+      "category": "bioinformatics",
+      "selected": false
+    },
+    {
+      "title": "Calibrated analysis framework for nanopore direct RNA sequencing uncovers cell-specific m6A proportions at conserved sites",
+      "doi": "10.1101/2025.11.02.686099",
+      "date": "2026-09-02",
+      "version": "5",
+      "category": "bioinformatics",
+      "selected": false
+    },
+    {
+      "title": "AnnFlux: object-conditioned neural stochastic differential equations for single-cell perturbation dynamics",
+      "doi": "10.64898/2026.09.01.748703",
+      "date": "2026-09-03",
+      "version": "1",
+      "category": "bioinformatics",
+      "selected": false
+    },
+    {
+      "title": "spatialMET: an open and scalable framework for spatial metabolomics analysis",
+      "doi": "10.64898/2026.08.27.747606",
+      "date": "2026-09-03",
+      "version": "1",
+      "category": "bioinformatics",
+      "selected": false
+    },
+    {
+      "title": "Beyond benchmark accuracy: machine-learning turnover-number predictors require system-level validation",
+      "doi": "10.64898/2026.08.28.747816",
+      "date": "2026-09-03",
+      "version": "1",
+      "category": "bioinformatics",
+      "selected": false
+    },
+    {
+      "title": "Probing the transcriptome response to shivering in skeletal muscle using a multilayered bioinformatics approach",
+      "doi": "10.64898/2026.08.27.747657",
+      "date": "2026-09-03",
+      "version": "1",
+      "category": "bioinformatics",
+      "selected": false
+    },
+    {
+      "title": "MetaClaw: an auditable AI agent for end-to-end, multi-directional metagenomic and multi-omics analysis",
+      "doi": "10.64898/2026.07.21.739769",
+      "date": "2026-09-03",
+      "version": "2",
+      "category": "bioinformatics",
+      "selected": false
+    },
+    {
+      "title": "CoTRA: an integrated R/Shiny framework for transparent bulk and single-cell RNA-seq analysis",
+      "doi": "10.64898/2026.08.25.747017",
+      "date": "2026-09-03",
+      "version": "2",
+      "category": "bioinformatics",
+      "selected": false
+    },
+    {
+      "title": "An alignment-last approach enables rapid transcriptomic biomarker discovery in large cohorts",
+      "doi": "10.64898/2026.08.31.748301",
+      "date": "2026-09-03",
+      "version": "1",
+      "category": "bioinformatics",
+      "selected": false
+    },
+    {
+      "title": "Cell-type separability predicts annotation accuracy and outweighs algorithm choice: a factorial benchmark across seven scRNA paradigms",
+      "doi": "10.64898/2026.08.28.747622",
+      "date": "2026-09-03",
+      "version": "1",
+      "category": "bioinformatics",
+      "selected": false
+    },
+    {
+      "title": "Comprehensive characterization of genomic, transcriptomic and epigenomic artifacts introduced in formalin-fixed, paraffin-embedded tissues.",
+      "doi": "10.64898/2026.08.31.748145",
+      "date": "2026-09-03",
+      "version": "1",
+      "category": "bioinformatics",
+      "selected": false
+    },
+    {
+      "title": "Multiparental RNA-seq driven eQTL screening identifies loci underlying host plant fitness in a generalist herbivore",
+      "doi": "10.64898/2026.08.30.748081",
+      "date": "2026-09-03",
+      "version": "1",
+      "category": "bioinformatics",
+      "selected": false
+    },
+    {
+      "title": "Kintsugi maps nucleus-poor RNA compartments in subcellular spatial transcriptomics",
+      "doi": "10.64898/2026.08.30.748061",
+      "date": "2026-09-03",
+      "version": "1",
+      "category": "bioinformatics",
+      "selected": false
+    },
+    {
+      "title": "Ageas enables time-agnostic cell fate inference from single-cell and spatial multi-omics data",
+      "doi": "10.64898/2026.08.30.748098",
+      "date": "2026-09-03",
+      "version": "1",
+      "category": "bioinformatics",
+      "selected": false
+    },
+    {
+      "title": "An annotation-overlap-flagged rare-disease gene-prioritisation benchmark and PMC index recipe",
+      "doi": "10.64898/2026.08.30.748028",
+      "date": "2026-09-03",
+      "version": "1",
+      "category": "bioinformatics",
+      "selected": false
+    },
+    {
+      "title": "scRep: A Latent-Space Self-Distilled Foundation Model for Single-Cell Representation Learning",
+      "doi": "10.64898/2026.08.31.747784",
+      "date": "2026-09-03",
+      "version": "1",
+      "category": "bioinformatics",
+      "selected": false
+    },
+    {
+      "title": "A Combined Multi-Omics and Supervised Learning Strategy Uncovers an Epithelial Signature of Radiotherapy Response in Colorectal Cancer",
+      "doi": "10.1101/2025.04.10.648131",
+      "date": "2026-09-03",
+      "version": "2",
+      "category": "bioinformatics",
+      "selected": false
+    },
+    {
+      "title": "Adding layers of information to scRNA-seq data using pre-trained language models",
+      "doi": "10.1101/2025.08.23.671699",
+      "date": "2026-09-04",
+      "version": "3",
+      "category": "bioinformatics",
+      "selected": false
+    },
+    {
+      "title": "Poly Pipeline: A Polyvalent Spatial Transcriptomics Workflow Validated Across Polyploid and Diploid Organisms",
+      "doi": "10.64898/2026.08.31.748304",
+      "date": "2026-09-04",
+      "version": "1",
+      "category": "bioinformatics",
+      "selected": false
+    },
+    {
+      "title": "Integrating Spatially Adjusted Protein Summaries for Survival Prediction in Spatial Proteomics",
+      "doi": "10.64898/2026.06.08.730964",
+      "date": "2026-09-04",
+      "version": "2",
+      "category": "bioinformatics",
+      "selected": false
+    },
+    {
+      "title": "Cross-domain confidence reliability and remappability of frozen single-cell representations",
+      "doi": "10.64898/2026.08.31.748446",
+      "date": "2026-09-04",
+      "version": "1",
+      "category": "bioinformatics",
+      "selected": false
+    },
+    {
+      "title": "Unifying physical and molecular coordinate systems across modalities in spatial biology",
+      "doi": "10.64898/2026.09.01.748536",
+      "date": "2026-09-04",
+      "version": "1",
+      "category": "bioinformatics",
+      "selected": false
+    },
+    {
+      "title": "FADVI: disentangled representation learning for robust integration of single-cell and spatial omics data",
+      "doi": "10.1101/2025.11.03.683998",
+      "date": "2026-09-04",
+      "version": "2",
+      "category": "bioinformatics",
+      "selected": false
+    },
+    {
+      "title": "Comparing phenotypic manifolds with Kompot: Cluster-free differential expression at single-cell resolution",
+      "doi": "10.1101/2025.06.03.657769",
+      "date": "2026-09-04",
+      "version": "5",
+      "category": "bioinformatics",
+      "selected": false
+    },
+    {
+      "title": "Covariance Nonstationarity is Evident in Spatial Transcriptomics and Provides a New Categorization of Spatially Varying Genes",
+      "doi": "10.64898/2026.08.10.743911",
+      "date": "2026-09-05",
+      "version": "2",
+      "category": "bioinformatics",
+      "selected": false
+    },
+    {
+      "title": "platpy: A spatial-first framework for multi-layer spatial transcriptomic analysis",
+      "doi": "10.64898/2026.05.26.727917",
+      "date": "2026-09-05",
+      "version": "2",
+      "category": "bioinformatics",
+      "selected": false
+    },
+    {
+      "title": "Evaluating the Robustness of Path-Preservation Benchmarks for Dimensionality Reduction Across Point-Density Thresholds: Linear and Cyclic Single-Cell Trajectories",
+      "doi": "10.64898/2026.09.01.748633",
+      "date": "2026-09-05",
+      "version": "1",
+      "category": "bioinformatics",
+      "selected": false
+    },
+    {
+      "title": "Transcriptome profiling identifies the chromatoid body as a dynamic center for RNA surveillance and transcript sorting during spermatogenesis",
+      "doi": "10.64898/2026.09.02.744273",
+      "date": "2026-09-05",
+      "version": "1",
+      "category": "bioinformatics",
+      "selected": false
+    },
+    {
+      "title": "RevPert: predicting candidate drivers of transcriptomic state transitions via gallery-native reverse perturbation",
+      "doi": "10.64898/2026.08.19.745674",
+      "date": "2026-09-06",
+      "version": "2",
+      "category": "bioinformatics",
+      "selected": false
+    },
+    {
+      "title": "multiTEMPTED: Joint Dimensionality Reduction of Longitudinal Multi-omic Data with Modality-Specific Temporal Dynamics",
+      "doi": "10.64898/2026.09.01.748608",
+      "date": "2026-09-06",
+      "version": "1",
+      "category": "bioinformatics",
+      "selected": false
+    },
+    {
+      "title": "Keloid transcriptomics reveal heterogeneity in fibroblast subtype enrichment, gene expression, and immune cell responses",
+      "doi": "10.64898/2026.09.02.747090",
+      "date": "2026-09-07",
+      "version": "1",
+      "category": "bioinformatics",
+      "selected": false
+    },
+    {
+      "title": "A systematic evaluation of SIRT6 as transcriptomic biomarker of aging",
+      "doi": "10.64898/2026.09.03.749075",
+      "date": "2026-09-07",
+      "version": "1",
+      "category": "bioinformatics",
+      "selected": false
+    },
+    {
+      "title": "WGCNA+: AI-powered WGCNA for Integration of Multi-Omics Data",
+      "doi": "10.64898/2026.09.02.748772",
+      "date": "2026-09-07",
+      "version": "1",
+      "category": "bioinformatics",
+      "selected": false
+    },
+    {
+      "title": "Benchmark validity in graph neural network scoring of metabolic reaction activity on Recon3D: detecting label leakage, memorized noise and input-invariant models",
+      "doi": "10.64898/2026.09.02.748315",
+      "date": "2026-09-07",
+      "version": "1",
+      "category": "bioinformatics",
+      "selected": false
+    },
+    {
+      "title": "Learning from tandem mass spectra at scale with a self-supervised foundation model for proteomics",
+      "doi": "10.64898/2026.09.03.747733",
+      "date": "2026-09-07",
+      "version": "1",
+      "category": "bioinformatics",
+      "selected": false
+    },
+    {
+      "title": "EISCA and EISTA: Full-Spectrum Pipelines for Single-Cell and Spatial Transcriptomics Analysis",
+      "doi": "10.64898/2026.09.02.748851",
+      "date": "2026-09-07",
+      "version": "1",
+      "category": "bioinformatics",
+      "selected": false
+    },
+    {
+      "title": "Real Science Is Harder Than Benchmarks: Evaluating Advanced AI Frameworks on Published Studies. II. Antibody Properties, Lipid-RNA Interactions",
+      "doi": "10.64898/2026.09.03.749176",
+      "date": "2026-09-07",
+      "version": "1",
+      "category": "bioinformatics",
+      "selected": false
+    },
+    {
+      "title": "SPARKLE: evidence-constrained correction of local RNA leakage in high-resolution spatial transcriptomics",
+      "doi": "10.64898/2026.08.12.744394",
+      "date": "2026-09-08",
+      "version": "2",
+      "category": "bioinformatics",
+      "selected": false
+    },
+    {
+      "title": "EvSpark: Lossless Speculative Decoding for Hybrid DNA Foundation Models",
+      "doi": "10.64898/2026.09.02.749017",
+      "date": "2026-09-08",
+      "version": "1",
+      "category": "bioinformatics",
+      "selected": false
+    },
+    {
+      "title": "AnnoAudit: a marker-based protocol for auditing single-cell atlas annotations reveals annotation-driven artifacts in a widely used traumatic brain injury resource",
+      "doi": "10.64898/2026.09.03.749125",
+      "date": "2026-09-08",
+      "version": "1",
+      "category": "bioinformatics",
+      "selected": false
+    },
+    {
+      "title": "CellART: a unified framework for extracting single-cell information from high-resolution spatial transcriptomics",
+      "doi": "10.64898/2026.09.03.749294",
+      "date": "2026-09-08",
+      "version": "1",
+      "category": "bioinformatics",
+      "selected": false
+    },
+    {
+      "title": "Atlas-scale single-cell analysis beyond in-memory paradigm with scAtlasPy",
+      "doi": "10.64898/2026.09.03.748766",
+      "date": "2026-09-08",
+      "version": "1",
+      "category": "bioinformatics",
+      "selected": true
+    },
+    {
+      "title": "scFLAME: a unified generative model for interpretable clustering, hierarchical structure discovery and marker-gene identification in single-cell RNA-seq data",
+      "doi": "10.64898/2026.09.04.749363",
+      "date": "2026-09-08",
+      "version": "1",
+      "category": "bioinformatics",
+      "selected": false
+    },
+    {
+      "title": "EukaUTR: a foundation model for functional modelling and design of eukaryotic 3' UTRs",
+      "doi": "10.64898/2026.09.07.749809",
+      "date": "2026-09-08",
+      "version": "1",
+      "category": "bioinformatics",
+      "selected": false
+    },
+    {
+      "title": "Vizitig a pangenome and pantranscriptome explorer",
+      "doi": "10.1101/2025.04.19.649656",
+      "date": "2026-09-09",
+      "version": "3",
+      "category": "bioinformatics",
+      "selected": false
+    },
+    {
+      "title": "Independent benchmark of H&E-based gene expression prediction in skin",
+      "doi": "10.64898/2026.09.07.749926",
+      "date": "2026-09-09",
+      "version": "1",
+      "category": "bioinformatics",
+      "selected": false
+    },
+    {
+      "title": "PhenoMapR: scalable mapping of sample phenotypes to single-cell, spatial, and bulk transcriptomics data",
+      "doi": "10.64898/2026.09.08.749933",
+      "date": "2026-09-09",
+      "version": "1",
+      "category": "bioinformatics",
+      "selected": false
+    },
+    {
+      "title": "Benchmarking long-read RNA sequencing for de novo transcriptome assembly in non-model plant species: insights from Moricandia arvensis",
+      "doi": "10.64898/2026.09.08.750093",
+      "date": "2026-09-09",
+      "version": "1",
+      "category": "bioinformatics",
+      "selected": false
+    },
+    {
+      "title": "dictyExpress: an integrated browser for bulk and single-cell Dictyostelium transcriptomics",
+      "doi": "10.64898/2026.09.04.748563",
+      "date": "2026-09-09",
+      "version": "1",
+      "category": "bioinformatics",
+      "selected": false
+    },
+    {
+      "title": "Perturbation-Aware Neural ODE (pNODE) Learns Microbiome Dynamics from Clinical Data and Predicts Gut-Borne Bloodstream Infections in Patients Receiving Cancer Treatment",
+      "doi": "10.1101/2025.11.26.690798",
+      "date": "2026-09-10",
+      "version": "2",
+      "category": "bioinformatics",
+      "selected": false
+    },
+    {
+      "title": "Systematic benchmarking of small variant calling pipelines for long-read RNA sequencing data",
+      "doi": "10.64898/2026.04.29.721619",
+      "date": "2026-09-10",
+      "version": "2",
+      "category": "bioinformatics",
+      "selected": false
+    },
+    {
+      "title": "A deep generative decoder predicts microRNA expression from bulk and single-cell mRNA profiles",
+      "doi": "10.64898/2026.05.29.727918",
+      "date": "2026-09-10",
+      "version": "2",
+      "category": "bioinformatics",
+      "selected": false
+    },
+    {
+      "title": "Hidden assumptions in nascent RNA sequencing pipelines define reproducibility states",
+      "doi": "10.64898/2026.07.13.738089",
+      "date": "2026-09-10",
+      "version": "2",
+      "category": "bioinformatics",
+      "selected": false
+    },
+    {
+      "title": "PHAROS: turning single-cell perturbation models into target-directed drug-combination screens",
+      "doi": "10.64898/2026.09.08.749477",
+      "date": "2026-09-10",
+      "version": "1",
+      "category": "bioinformatics",
+      "selected": false
+    },
+    {
+      "title": "Tensor-based representation learning for multi-omics integrative clustering and feature discovery",
+      "doi": "10.64898/2025.11.28.691099",
+      "date": "2026-09-10",
+      "version": "4",
+      "category": "bioinformatics",
+      "selected": false
+    },
+    {
+      "title": "Three-dimensional Virtual Adult Cardiomyocyte Transcriptomics",
+      "doi": "10.64898/2026.04.14.718375",
+      "date": "2026-09-10",
+      "version": "2",
+      "category": "bioinformatics",
+      "selected": false
+    },
+    {
+      "title": "spaCraft: calibrated power analysis and sample-size planning for multi-sample spatial transcriptomics",
+      "doi": "10.64898/2026.09.04.749534",
+      "date": "2026-09-10",
+      "version": "1",
+      "category": "bioinformatics",
+      "selected": true
+    },
+    {
+      "title": "FlashDeconv reveals resolution horizons in atlas-scale spatial transcriptomics",
+      "doi": "10.64898/2025.12.22.696108",
+      "date": "2026-09-11",
+      "version": "5",
+      "category": "bioinformatics",
+      "selected": false
+    },
+    {
+      "title": "Histology-Aware Graph for Modeling Intercellular Communication in Spatial Transcriptomics",
+      "doi": "10.64898/2026.01.22.701166",
+      "date": "2026-09-11",
+      "version": "2",
+      "category": "bioinformatics",
+      "selected": false
+    },
+    {
+      "title": "scPyviewer: a Python-native interactive viewer from AnnData single-cell data",
+      "doi": "10.64898/2026.08.26.747418",
+      "date": "2026-09-11",
+      "version": "2",
+      "category": "bioinformatics",
+      "selected": false
+    },
+    {
+      "title": "scOLAR: Ontology-Anchored Open-Set Annotation of Single-Cell RNA-seq Data",
+      "doi": "10.64898/2026.09.05.749179",
+      "date": "2026-09-11",
+      "version": "1",
+      "category": "bioinformatics",
+      "selected": false
+    },
+    {
+      "title": "DNT: Diploid Genomic Foundation Model",
+      "doi": "10.64898/2026.09.05.749576",
+      "date": "2026-09-11",
+      "version": "1",
+      "category": "bioinformatics",
+      "selected": false
+    },
+    {
+      "title": "Benchmarking Twist Genotyping-by-Sequencing Against Whole-Genome Sequencing in Nuclear Families",
+      "doi": "10.64898/2026.07.31.742127",
+      "date": "2026-09-12",
+      "version": "3",
+      "category": "bioinformatics",
+      "selected": false
+    },
+    {
+      "title": "Leakage-Safe Cross-Cohort Transcriptomic Survival Analysis in Pancreatic Ductal Adenocarcinoma: A Corrected Reanalysis",
+      "doi": "10.1101/2025.11.14.688421",
+      "date": "2026-09-12",
+      "version": "2",
+      "category": "bioinformatics",
+      "selected": false
+    },
+    {
+      "title": "spAlignDE unifies cross-sample and cross-modal spatial alignment with mismatch-aware differential expression",
+      "doi": "10.64898/2026.09.05.749632",
+      "date": "2026-09-12",
+      "version": "1",
+      "category": "bioinformatics",
+      "selected": false
+    },
+    {
+      "title": "SpaCoEx: Sparse Gene Selection for Spatially Varying Co-expression in Spatial Transcriptomics",
+      "doi": "10.64898/2026.09.05.749559",
+      "date": "2026-09-12",
+      "version": "1",
+      "category": "bioinformatics",
+      "selected": false
+    },
+    {
+      "title": "OmniTCR: a foundation model unifying T cell receptor recognition prediction and conditional sequence generation",
+      "doi": "10.64898/2026.09.10.750588",
+      "date": "2026-09-13",
+      "version": "1",
+      "category": "bioinformatics",
+      "selected": false
+    },
+    {
+      "title": "A structural antibody benchmark for leakage-aware deep-learning evaluation",
+      "doi": "10.64898/2026.09.06.749672",
+      "date": "2026-09-13",
+      "version": "1",
+      "category": "bioinformatics",
+      "selected": false
+    },
+    {
+      "title": "Isocall enables scalable transcript identification from long-read RNA-sequencing data",
+      "doi": "10.64898/2026.09.08.749180",
+      "date": "2026-09-13",
+      "version": "1",
+      "category": "bioinformatics",
+      "selected": false
+    },
+    {
+      "title": "Differential co-localisation analysis of multi-sample and multi-condition experiments with spatialFDA",
+      "doi": "10.64898/2026.04.13.718197",
+      "date": "2026-09-14",
+      "version": "2",
+      "category": "bioinformatics",
+      "selected": false
+    },
+    {
+      "title": "Benchmarking niche identification via domain segmentation for spatial transcriptomics data",
+      "doi": "10.64898/2026.02.27.708202",
+      "date": "2026-09-14",
+      "version": "2",
+      "category": "bioinformatics",
+      "selected": false
+    },
+    {
+      "title": "LIGER2: Scalable Single-Cell Integration with On-Disk Datasets",
+      "doi": "10.64898/2026.09.08.750130",
+      "date": "2026-09-14",
+      "version": "1",
+      "category": "bioinformatics",
+      "selected": true
+    },
+    {
+      "title": "LucaCell: a sequence-centric foundation model for cross-species single-cell analysis",
+      "doi": "10.64898/2026.09.08.750024",
+      "date": "2026-09-14",
+      "version": "1",
+      "category": "bioinformatics",
+      "selected": false
+    },
+    {
+      "title": "Benchmarking CUT&RUN analysis using motif enrichment",
+      "doi": "10.64898/2026.09.09.749495",
+      "date": "2026-09-14",
+      "version": "1",
+      "category": "bioinformatics",
+      "selected": false
+    },
+    {
+      "title": "Stability-driven multi-omics integration for reproducible latent structure",
+      "doi": "10.64898/2026.06.23.734064",
+      "date": "2026-09-14",
+      "version": "4",
+      "category": "bioinformatics",
+      "selected": false
+    },
+    {
+      "title": "Accurate and scalable decontamination of imaging-based spatial transcriptomics via optimal transport",
+      "doi": "10.64898/2026.09.09.750350",
+      "date": "2026-09-15",
+      "version": "1",
+      "category": "bioinformatics",
+      "selected": true
+    },
+    {
+      "title": "Cell-level random splits leak group-owned answers in single-cell benchmarks",
+      "doi": "10.64898/2026.09.09.750484",
+      "date": "2026-09-15",
+      "version": "1",
+      "category": "bioinformatics",
+      "selected": false
+    },
+    {
+      "title": "A foundation model learns the sequence and functional grammar of fully human heavy-chain-only antibodies",
+      "doi": "10.64898/2026.09.10.750553",
+      "date": "2026-09-15",
+      "version": "1",
+      "category": "bioinformatics",
+      "selected": false
+    },
+    {
+      "title": "REN-former prioritizes candidate regulators of kidney disease-state transitions through single-cell foundation modeling and human genetics",
+      "doi": "10.64898/2026.09.10.746481",
+      "date": "2026-09-15",
+      "version": "1",
+      "category": "bioinformatics",
+      "selected": false
+    },
+    {
+      "title": "DiffGSP: reversing mRNA diffusion to unlock high-fidelity spatial transcriptomics",
+      "doi": "10.64898/2026.09.10.750095",
+      "date": "2026-09-15",
+      "version": "1",
+      "category": "bioinformatics",
+      "selected": false
+    },
+    {
+      "title": "scACORN: Context-engineered agent orchestration of specialized small language models for single-cell transcriptomic interpretation",
+      "doi": "10.64898/2026.09.10.750801",
+      "date": "2026-09-16",
+      "version": "1",
+      "category": "bioinformatics",
+      "selected": false
+    },
+    {
+      "title": "Genome-scale perturbation signatures from primary human CD4+ T cells improve genetics-based prioritization of immune drug targets",
+      "doi": "10.64898/2026.09.12.748195",
+      "date": "2026-09-16",
+      "version": "1",
+      "category": "bioinformatics",
+      "selected": false
+    },
+    {
+      "title": "Empirical Estimation of Ambient Contamination in Combinatorial Single-Cell Methods Using Multi-Reference Mapping",
+      "doi": "10.64898/2026.09.11.750809",
+      "date": "2026-09-16",
+      "version": "1",
+      "category": "bioinformatics",
+      "selected": false
+    },
+    {
+      "title": "Estimand-aware and donor-aware triangulation of predefined gene-set signals across human tendon transcriptomic datasets",
+      "doi": "10.64898/2026.09.11.750964",
+      "date": "2026-09-16",
+      "version": "1",
+      "category": "bioinformatics",
+      "selected": false
+    },
+    {
+      "title": "Locat: Joint enrichment and depletion testing identifies localized marker genes in single-cell transcriptomics",
+      "doi": "10.64898/2026.04.03.716370",
+      "date": "2026-09-17",
+      "version": "3",
+      "category": "bioinformatics",
+      "selected": false
+    },
+    {
+      "title": "Facilitating genome annotation using ANNEXA and long-read RNA sequencing",
+      "doi": "10.1101/2025.04.16.648718",
+      "date": "2026-09-17",
+      "version": "5",
+      "category": "bioinformatics",
+      "selected": false
+    },
+    {
+      "title": "Constructing Gene Regulatory Network using Chatterjee's Rank Correlation with Single-cell Transcriptomic Data",
+      "doi": "10.1101/2025.09.17.676530",
+      "date": "2026-09-17",
+      "version": "3",
+      "category": "bioinformatics",
+      "selected": false
+    },
+    {
+      "title": "DELPHAI predicts heterogeneous perturbation responses with learned single-cell fitness",
+      "doi": "10.64898/2026.07.01.735965",
+      "date": "2026-09-17",
+      "version": "2",
+      "category": "bioinformatics",
+      "selected": false
+    },
+    {
+      "title": "DeepSpaceDB 2.0: an interactive spatial transcriptomics database for large-scale Xenium data exploration",
+      "doi": "10.64898/2026.01.15.699623",
+      "date": "2026-09-18",
+      "version": "2",
+      "category": "bioinformatics",
+      "selected": false
+    },
+    {
+      "title": "Pretrained gene representations transfer mean expression more broadly than spatial patterns in virtual spatial transcriptomics",
+      "doi": "10.64898/2026.09.15.751768",
+      "date": "2026-09-18",
+      "version": "1",
+      "category": "bioinformatics",
+      "selected": false
+    },
+    {
+      "title": "Setting the SCENE for Interpretable Cell-Gene Embeddings in Single-Cell RNA-seq",
+      "doi": "10.64898/2026.09.12.750699",
+      "date": "2026-09-18",
+      "version": "1",
+      "category": "bioinformatics",
+      "selected": false
+    },
+    {
+      "title": "Sparse Machine Learning Pipeline with Stabl Identifies Cord Blood Multi-Omic Signatures of Bronchopulmonary Dysplasia",
+      "doi": "10.64898/2026.09.12.748996",
+      "date": "2026-09-18",
+      "version": "1",
+      "category": "bioinformatics",
+      "selected": false
+    },
+    {
+      "title": "Post-selection inference in testing for phenotypic differences with scRNA-Seq",
+      "doi": "10.64898/2026.09.17.752411",
+      "date": "2026-09-18",
+      "version": "1",
+      "category": "bioinformatics",
+      "selected": true
+    },
+    {
+      "title": "Time-Series Foundation Models for Cognitive Workload Classification using Eye-Tracking Data",
+      "doi": "10.64898/2026.09.13.751282",
+      "date": "2026-09-18",
+      "version": "1",
+      "category": "bioinformatics",
+      "selected": false
+    },
+    {
+      "title": "Multi-model biological and sequence information fusion for gene regulatory network inference from single-cell transcriptomics",
+      "doi": "10.64898/2026.09.13.751326",
+      "date": "2026-09-19",
+      "version": "1",
+      "category": "bioinformatics",
+      "selected": false
+    },
+    {
+      "title": "CUBE: Multimodal Representation Learning Reveals Biological Structure Across Histomorphology, Spatial Protein Phenotypes, and Transcriptome-Associated Signals",
+      "doi": "10.64898/2026.09.14.751379",
+      "date": "2026-09-20",
+      "version": "1",
+      "category": "bioinformatics",
+      "selected": false
+    },
+    {
+      "title": "SMORE: joint dimension reduction and cell population discovery on single-cell methylome data",
+      "doi": "10.64898/2026.09.14.751514",
+      "date": "2026-09-20",
+      "version": "1",
+      "category": "bioinformatics",
+      "selected": false
+    },
+    {
+      "title": "Measurement reliability bounds functional benchmarks and relocates where variant effect prediction fails",
+      "doi": "10.64898/2026.09.14.751496",
+      "date": "2026-09-20",
+      "version": "1",
+      "category": "bioinformatics",
+      "selected": false
+    },
+    {
+      "title": "Benchmarking confidence estimation and rescoring for cyclic peptide-protein complex predictions",
+      "doi": "10.64898/2026.08.20.746104",
+      "date": "2026-09-21",
+      "version": "2",
+      "category": "bioinformatics",
+      "selected": false
+    },
+    {
+      "title": "celltypeEnrich: a consensus-based scRNA-seq cluster annotation tool",
+      "doi": "10.64898/2026.09.15.751735",
+      "date": "2026-09-21",
+      "version": "1",
+      "category": "bioinformatics",
+      "selected": false
+    },
+    {
+      "title": "Uniformly processed transcriptome-wide alternative splicing profiles for pediatric cancer research",
+      "doi": "10.64898/2026.09.14.750241",
+      "date": "2026-09-21",
+      "version": "1",
+      "category": "bioinformatics",
+      "selected": true
+    },
+    {
+      "title": "Gravlax: an annotation-independent molecular evidence archive for single-cell RNA-seq",
+      "doi": "10.64898/2026.09.18.752708",
+      "date": "2026-09-21",
+      "version": "1",
+      "category": "bioinformatics",
+      "selected": false
+    },
+    {
+      "title": "A transcriptional continuum from clinically normal to lesional skin: Single-cell trajectory analysis of psoriasis",
+      "doi": "10.64898/2026.09.15.751704",
+      "date": "2026-09-21",
+      "version": "1",
+      "category": "bioinformatics",
+      "selected": false
+    },
+    {
+      "title": "A single-cell RNA-seq catalog of ground truth gene coregulation",
+      "doi": "10.64898/2026.09.18.752692",
+      "date": "2026-09-21",
+      "version": "1",
+      "category": "bioinformatics",
+      "selected": false
+    },
+    {
+      "title": "A Comparative Benchmark of Biomedical Language Models for Concept Normalization from Real-World Text",
+      "doi": "10.64898/2026.09.19.752843",
+      "date": "2026-09-21",
+      "version": "1",
+      "category": "bioinformatics",
+      "selected": false
+    },
+    {
+      "title": "Vritra: gene-specific reference construction for species-resolved functional profiling of metagenomic and metatranscriptomic data",
+      "doi": "10.64898/2026.09.17.752478",
+      "date": "2026-09-21",
+      "version": "1",
+      "category": "bioinformatics",
+      "selected": false
+    },
+    {
+      "title": "stEDGE enables edge-guided multiscale reconstruction of hierarchical spatial domains and transition interfaces in spatial transcriptomics",
+      "doi": "10.64898/2026.09.15.751915",
+      "date": "2026-09-21",
+      "version": "1",
+      "category": "bioinformatics",
+      "selected": false
+    },
+    {
+      "title": "Spatial transcriptomics reveals selective vulnerability of cardiac neural crest-derived glial cells in human myocardial infarction",
+      "doi": "10.64898/2026.09.14.751638",
+      "date": "2026-09-22",
+      "version": "1",
+      "category": "bioinformatics",
+      "selected": false
+    },
+    {
+      "title": "Benchmarking Uncertainty and Improving Risk Ranking in Multi-task Bioactivity Prediction",
+      "doi": "10.64898/2026.09.15.751772",
+      "date": "2026-09-22",
+      "version": "1",
+      "category": "bioinformatics",
+      "selected": false
+    },
+    {
+      "title": "MINT infers the latent single-cell spatial transcriptome from paired histology",
+      "doi": "10.64898/2026.09.16.751717",
+      "date": "2026-09-22",
+      "version": "1",
+      "category": "bioinformatics",
+      "selected": true
+    },
+    {
+      "title": "Lineage-informed factor analysis reveals heritable programs of single-cell gene expression",
+      "doi": "10.64898/2026.09.21.753290",
+      "date": "2026-09-23",
+      "version": "1",
+      "category": "bioinformatics",
+      "selected": false
+    },
+    {
+      "title": "RKMR: A Rapid Kernel Machine Regression Framework for Optimal Marker Detection in Spatial Omics Data",
+      "doi": "10.64898/2026.07.27.740999",
+      "date": "2026-09-23",
+      "version": "4",
+      "category": "bioinformatics",
+      "selected": false
+    },
+    {
+      "title": "Open-world fungal ITS embeddings improve higher-rank placement and cross-view retrieval, but percent identity is stronger on a matched ITS2 novelty benchmark",
+      "doi": "10.64898/2026.09.17.752437",
+      "date": "2026-09-23",
+      "version": "1",
+      "category": "bioinformatics",
+      "selected": false
+    },
+    {
+      "title": "Leakage-controlled benchmarking reveals generalization limits of deep learning for protein-ligand binding affinity prediction",
+      "doi": "10.64898/2026.09.17.752433",
+      "date": "2026-09-23",
+      "version": "1",
+      "category": "bioinformatics",
+      "selected": false
+    },
+    {
+      "title": "Modular core network constructed from Escherichia coli transcriptome datasets using a hypergraph-based pan-network approach",
+      "doi": "10.64898/2026.09.16.752242",
+      "date": "2026-09-24",
+      "version": "1",
+      "category": "bioinformatics",
+      "selected": false
+    },
+    {
+      "title": "MOTLAB: A Weighted Multi-Omics Transfer Learning Approach to Mitigate Breast Cancer Racial Disparities",
+      "doi": "10.64898/2025.12.22.696111",
+      "date": "2026-09-24",
+      "version": "2",
+      "category": "bioinformatics",
+      "selected": false
+    },
+    {
+      "title": "STAR Suite: Transcriptomics processing in a single binary through AI-assisted development",
+      "doi": "10.64898/2026.03.09.710580",
+      "date": "2026-09-24",
+      "version": "7",
+      "category": "bioinformatics",
+      "selected": false
+    },
+    {
+      "title": "Extracting interpretable single-cell metabolic states with graph-guided representation learning",
+      "doi": "10.64898/2026.09.17.751504",
+      "date": "2026-09-24",
+      "version": "1",
+      "category": "bioinformatics",
+      "selected": false
+    },
+    {
+      "title": "MoTRUST: adaptive semantic protection for mosaic single-cell integration and molecular recovery",
+      "doi": "10.64898/2026.09.18.752592",
+      "date": "2026-09-24",
+      "version": "1",
+      "category": "bioinformatics",
+      "selected": false
+    },
+    {
+      "title": "ISP Platform powered by Geneformer: Framework for Cross-Species, Sequential, and Multi-Gene In Silico Perturbation Screens with Application to iPS Cell State Transitions",
+      "doi": "10.64898/2026.09.17.752497",
+      "date": "2026-09-24",
+      "version": "1",
+      "category": "bioinformatics",
+      "selected": false
+    },
+    {
+      "title": "Benchmarking 16S rRNA gene amplicon analysis in high-diversity microbial communities reveals fundamental trade-offs in clustering and denoising",
+      "doi": "10.64898/2026.09.21.752605",
+      "date": "2026-09-24",
+      "version": "1",
+      "category": "bioinformatics",
+      "selected": false
+    },
+    {
+      "title": "A Taxonomy-Informed Sparse DNA Foundation Model for Microbial Genomics",
+      "doi": "10.64898/2026.09.22.753215",
+      "date": "2026-09-24",
+      "version": "1",
+      "category": "bioinformatics",
+      "selected": false
+    },
+    {
+      "title": "Fluoxetine Hydrochloride Treatment Influences Site-Specific ADAR Editing and Transcriptome Regulation in Arid1b +/- Mice",
+      "doi": "10.64898/2026.09.24.753309",
+      "date": "2026-09-24",
+      "version": "1",
+      "category": "bioinformatics",
+      "selected": false
+    },
+    {
+      "title": "CardioChrom Reconstructs the Human Cardiac Virtual Epigenome from Single-Nucleus Transcriptomes",
+      "doi": "10.64898/2026.09.18.752723",
+      "date": "2026-09-24",
+      "version": "1",
+      "category": "bioinformatics",
+      "selected": false
+    },
+    {
+      "title": "External Evaluation of Multi-Omics Prognostic Models Across TCGA-BRCA and METABRIC: Transportability, Stability, and Incremental Performance",
+      "doi": "10.64898/2026.09.18.752709",
+      "date": "2026-09-24",
+      "version": "1",
+      "category": "bioinformatics",
+      "selected": false
+    },
+    {
+      "title": "From mice to humans: A multi-omic predictive framework for translational immunology",
+      "doi": "10.64898/2026.09.18.752716",
+      "date": "2026-09-24",
+      "version": "1",
+      "category": "bioinformatics",
+      "selected": false
+    },
+    {
+      "title": "Cell-Lens: Advancing LLM Reasoning at Single-Cell Resolution",
+      "doi": "10.64898/2026.09.19.752842",
+      "date": "2026-09-24",
+      "version": "1",
+      "category": "bioinformatics",
+      "selected": false
+    },
+    {
+      "title": "Spatially resolved contrastive analysis of perturbation-driven microenvironmental heterogeneity across tissues and conditions",
+      "doi": "10.64898/2025.12.08.693051",
+      "date": "2026-09-25",
+      "version": "2",
+      "category": "bioinformatics",
+      "selected": false
+    },
+    {
+      "title": "ClustSIGNAL identifies cell types and subtypes using an adaptive smoothing approach for scalable spatial omics clustering",
+      "doi": "10.64898/2025.11.30.691081",
+      "date": "2026-09-25",
+      "version": "3",
+      "category": "bioinformatics",
+      "selected": false
+    },
+    {
+      "title": "sfate: Schur-free, target-conditioned absorption probabilities for scalable single-cell fate analysis",
+      "doi": "10.64898/2026.09.19.752930",
+      "date": "2026-09-25",
+      "version": "1",
+      "category": "bioinformatics",
+      "selected": false
+    },
+    {
+      "title": "Biologically Informed Multi-Omics Integration Reveals Clinically Meaningful Patient Representations in Acute Myeloid Leukemia",
+      "doi": "10.64898/2026.09.19.752929",
+      "date": "2026-09-25",
+      "version": "1",
+      "category": "bioinformatics",
+      "selected": false
+    },
+    {
+      "title": "MERFISHEYES: Web-based Visualization and Sharing Platform for Single-cell and Single-molecule Spatial Transcriptomics",
+      "doi": "10.64898/2026.09.20.753029",
+      "date": "2026-09-25",
+      "version": "1",
+      "category": "bioinformatics",
+      "selected": true
+    },
+    {
+      "title": "MCseg: AI agent-guided workflow search for no-code cell segmentation and transcript attribution in spatial transcriptomics",
+      "doi": "10.64898/2026.09.20.752837",
+      "date": "2026-09-25",
+      "version": "1",
+      "category": "bioinformatics",
+      "selected": false
+    },
+    {
+      "title": "PerturbBridge: Conditional Latent Schr\\\"{o}dinger Bridge for Single-Cell Perturbation Prediction",
+      "doi": "10.64898/2026.09.24.754259",
+      "date": "2026-09-25",
+      "version": "1",
+      "category": "bioinformatics",
+      "selected": false
+    },
+    {
+      "title": "OmicsResonance: An LLM-assisted cloud ecosystem for interactiveand reproducible single-cell transcriptomic analysis",
+      "doi": "10.64898/2026.09.20.753054",
+      "date": "2026-09-25",
+      "version": "1",
+      "category": "bioinformatics",
+      "selected": false
+    },
+    {
+      "title": "fastACCORD enables ultrahigh-dimensional partial correlation modeling for multi-omic data integration",
+      "doi": "10.64898/2026.09.20.753046",
+      "date": "2026-09-25",
+      "version": "1",
+      "category": "bioinformatics",
+      "selected": false
+    },
+    {
+      "title": "HR-FRGS: A Novel Biomarker Discovery Protocol using Dual Layer Hypergraph Learning for NGS RNA Sequence Data",
+      "doi": "10.64898/2026.09.21.753079",
+      "date": "2026-09-25",
+      "version": "1",
+      "category": "bioinformatics",
+      "selected": false
+    },
+    {
+      "title": "An Enhanced Pipeline for Multi-Omic Integration Based on Topological Data Analysis",
+      "doi": "10.64898/2026.09.21.752955",
+      "date": "2026-09-25",
+      "version": "1",
+      "category": "bioinformatics",
+      "selected": false
+    },
+    {
+      "title": "Pop-Corn: Predicting Perturbation Phenotype Effects Across Single-Cell and Spatial Contexts",
+      "doi": "10.64898/2026.09.25.754560",
+      "date": "2026-09-26",
+      "version": "1",
+      "category": "bioinformatics",
+      "selected": false
+    },
+    {
+      "title": "Benchmarking single-cell foundation models for aging biology",
+      "doi": "10.64898/2026.09.21.753191",
+      "date": "2026-09-27",
+      "version": "1",
+      "category": "bioinformatics",
+      "selected": false
+    },
+    {
+      "title": "Inferring division-associated stochasticity from time-series single-cell transcriptomes",
+      "doi": "10.64898/2026.04.14.718485",
+      "date": "2026-09-28",
+      "version": "2",
+      "category": "bioinformatics",
+      "selected": false
+    },
+    {
+      "title": "A framework for designing splice-junction experiments in deep 3' single-cell RNA sequencing",
+      "doi": "10.64898/2026.09.22.753522",
+      "date": "2026-09-28",
+      "version": "1",
+      "category": "bioinformatics",
+      "selected": false
+    },
+    {
+      "title": "Fitting dynamics is not identifying causal edges: a white-box masked ODE benchmark for trans-omics digital twins of drug action mechanisms",
+      "doi": "10.64898/2026.09.22.753490",
+      "date": "2026-09-28",
+      "version": "1",
+      "category": "bioinformatics",
+      "selected": false
+    },
+    {
+      "title": "BiomiX 3.0: A user-friendly platform for democratized multi-omics integration with graph-based learning.",
+      "doi": "10.64898/2026.09.22.753185",
+      "date": "2026-09-28",
+      "version": "1",
+      "category": "bioinformatics",
+      "selected": false
+    },
+    {
+      "title": "Trustworthy super-resolution reconstruction across spatial omics modalities",
+      "doi": "10.64898/2026.09.25.754471",
+      "date": "2026-09-28",
+      "version": "1",
+      "category": "bioinformatics",
+      "selected": false
+    },
+    {
+      "title": "Where Tabular Foundation Models Falter on Genetic Data: Datasets That Expose and Provide a Path to Address the Gap",
+      "doi": "10.64898/2026.09.25.754520",
+      "date": "2026-09-28",
+      "version": "1",
+      "category": "bioinformatics",
+      "selected": false
+    },
+    {
+      "title": "NexuST: A Hierarchical Foundation Model for Spatial Transcriptomics",
+      "doi": "10.64898/2026.09.22.753590",
+      "date": "2026-09-28",
+      "version": "1",
+      "category": "bioinformatics",
+      "selected": false
+    },
+    {
+      "title": "Analyzing Genomic Foundation Models for Viral Sequence Identification",
+      "doi": "10.64898/2026.09.25.754388",
+      "date": "2026-09-28",
+      "version": "1",
+      "category": "bioinformatics",
+      "selected": false
+    },
+    {
+      "title": "Determining gene specificity from multivariate single-cell RNA sequencing data",
+      "doi": "10.1101/2025.11.21.689845",
+      "date": "2026-09-29",
+      "version": "3",
+      "category": "bioinformatics",
+      "selected": false
+    },
+    {
+      "title": "A biological-response compound representation allows chemical perturbation prediction across cell lines",
+      "doi": "10.64898/2026.09.28.755146",
+      "date": "2026-09-29",
+      "version": "1",
+      "category": "bioinformatics",
+      "selected": false
+    },
+    {
+      "title": "EpiZoo: a DNA sequence-aware foundation model for cross-species single-cell epigenomics",
+      "doi": "10.64898/2026.09.24.754017",
+      "date": "2026-09-29",
+      "version": "1",
+      "category": "bioinformatics",
+      "selected": false
+    },
+    {
+      "title": "SpatialTRACE predicts anatomical axes and regions in spatial transcriptomics and microscopy",
+      "doi": "10.64898/2026.09.23.753836",
+      "date": "2026-09-29",
+      "version": "1",
+      "category": "bioinformatics",
+      "selected": false
+    },
+    {
+      "title": "The Venification of the Artery: Insights from Single-Cell Transcriptomics of a Porcine Arteriovenous Fistula Model",
+      "doi": "10.64898/2026.09.23.753931",
+      "date": "2026-09-29",
+      "version": "1",
+      "category": "bioinformatics",
+      "selected": false
+    },
+    {
+      "title": "Detecting Random Mutations in 16S rRNA Sequences",
+      "doi": "10.64898/2026.09.24.753821",
+      "date": "2026-09-29",
+      "version": "1",
+      "category": "bioinformatics",
+      "selected": false
+    },
+    {
+      "title": "ScProteoAgent enables natural-language-driven single-cell proteomics analysis and interpretation",
+      "doi": "10.64898/2026.09.24.754011",
+      "date": "2026-09-29",
+      "version": "1",
+      "category": "bioinformatics",
+      "selected": false
+    },
+    {
+      "title": "Deciphering the gene-centric spatial dynamics across tissue and time with GeneSPOT",
+      "doi": "10.64898/2026.09.24.753111",
+      "date": "2026-09-29",
+      "version": "1",
+      "category": "bioinformatics",
+      "selected": false
+    },
+    {
+      "title": "Platform-specific count-matrix preprocessing workflows for spatial transcriptomics data analysis",
+      "doi": "10.64898/2026.09.24.753981",
+      "date": "2026-09-29",
+      "version": "1",
+      "category": "bioinformatics",
+      "selected": false
+    },
+    {
+      "title": "Accurate and scalable demultiplexing of single-cell RNA sequencing using BEACON",
+      "doi": "10.64898/2026.09.26.754667",
+      "date": "2026-09-30",
+      "version": "1",
+      "category": "bioinformatics",
+      "selected": true
+    },
+    {
+      "title": "Contrastive Poincare Maps: uncovering developmental lineages from single-cell data with scalable hyperbolic embeddings",
+      "doi": "10.1101/2025.08.22.671789",
+      "date": "2026-09-30",
+      "version": "4",
+      "category": "bioinformatics",
+      "selected": false
+    },
+    {
+      "title": "MGM2 as a Multimodal Foundation Model for Microbial Community States and Responses",
+      "doi": "10.64898/2026.07.20.739063",
+      "date": "2026-09-30",
+      "version": "2",
+      "category": "bioinformatics",
+      "selected": false
+    },
+    {
+      "title": "ProxiNet transfers spatially learned cellular proximity to dissociated single-cell transcriptomes",
+      "doi": "10.64898/2026.09.25.754372",
+      "date": "2026-09-30",
+      "version": "1",
+      "category": "bioinformatics",
+      "selected": false
+    },
+    {
+      "title": "CHACAM: a cell-cell interaction-guided hierarchical attention model for high-precision cell identity annotation of scRNA-seq data in early C. elegans embryogenesis",
+      "doi": "10.64898/2026.09.24.754260",
+      "date": "2026-09-30",
+      "version": "1",
+      "category": "bioinformatics",
+      "selected": false
+    },
+    {
+      "title": "CycloCross: Adversarial single-cell RNA-seq data translation across species",
+      "doi": "10.64898/2026.09.24.754263",
+      "date": "2026-09-30",
+      "version": "1",
+      "category": "bioinformatics",
+      "selected": false
+    },
+    {
+      "title": "Multi-Model Machine Learning Consensus Identifies a Dual-Interferon Gene Signature in Ischemic Stroke: An Integrative Single-Cell Transcriptomic Analysis",
+      "doi": "10.64898/2026.09.25.754010",
+      "date": "2026-09-30",
+      "version": "1",
+      "category": "bioinformatics",
+      "selected": false
+    },
+    {
+      "title": "Multiscale harmonization, semantic integration, and immersive exploration of single-cell data in support of novel biological insights",
+      "doi": "10.64898/2026.07.07.737090",
+      "date": "2026-09-30",
+      "version": "3",
+      "category": "bioinformatics",
+      "selected": false
+    },
+    {
+      "title": "Accurate isoform quantification in bulk and single-cell RNA-seq by integrating multi-platform sequencing data and sequence-to-expression models",
+      "doi": "10.1101/2024.07.11.603067",
+      "date": "2026-09-30",
+      "version": "2",
+      "category": "bioinformatics",
+      "selected": false
+    },
+    {
+      "title": "CellDiffusion: Enhancing scRNA-seq data integration with accurate inference of cell-cell association",
+      "doi": "10.1101/2024.01.28.577667",
+      "date": "2026-09-30",
+      "version": "2",
+      "category": "bioinformatics",
+      "selected": false
+    },
+    {
+      "title": "Single-Cell Analytics for Dose Response (SCADR) discriminates PTEN missense variants by lipid and protein phosphatase dysfunction",
+      "doi": "10.64898/2026.08.28.747931",
+      "date": "2026-09-01",
+      "version": "1",
+      "category": "genomics",
+      "selected": false
+    },
+    {
+      "title": "Global tree encoding of atlas-scale single-cell genomics",
+      "doi": "10.64898/2026.08.31.747971",
+      "date": "2026-09-04",
+      "version": "1",
+      "category": "genomics",
+      "selected": false
+    },
+    {
+      "title": "Systematic benchmarking of commercial workflows for isoform-resolved single-nucleus transcriptomics",
+      "doi": "10.64898/2026.09.01.748518",
+      "date": "2026-09-04",
+      "version": "1",
+      "category": "genomics",
+      "selected": true
+    },
+    {
+      "title": "SCG: Spatially Co-Expressed Gene Identification through Spatially Varying Networks",
+      "doi": "10.64898/2026.09.01.748618",
+      "date": "2026-09-05",
+      "version": "1",
+      "category": "genomics",
+      "selected": false
+    },
+    {
+      "title": "A Multi-Omics Study of Cognitive Resilience to Alzheimer's Disease",
+      "doi": "10.64898/2026.09.02.746746",
+      "date": "2026-09-06",
+      "version": "1",
+      "category": "genomics",
+      "selected": false
+    },
+    {
+      "title": "Long read sequencing of retinal RNA improves killifish transcriptome annotation",
+      "doi": "10.64898/2026.09.02.748420",
+      "date": "2026-09-07",
+      "version": "1",
+      "category": "genomics",
+      "selected": false
+    },
+    {
+      "title": "Single-Cell Indel Detection Enhances Genetic Ancestry and Cellular Lineage Analysis",
+      "doi": "10.64898/2026.09.02.748725",
+      "date": "2026-09-07",
+      "version": "1",
+      "category": "genomics",
+      "selected": false
+    },
+    {
+      "title": "Coupled transcriptomic divergence establishes a human-specific synaptic glial precursor state",
+      "doi": "10.64898/2026.08.19.745872",
+      "date": "2026-09-08",
+      "version": "2",
+      "category": "genomics",
+      "selected": false
+    },
+    {
+      "title": "A single-nucleus multiomic and spatial atlas of gene regulation in human spermatogenesis",
+      "doi": "10.64898/2026.09.04.749409",
+      "date": "2026-09-08",
+      "version": "1",
+      "category": "genomics",
+      "selected": false
+    },
+    {
+      "title": "Acute LINE-1 overexpression rewires the transcriptome, proteome and secretome of primary human fibroblasts",
+      "doi": "10.64898/2026.09.03.749265",
+      "date": "2026-09-08",
+      "version": "1",
+      "category": "genomics",
+      "selected": false
+    },
+    {
+      "title": "Single-cell characterization of human periodontal ligament (PDL) cells reveals uniformly mesenchymal populations in matched maxilla and mandible pairs from four donors",
+      "doi": "10.64898/2026.09.03.749128",
+      "date": "2026-09-08",
+      "version": "1",
+      "category": "genomics",
+      "selected": false
+    },
+    {
+      "title": "Single-cell transcriptomics reveals cell-type-specific circadian rhythms and their disruption by acute misalignment in mouse aorta",
+      "doi": "10.64898/2026.09.03.749170",
+      "date": "2026-09-08",
+      "version": "1",
+      "category": "genomics",
+      "selected": false
+    },
+    {
+      "title": "Comparative analysis of whole genome amplification kits for single-cell genome analysis",
+      "doi": "10.1101/2025.10.30.685509",
+      "date": "2026-09-09",
+      "version": "2",
+      "category": "genomics",
+      "selected": false
+    },
+    {
+      "title": "Spatial Logic and Evolutionary Innovation in Human Placentation",
+      "doi": "10.64898/2026.09.04.749511",
+      "date": "2026-09-09",
+      "version": "1",
+      "category": "genomics",
+      "selected": false
+    },
+    {
+      "title": "Im-seq: Multimodal droplet barcoding enables high-throughput linking of single-cell imaging and gene expression",
+      "doi": "10.1101/2025.09.01.672798",
+      "date": "2026-09-10",
+      "version": "5",
+      "category": "genomics",
+      "selected": false
+    },
+    {
+      "title": "A T2T Benchmark Reveals How Reference Choice Shapes Human Genome Interpretation",
+      "doi": "10.64898/2026.09.07.749735",
+      "date": "2026-09-10",
+      "version": "1",
+      "category": "genomics",
+      "selected": false
+    },
+    {
+      "title": "Atlas-Guided Cell-Specific Transcriptomics Identifies Pathway-Level Remodeling of Human Hypothalamic CRH Neurons in Opioid Use Disorder",
+      "doi": "10.64898/2026.09.09.749970",
+      "date": "2026-09-11",
+      "version": "1",
+      "category": "genomics",
+      "selected": false
+    },
+    {
+      "title": "RNA-aware tissue preservation workflows for high-quality spatial transcriptomics",
+      "doi": "10.64898/2026.09.07.749899",
+      "date": "2026-09-11",
+      "version": "1",
+      "category": "genomics",
+      "selected": true
+    },
+    {
+      "title": "A reproducible buccal transcriptomic response to music exposure in autism spectrum disorder: insights into the oral-brain axis",
+      "doi": "10.64898/2026.09.07.749867",
+      "date": "2026-09-11",
+      "version": "1",
+      "category": "genomics",
+      "selected": false
+    },
+    {
+      "title": "Single-cell transcriptomic and epigenomic analysis reveals X-linked sex differences in aging mouse hypothalamus",
+      "doi": "10.64898/2026.09.08.750001",
+      "date": "2026-09-14",
+      "version": "1",
+      "category": "genomics",
+      "selected": false
+    },
+    {
+      "title": "Transcriptome-wide analysis of alternative splicing in women with fibromyalgia highlights GNLY as an immune candidate",
+      "doi": "10.64898/2026.09.08.750016",
+      "date": "2026-09-14",
+      "version": "1",
+      "category": "genomics",
+      "selected": false
+    },
+    {
+      "title": "Single-cell splice isoform usage reveals distinct axes of cellular identity and senescence",
+      "doi": "10.64898/2026.09.11.748700",
+      "date": "2026-09-14",
+      "version": "1",
+      "category": "genomics",
+      "selected": false
+    },
+    {
+      "title": "Bramble: projection of spliced genomic alignments into transcriptomic space for improved transcript quantification",
+      "doi": "10.64898/2026.09.09.750464",
+      "date": "2026-09-15",
+      "version": "1",
+      "category": "genomics",
+      "selected": true
+    },
+    {
+      "title": "A single nuclei expression resource for exploring dog brain cell transcriptomic diversity",
+      "doi": "10.64898/2026.09.14.751376",
+      "date": "2026-09-16",
+      "version": "1",
+      "category": "genomics",
+      "selected": false
+    },
+    {
+      "title": "Whole-Blood Transcriptomics Highlights Galectin-1 in Systolic Blood Pressure",
+      "doi": "10.64898/2026.09.11.751025",
+      "date": "2026-09-16",
+      "version": "1",
+      "category": "genomics",
+      "selected": false
+    },
+    {
+      "title": "Integrated Transcriptomics and Histological Analysis Reveals Gill Adaptation Mechanisms to Hypoxic Stress in Largemouth Bass (Micropterus salmoides)",
+      "doi": "10.64898/2026.09.10.750788",
+      "date": "2026-09-16",
+      "version": "1",
+      "category": "genomics",
+      "selected": false
+    },
+    {
+      "title": "Benchmarking of tools for resolving the plasmidome from short-read assemblies for Klebsiella pneumoniae",
+      "doi": "10.1101/2025.07.24.666686",
+      "date": "2026-09-17",
+      "version": "2",
+      "category": "genomics",
+      "selected": false
+    },
+    {
+      "title": "Multi-Omics analysis provides crucial insights into ecological adaptation to dryland of a dominant grass (Psammochloa villosa, Poaceae) in Northwest China",
+      "doi": "10.64898/2026.09.14.751419",
+      "date": "2026-09-17",
+      "version": "1",
+      "category": "genomics",
+      "selected": false
+    },
+    {
+      "title": "ssJSD: A fusion of sparsity and spatial information for HiC single-cell clustering",
+      "doi": "10.64898/2026.09.14.751457",
+      "date": "2026-09-18",
+      "version": "1",
+      "category": "genomics",
+      "selected": false
+    },
+    {
+      "title": "Distinct RNA-RNA spatial interaction sub-networks of transcription factors in hepatic cells",
+      "doi": "10.64898/2026.09.13.751294",
+      "date": "2026-09-18",
+      "version": "1",
+      "category": "genomics",
+      "selected": false
+    },
+    {
+      "title": "Single-Cell Study Designs Are Systematically Underpowered for Small-Effect Genes",
+      "doi": "10.64898/2026.09.17.752063",
+      "date": "2026-09-19",
+      "version": "1",
+      "category": "genomics",
+      "selected": true
+    },
+    {
+      "title": "Transcriptome analysis reveals CCND2 promotes myogenic differentiation of pig skeletal muscle",
+      "doi": "10.64898/2026.09.16.752030",
+      "date": "2026-09-22",
+      "version": "1",
+      "category": "genomics",
+      "selected": false
+    },
+    {
+      "title": "Ultra-fast and scalable high-resolution full-length single-cell RNA sequencing using CHART-seq",
+      "doi": "10.64898/2026.09.18.752546",
+      "date": "2026-09-24",
+      "version": "1",
+      "category": "genomics",
+      "selected": false
+    },
+    {
+      "title": "PeakATail: precision-first poly(A)-site calling and calibrated alternative polyadenylation analysis in single-cell RNA-seq",
+      "doi": "10.64898/2026.09.18.752791",
+      "date": "2026-09-24",
+      "version": "1",
+      "category": "genomics",
+      "selected": false
+    },
+    {
+      "title": "Robustness measures for cell type classification in single-cell RNA-seq datasets of kidney organoids",
+      "doi": "10.64898/2026.09.20.752971",
+      "date": "2026-09-25",
+      "version": "1",
+      "category": "genomics",
+      "selected": false
+    },
+    {
+      "title": "SHERLOCK: Structured representation learning and causal inference of downstream perturbation effects",
+      "doi": "10.64898/2026.09.25.754573",
+      "date": "2026-09-26",
+      "version": "1",
+      "category": "genomics",
+      "selected": false
+    },
+    {
+      "title": "A single-nucleus multi-omic atlas of gene regulation across 21 adult human tissues",
+      "doi": "10.64898/2026.09.25.754561",
+      "date": "2026-09-27",
+      "version": "1",
+      "category": "genomics",
+      "selected": true
+    },
+    {
+      "title": "Targeted CRISPRi screening reveals unexpected resilience across the RNA polymerase III transcriptome",
+      "doi": "10.64898/2026.09.24.754042",
+      "date": "2026-09-27",
+      "version": "1",
+      "category": "genomics",
+      "selected": false
+    },
+    {
+      "title": "Hi-C data from the filamentous fungus Podospora anserina and associated 3D models to visualize the spatial organization of its chromosomes",
+      "doi": "10.64898/2026.06.14.732207",
+      "date": "2026-09-28",
+      "version": "2",
+      "category": "genomics",
+      "selected": false
+    },
+    {
+      "title": "Alcohol Use Disorder and Smoking-Associated Molecular Alterations in Human Prefrontal Cortex in Single Nucleus (sn) RNA-Seq",
+      "doi": "10.64898/2026.09.24.753990",
+      "date": "2026-09-29",
+      "version": "1",
+      "category": "genomics",
+      "selected": false
+    },
+    {
+      "title": "Integrated transcriptomic analysis identifies Paternally Expressed Gene 10 as a novel candidate biomarker associated with aggressive features in liposarcoma",
+      "doi": "10.64898/2026.09.24.754104",
+      "date": "2026-09-29",
+      "version": "1",
+      "category": "genomics",
+      "selected": false
+    },
+    {
+      "title": "RNA-sequencing as an expression-informed alternative for somatic variant detection and cancer driver identification",
+      "doi": "10.1101/2022.05.10.491431",
+      "date": "2026-09-30",
+      "version": "2",
+      "category": "genomics",
+      "selected": false
+    },
+    {
+      "title": "Cellular-Resolution Spatial Transcriptomics Reveals Laminar VSMC Phenotypic Remodeling and a Hypoxic Medial Core in Human Thoracic Aortic Dissection",
+      "doi": "10.64898/2026.07.13.738344",
+      "date": "2026-09-30",
+      "version": "2",
+      "category": "genomics",
+      "selected": false
+    }
+  ]
+}

@@ -1,0 +1,2366 @@
+{
+  "window": [
+    "2026-09-01",
+    "2026-09-30"
+  ],
+  "entry_date": "2026-09-30",
+  "retrieved_at": "2026-10-14T04:48:25.054576+00:00",
+  "status": "verified",
+  "coverage": [
+    {
+      "product": "Python",
+      "required": true,
+      "status": "added",
+      "date_span": [
+        "2026-09-01",
+        "2026-09-30"
+      ],
+      "source_url": "https://www.python.org/downloads/",
+      "added_count": 1,
+      "decision_reason": "Security fixes and 3.13 support transition grouped; Python 3.15 previews not treated as stable.",
+      "limitation": "",
+      "versions_considered": [
+        {
+          "version": "3.14.8, 3.13.16, 3.12.15",
+          "date": "2026-09-30",
+          "url": "https://www.python.org/downloads/release/python-3148/",
+          "channel": "stable"
+        }
+      ],
+      "entry_titles": [
+        "Python September releases fix security issues and move 3.13 to security-only support"
+      ]
+    },
+    {
+      "product": "R",
+      "required": true,
+      "status": "no release found",
+      "date_span": [
+        "2026-09-01",
+        "2026-09-30"
+      ],
+      "source_url": "https://cran.r-project.org/src/base/R-4/",
+      "added_count": 0,
+      "decision_reason": "CRAN source archive lists 4.6.1 (June 24) as latest stable; no September stable release observed.",
+      "limitation": "R core only; individual CRAN packages were not exhaustively searched.",
+      "versions_considered": [],
+      "entry_titles": []
+    },
+    {
+      "product": "uv",
+      "required": true,
+      "status": "added",
+      "date_span": [
+        "2026-09-01",
+        "2026-09-30"
+      ],
+      "source_url": "https://github.com/astral-sh/uv/releases",
+      "added_count": 1,
+      "decision_reason": "13 September release records screened; related security and reproducibility changes grouped.",
+      "limitation": "",
+      "versions_considered": [
+        {
+          "tag_name": "0.12.21",
+          "name": "0.12.21",
+          "published_at": "2026-09-29T21:14:06Z",
+          "html_url": "https://github.com/astral-sh/uv/releases/tag/0.12.21",
+          "prerelease": false,
+          "draft": false
+        },
+        {
+          "tag_name": "0.12.20",
+          "name": "0.12.20",
+          "published_at": "2026-09-28T23:20:35Z",
+          "html_url": "https://github.com/astral-sh/uv/releases/tag/0.12.20",
+          "prerelease": false,
+          "draft": false
+        },
+        {
+          "tag_name": "0.12.19",
+          "name": "0.12.19",
+          "published_at": "2026-09-25T00:33:02Z",
+          "html_url": "https://github.com/astral-sh/uv/releases/tag/0.12.19",
+          "prerelease": false,
+          "draft": false
+        },
+        {
+          "tag_name": "0.12.18",
+          "name": "0.12.18",
+          "published_at": "2026-09-22T23:00:51Z",
+          "html_url": "https://github.com/astral-sh/uv/releases/tag/0.12.18",
+          "prerelease": false,
+          "draft": false
+        },
+        {
+          "tag_name": "0.12.17",
+          "name": "0.12.17",
+          "published_at": "2026-09-18T18:59:24Z",
+          "html_url": "https://github.com/astral-sh/uv/releases/tag/0.12.17",
+          "prerelease": false,
+          "draft": false
+        },
+        {
+          "tag_name": "0.12.16",
+          "name": "0.12.16",
+          "published_at": "2026-09-18T01:01:42Z",
+          "html_url": "https://github.com/astral-sh/uv/releases/tag/0.12.16",
+          "prerelease": false,
+          "draft": false
+        },
+        {
+          "tag_name": "0.12.15",
+          "name": "0.12.15",
+          "published_at": "2026-09-15T12:09:40Z",
+          "html_url": "https://github.com/astral-sh/uv/releases/tag/0.12.15",
+          "prerelease": false,
+          "draft": false
+        },
+        {
+          "tag_name": "0.12.14",
+          "name": "0.12.14",
+          "published_at": "2026-09-15T02:19:30Z",
+          "html_url": "https://github.com/astral-sh/uv/releases/tag/0.12.14",
+          "prerelease": false,
+          "draft": false
+        },
+        {
+          "tag_name": "0.12.13",
+          "name": "0.12.13",
+          "published_at": "2026-09-10T19:27:24Z",
+          "html_url": "https://github.com/astral-sh/uv/releases/tag/0.12.13",
+          "prerelease": false,
+          "draft": false
+        },
+        {
+          "tag_name": "0.12.12",
+          "name": "0.12.12",
+          "published_at": "2026-09-09T16:45:15Z",
+          "html_url": "https://github.com/astral-sh/uv/releases/tag/0.12.12",
+          "prerelease": false,
+          "draft": false
+        },
+        {
+          "tag_name": "0.12.11",
+          "name": "0.12.11",
+          "published_at": "2026-09-08T20:45:27Z",
+          "html_url": "https://github.com/astral-sh/uv/releases/tag/0.12.11",
+          "prerelease": false,
+          "draft": false
+        },
+        {
+          "tag_name": "0.12.10",
+          "name": "0.12.10",
+          "published_at": "2026-09-04T23:15:57Z",
+          "html_url": "https://github.com/astral-sh/uv/releases/tag/0.12.10",
+          "prerelease": false,
+          "draft": false
+        },
+        {
+          "tag_name": "0.12.9",
+          "name": "0.12.9",
+          "published_at": "2026-09-01T21:58:26Z",
+          "html_url": "https://github.com/astral-sh/uv/releases/tag/0.12.9",
+          "prerelease": false,
+          "draft": false
+        }
+      ],
+      "entry_titles": [
+        "uv September updates improve package integrity and environment checks"
+      ]
+    },
+    {
+      "product": "renv",
+      "required": true,
+      "status": "added",
+      "date_span": [
+        "2026-09-01",
+        "2026-09-30"
+      ],
+      "source_url": "https://rstudio.github.io/renv/news/index.html",
+      "added_count": 1,
+      "decision_reason": "1.3.0 qualifies; 1.3.1 on October 6 excluded.",
+      "limitation": "",
+      "versions_considered": [
+        {
+          "version": "1.3.0",
+          "date": "2026-09-29",
+          "url": "https://rstudio.github.io/renv/news/index.html#renv-130",
+          "channel": "stable"
+        }
+      ],
+      "entry_titles": [
+        "renv 1.3.0 hardens Git restoration and improves reproducibility"
+      ]
+    },
+    {
+      "product": "Nextflow",
+      "required": true,
+      "status": "only routine updates",
+      "date_span": [
+        "2026-09-01",
+        "2026-09-30"
+      ],
+      "source_url": "https://github.com/nextflow-io/nextflow/releases",
+      "added_count": 0,
+      "decision_reason": "25.10.8 maintenance not selected; 26.09.0-edge and 26.09.1-edge excluded as previews. Pipeline-specific migration need captured in nf-core/rnaseq entry.",
+      "limitation": "26.09.1-edge release body was empty; no stable-release claim inferred.",
+      "versions_considered": [
+        {
+          "tag_name": "v25.10.8",
+          "name": "Version 25.10.8",
+          "published_at": "2026-09-29T16:12:24Z",
+          "html_url": "https://github.com/nextflow-io/nextflow/releases/tag/v25.10.8",
+          "prerelease": false,
+          "draft": false
+        },
+        {
+          "tag_name": "v26.09.1-edge",
+          "name": "Version 26.09.1-edge",
+          "published_at": "2026-09-25T14:07:32Z",
+          "html_url": "https://github.com/nextflow-io/nextflow/releases/tag/v26.09.1-edge",
+          "prerelease": true,
+          "draft": false
+        },
+        {
+          "tag_name": "v26.09.0-edge",
+          "name": "Version 26.09.0-edge",
+          "published_at": "2026-09-22T18:46:50Z",
+          "html_url": "https://github.com/nextflow-io/nextflow/releases/tag/v26.09.0-edge",
+          "prerelease": true,
+          "draft": false
+        }
+      ],
+      "entry_titles": []
+    },
+    {
+      "product": "RStudio",
+      "required": true,
+      "status": "added",
+      "date_span": [
+        "2026-09-01",
+        "2026-09-30"
+      ],
+      "source_url": "https://docs.posit.co/ide/news/index.html",
+      "added_count": 1,
+      "decision_reason": "2026.09.0 selected; IDE changes separated from Workbench-only features.",
+      "limitation": "",
+      "versions_considered": [
+        {
+          "version": "2026.09.0",
+          "date": "2026-09-10",
+          "url": "https://docs.posit.co/ide/news/index.html#rstudio-2026.09.0",
+          "channel": "stable"
+        }
+      ],
+      "entry_titles": [
+        "RStudio 2026.09 adds split source views and managed Assistant controls"
+      ]
+    },
+    {
+      "product": "Positron",
+      "required": true,
+      "status": "already covered",
+      "date_span": [
+        "2026-09-01",
+        "2026-09-30"
+      ],
+      "source_url": "https://github.com/posit-dev/positron/releases",
+      "added_count": 0,
+      "decision_reason": "2026.09.0-256 shipped September 3 and 2026.09.1-2 September 4; the existing September 9 blog entry covers the feature release. Plot fix alone not re-added.",
+      "limitation": "Latest-only release-notes page showed October; GitHub history supplied September records. Existing blog date retained.",
+      "versions_considered": [
+        {
+          "tag_name": "2026.09.1-2",
+          "name": "2026.09.1-2",
+          "published_at": "2026-09-04T20:40:28Z",
+          "html_url": "https://github.com/posit-dev/positron/releases/tag/2026.09.1-2",
+          "prerelease": false,
+          "draft": false
+        },
+        {
+          "tag_name": "2026.09.0-256",
+          "name": "2026.09.0-256",
+          "published_at": "2026-09-03T15:34:53Z",
+          "html_url": "https://github.com/posit-dev/positron/releases/tag/2026.09.0-256",
+          "prerelease": false,
+          "draft": false
+        }
+      ],
+      "entry_titles": []
+    },
+    {
+      "product": "VS Code",
+      "required": true,
+      "status": "added",
+      "date_span": [
+        "2026-09-01",
+        "2026-09-30"
+      ],
+      "source_url": "https://code.visualstudio.com/updates/archive",
+      "added_count": 2,
+      "decision_reason": "Eight release records checked across 1.136\u20131.140; grouped stable workflow changes and a separate security update. Preview automations/agent merge and cosmetic changes not separately selected.",
+      "limitation": "Archive returned stale January listing; GitHub dates and five version-specific official pages used instead.",
+      "versions_considered": [
+        {
+          "tag_name": "1.140.0",
+          "name": "1.140.0",
+          "published_at": "2026-09-30T22:00:22Z",
+          "html_url": "https://github.com/microsoft/vscode/releases/tag/1.140.0",
+          "prerelease": false,
+          "draft": false
+        },
+        {
+          "tag_name": "1.139.1",
+          "name": "1.139.1",
+          "published_at": "2026-09-25T09:58:03Z",
+          "html_url": "https://github.com/microsoft/vscode/releases/tag/1.139.1",
+          "prerelease": false,
+          "draft": false
+        },
+        {
+          "tag_name": "1.139.0",
+          "name": "1.139.0",
+          "published_at": "2026-09-23T10:32:34Z",
+          "html_url": "https://github.com/microsoft/vscode/releases/tag/1.139.0",
+          "prerelease": false,
+          "draft": false
+        },
+        {
+          "tag_name": "1.138.0",
+          "name": "1.138.0",
+          "published_at": "2026-09-16T07:14:47Z",
+          "html_url": "https://github.com/microsoft/vscode/releases/tag/1.138.0",
+          "prerelease": false,
+          "draft": false
+        },
+        {
+          "tag_name": "1.137.0",
+          "name": "1.137.0",
+          "published_at": "2026-09-09T15:32:58Z",
+          "html_url": "https://github.com/microsoft/vscode/releases/tag/1.137.0",
+          "prerelease": false,
+          "draft": false
+        },
+        {
+          "tag_name": "1.136.2",
+          "name": "1.136.2",
+          "published_at": "2026-09-08T17:54:34Z",
+          "html_url": "https://github.com/microsoft/vscode/releases/tag/1.136.2",
+          "prerelease": false,
+          "draft": false
+        },
+        {
+          "tag_name": "1.136.1",
+          "name": "1.136.1",
+          "published_at": "2026-09-03T15:25:32Z",
+          "html_url": "https://github.com/microsoft/vscode/releases/tag/1.136.1",
+          "prerelease": false,
+          "draft": false
+        },
+        {
+          "tag_name": "1.136.0",
+          "name": "1.136.0",
+          "published_at": "2026-09-02T16:18:16Z",
+          "html_url": "https://github.com/microsoft/vscode/releases/tag/1.136.0",
+          "prerelease": false,
+          "draft": false
+        }
+      ],
+      "entry_titles": [
+        "VS Code 1.136.2 addresses agent and workspace security issues",
+        "VS Code September updates bring agent sessions into development containers"
+      ]
+    },
+    {
+      "product": "ChatGPT",
+      "required": true,
+      "status": "added",
+      "date_span": [
+        "2026-09-01",
+        "2026-09-30"
+      ],
+      "source_url": "https://learn.chatgpt.com/docs/changelog",
+      "added_count": 1,
+      "decision_reason": "DevDay Work/Space announcement selected; model and desktop changes shared with Codex are cross-listed there.",
+      "limitation": "Uses current unified official changelog and DevDay roundup. Routine mobile patches and limited-preview feature overflow not separately inserted.",
+      "versions_considered": [
+        {
+          "version": "DevDay 2026",
+          "date": "2026-09-29",
+          "url": "https://learn.chatgpt.com/docs/whats-new/devday-2026#chatgpt",
+          "channel": "product announcement"
+        }
+      ],
+      "entry_titles": [
+        "ChatGPT adds shared Spaces and synced Work tasks"
+      ]
+    },
+    {
+      "product": "Codex",
+      "required": true,
+      "status": "added",
+      "date_span": [
+        "2026-09-01",
+        "2026-09-30"
+      ],
+      "source_url": "https://learn.chatgpt.com/docs/changelog",
+      "added_count": 5,
+      "decision_reason": "Model, interface, security, migration and cloud changes selected as distinct developments.",
+      "limitation": "Plan/client restrictions retained. GPT-5.5 October retirement is a September notice, not a September removal.",
+      "versions_considered": [
+        {
+          "version": "GPT-6 Sol / Luna",
+          "date": "2026-09-22",
+          "url": "https://learn.chatgpt.com/docs/changelog#codex-2026-09-22-gpt-6-sol-luna"
+        },
+        {
+          "version": "GPT-6.1 Sol",
+          "date": "2026-09-29",
+          "url": "https://learn.chatgpt.com/docs/changelog#codex-2026-09-29-gpt-61-sol"
+        },
+        {
+          "version": "26.924.20706",
+          "date": "2026-09-25",
+          "url": "https://learn.chatgpt.com/docs/changelog#codex-2026-09-25-app",
+          "channel": "stable"
+        },
+        {
+          "version": "September 5 removal",
+          "date": "2026-09-05",
+          "url": "https://learn.chatgpt.com/docs/changelog#codex-2026-09-05",
+          "channel": "stable"
+        },
+        {
+          "version": "Spark removal",
+          "date": "2026-09-14",
+          "url": "https://learn.chatgpt.com/docs/changelog#codex-2026-09-14-codex-spark-deprecation"
+        },
+        {
+          "version": "GPT-5.5 retirement notice",
+          "date": "2026-09-14",
+          "effective_date": "2026-10-14",
+          "url": "https://learn.chatgpt.com/docs/changelog#codex-2026-09-14-gpt-55-retirement"
+        },
+        {
+          "version": "DevDay 2026",
+          "date": "2026-09-29",
+          "url": "https://learn.chatgpt.com/docs/whats-new/devday-2026#reusable-cloud-environments",
+          "channel": "product announcement"
+        }
+      ],
+      "entry_titles": [
+        "GPT-6 Sol, Luna, and GPT-6.1 Sol arrive in Codex and ChatGPT Work",
+        "OpenAI desktop macOS update fixes CVE-2026-100754",
+        "Codex removes its MCP server command",
+        "September model notices require Codex configuration changes",
+        "Codex introduces reusable cloud development environments"
+      ]
+    },
+    {
+      "product": "Claude",
+      "required": true,
+      "status": "added; partial coverage",
+      "date_span": [
+        "2026-09-01",
+        "2026-09-30"
+      ],
+      "source_url": "https://support.claude.com/en/articles/12138966-release-notes",
+      "added_count": 2,
+      "decision_reason": "Dated official model and Cowork announcements verified; Code release records corroborate model availability.",
+      "limitation": "Direct retrieval returned 403; web-reader page was stale despite newer search snippets. Dated Anthropic/Claude announcements used as fallback; complete app-release enumeration remains unverified.",
+      "versions_considered": [
+        {
+          "version": "Fable 5.1 in Claude Code",
+          "date": "2026-09-01",
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.257"
+        },
+        {
+          "version": "Opus 5.5",
+          "date": "2026-09-22",
+          "url": "https://www.anthropic.com/claude-opus-5-5"
+        },
+        {
+          "version": "Sonnet 5.5",
+          "date": "2026-09-28",
+          "url": "https://www.anthropic.com/claude-sonnet-5-5"
+        },
+        {
+          "version": "September 16 rollout",
+          "date": "2026-09-16",
+          "url": "https://claude.com/resources/articles/cowork-is-now-claude",
+          "channel": "staged rollout; document features in beta"
+        }
+      ],
+      "entry_titles": [
+        "Claude September model releases expand coding and analysis options",
+        "Claude combines Cowork and chat with document and slide editing"
+      ]
+    },
+    {
+      "product": "Claude Code",
+      "required": true,
+      "status": "added",
+      "date_span": [
+        "2026-09-01",
+        "2026-09-30"
+      ],
+      "source_url": "https://github.com/anthropics/claude-code/releases",
+      "added_count": 1,
+      "decision_reason": "27 release records screened; grouped evaluation, governance and reliability changes. Model introductions covered under Claude.",
+      "limitation": "",
+      "versions_considered": [
+        {
+          "tag_name": "v2.1.286",
+          "name": "v2.1.286",
+          "published_at": "2026-09-30T19:10:13Z",
+          "html_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.286",
+          "prerelease": false,
+          "draft": false
+        },
+        {
+          "tag_name": "v2.1.285",
+          "name": "v2.1.285",
+          "published_at": "2026-09-29T19:27:30Z",
+          "html_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.285",
+          "prerelease": false,
+          "draft": false
+        },
+        {
+          "tag_name": "v2.1.284",
+          "name": "v2.1.284",
+          "published_at": "2026-09-28T18:02:03Z",
+          "html_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.284",
+          "prerelease": false,
+          "draft": false
+        },
+        {
+          "tag_name": "v2.1.283",
+          "name": "v2.1.283",
+          "published_at": "2026-09-25T21:50:12Z",
+          "html_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.283",
+          "prerelease": false,
+          "draft": false
+        },
+        {
+          "tag_name": "v2.1.282",
+          "name": "v2.1.282",
+          "published_at": "2026-09-24T18:38:05Z",
+          "html_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.282",
+          "prerelease": false,
+          "draft": false
+        },
+        {
+          "tag_name": "v2.1.281",
+          "name": "v2.1.281",
+          "published_at": "2026-09-23T19:19:15Z",
+          "html_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.281",
+          "prerelease": false,
+          "draft": false
+        },
+        {
+          "tag_name": "v2.1.280",
+          "name": "v2.1.280",
+          "published_at": "2026-09-22T16:38:14Z",
+          "html_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.280",
+          "prerelease": false,
+          "draft": false
+        },
+        {
+          "tag_name": "v2.1.278",
+          "name": "v2.1.278",
+          "published_at": "2026-09-19T03:10:40Z",
+          "html_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.278",
+          "prerelease": false,
+          "draft": false
+        },
+        {
+          "tag_name": "v2.1.277",
+          "name": "v2.1.277",
+          "published_at": "2026-09-18T18:06:32Z",
+          "html_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.277",
+          "prerelease": false,
+          "draft": false
+        },
+        {
+          "tag_name": "v2.1.276",
+          "name": "v2.1.276",
+          "published_at": "2026-09-18T02:12:26Z",
+          "html_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.276",
+          "prerelease": false,
+          "draft": false
+        },
+        {
+          "tag_name": "v2.1.275",
+          "name": "v2.1.275",
+          "published_at": "2026-09-17T22:33:17Z",
+          "html_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.275",
+          "prerelease": false,
+          "draft": false
+        },
+        {
+          "tag_name": "v2.1.274",
+          "name": "v2.1.274",
+          "published_at": "2026-09-17T00:12:02Z",
+          "html_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.274",
+          "prerelease": false,
+          "draft": false
+        },
+        {
+          "tag_name": "v2.1.273",
+          "name": "v2.1.273",
+          "published_at": "2026-09-15T20:23:03Z",
+          "html_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.273",
+          "prerelease": false,
+          "draft": false
+        },
+        {
+          "tag_name": "v2.1.272",
+          "name": "v2.1.272",
+          "published_at": "2026-09-15T00:42:25Z",
+          "html_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.272",
+          "prerelease": false,
+          "draft": false
+        },
+        {
+          "tag_name": "v2.1.271",
+          "name": "v2.1.271",
+          "published_at": "2026-09-14T22:12:54Z",
+          "html_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.271",
+          "prerelease": false,
+          "draft": false
+        },
+        {
+          "tag_name": "v2.1.270",
+          "name": "v2.1.270",
+          "published_at": "2026-09-12T19:45:44Z",
+          "html_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.270",
+          "prerelease": false,
+          "draft": false
+        },
+        {
+          "tag_name": "v2.1.269",
+          "name": "v2.1.269",
+          "published_at": "2026-09-11T19:17:55Z",
+          "html_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.269",
+          "prerelease": false,
+          "draft": false
+        },
+        {
+          "tag_name": "v2.1.268",
+          "name": "v2.1.268",
+          "published_at": "2026-09-10T20:30:54Z",
+          "html_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.268",
+          "prerelease": false,
+          "draft": false
+        },
+        {
+          "tag_name": "v2.1.267",
+          "name": "v2.1.267",
+          "published_at": "2026-09-09T19:58:14Z",
+          "html_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.267",
+          "prerelease": false,
+          "draft": false
+        },
+        {
+          "tag_name": "v2.1.266",
+          "name": "v2.1.266",
+          "published_at": "2026-09-08T23:55:14Z",
+          "html_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.266",
+          "prerelease": false,
+          "draft": false
+        },
+        {
+          "tag_name": "v2.1.265",
+          "name": "v2.1.265",
+          "published_at": "2026-09-08T20:37:31Z",
+          "html_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.265",
+          "prerelease": false,
+          "draft": false
+        },
+        {
+          "tag_name": "v2.1.263",
+          "name": "v2.1.263",
+          "published_at": "2026-09-06T02:54:20Z",
+          "html_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.263",
+          "prerelease": false,
+          "draft": false
+        },
+        {
+          "tag_name": "v2.1.261",
+          "name": "v2.1.261",
+          "published_at": "2026-09-04T19:58:10Z",
+          "html_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.261",
+          "prerelease": false,
+          "draft": false
+        },
+        {
+          "tag_name": "v2.1.260",
+          "name": "v2.1.260",
+          "published_at": "2026-09-03T23:48:12Z",
+          "html_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.260",
+          "prerelease": false,
+          "draft": false
+        },
+        {
+          "tag_name": "v2.1.259",
+          "name": "v2.1.259",
+          "published_at": "2026-09-02T22:33:51Z",
+          "html_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.259",
+          "prerelease": false,
+          "draft": false
+        },
+        {
+          "tag_name": "v2.1.258",
+          "name": "v2.1.258",
+          "published_at": "2026-09-01T22:33:20Z",
+          "html_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.258",
+          "prerelease": false,
+          "draft": false
+        },
+        {
+          "tag_name": "v2.1.257",
+          "name": "v2.1.257",
+          "published_at": "2026-09-01T17:53:52Z",
+          "html_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.257",
+          "prerelease": false,
+          "draft": false
+        }
+      ],
+      "entry_titles": [
+        "Claude Code September updates add evaluations and tighter permission controls"
+      ]
+    },
+    {
+      "product": "Bioconductor",
+      "required": false,
+      "status": "no release found",
+      "date_span": [
+        "2026-09-01",
+        "2026-09-30"
+      ],
+      "source_url": "https://bioconductor.org/about/release-announcements/",
+      "added_count": 0,
+      "decision_reason": "Official core release table lists 3.23 on April 29; no September core release. Existing BioC2026 conference entry retained.",
+      "limitation": "Core distribution only; not all package updates.",
+      "versions_considered": [],
+      "entry_titles": []
+    },
+    {
+      "product": "Quarto",
+      "required": false,
+      "status": "only previews",
+      "date_span": [
+        "2026-09-01",
+        "2026-09-30"
+      ],
+      "source_url": "https://github.com/quarto-dev/quarto-cli/releases",
+      "added_count": 0,
+      "decision_reason": "1.11.2\u20131.11.5 are prereleases in GitHub metadata; no stable September release found.",
+      "limitation": "",
+      "versions_considered": [
+        {
+          "tag_name": "v1.11.5",
+          "name": "v1.11.5",
+          "published_at": "2026-09-17T13:00:38Z",
+          "html_url": "https://github.com/quarto-dev/quarto-cli/releases/tag/v1.11.5",
+          "prerelease": true,
+          "draft": false
+        },
+        {
+          "tag_name": "v1.11.4",
+          "name": "v1.11.4",
+          "published_at": "2026-09-09T15:20:23Z",
+          "html_url": "https://github.com/quarto-dev/quarto-cli/releases/tag/v1.11.4",
+          "prerelease": true,
+          "draft": false
+        },
+        {
+          "tag_name": "v1.11.3",
+          "name": "v1.11.3",
+          "published_at": "2026-09-03T09:30:13Z",
+          "html_url": "https://github.com/quarto-dev/quarto-cli/releases/tag/v1.11.3",
+          "prerelease": true,
+          "draft": false
+        },
+        {
+          "tag_name": "v1.11.2",
+          "name": "v1.11.2",
+          "published_at": "2026-09-02T15:31:28Z",
+          "html_url": "https://github.com/quarto-dev/quarto-cli/releases/tag/v1.11.2",
+          "prerelease": true,
+          "draft": false
+        }
+      ],
+      "entry_titles": []
+    },
+    {
+      "product": "Snakemake",
+      "required": false,
+      "status": "only routine updates",
+      "date_span": [
+        "2026-09-01",
+        "2026-09-30"
+      ],
+      "source_url": "https://github.com/snakemake/snakemake/releases",
+      "added_count": 0,
+      "decision_reason": "9.27.0 on September 11 adds unit-test diffs and targeted validation/notebook fixes; not selected as a substantial general update.",
+      "limitation": "",
+      "versions_considered": [
+        {
+          "tag_name": "v9.27.0",
+          "name": "v9.27.0",
+          "published_at": "2026-09-11T13:44:52Z",
+          "html_url": "https://github.com/snakemake/snakemake/releases/tag/v9.27.0",
+          "prerelease": false,
+          "draft": false
+        }
+      ],
+      "entry_titles": []
+    },
+    {
+      "product": "nf-core pipelines",
+      "required": false,
+      "status": "added",
+      "date_span": [
+        "2026-09-01",
+        "2026-09-30"
+      ],
+      "source_url": "https://nf-co.re/blog",
+      "added_count": 1,
+      "decision_reason": "rnaseq 3.27.0 selected for direct transcriptomics relevance and strandedness/migration changes.",
+      "limitation": "Blog and rnaseq release history checked; not exhaustive across every nf-core pipeline.",
+      "versions_considered": [
+        {
+          "tag_name": "3.27.0",
+          "name": "nf-core/rnaseq v3.27.0 - Vanadium Vulture",
+          "published_at": "2026-09-23T12:58:42Z",
+          "html_url": "https://github.com/nf-core/rnaseq/releases/tag/3.27.0",
+          "prerelease": false,
+          "draft": false
+        }
+      ],
+      "entry_titles": [
+        "nf-core/rnaseq 3.27.0 expands screening and restores strandedness handling"
+      ]
+    },
+    {
+      "product": "Scanpy / scverse",
+      "required": false,
+      "status": "no release found",
+      "date_span": [
+        "2026-09-01",
+        "2026-09-30"
+      ],
+      "source_url": "https://github.com/scverse/scanpy/releases",
+      "added_count": 0,
+      "decision_reason": "No September release in Scanpy GitHub history.",
+      "limitation": "Scanpy only; other scverse packages not exhaustively enumerated.",
+      "versions_considered": [],
+      "entry_titles": []
+    },
+    {
+      "product": "Ruff",
+      "required": false,
+      "status": "added",
+      "date_span": [
+        "2026-09-01",
+        "2026-09-30"
+      ],
+      "source_url": "https://github.com/astral-sh/ruff/releases",
+      "added_count": 1,
+      "decision_reason": "Four September versions reviewed; selected 0.16.8 because autofix safety affects code behavior. Other routine rule updates grouped out.",
+      "limitation": "",
+      "versions_considered": [
+        {
+          "tag_name": "0.16.9",
+          "name": "0.16.9",
+          "published_at": "2026-09-24T20:38:52Z",
+          "html_url": "https://github.com/astral-sh/ruff/releases/tag/0.16.9",
+          "prerelease": false,
+          "draft": false
+        },
+        {
+          "tag_name": "0.16.8",
+          "name": "0.16.8",
+          "published_at": "2026-09-16T15:56:22Z",
+          "html_url": "https://github.com/astral-sh/ruff/releases/tag/0.16.8",
+          "prerelease": false,
+          "draft": false
+        },
+        {
+          "tag_name": "0.16.7",
+          "name": "0.16.7",
+          "published_at": "2026-09-10T18:05:06Z",
+          "html_url": "https://github.com/astral-sh/ruff/releases/tag/0.16.7",
+          "prerelease": false,
+          "draft": false
+        },
+        {
+          "tag_name": "0.16.6",
+          "name": "0.16.6",
+          "published_at": "2026-09-03T17:20:13Z",
+          "html_url": "https://github.com/astral-sh/ruff/releases/tag/0.16.6",
+          "prerelease": false,
+          "draft": false
+        }
+      ],
+      "entry_titles": [
+        "Ruff 0.16.8 improves autofix safety and Python compatibility"
+      ]
+    },
+    {
+      "product": "Polars",
+      "required": false,
+      "status": "routine update and previews",
+      "date_span": [
+        "2026-09-01",
+        "2026-09-30"
+      ],
+      "source_url": "https://github.com/pola-rs/polars/releases",
+      "added_count": 0,
+      "decision_reason": "1.44.2 backport PR reviewed: Parquet fsync, diagnostics and monitoring changes did not warrant a separate entry. 2.0 release candidates excluded.",
+      "limitation": "",
+      "versions_considered": [
+        {
+          "tag_name": "py-2.0.0-rc.2",
+          "name": "Python Polars 2.0.0-rc.2",
+          "published_at": "2026-09-20T17:36:49Z",
+          "html_url": "https://github.com/pola-rs/polars/releases/tag/py-2.0.0-rc.2",
+          "prerelease": true,
+          "draft": false
+        },
+        {
+          "tag_name": "py-1.44.2",
+          "name": "Python Polars 1.44.2",
+          "published_at": "2026-09-09T07:42:33Z",
+          "html_url": "https://github.com/pola-rs/polars/releases/tag/py-1.44.2",
+          "prerelease": false,
+          "draft": false
+        },
+        {
+          "tag_name": "py-2.0.0-rc.1",
+          "name": "Python Polars 2.0.0-rc.1",
+          "published_at": "2026-09-02T11:49:46Z",
+          "html_url": "https://github.com/pola-rs/polars/releases/tag/py-2.0.0-rc.1",
+          "prerelease": true,
+          "draft": false
+        }
+      ],
+      "entry_titles": []
+    },
+    {
+      "product": "DuckDB",
+      "required": false,
+      "status": "added",
+      "date_span": [
+        "2026-09-01",
+        "2026-09-30"
+      ],
+      "source_url": "https://github.com/duckdb/duckdb/releases",
+      "added_count": 1,
+      "decision_reason": "1.5.6 selected for analytical correctness and recovery fixes.",
+      "limitation": "",
+      "versions_considered": [
+        {
+          "tag_name": "v1.5.6",
+          "name": "DuckDB v1.5.6 Bugfix Release",
+          "published_at": "2026-09-28T13:35:11Z",
+          "html_url": "https://github.com/duckdb/duckdb/releases/tag/v1.5.6",
+          "prerelease": false,
+          "draft": false
+        }
+      ],
+      "entry_titles": [
+        "DuckDB 1.5.6 fixes analytical query correctness and recovery issues"
+      ]
+    }
+  ],
+  "release_inventories": {
+    "posit-dev/positron": {
+      "repo": "posit-dev/positron",
+      "pages": [
+        {
+          "url": "https://api.github.com/repos/posit-dev/positron/releases?per_page=100&page=1",
+          "count": 57
+        }
+      ],
+      "reached_before_window": true,
+      "releases": [
+        {
+          "tag_name": "2026.09.1-2",
+          "name": "2026.09.1-2",
+          "published_at": "2026-09-04T20:40:28Z",
+          "html_url": "https://github.com/posit-dev/positron/releases/tag/2026.09.1-2",
+          "prerelease": false,
+          "draft": false
+        },
+        {
+          "tag_name": "2026.09.0-256",
+          "name": "2026.09.0-256",
+          "published_at": "2026-09-03T15:34:53Z",
+          "html_url": "https://github.com/posit-dev/positron/releases/tag/2026.09.0-256",
+          "prerelease": false,
+          "draft": false
+        }
+      ]
+    },
+    "snakemake/snakemake": {
+      "repo": "snakemake/snakemake",
+      "pages": [
+        {
+          "url": "https://api.github.com/repos/snakemake/snakemake/releases?per_page=100&page=1",
+          "count": 100
+        }
+      ],
+      "reached_before_window": true,
+      "releases": [
+        {
+          "tag_name": "v9.27.0",
+          "name": "v9.27.0",
+          "published_at": "2026-09-11T13:44:52Z",
+          "html_url": "https://github.com/snakemake/snakemake/releases/tag/v9.27.0",
+          "prerelease": false,
+          "draft": false
+        }
+      ]
+    },
+    "astral-sh/ruff": {
+      "repo": "astral-sh/ruff",
+      "pages": [
+        {
+          "url": "https://api.github.com/repos/astral-sh/ruff/releases?per_page=100&page=1",
+          "count": 100
+        }
+      ],
+      "reached_before_window": true,
+      "releases": [
+        {
+          "tag_name": "0.16.9",
+          "name": "0.16.9",
+          "published_at": "2026-09-24T20:38:52Z",
+          "html_url": "https://github.com/astral-sh/ruff/releases/tag/0.16.9",
+          "prerelease": false,
+          "draft": false
+        },
+        {
+          "tag_name": "0.16.8",
+          "name": "0.16.8",
+          "published_at": "2026-09-16T15:56:22Z",
+          "html_url": "https://github.com/astral-sh/ruff/releases/tag/0.16.8",
+          "prerelease": false,
+          "draft": false
+        },
+        {
+          "tag_name": "0.16.7",
+          "name": "0.16.7",
+          "published_at": "2026-09-10T18:05:06Z",
+          "html_url": "https://github.com/astral-sh/ruff/releases/tag/0.16.7",
+          "prerelease": false,
+          "draft": false
+        },
+        {
+          "tag_name": "0.16.6",
+          "name": "0.16.6",
+          "published_at": "2026-09-03T17:20:13Z",
+          "html_url": "https://github.com/astral-sh/ruff/releases/tag/0.16.6",
+          "prerelease": false,
+          "draft": false
+        }
+      ]
+    },
+    "nextflow-io/nextflow": {
+      "repo": "nextflow-io/nextflow",
+      "pages": [
+        {
+          "url": "https://api.github.com/repos/nextflow-io/nextflow/releases?per_page=100&page=1",
+          "count": 100
+        }
+      ],
+      "reached_before_window": true,
+      "releases": [
+        {
+          "tag_name": "v25.10.8",
+          "name": "Version 25.10.8",
+          "published_at": "2026-09-29T16:12:24Z",
+          "html_url": "https://github.com/nextflow-io/nextflow/releases/tag/v25.10.8",
+          "prerelease": false,
+          "draft": false
+        },
+        {
+          "tag_name": "v26.09.1-edge",
+          "name": "Version 26.09.1-edge",
+          "published_at": "2026-09-25T14:07:32Z",
+          "html_url": "https://github.com/nextflow-io/nextflow/releases/tag/v26.09.1-edge",
+          "prerelease": true,
+          "draft": false
+        },
+        {
+          "tag_name": "v26.09.0-edge",
+          "name": "Version 26.09.0-edge",
+          "published_at": "2026-09-22T18:46:50Z",
+          "html_url": "https://github.com/nextflow-io/nextflow/releases/tag/v26.09.0-edge",
+          "prerelease": true,
+          "draft": false
+        }
+      ]
+    },
+    "quarto-dev/quarto-cli": {
+      "repo": "quarto-dev/quarto-cli",
+      "pages": [
+        {
+          "url": "https://api.github.com/repos/quarto-dev/quarto-cli/releases?per_page=100&page=1",
+          "count": 100
+        }
+      ],
+      "reached_before_window": true,
+      "releases": [
+        {
+          "tag_name": "v1.11.5",
+          "name": "v1.11.5",
+          "published_at": "2026-09-17T13:00:38Z",
+          "html_url": "https://github.com/quarto-dev/quarto-cli/releases/tag/v1.11.5",
+          "prerelease": true,
+          "draft": false
+        },
+        {
+          "tag_name": "v1.11.4",
+          "name": "v1.11.4",
+          "published_at": "2026-09-09T15:20:23Z",
+          "html_url": "https://github.com/quarto-dev/quarto-cli/releases/tag/v1.11.4",
+          "prerelease": true,
+          "draft": false
+        },
+        {
+          "tag_name": "v1.11.3",
+          "name": "v1.11.3",
+          "published_at": "2026-09-03T09:30:13Z",
+          "html_url": "https://github.com/quarto-dev/quarto-cli/releases/tag/v1.11.3",
+          "prerelease": true,
+          "draft": false
+        },
+        {
+          "tag_name": "v1.11.2",
+          "name": "v1.11.2",
+          "published_at": "2026-09-02T15:31:28Z",
+          "html_url": "https://github.com/quarto-dev/quarto-cli/releases/tag/v1.11.2",
+          "prerelease": true,
+          "draft": false
+        }
+      ]
+    },
+    "anthropics/claude-code": {
+      "repo": "anthropics/claude-code",
+      "pages": [
+        {
+          "url": "https://api.github.com/repos/anthropics/claude-code/releases?per_page=100&page=1",
+          "count": 100
+        }
+      ],
+      "reached_before_window": true,
+      "releases": [
+        {
+          "tag_name": "v2.1.286",
+          "name": "v2.1.286",
+          "published_at": "2026-09-30T19:10:13Z",
+          "html_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.286",
+          "prerelease": false,
+          "draft": false
+        },
+        {
+          "tag_name": "v2.1.285",
+          "name": "v2.1.285",
+          "published_at": "2026-09-29T19:27:30Z",
+          "html_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.285",
+          "prerelease": false,
+          "draft": false
+        },
+        {
+          "tag_name": "v2.1.284",
+          "name": "v2.1.284",
+          "published_at": "2026-09-28T18:02:03Z",
+          "html_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.284",
+          "prerelease": false,
+          "draft": false
+        },
+        {
+          "tag_name": "v2.1.283",
+          "name": "v2.1.283",
+          "published_at": "2026-09-25T21:50:12Z",
+          "html_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.283",
+          "prerelease": false,
+          "draft": false
+        },
+        {
+          "tag_name": "v2.1.282",
+          "name": "v2.1.282",
+          "published_at": "2026-09-24T18:38:05Z",
+          "html_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.282",
+          "prerelease": false,
+          "draft": false
+        },
+        {
+          "tag_name": "v2.1.281",
+          "name": "v2.1.281",
+          "published_at": "2026-09-23T19:19:15Z",
+          "html_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.281",
+          "prerelease": false,
+          "draft": false
+        },
+        {
+          "tag_name": "v2.1.280",
+          "name": "v2.1.280",
+          "published_at": "2026-09-22T16:38:14Z",
+          "html_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.280",
+          "prerelease": false,
+          "draft": false
+        },
+        {
+          "tag_name": "v2.1.278",
+          "name": "v2.1.278",
+          "published_at": "2026-09-19T03:10:40Z",
+          "html_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.278",
+          "prerelease": false,
+          "draft": false
+        },
+        {
+          "tag_name": "v2.1.277",
+          "name": "v2.1.277",
+          "published_at": "2026-09-18T18:06:32Z",
+          "html_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.277",
+          "prerelease": false,
+          "draft": false
+        },
+        {
+          "tag_name": "v2.1.276",
+          "name": "v2.1.276",
+          "published_at": "2026-09-18T02:12:26Z",
+          "html_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.276",
+          "prerelease": false,
+          "draft": false
+        },
+        {
+          "tag_name": "v2.1.275",
+          "name": "v2.1.275",
+          "published_at": "2026-09-17T22:33:17Z",
+          "html_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.275",
+          "prerelease": false,
+          "draft": false
+        },
+        {
+          "tag_name": "v2.1.274",
+          "name": "v2.1.274",
+          "published_at": "2026-09-17T00:12:02Z",
+          "html_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.274",
+          "prerelease": false,
+          "draft": false
+        },
+        {
+          "tag_name": "v2.1.273",
+          "name": "v2.1.273",
+          "published_at": "2026-09-15T20:23:03Z",
+          "html_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.273",
+          "prerelease": false,
+          "draft": false
+        },
+        {
+          "tag_name": "v2.1.272",
+          "name": "v2.1.272",
+          "published_at": "2026-09-15T00:42:25Z",
+          "html_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.272",
+          "prerelease": false,
+          "draft": false
+        },
+        {
+          "tag_name": "v2.1.271",
+          "name": "v2.1.271",
+          "published_at": "2026-09-14T22:12:54Z",
+          "html_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.271",
+          "prerelease": false,
+          "draft": false
+        },
+        {
+          "tag_name": "v2.1.270",
+          "name": "v2.1.270",
+          "published_at": "2026-09-12T19:45:44Z",
+          "html_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.270",
+          "prerelease": false,
+          "draft": false
+        },
+        {
+          "tag_name": "v2.1.269",
+          "name": "v2.1.269",
+          "published_at": "2026-09-11T19:17:55Z",
+          "html_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.269",
+          "prerelease": false,
+          "draft": false
+        },
+        {
+          "tag_name": "v2.1.268",
+          "name": "v2.1.268",
+          "published_at": "2026-09-10T20:30:54Z",
+          "html_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.268",
+          "prerelease": false,
+          "draft": false
+        },
+        {
+          "tag_name": "v2.1.267",
+          "name": "v2.1.267",
+          "published_at": "2026-09-09T19:58:14Z",
+          "html_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.267",
+          "prerelease": false,
+          "draft": false
+        },
+        {
+          "tag_name": "v2.1.266",
+          "name": "v2.1.266",
+          "published_at": "2026-09-08T23:55:14Z",
+          "html_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.266",
+          "prerelease": false,
+          "draft": false
+        },
+        {
+          "tag_name": "v2.1.265",
+          "name": "v2.1.265",
+          "published_at": "2026-09-08T20:37:31Z",
+          "html_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.265",
+          "prerelease": false,
+          "draft": false
+        },
+        {
+          "tag_name": "v2.1.263",
+          "name": "v2.1.263",
+          "published_at": "2026-09-06T02:54:20Z",
+          "html_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.263",
+          "prerelease": false,
+          "draft": false
+        },
+        {
+          "tag_name": "v2.1.261",
+          "name": "v2.1.261",
+          "published_at": "2026-09-04T19:58:10Z",
+          "html_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.261",
+          "prerelease": false,
+          "draft": false
+        },
+        {
+          "tag_name": "v2.1.260",
+          "name": "v2.1.260",
+          "published_at": "2026-09-03T23:48:12Z",
+          "html_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.260",
+          "prerelease": false,
+          "draft": false
+        },
+        {
+          "tag_name": "v2.1.259",
+          "name": "v2.1.259",
+          "published_at": "2026-09-02T22:33:51Z",
+          "html_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.259",
+          "prerelease": false,
+          "draft": false
+        },
+        {
+          "tag_name": "v2.1.258",
+          "name": "v2.1.258",
+          "published_at": "2026-09-01T22:33:20Z",
+          "html_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.258",
+          "prerelease": false,
+          "draft": false
+        },
+        {
+          "tag_name": "v2.1.257",
+          "name": "v2.1.257",
+          "published_at": "2026-09-01T17:53:52Z",
+          "html_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.257",
+          "prerelease": false,
+          "draft": false
+        }
+      ]
+    },
+    "nf-core/rnaseq": {
+      "repo": "nf-core/rnaseq",
+      "pages": [
+        {
+          "url": "https://api.github.com/repos/nf-core/rnaseq/releases?per_page=100&page=1",
+          "count": 46
+        }
+      ],
+      "reached_before_window": true,
+      "releases": [
+        {
+          "tag_name": "3.27.0",
+          "name": "nf-core/rnaseq v3.27.0 - Vanadium Vulture",
+          "published_at": "2026-09-23T12:58:42Z",
+          "html_url": "https://github.com/nf-core/rnaseq/releases/tag/3.27.0",
+          "prerelease": false,
+          "draft": false
+        }
+      ]
+    },
+    "microsoft/vscode": {
+      "repo": "microsoft/vscode",
+      "pages": [
+        {
+          "url": "https://api.github.com/repos/microsoft/vscode/releases?per_page=100&page=1",
+          "count": 100
+        }
+      ],
+      "reached_before_window": true,
+      "releases": [
+        {
+          "tag_name": "1.140.0",
+          "name": "1.140.0",
+          "published_at": "2026-09-30T22:00:22Z",
+          "html_url": "https://github.com/microsoft/vscode/releases/tag/1.140.0",
+          "prerelease": false,
+          "draft": false
+        },
+        {
+          "tag_name": "1.139.1",
+          "name": "1.139.1",
+          "published_at": "2026-09-25T09:58:03Z",
+          "html_url": "https://github.com/microsoft/vscode/releases/tag/1.139.1",
+          "prerelease": false,
+          "draft": false
+        },
+        {
+          "tag_name": "1.139.0",
+          "name": "1.139.0",
+          "published_at": "2026-09-23T10:32:34Z",
+          "html_url": "https://github.com/microsoft/vscode/releases/tag/1.139.0",
+          "prerelease": false,
+          "draft": false
+        },
+        {
+          "tag_name": "1.138.0",
+          "name": "1.138.0",
+          "published_at": "2026-09-16T07:14:47Z",
+          "html_url": "https://github.com/microsoft/vscode/releases/tag/1.138.0",
+          "prerelease": false,
+          "draft": false
+        },
+        {
+          "tag_name": "1.137.0",
+          "name": "1.137.0",
+          "published_at": "2026-09-09T15:32:58Z",
+          "html_url": "https://github.com/microsoft/vscode/releases/tag/1.137.0",
+          "prerelease": false,
+          "draft": false
+        },
+        {
+          "tag_name": "1.136.2",
+          "name": "1.136.2",
+          "published_at": "2026-09-08T17:54:34Z",
+          "html_url": "https://github.com/microsoft/vscode/releases/tag/1.136.2",
+          "prerelease": false,
+          "draft": false
+        },
+        {
+          "tag_name": "1.136.1",
+          "name": "1.136.1",
+          "published_at": "2026-09-03T15:25:32Z",
+          "html_url": "https://github.com/microsoft/vscode/releases/tag/1.136.1",
+          "prerelease": false,
+          "draft": false
+        },
+        {
+          "tag_name": "1.136.0",
+          "name": "1.136.0",
+          "published_at": "2026-09-02T16:18:16Z",
+          "html_url": "https://github.com/microsoft/vscode/releases/tag/1.136.0",
+          "prerelease": false,
+          "draft": false
+        }
+      ]
+    },
+    "astral-sh/uv": {
+      "repo": "astral-sh/uv",
+      "pages": [
+        {
+          "url": "https://api.github.com/repos/astral-sh/uv/releases?per_page=100&page=1",
+          "count": 100
+        }
+      ],
+      "reached_before_window": true,
+      "releases": [
+        {
+          "tag_name": "0.12.21",
+          "name": "0.12.21",
+          "published_at": "2026-09-29T21:14:06Z",
+          "html_url": "https://github.com/astral-sh/uv/releases/tag/0.12.21",
+          "prerelease": false,
+          "draft": false
+        },
+        {
+          "tag_name": "0.12.20",
+          "name": "0.12.20",
+          "published_at": "2026-09-28T23:20:35Z",
+          "html_url": "https://github.com/astral-sh/uv/releases/tag/0.12.20",
+          "prerelease": false,
+          "draft": false
+        },
+        {
+          "tag_name": "0.12.19",
+          "name": "0.12.19",
+          "published_at": "2026-09-25T00:33:02Z",
+          "html_url": "https://github.com/astral-sh/uv/releases/tag/0.12.19",
+          "prerelease": false,
+          "draft": false
+        },
+        {
+          "tag_name": "0.12.18",
+          "name": "0.12.18",
+          "published_at": "2026-09-22T23:00:51Z",
+          "html_url": "https://github.com/astral-sh/uv/releases/tag/0.12.18",
+          "prerelease": false,
+          "draft": false
+        },
+        {
+          "tag_name": "0.12.17",
+          "name": "0.12.17",
+          "published_at": "2026-09-18T18:59:24Z",
+          "html_url": "https://github.com/astral-sh/uv/releases/tag/0.12.17",
+          "prerelease": false,
+          "draft": false
+        },
+        {
+          "tag_name": "0.12.16",
+          "name": "0.12.16",
+          "published_at": "2026-09-18T01:01:42Z",
+          "html_url": "https://github.com/astral-sh/uv/releases/tag/0.12.16",
+          "prerelease": false,
+          "draft": false
+        },
+        {
+          "tag_name": "0.12.15",
+          "name": "0.12.15",
+          "published_at": "2026-09-15T12:09:40Z",
+          "html_url": "https://github.com/astral-sh/uv/releases/tag/0.12.15",
+          "prerelease": false,
+          "draft": false
+        },
+        {
+          "tag_name": "0.12.14",
+          "name": "0.12.14",
+          "published_at": "2026-09-15T02:19:30Z",
+          "html_url": "https://github.com/astral-sh/uv/releases/tag/0.12.14",
+          "prerelease": false,
+          "draft": false
+        },
+        {
+          "tag_name": "0.12.13",
+          "name": "0.12.13",
+          "published_at": "2026-09-10T19:27:24Z",
+          "html_url": "https://github.com/astral-sh/uv/releases/tag/0.12.13",
+          "prerelease": false,
+          "draft": false
+        },
+        {
+          "tag_name": "0.12.12",
+          "name": "0.12.12",
+          "published_at": "2026-09-09T16:45:15Z",
+          "html_url": "https://github.com/astral-sh/uv/releases/tag/0.12.12",
+          "prerelease": false,
+          "draft": false
+        },
+        {
+          "tag_name": "0.12.11",
+          "name": "0.12.11",
+          "published_at": "2026-09-08T20:45:27Z",
+          "html_url": "https://github.com/astral-sh/uv/releases/tag/0.12.11",
+          "prerelease": false,
+          "draft": false
+        },
+        {
+          "tag_name": "0.12.10",
+          "name": "0.12.10",
+          "published_at": "2026-09-04T23:15:57Z",
+          "html_url": "https://github.com/astral-sh/uv/releases/tag/0.12.10",
+          "prerelease": false,
+          "draft": false
+        },
+        {
+          "tag_name": "0.12.9",
+          "name": "0.12.9",
+          "published_at": "2026-09-01T21:58:26Z",
+          "html_url": "https://github.com/astral-sh/uv/releases/tag/0.12.9",
+          "prerelease": false,
+          "draft": false
+        }
+      ]
+    },
+    "scverse/scanpy": {
+      "repo": "scverse/scanpy",
+      "pages": [
+        {
+          "url": "https://api.github.com/repos/scverse/scanpy/releases?per_page=100&page=1",
+          "count": 100
+        }
+      ],
+      "reached_before_window": true,
+      "releases": []
+    },
+    "duckdb/duckdb": {
+      "repo": "duckdb/duckdb",
+      "pages": [
+        {
+          "url": "https://api.github.com/repos/duckdb/duckdb/releases?per_page=100&page=1",
+          "count": 64
+        }
+      ],
+      "reached_before_window": true,
+      "releases": [
+        {
+          "tag_name": "v1.5.6",
+          "name": "DuckDB v1.5.6 Bugfix Release",
+          "published_at": "2026-09-28T13:35:11Z",
+          "html_url": "https://github.com/duckdb/duckdb/releases/tag/v1.5.6",
+          "prerelease": false,
+          "draft": false
+        }
+      ]
+    },
+    "pola-rs/polars": {
+      "repo": "pola-rs/polars",
+      "pages": [
+        {
+          "url": "https://api.github.com/repos/pola-rs/polars/releases?per_page=100&page=1",
+          "count": 100
+        }
+      ],
+      "reached_before_window": true,
+      "releases": [
+        {
+          "tag_name": "py-2.0.0-rc.2",
+          "name": "Python Polars 2.0.0-rc.2",
+          "published_at": "2026-09-20T17:36:49Z",
+          "html_url": "https://github.com/pola-rs/polars/releases/tag/py-2.0.0-rc.2",
+          "prerelease": true,
+          "draft": false
+        },
+        {
+          "tag_name": "py-1.44.2",
+          "name": "Python Polars 1.44.2",
+          "published_at": "2026-09-09T07:42:33Z",
+          "html_url": "https://github.com/pola-rs/polars/releases/tag/py-1.44.2",
+          "prerelease": false,
+          "draft": false
+        },
+        {
+          "tag_name": "py-2.0.0-rc.1",
+          "name": "Python Polars 2.0.0-rc.1",
+          "published_at": "2026-09-02T11:49:46Z",
+          "html_url": "https://github.com/pola-rs/polars/releases/tag/py-2.0.0-rc.1",
+          "prerelease": true,
+          "draft": false
+        }
+      ]
+    }
+  },
+  "entries": [
+    {
+      "product": "Python",
+      "title": "Python September releases fix security issues and move 3.13 to security-only support",
+      "summary": "Python 3.14.8 and 3.12.15 address security issues involving TLS and archive handling; 3.13.16 is the final full maintenance release of the 3.13 series. This September 30 release cycle matters for research environments that process external files and for planning maintenance of pinned Python versions. Subsequent Python 3.13 releases will contain security fixes only.",
+      "url": "https://www.python.org/downloads/release/python-3148/",
+      "publication_date": "2026-09-30",
+      "date_added": "2026-09-30",
+      "source": "Python official release notes",
+      "evidence_url": "https://www.python.org/downloads/release/python-3148/",
+      "primary_category": "Security",
+      "tags": [
+        "python",
+        "security",
+        "reproducibility"
+      ],
+      "eligibility_basis": "Dated software release or announcement",
+      "channel": "stable",
+      "versions": [
+        "3.14.8",
+        "3.13.16",
+        "3.12.15"
+      ],
+      "additional_evidence_urls": [
+        "https://www.python.org/downloads/release/python-31316/",
+        "https://www.python.org/downloads/release/python-31215/"
+      ],
+      "release_evidence": [
+        {
+          "version": "3.14.8, 3.13.16, 3.12.15",
+          "date": "2026-09-30",
+          "url": "https://www.python.org/downloads/release/python-3148/",
+          "channel": "stable"
+        }
+      ],
+      "id": "f3dbb93b-d19c-4d59-9f69-e64663d43e7f"
+    },
+    {
+      "product": "renv",
+      "title": "renv 1.3.0 hardens Git restoration and improves reproducibility",
+      "summary": "renv 1.3.0 tightens handling of Git URLs, refs, and commits to prevent crafted package records from triggering unintended commands. It also records resolved Git commits and improves transactional restore retries, helping teams recreate the same R environment more reliably.",
+      "url": "https://rstudio.github.io/renv/news/index.html#renv-130",
+      "publication_date": "2026-09-29",
+      "date_added": "2026-09-30",
+      "source": "renv official release notes",
+      "evidence_url": "https://rstudio.github.io/renv/news/index.html#renv-130",
+      "primary_category": "Security",
+      "tags": [
+        "renv",
+        "R",
+        "reproducibility",
+        "security"
+      ],
+      "eligibility_basis": "Dated software release or announcement",
+      "channel": "stable",
+      "versions": [
+        "1.3.0"
+      ],
+      "additional_evidence_urls": [],
+      "release_evidence": [
+        {
+          "version": "1.3.0",
+          "date": "2026-09-29",
+          "url": "https://rstudio.github.io/renv/news/index.html#renv-130",
+          "channel": "stable"
+        }
+      ],
+      "id": "a1fdfe3e-6b50-46c9-a1f8-ceac2cd01d48"
+    },
+    {
+      "product": "uv",
+      "title": "uv September updates improve package integrity and environment checks",
+      "summary": "uv 0.12.18 fixes a Windows wheel-installation path traversal weakness and adds read-only environment checks with JSON output. Related September releases add signed macOS/Windows binaries and strengthen repeated-requirement hash checks and recovery after interrupted project changes. These changes support safer, auditable Python environment management.",
+      "url": "https://github.com/astral-sh/uv/releases/tag/0.12.18",
+      "publication_date": "2026-09-22",
+      "date_added": "2026-09-30",
+      "source": "uv official release notes",
+      "evidence_url": "https://github.com/astral-sh/uv/releases/tag/0.12.18",
+      "primary_category": "Security",
+      "tags": [
+        "uv",
+        "python",
+        "reproducibility",
+        "security"
+      ],
+      "eligibility_basis": "Dated software release or announcement",
+      "channel": "stable",
+      "versions": [
+        "0.12.12",
+        "0.12.18",
+        "0.12.20"
+      ],
+      "additional_evidence_urls": [
+        "https://github.com/astral-sh/uv/releases/tag/0.12.12",
+        "https://github.com/astral-sh/uv/releases/tag/0.12.20"
+      ],
+      "release_evidence": [
+        {
+          "version": "0.12.20",
+          "date": "2026-09-28",
+          "published_at": "2026-09-28T23:20:35Z",
+          "url": "https://github.com/astral-sh/uv/releases/tag/0.12.20",
+          "channel": "stable"
+        },
+        {
+          "version": "0.12.18",
+          "date": "2026-09-22",
+          "published_at": "2026-09-22T23:00:51Z",
+          "url": "https://github.com/astral-sh/uv/releases/tag/0.12.18",
+          "channel": "stable"
+        },
+        {
+          "version": "0.12.12",
+          "date": "2026-09-09",
+          "published_at": "2026-09-09T16:45:15Z",
+          "url": "https://github.com/astral-sh/uv/releases/tag/0.12.12",
+          "channel": "stable"
+        }
+      ],
+      "id": "6711ea7b-8506-40ee-a40a-a0cac999491d"
+    },
+    {
+      "product": "RStudio",
+      "title": "RStudio 2026.09 adds split source views and managed Assistant controls",
+      "summary": "RStudio 2026.09.0 adds horizontal and vertical source-editor splits that share edits while allowing independent navigation. It also adds controls for administrator-managed Posit Assistant installations, helping teams review long analysis scripts and maintain consistent tooling. Separate Workbench-only features should not be assumed available in the open-source IDE.",
+      "url": "https://docs.posit.co/ide/news/index.html#rstudio-2026.09.0",
+      "publication_date": "2026-09-10",
+      "date_added": "2026-09-30",
+      "source": "RStudio official release notes",
+      "evidence_url": "https://docs.posit.co/ide/news/index.html#rstudio-2026.09.0",
+      "primary_category": "Software & Tools",
+      "tags": [
+        "RStudio",
+        "R",
+        "data analysis"
+      ],
+      "eligibility_basis": "Dated software release or announcement",
+      "channel": "stable",
+      "versions": [
+        "2026.09.0"
+      ],
+      "additional_evidence_urls": [],
+      "release_evidence": [
+        {
+          "version": "2026.09.0",
+          "date": "2026-09-10",
+          "url": "https://docs.posit.co/ide/news/index.html#rstudio-2026.09.0",
+          "channel": "stable"
+        }
+      ],
+      "id": "5918afdf-b88d-4d5e-b1e9-6ff4b695d772"
+    },
+    {
+      "product": "VS Code",
+      "title": "VS Code 1.136.2 addresses agent and workspace security issues",
+      "summary": "VS Code 1.136.2 is a security update covering issues in agent network filtering, remote agent connections, workspace restrictions, and related components. Teams using coding agents or external repositories should include this release in their editor security review.",
+      "url": "https://github.com/microsoft/vscode/releases/tag/1.136.2",
+      "publication_date": "2026-09-08",
+      "date_added": "2026-09-30",
+      "source": "VS Code official release notes",
+      "evidence_url": "https://github.com/microsoft/vscode/releases/tag/1.136.2",
+      "primary_category": "Security",
+      "tags": [
+        "VS Code",
+        "security",
+        "agents"
+      ],
+      "eligibility_basis": "Dated software release or announcement",
+      "channel": "stable",
+      "versions": [
+        "1.136.2"
+      ],
+      "additional_evidence_urls": [
+        "https://code.visualstudio.com/updates/v1_136",
+        "https://github.com/microsoft/vscode/issues?q=is%3Aclosed+milestone%3A%221.136.2%22"
+      ],
+      "release_evidence": [
+        {
+          "version": "1.136.2",
+          "date": "2026-09-08",
+          "published_at": "2026-09-08T17:54:34Z",
+          "url": "https://github.com/microsoft/vscode/releases/tag/1.136.2",
+          "channel": "stable"
+        }
+      ],
+      "id": "754645da-cf71-4779-a18e-268d28e79e70"
+    },
+    {
+      "product": "VS Code",
+      "title": "VS Code September updates bring agent sessions into development containers",
+      "summary": "VS Code 1.138 adds local Dev Container agent sessions and expanded Codex integration; 1.139 extends container sessions to SSH, Tunnel, and WSL hosts. Version 1.140 adds a Copilot harness and enterprise AI controls, while multi-folder sessions and shared worktree folders remain experimental. Together these changes help coding agents use project-specific dependencies across local and remote environments.",
+      "url": "https://code.visualstudio.com/updates/v1_140",
+      "publication_date": "2026-09-30",
+      "date_added": "2026-09-30",
+      "source": "VS Code official release notes",
+      "evidence_url": "https://code.visualstudio.com/updates/v1_140",
+      "primary_category": "Software & Tools",
+      "tags": [
+        "VS Code",
+        "agents",
+        "docker",
+        "reproducibility"
+      ],
+      "eligibility_basis": "Dated software release or announcement",
+      "channel": "stable release with explicitly labeled experimental features",
+      "versions": [
+        "1.138.0",
+        "1.139.0",
+        "1.140.0"
+      ],
+      "additional_evidence_urls": [
+        "https://code.visualstudio.com/updates/v1_138",
+        "https://code.visualstudio.com/updates/v1_139"
+      ],
+      "release_evidence": [
+        {
+          "version": "1.140.0",
+          "date": "2026-09-30",
+          "published_at": "2026-09-30T22:00:22Z",
+          "url": "https://github.com/microsoft/vscode/releases/tag/1.140.0",
+          "channel": "stable"
+        },
+        {
+          "version": "1.139.0",
+          "date": "2026-09-23",
+          "published_at": "2026-09-23T10:32:34Z",
+          "url": "https://github.com/microsoft/vscode/releases/tag/1.139.0",
+          "channel": "stable"
+        },
+        {
+          "version": "1.138.0",
+          "date": "2026-09-16",
+          "published_at": "2026-09-16T07:14:47Z",
+          "url": "https://github.com/microsoft/vscode/releases/tag/1.138.0",
+          "channel": "stable"
+        }
+      ],
+      "id": "8427c7b7-0b75-4b49-82e8-3a7f67829e19"
+    },
+    {
+      "product": "DuckDB",
+      "title": "DuckDB 1.5.6 fixes analytical query correctness and recovery issues",
+      "summary": "DuckDB 1.5.6 fixes incorrect results involving Top-N window optimizations, NULL ordering, and timezone state during timestamp parsing. It also addresses duplicate output chunks and failed multi-statement rollback paths, making this maintenance release relevant to reliable SQL-based research analysis.",
+      "url": "https://github.com/duckdb/duckdb/releases/tag/v1.5.6",
+      "publication_date": "2026-09-28",
+      "date_added": "2026-09-30",
+      "source": "DuckDB official release notes",
+      "evidence_url": "https://github.com/duckdb/duckdb/releases/tag/v1.5.6",
+      "primary_category": "Software & Tools",
+      "tags": [
+        "DuckDB",
+        "SQL",
+        "data analysis",
+        "reproducibility"
+      ],
+      "eligibility_basis": "Dated software release or announcement",
+      "channel": "stable",
+      "versions": [
+        "1.5.6"
+      ],
+      "additional_evidence_urls": [],
+      "release_evidence": [
+        {
+          "version": "v1.5.6",
+          "date": "2026-09-28",
+          "published_at": "2026-09-28T13:35:11Z",
+          "url": "https://github.com/duckdb/duckdb/releases/tag/v1.5.6",
+          "channel": "stable"
+        }
+      ],
+      "id": "bdcad7b7-d739-46b9-bcaa-ce17abe50d20"
+    },
+    {
+      "product": "nf-core pipelines",
+      "title": "nf-core/rnaseq 3.27.0 expands screening and restores strandedness handling",
+      "summary": "nf-core/rnaseq 3.27.0 adds raw or trimmed-read contamination screening and support for prebuilt Bowtie2 rRNA indexes. It restores StringTie strandedness flags and fixes failures involving Azure indexes, NCBI annotations, and kallisto-only runs. The pipeline now requires Nextflow 25.10.4 or newer, which matters when updating reproducible RNA-seq workflows.",
+      "url": "https://github.com/nf-core/rnaseq/releases/tag/3.27.0",
+      "publication_date": "2026-09-23",
+      "date_added": "2026-09-30",
+      "source": "nf-core pipelines official release notes",
+      "evidence_url": "https://github.com/nf-core/rnaseq/releases/tag/3.27.0",
+      "primary_category": "Software & Tools",
+      "tags": [
+        "RNA-seq",
+        "nf-core",
+        "Nextflow",
+        "reproducibility"
+      ],
+      "eligibility_basis": "Dated software release or announcement",
+      "channel": "stable",
+      "versions": [
+        "3.27.0"
+      ],
+      "additional_evidence_urls": [],
+      "release_evidence": [
+        {
+          "version": "3.27.0",
+          "date": "2026-09-23",
+          "published_at": "2026-09-23T12:58:42Z",
+          "url": "https://github.com/nf-core/rnaseq/releases/tag/3.27.0",
+          "channel": "stable"
+        }
+      ],
+      "id": "2d96c4c5-423c-4b9a-bbfd-d5eaf316a00f"
+    },
+    {
+      "product": "Ruff",
+      "title": "Ruff 0.16.8 improves autofix safety and Python compatibility",
+      "summary": "Ruff 0.16.8 preserves operand order in SIM109 fixes and required parentheses in multiline UP040 conversions, and marks UP040 fixes as unsafe. These changes matter when automated linting edits analysis code, where apparently small rewrites can change behavior; the release also extends Python 3.15 compatibility.",
+      "url": "https://github.com/astral-sh/ruff/releases/tag/0.16.8",
+      "publication_date": "2026-09-16",
+      "date_added": "2026-09-30",
+      "source": "Ruff official release notes",
+      "evidence_url": "https://github.com/astral-sh/ruff/releases/tag/0.16.8",
+      "primary_category": "Software & Tools",
+      "tags": [
+        "Ruff",
+        "python",
+        "testing"
+      ],
+      "eligibility_basis": "Dated software release or announcement",
+      "channel": "stable",
+      "versions": [
+        "0.16.8"
+      ],
+      "additional_evidence_urls": [],
+      "release_evidence": [
+        {
+          "version": "0.16.8",
+          "date": "2026-09-16",
+          "published_at": "2026-09-16T15:56:22Z",
+          "url": "https://github.com/astral-sh/ruff/releases/tag/0.16.8",
+          "channel": "stable"
+        }
+      ],
+      "id": "7715bf8b-3959-4efb-9d33-d2556b5460e3"
+    },
+    {
+      "product": "Codex",
+      "title": "GPT-6 Sol, Luna, and GPT-6.1 Sol arrive in Codex and ChatGPT Work",
+      "summary": "September brought GPT-6 Sol and Luna, followed by GPT-6.1 Sol, to Codex and ChatGPT Work. Model choices for coding and document workflows depend on rollout, plan, client, and workspace settings; these announcements do not establish availability in Chat.",
+      "url": "https://learn.chatgpt.com/docs/changelog#codex-2026-09-29-gpt-61-sol",
+      "publication_date": "2026-09-29",
+      "date_added": "2026-09-30",
+      "source": "Codex official release notes",
+      "evidence_url": "https://learn.chatgpt.com/docs/changelog#codex-2026-09-29-gpt-61-sol",
+      "primary_category": "AI & Machine Learning",
+      "tags": [
+        "Codex",
+        "ChatGPT",
+        "llm"
+      ],
+      "eligibility_basis": "Dated software release or announcement",
+      "channel": "staged product rollout",
+      "versions": [
+        "gpt-6-sol",
+        "gpt-6-luna",
+        "gpt-6.1-sol"
+      ],
+      "additional_evidence_urls": [
+        "https://learn.chatgpt.com/docs/changelog#codex-2026-09-22-gpt-6-sol-luna"
+      ],
+      "release_evidence": [
+        {
+          "version": "GPT-6 Sol / Luna",
+          "date": "2026-09-22",
+          "url": "https://learn.chatgpt.com/docs/changelog#codex-2026-09-22-gpt-6-sol-luna"
+        },
+        {
+          "version": "GPT-6.1 Sol",
+          "date": "2026-09-29",
+          "url": "https://learn.chatgpt.com/docs/changelog#codex-2026-09-29-gpt-61-sol"
+        }
+      ],
+      "id": "c8e71137-f01c-48a9-bd87-51728df555ca"
+    },
+    {
+      "product": "Codex",
+      "title": "OpenAI desktop macOS update fixes CVE-2026-100754",
+      "summary": "The September 25 desktop changelog reports a macOS security fix in version 26.924.20706. This is relevant to teams maintaining ChatGPT/Codex desktop installations; the announcement gives no technical vulnerability details.",
+      "url": "https://learn.chatgpt.com/docs/changelog#codex-2026-09-25-app",
+      "publication_date": "2026-09-25",
+      "date_added": "2026-09-30",
+      "source": "Codex official release notes",
+      "evidence_url": "https://learn.chatgpt.com/docs/changelog#codex-2026-09-25-app",
+      "primary_category": "Security",
+      "tags": [
+        "Codex",
+        "macOS",
+        "security"
+      ],
+      "eligibility_basis": "Dated software release or announcement",
+      "channel": "stable",
+      "versions": [
+        "26.924.20706"
+      ],
+      "additional_evidence_urls": [],
+      "release_evidence": [
+        {
+          "version": "26.924.20706",
+          "date": "2026-09-25",
+          "url": "https://learn.chatgpt.com/docs/changelog#codex-2026-09-25-app",
+          "channel": "stable"
+        }
+      ],
+      "id": "1cbe3f8c-8abd-4ce2-b6c2-98d1df0a5aef"
+    },
+    {
+      "product": "Codex",
+      "title": "Codex removes its MCP server command",
+      "summary": "The September 5 release removes the codex mcp-server command and standalone binary. Integrations using that interface need revision; external MCP connections remain supported, while app-server is experimental.",
+      "url": "https://learn.chatgpt.com/docs/changelog#codex-2026-09-05",
+      "publication_date": "2026-09-05",
+      "date_added": "2026-09-30",
+      "source": "Codex official release notes",
+      "evidence_url": "https://learn.chatgpt.com/docs/changelog#codex-2026-09-05",
+      "primary_category": "Software & Tools",
+      "tags": [
+        "Codex",
+        "mcp",
+        "cli"
+      ],
+      "eligibility_basis": "Dated software release or announcement",
+      "channel": "stable",
+      "versions": [
+        "September 5 removal"
+      ],
+      "additional_evidence_urls": [],
+      "release_evidence": [
+        {
+          "version": "September 5 removal",
+          "date": "2026-09-05",
+          "url": "https://learn.chatgpt.com/docs/changelog#codex-2026-09-05",
+          "channel": "stable"
+        }
+      ],
+      "id": "4516c2a6-6204-4353-9b64-f545227bcba9"
+    },
+    {
+      "product": "Codex",
+      "title": "September model notices require Codex configuration changes",
+      "summary": "GPT-5.3-Codex-Spark became unavailable on September 14; a separate notice announced GPT-5.5 retirement from ChatGPT, Work, and Codex for October 14. Teams should update saved model selections; the GPT-5.5 notice excludes the API.",
+      "url": "https://learn.chatgpt.com/docs/changelog#codex-2026-09-14-codex-spark-deprecation",
+      "publication_date": "2026-09-14",
+      "date_added": "2026-09-30",
+      "source": "Codex official release notes",
+      "evidence_url": "https://learn.chatgpt.com/docs/changelog#codex-2026-09-14-codex-spark-deprecation",
+      "primary_category": "Software & Tools",
+      "tags": [
+        "Codex",
+        "ChatGPT",
+        "llm"
+      ],
+      "eligibility_basis": "Dated software release or announcement",
+      "channel": "removal and future retirement notice",
+      "versions": [
+        "gpt-5.3-codex-spark",
+        "gpt-5.5"
+      ],
+      "additional_evidence_urls": [
+        "https://learn.chatgpt.com/docs/changelog#codex-2026-09-14-gpt-55-retirement"
+      ],
+      "release_evidence": [
+        {
+          "version": "Spark removal",
+          "date": "2026-09-14",
+          "url": "https://learn.chatgpt.com/docs/changelog#codex-2026-09-14-codex-spark-deprecation"
+        },
+        {
+          "version": "GPT-5.5 retirement notice",
+          "date": "2026-09-14",
+          "effective_date": "2026-10-14",
+          "url": "https://learn.chatgpt.com/docs/changelog#codex-2026-09-14-gpt-55-retirement"
+        }
+      ],
+      "id": "67ece2b0-c6ae-40db-84fc-ebca2b098ff0"
+    },
+    {
+      "product": "ChatGPT",
+      "title": "ChatGPT adds shared Spaces and synced Work tasks",
+      "summary": "The September 29 announcement introduces ChatGPT Space for files, Pages, and collaboration, alongside new Work tasks that sync across desktop, web, and mobile. Local-file operations still require an online connected computer, and existing tasks retain their original mode.",
+      "url": "https://learn.chatgpt.com/docs/whats-new/devday-2026#chatgpt",
+      "publication_date": "2026-09-29",
+      "date_added": "2026-09-30",
+      "source": "ChatGPT official release notes",
+      "evidence_url": "https://learn.chatgpt.com/docs/whats-new/devday-2026#chatgpt",
+      "primary_category": "Software & Tools",
+      "tags": [
+        "ChatGPT",
+        "data analysis",
+        "agents"
+      ],
+      "eligibility_basis": "Dated software release or announcement",
+      "channel": "product announcement",
+      "versions": [
+        "DevDay 2026"
+      ],
+      "additional_evidence_urls": [],
+      "release_evidence": [
+        {
+          "version": "DevDay 2026",
+          "date": "2026-09-29",
+          "url": "https://learn.chatgpt.com/docs/whats-new/devday-2026#chatgpt",
+          "channel": "product announcement"
+        }
+      ],
+      "id": "be43d1cc-a931-46be-b3cb-253a9579d7d4"
+    },
+    {
+      "product": "Codex",
+      "title": "Codex introduces reusable cloud development environments",
+      "summary": "Codex can prepare and test a development environment, then reuse its filesystem in isolated cloud workspaces. Announced September 29, this supports repeatable coding tasks that continue while the local computer sleeps.",
+      "url": "https://learn.chatgpt.com/docs/whats-new/devday-2026#reusable-cloud-environments",
+      "publication_date": "2026-09-29",
+      "date_added": "2026-09-30",
+      "source": "Codex official release notes",
+      "evidence_url": "https://learn.chatgpt.com/docs/whats-new/devday-2026#reusable-cloud-environments",
+      "primary_category": "Software & Tools",
+      "tags": [
+        "Codex",
+        "agents",
+        "reproducibility"
+      ],
+      "eligibility_basis": "Dated software release or announcement",
+      "channel": "product announcement",
+      "versions": [
+        "DevDay 2026"
+      ],
+      "additional_evidence_urls": [],
+      "release_evidence": [
+        {
+          "version": "DevDay 2026",
+          "date": "2026-09-29",
+          "url": "https://learn.chatgpt.com/docs/whats-new/devday-2026#reusable-cloud-environments",
+          "channel": "product announcement"
+        }
+      ],
+      "id": "0ea182be-024e-4405-bc6b-08e739838db0"
+    },
+    {
+      "product": "Claude",
+      "title": "Claude September model releases expand coding and analysis options",
+      "summary": "Claude Code added Fable 5.1 on September 1, Opus 5.5 on September 22, and Sonnet 5.5 on September 28. Anthropic positions Opus for complex work and Sonnet for faster focused tasks; performance claims remain vendor evaluations. API integrations should check migration requirements, including changes to thinking controls and preserved conversation context.",
+      "url": "https://www.anthropic.com/claude-opus-5-5",
+      "publication_date": "2026-09-22",
+      "date_added": "2026-09-30",
+      "source": "Claude official release notes",
+      "evidence_url": "https://www.anthropic.com/claude-opus-5-5",
+      "primary_category": "AI & Machine Learning",
+      "tags": [
+        "claude",
+        "llm",
+        "data analysis"
+      ],
+      "eligibility_basis": "Dated software release or announcement",
+      "channel": "model releases; Claude Code availability independently verified",
+      "versions": [
+        "Fable 5.1",
+        "Opus 5.5",
+        "Sonnet 5.5"
+      ],
+      "additional_evidence_urls": [
+        "https://www.anthropic.com/claude-sonnet-5-5",
+        "https://github.com/anthropics/claude-code/releases/tag/v2.1.257",
+        "https://github.com/anthropics/claude-code/releases/tag/v2.1.280",
+        "https://github.com/anthropics/claude-code/releases/tag/v2.1.284"
+      ],
+      "release_evidence": [
+        {
+          "version": "Fable 5.1 in Claude Code",
+          "date": "2026-09-01",
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.257"
+        },
+        {
+          "version": "Opus 5.5",
+          "date": "2026-09-22",
+          "url": "https://www.anthropic.com/claude-opus-5-5"
+        },
+        {
+          "version": "Sonnet 5.5",
+          "date": "2026-09-28",
+          "url": "https://www.anthropic.com/claude-sonnet-5-5"
+        }
+      ],
+      "id": "c11411fc-50f7-4e84-9ce8-9305c84e85b5"
+    },
+    {
+      "product": "Claude",
+      "title": "Claude combines Cowork and chat with document and slide editing",
+      "summary": "Anthropic began merging Cowork and chat on September 16, initially rolling out to Pro and Max users across web, desktop, and mobile. The announcement also introduced Docs and Slides and in-conversation Design as paid-plan betas, with Enterprise administrator controls. This brings drafting, editing, and longer-running report work into a shared conversation.",
+      "url": "https://claude.com/resources/articles/cowork-is-now-claude",
+      "publication_date": "2026-09-16",
+      "date_added": "2026-09-30",
+      "source": "Claude official release notes",
+      "evidence_url": "https://claude.com/resources/articles/cowork-is-now-claude",
+      "primary_category": "Software & Tools",
+      "tags": [
+        "claude",
+        "agents",
+        "data analysis"
+      ],
+      "eligibility_basis": "Dated software release or announcement",
+      "channel": "staged rollout; document features in beta",
+      "versions": [
+        "September 16 rollout"
+      ],
+      "additional_evidence_urls": [],
+      "release_evidence": [
+        {
+          "version": "September 16 rollout",
+          "date": "2026-09-16",
+          "url": "https://claude.com/resources/articles/cowork-is-now-claude",
+          "channel": "staged rollout; document features in beta"
+        }
+      ],
+      "id": "6f328e22-79e8-4375-9d4f-22ddab55b339"
+    },
+    {
+      "product": "Claude Code",
+      "title": "Claude Code September updates add evaluations and tighter permission controls",
+      "summary": "September Claude Code releases add reproducible plugin evaluations and a prompt audit for instructions written for older models. Managed model allow/deny controls and permission fixes support more consistent agent use, while a late-month fix prevents session-resume failures from losing parallel tool-call history. These are grouped workflow and reliability updates rather than separate entries for each daily patch.",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.283",
+      "publication_date": "2026-09-25",
+      "date_added": "2026-09-30",
+      "source": "Claude Code official release notes",
+      "evidence_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.283",
+      "primary_category": "Software & Tools",
+      "tags": [
+        "claude",
+        "cli",
+        "agents",
+        "testing"
+      ],
+      "eligibility_basis": "Dated software release or announcement",
+      "channel": "stable",
+      "versions": [
+        "2.1.259",
+        "2.1.265",
+        "2.1.269",
+        "2.1.283",
+        "2.1.286"
+      ],
+      "additional_evidence_urls": [
+        "https://github.com/anthropics/claude-code/releases/tag/v2.1.259",
+        "https://github.com/anthropics/claude-code/releases/tag/v2.1.265",
+        "https://github.com/anthropics/claude-code/releases/tag/v2.1.269",
+        "https://github.com/anthropics/claude-code/releases/tag/v2.1.286"
+      ],
+      "release_evidence": [
+        {
+          "version": "v2.1.286",
+          "date": "2026-09-30",
+          "published_at": "2026-09-30T19:10:13Z",
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.286",
+          "channel": "stable"
+        },
+        {
+          "version": "v2.1.283",
+          "date": "2026-09-25",
+          "published_at": "2026-09-25T21:50:12Z",
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.283",
+          "channel": "stable"
+        },
+        {
+          "version": "v2.1.269",
+          "date": "2026-09-11",
+          "published_at": "2026-09-11T19:17:55Z",
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.269",
+          "channel": "stable"
+        },
+        {
+          "version": "v2.1.265",
+          "date": "2026-09-08",
+          "published_at": "2026-09-08T20:37:31Z",
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.265",
+          "channel": "stable"
+        },
+        {
+          "version": "v2.1.259",
+          "date": "2026-09-02",
+          "published_at": "2026-09-02T22:33:51Z",
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.259",
+          "channel": "stable"
+        }
+      ],
+      "id": "d1b179e0-11e7-45c1-889d-98d8932b28b3"
+    }
+  ],
+  "counts": {
+    "selected_entries": 18,
+    "required_products_checked": 12,
+    "additional_projects_checked": 8,
+    "already_covered_products": 1,
+    "products_without_new_entries": 8,
+    "partial_coverage_products": 1
+  },
+  "scope_note": "Software-only supplement. Selection is editorial, not every patch. All required products attempted; Claude app history remains partially inaccessible. GitHub pagination reached records older than September for each repository queried.",
+  "backup_path": "/Users/mkaufman/BBSR_Projects/Misc/omics-radar/data/backups/omics_radar-before-software-supplement-20261014T044857Z.duckdb",
+  "before_count": 83,
+  "after_count": 101,
+  "verification": {
+    "existing_articles_unchanged": true,
+    "reports_unchanged": true,
+    "report_entries_unchanged": true,
+    "inserted_fields_read_back": true,
+    "backup_verified": true
+  }
+}
