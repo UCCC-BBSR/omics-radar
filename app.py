@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import calendar
+import importlib
 import sys
 from datetime import date
 from pathlib import Path
@@ -24,6 +25,12 @@ from omics_radar.database import (  # noqa: E402
     update_article,
 )
 from omics_radar.publishing import DEFAULT_BASE_URL, build_site, render_preview  # noqa: E402
+from omics_radar import issue_selection  # noqa: E402
+
+# Streamlit can rerun this script while retaining an older imported UI module.
+# Reload this stateless renderer so its interface stays in sync with the page;
+# inclusion choices and filters remain in Streamlit's session state.
+select_issue_entries = importlib.reload(issue_selection).select_issue_entries
 
 
 DATABASE_PATH = ROOT / "data" / "omics_radar.duckdb"
@@ -154,14 +161,9 @@ with publish_tab:
     issue_title = publish_right.text_input("Issue title", value=issue_start.strftime("%B %Y"))
     base_url = st.text_input("Public site URL", value=DEFAULT_BASE_URL)
     candidates = list_articles(DATABASE_PATH, start_date=issue_start, end_date=issue_end)
-    candidate_labels = {
-        article["id"]: f"{article['primary_category']} · {article['title']}" for article in candidates
-    }
-    selected_ids = st.multiselect(
-        "Entries in this issue",
-        candidate_labels,
-        default=list(candidate_labels),
-        format_func=candidate_labels.get,
+    selected_ids = select_issue_entries(
+        candidates, scope=f"{issue_start.isoformat()}_{issue_end.isoformat()}",
+        database_path=DATABASE_PATH,
     )
     selected_articles = [article for article in candidates if article["id"] in selected_ids]
     preview_col, publish_col = st.columns(2)

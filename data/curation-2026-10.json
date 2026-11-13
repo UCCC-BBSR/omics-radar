@@ -1,0 +1,2511 @@
+{
+  "period_start": "2026-10-01",
+  "period_end": "2026-10-31",
+  "date_added": "2026-10-31",
+  "status": "complete",
+  "entries": [
+    {
+      "key": "python",
+      "title": "Python 3.15 adds lazy imports and new runtime capabilities",
+      "summary": "Python 3.15 introduces lazy imports, immutable frozendict objects and sentinel support, while making UTF-8 the default encoding. These changes offer new options for scientific applications, but teams should check dependencies and encoding assumptions before migrating; the JIT remains experimental.",
+      "url": "https://www.python.org/downloads/release/python-3150/",
+      "publication_date": "2026-10-09",
+      "date_added": "2026-10-31",
+      "source": "Python",
+      "primary_category": "Software & Tools",
+      "tags": [
+        "python",
+        "reproducibility"
+      ],
+      "evidence": [
+        "https://www.python.org/downloads/release/python-3150/"
+      ],
+      "eligibility_basis": "Dated original publication or release",
+      "version": "3.15.0",
+      "channel": "stable",
+      "id": "9ee93d15-67b1-4c53-8c8e-b155fba3630a"
+    },
+    {
+      "key": "python-security",
+      "title": "October certificate and runtime security updates affect Python environments",
+      "summary": "Python 3.15.2 distrusts compromised certificate-authority keys and fixes tarfile filtering, following an earlier update to bundled pip and certifi. Related October releases of uv, Snakemake and Quarto update affected trust components or runtimes, making pinned analysis environments and workflow containers worth reviewing.",
+      "url": "https://www.python.org/downloads/release/python-3152/",
+      "publication_date": "2026-10-25",
+      "date_added": "2026-10-31",
+      "source": "Python and official project release notes",
+      "primary_category": "Security",
+      "tags": [
+        "python",
+        "security",
+        "uv",
+        "Snakemake",
+        "Quarto"
+      ],
+      "evidence": [
+        "https://www.python.org/downloads/release/python-3152/",
+        "https://www.python.org/downloads/release/python-3151/",
+        "https://github.com/astral-sh/uv/releases/tag/0.13.4",
+        "https://github.com/astral-sh/uv/releases/tag/0.13.5",
+        "https://github.com/snakemake/snakemake/releases/tag/v9.27.1",
+        "https://raw.githubusercontent.com/quarto-dev/quarto-cli/v1.11.9/news/changelog-1.11.md"
+      ],
+      "eligibility_basis": "Dated original publication or release",
+      "version": "Python 3.15.2; uv 0.13.4/0.13.5; Snakemake 9.27.1; Quarto 1.11.9",
+      "channel": "stable",
+      "related_products": [
+        "Python",
+        "uv",
+        "Snakemake",
+        "Quarto"
+      ],
+      "id": "015e47e3-af31-4bc0-a73a-8bea20e9eac3"
+    },
+    {
+      "key": "r",
+      "title": "R 4.6.2 fixes constrained optimization and large-count sampling",
+      "summary": "R 4.6.2 fixes a compiler-related problem in constrained nlminb optimization and prevents integer overflow in rhyper when population counts exceed the integer limit. These numerical fixes matter for reproducible statistical analyses even though this is a patch release.",
+      "url": "https://stat.ethz.ch/pipermail/r-announce/2026/000729.html",
+      "publication_date": "2026-10-29",
+      "date_added": "2026-10-31",
+      "source": "R Core",
+      "primary_category": "Software & Tools",
+      "tags": [
+        "R",
+        "biostatistics",
+        "reproducibility"
+      ],
+      "evidence": [
+        "https://stat.ethz.ch/pipermail/r-announce/2026/000729.html"
+      ],
+      "eligibility_basis": "Dated original publication or release",
+      "version": "4.6.2",
+      "channel": "stable",
+      "id": "59fb7da9-0148-484c-aa4d-0e66c1803e15"
+    },
+    {
+      "key": "renv",
+      "title": "renv 1.3.1 improves concurrent cache use and restoration checks",
+      "summary": "renv 1.3.1 addresses concurrent cache races and cross-filesystem installation handling, and warns when a retrieved package does not match the requested package. Restoration and system-requirement fixes help make shared R environments more dependable.",
+      "url": "https://rstudio.github.io/renv/news/index.html#renv-131",
+      "publication_date": "2026-10-06",
+      "date_added": "2026-10-31",
+      "source": "renv",
+      "primary_category": "Software & Tools",
+      "tags": [
+        "R",
+        "renv",
+        "reproducibility"
+      ],
+      "evidence": [
+        "https://rstudio.github.io/renv/news/index.html#renv-131"
+      ],
+      "eligibility_basis": "Dated original publication or release",
+      "version": "1.3.1",
+      "channel": "stable",
+      "id": "433f7dbf-b69f-4ade-84b4-644f357b6f97"
+    },
+    {
+      "key": "uv",
+      "title": "uv 0.13 changes Python defaults and hash-checking behavior",
+      "summary": "uv 0.13 selects Python 3.15 when an unpinned environment needs a default interpreter and changes hash checking for constrained dependencies. Its cache-format change can require rebuilding cached artifacts, so reproducible workflows should specify interpreter versions and review lock/install behavior.",
+      "url": "https://github.com/astral-sh/uv/releases/tag/0.13.0",
+      "publication_date": "2026-10-09",
+      "date_added": "2026-10-31",
+      "source": "astral-sh/uv",
+      "primary_category": "Software & Tools",
+      "tags": [
+        "uv",
+        "python",
+        "reproducibility"
+      ],
+      "evidence": [
+        "https://github.com/astral-sh/uv/releases/tag/0.13.0"
+      ],
+      "eligibility_basis": "Dated original publication or release",
+      "version": "0.13.0",
+      "channel": "stable",
+      "id": "8476c224-35b0-40c7-b748-9fce72e2e9aa"
+    },
+    {
+      "key": "nextflow",
+      "title": "Nextflow 26.10 updates workflow controls and fixes credential exposure",
+      "summary": "Nextflow 26.10 adds resource-limit handling and workflow typing improvements while deprecating process-level when conditions in favor of configuration-based controls. The October 26.10.3 and 25.10.9 security fixes prevent Bitbucket Cloud tokens from appearing in repository URLs and logs; affected users should follow the release guidance on token rotation.",
+      "url": "https://github.com/nextflow-io/nextflow/releases/tag/v26.10.0",
+      "publication_date": "2026-10-12",
+      "date_added": "2026-10-31",
+      "source": "nextflow-io/nextflow",
+      "primary_category": "Software & Tools",
+      "tags": [
+        "Nextflow",
+        "workflows",
+        "security"
+      ],
+      "evidence": [
+        "https://github.com/nextflow-io/nextflow/releases/tag/v26.10.0",
+        "https://github.com/nextflow-io/nextflow/releases/tag/v26.10.3",
+        "https://github.com/nextflow-io/nextflow/releases/tag/v25.10.9"
+      ],
+      "eligibility_basis": "Dated original publication or release",
+      "version": "v26.10.0",
+      "channel": "stable",
+      "id": "9920126e-7b86-4dee-ba96-791251eb4ad7"
+    },
+    {
+      "key": "rstudio",
+      "title": "RStudio 2026.10 adds Git worktrees and higher-resolution plot export",
+      "summary": "RStudio 2026.10 adds Git worktree workflows and fixed-size plot export with resolution options up to 600 DPI. Improved source diagnostics and atomic state-file writes support analysis development and more reliable IDE sessions.",
+      "url": "https://docs.posit.co/ide/news/index.html#rstudio-2026.10.0",
+      "publication_date": "2026-10-14",
+      "date_added": "2026-10-31",
+      "source": "Posit",
+      "primary_category": "Software & Tools",
+      "tags": [
+        "RStudio",
+        "R",
+        "visualization"
+      ],
+      "evidence": [
+        "https://docs.posit.co/ide/news/index.html#rstudio-2026.10.0"
+      ],
+      "eligibility_basis": "Dated original publication or release",
+      "version": "2026.10.0; 2026.10.1 (October 28)",
+      "channel": "stable",
+      "id": "13bf328e-33d8-491d-948d-ec5f9059b7e0"
+    },
+    {
+      "key": "positron",
+      "title": "Positron October release expands assistant access to the IDE",
+      "summary": "Positron adds assistant tools that can interact with the IDE, alongside data-connection and Quarto workflow improvements. An experimental MCP server exposes IDE capabilities to other agents, so teams evaluating integrations should distinguish this preview interface from established editor features.",
+      "url": "https://github.com/posit-dev/positron/releases/tag/2026.10.0-297",
+      "publication_date": "2026-10-08",
+      "date_added": "2026-10-31",
+      "source": "posit-dev/positron",
+      "primary_category": "Software & Tools",
+      "tags": [
+        "Positron",
+        "python",
+        "R",
+        "mcp"
+      ],
+      "evidence": [
+        "https://github.com/posit-dev/positron/releases/tag/2026.10.0-297"
+      ],
+      "eligibility_basis": "Dated original publication or release",
+      "version": "2026.10.0-297",
+      "channel": "stable",
+      "id": "e45643b0-a152-41c4-a7f7-ef1ded40fe79"
+    },
+    {
+      "key": "vscode",
+      "title": "VS Code October updates expand remote and agent workflows",
+      "summary": "VS Code 1.141\u20131.144 add terminal sandboxing and worktree management, expand agent controls, and connect local development with cloud tasks. Some assistance features depend on Copilot plans or enterprise policy, while computer-use and on-device model features remain experimental.",
+      "url": "https://code.visualstudio.com/updates/v1_144",
+      "publication_date": "2026-10-28",
+      "date_added": "2026-10-31",
+      "source": "Microsoft",
+      "primary_category": "Software & Tools",
+      "tags": [
+        "VS Code",
+        "agents",
+        "development"
+      ],
+      "evidence": [
+        "https://code.visualstudio.com/updates/v1_144",
+        "https://code.visualstudio.com/updates/v1_141",
+        "https://code.visualstudio.com/updates/v1_142",
+        "https://code.visualstudio.com/updates/v1_143"
+      ],
+      "eligibility_basis": "Dated original publication or release",
+      "version": "1.141.0 (October 7); 1.142.0 (October 14); 1.143.0 (October 22); 1.144.0 (October 28)",
+      "channel": "stable editor; selected features preview",
+      "id": "ed227f66-708d-4c9d-8c11-4dfbd51d7211"
+    },
+    {
+      "key": "terra",
+      "title": "GPT-6.1 Terra becomes available in Codex and ChatGPT Work",
+      "summary": "OpenAI made GPT-6.1 Terra available for coding and computer-interaction work in Codex and ChatGPT Work on eligible Plus, Pro, Business, Enterprise and Edu plans. This is Work/Codex availability, rather than general Chat availability; organizational controls and the stated UAE data-residency restriction still apply.",
+      "url": "https://learn.chatgpt.com/docs/changelog#codex-2026-10-26-gpt-61-terra",
+      "publication_date": "2026-10-26",
+      "date_added": "2026-10-31",
+      "source": "OpenAI",
+      "primary_category": "AI & Machine Learning",
+      "tags": [
+        "Codex",
+        "ChatGPT",
+        "llm",
+        "agents"
+      ],
+      "evidence": [
+        "https://learn.chatgpt.com/docs/changelog#codex-2026-10-26-gpt-61-terra"
+      ],
+      "eligibility_basis": "Dated original publication or release",
+      "version": "GPT-6.1 Terra",
+      "channel": "released with plan/region restrictions",
+      "claims": "Product capabilities and availability are vendor-reported.",
+      "id": "dea4f295-2d1d-4cb2-aa40-3640fa7d9a24"
+    },
+    {
+      "key": "codex-cli",
+      "title": "Codex CLI October updates strengthen permission handling and integrations",
+      "summary": "Codex CLI 0.164\u20130.166 add reusable presets and a Vertex provider, improve credential masking, and validate marketplace URLs. Permission preservation across resumed or forked sessions and new network diagnostics are relevant to controlled, reproducible agent-assisted development.",
+      "url": "https://learn.chatgpt.com/docs/changelog#github-release-428320524",
+      "publication_date": "2026-10-29",
+      "date_added": "2026-10-31",
+      "source": "OpenAI",
+      "primary_category": "AI & Machine Learning",
+      "tags": [
+        "Codex",
+        "agents",
+        "security"
+      ],
+      "evidence": [
+        "https://learn.chatgpt.com/docs/changelog#github-release-428320524",
+        "https://learn.chatgpt.com/docs/changelog#github-release-421457270",
+        "https://learn.chatgpt.com/docs/changelog#github-release-425927431"
+      ],
+      "eligibility_basis": "Dated original publication or release",
+      "version": "0.164.0 (October 23); 0.165.0 (October 27); 0.166.0 (October 29)",
+      "channel": "stable CLI",
+      "id": "9a1c9213-76f8-4995-8b88-d699628ee007"
+    },
+    {
+      "key": "claude-code",
+      "title": "Claude Code October updates tighten write and sandbox boundaries",
+      "summary": "Claude Code adds a setting that blocks writes outside configured working directories across permission modes, alongside protections for shell startup files, symlinks and MCP configuration. These October changes help teams define safer boundaries for coding agents working with analysis projects; their behavior still depends on configured permissions.",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.314",
+      "publication_date": "2026-10-30",
+      "date_added": "2026-10-31",
+      "source": "anthropics/claude-code",
+      "primary_category": "Security",
+      "tags": [
+        "Claude Code",
+        "agents",
+        "security"
+      ],
+      "evidence": [
+        "https://github.com/anthropics/claude-code/releases/tag/v2.1.314",
+        "https://github.com/anthropics/claude-code/releases/tag/v2.1.309"
+      ],
+      "eligibility_basis": "Dated original publication or release",
+      "version": "v2.1.314",
+      "channel": "stable",
+      "id": "76018357-7087-4c2c-9ed7-ad7996e28f25"
+    },
+    {
+      "key": "quarto",
+      "title": "Quarto 1.11 improves accessible outputs and updates its runtime",
+      "summary": "Quarto 1.11 improves accessible document output, including alternative text handling for DOCX figures and Mermaid diagrams. Its runtime update also changes compatibility requirements, including macOS 12 or later, so teams maintaining automated reports should review deployment environments before upgrading.",
+      "url": "https://github.com/quarto-dev/quarto-cli/releases/tag/v1.11.9",
+      "publication_date": "2026-10-30",
+      "date_added": "2026-10-31",
+      "source": "quarto-dev/quarto-cli",
+      "primary_category": "Software & Tools",
+      "tags": [
+        "Quarto",
+        "reproducibility",
+        "accessibility"
+      ],
+      "evidence": [
+        "https://github.com/quarto-dev/quarto-cli/releases/tag/v1.11.9",
+        "https://raw.githubusercontent.com/quarto-dev/quarto-cli/v1.11.9/news/changelog-1.11.md"
+      ],
+      "eligibility_basis": "Dated original publication or release",
+      "version": "v1.11.9",
+      "channel": "stable",
+      "id": "c53dc7e8-463f-4873-ab6d-735a587811a9"
+    },
+    {
+      "key": "scanpy",
+      "title": "Scanpy 1.12.5 preserves the gene symbol nan during import",
+      "summary": "Scanpy 1.12.5 stops treating the literal gene symbol nan as a missing value when reading 10x matrix data. It also supports pynndescent 0.7 in neighbor construction and ingest, making this patch relevant to annotation integrity and dependency compatibility.",
+      "url": "https://github.com/scverse/scanpy/releases/tag/1.12.5",
+      "publication_date": "2026-10-29",
+      "date_added": "2026-10-31",
+      "source": "scverse/scanpy",
+      "primary_category": "Software & Tools",
+      "tags": [
+        "Scanpy",
+        "single cell",
+        "python"
+      ],
+      "evidence": [
+        "https://github.com/scverse/scanpy/releases/tag/1.12.5",
+        "https://raw.githubusercontent.com/scverse/scanpy/1.12.5/docs/release-notes/1.12.5.md"
+      ],
+      "eligibility_basis": "Dated original publication or release",
+      "version": "1.12.5",
+      "channel": "stable",
+      "id": "2029940f-a714-4224-983a-8381a775873d"
+    },
+    {
+      "key": "ruff",
+      "title": "Ruff 0.17 changes Python defaults and signs distributed binaries",
+      "summary": "Ruff 0.17 introduces signed macOS and Windows binaries and updates its default Python target and lint rules. Projects without an explicit target version now default to Python 3.11, so scientific teams should pin configuration to avoid unexpected CI or autofix changes.",
+      "url": "https://github.com/astral-sh/ruff/releases/tag/0.17.0",
+      "publication_date": "2026-10-09",
+      "date_added": "2026-10-31",
+      "source": "astral-sh/ruff",
+      "primary_category": "Software & Tools",
+      "tags": [
+        "Ruff",
+        "python",
+        "testing"
+      ],
+      "evidence": [
+        "https://github.com/astral-sh/ruff/releases/tag/0.17.0"
+      ],
+      "eligibility_basis": "Dated original publication or release",
+      "version": "0.17.0",
+      "channel": "stable",
+      "id": "6f6c59a8-a0c1-40bb-bb83-ba88b8de06af"
+    },
+    {
+      "key": "polars",
+      "title": "Polars 2.0 expands out-of-core analysis and corrects SQL behavior",
+      "summary": "Polars 2.0 enables out-of-core execution by default and expands SQL window and Decimal handling. It also corrects analytical-query edge cases and changes APIs, making migration checks important for pipelines that depend on precise types, ordering and numerical results.",
+      "url": "https://github.com/pola-rs/polars/releases/tag/py-2.0.0",
+      "publication_date": "2026-10-06",
+      "date_added": "2026-10-31",
+      "source": "pola-rs/polars",
+      "primary_category": "Software & Tools",
+      "tags": [
+        "Polars",
+        "python",
+        "data analysis"
+      ],
+      "evidence": [
+        "https://github.com/pola-rs/polars/releases/tag/py-2.0.0"
+      ],
+      "eligibility_basis": "Dated original publication or release",
+      "version": "py-2.0.0",
+      "channel": "stable",
+      "id": "ca26b380-4f96-46b2-b281-602408508cc7"
+    },
+    {
+      "key": "duckdb",
+      "title": "DuckDB 2.0 LTS adds remote access and asynchronous I/O",
+      "summary": "DuckDB 2.0 LTS expands the Quack remote protocol, asynchronous I/O and support for heterogeneous data through a first-class VARIANT type. Support runs through at least October 2027, but analytical applications should review the documented breaking changes before moving existing workflows.",
+      "url": "https://duckdb.org/2026/10/21/announcing-duckdb-200",
+      "publication_date": "2026-10-21",
+      "date_added": "2026-10-31",
+      "source": "DuckDB",
+      "primary_category": "Software & Tools",
+      "tags": [
+        "DuckDB",
+        "SQL",
+        "data analysis"
+      ],
+      "evidence": [
+        "https://duckdb.org/2026/10/21/announcing-duckdb-200"
+      ],
+      "eligibility_basis": "Dated original publication or release",
+      "version": "2.0.0",
+      "channel": "stable LTS",
+      "id": "c7dc7c85-1733-4c46-8020-3217541ebc28"
+    },
+    {
+      "key": "pillow",
+      "title": "Pillow 13 fixes image-processing vulnerabilities and drops Python 3.10",
+      "summary": "Pillow 13 addresses multiple memory-safety vulnerabilities in image processing and decoding. It also drops Python 3.10 support and removes silent clipping when saving I-mode images as PNG, changes that matter for secure and faithful scientific-image workflows.",
+      "url": "https://pillow.readthedocs.io/en/stable/releasenotes/13.0.0.html",
+      "publication_date": "2026-10-16",
+      "date_added": "2026-10-31",
+      "source": "Pillow",
+      "primary_category": "Security",
+      "tags": [
+        "python",
+        "Pillow",
+        "imaging",
+        "security"
+      ],
+      "evidence": [
+        "https://pillow.readthedocs.io/en/stable/releasenotes/13.0.0.html"
+      ],
+      "eligibility_basis": "Dated original publication or release",
+      "version": "13.0.0",
+      "channel": "stable",
+      "discovery_source": "Python Weekly",
+      "discovery_url": "https://www.pythonweekly.com/p/python-weekly-issue-769-october-29-2026",
+      "id": "746cf1ff-ef89-4893-85a0-f4415a4f2413"
+    },
+    {
+      "key": "shiny",
+      "title": "Shiny for Python 1.9 makes asynchronous outputs concurrent",
+      "summary": "Shiny for Python 1.9 runs asynchronous effects and outputs concurrently, preventing one slow await from holding up other outputs or sessions. Background-task UI updates and accessibility improvements help interactive research applications, while existing apps should be checked for assumptions about effect execution order.",
+      "url": "https://opensource.posit.co/blog/2026-10-29_shiny-python-1-9/",
+      "publication_date": "2026-10-29",
+      "date_added": "2026-10-31",
+      "source": "Posit Open Source Blog",
+      "primary_category": "Software & Tools",
+      "tags": [
+        "Shiny",
+        "python",
+        "visualization"
+      ],
+      "evidence": [
+        "https://opensource.posit.co/blog/2026-10-29_shiny-python-1-9/"
+      ],
+      "eligibility_basis": "Dated original publication or release",
+      "version": "1.9",
+      "channel": "stable",
+      "id": "95d957e9-cad2-4556-a4b5-8c5e30b55033"
+    },
+    {
+      "key": "nfcore-tools",
+      "title": "nf-core/tools 4.2 guidance covers template migration and CI security",
+      "summary": "The nf-core/tools 4.2 announcement explains pipeline diagrams, regenerating container configuration and migrating GPU settings to Nextflow accelerator directives. It also documents a reusable lint-workflow token leak fix and template synchronization corrections, making the post useful for pipeline maintainers.",
+      "url": "https://nf-co.re/blog/2026/tools-4_2_0",
+      "publication_date": "2026-10-21",
+      "date_added": "2026-10-31",
+      "source": "nf-core blog",
+      "primary_category": "Software & Tools",
+      "tags": [
+        "nf-core",
+        "Nextflow",
+        "workflows",
+        "security"
+      ],
+      "evidence": [
+        "https://nf-co.re/blog/2026/tools-4_2_0"
+      ],
+      "eligibility_basis": "Dated original publication or release",
+      "version": "4.2.0/4.2.1",
+      "channel": "dated maintainer announcement",
+      "eligibility_note": "October 21 blog publication; not an assertion that both release tags were published that day.",
+      "id": "abb4686c-7dcf-4b30-b96a-477f32b219d8"
+    },
+    {
+      "key": "celldiffusion",
+      "title": "CellDiffusion integrates single-cell studies using graph diffusion",
+      "summary": "CellDiffusion learns relationships among cells to correct batch effects while preserving cell-type structure and trajectories. RNA-seq Blog covers the October 16 Science Advances paper, whose evaluations include human endometrium data; reported performance remains specific to the tested datasets.",
+      "url": "https://www.rna-seqblog.com/celldiffusion-improves-integration-of-single-cell-rna-sequencing-data-across-studies/",
+      "publication_date": "2026-10-20",
+      "date_added": "2026-10-31",
+      "source": "RNA-seq Blog",
+      "primary_category": "Software & Tools",
+      "tags": [
+        "single cell",
+        "batch correction",
+        "RNA-seq"
+      ],
+      "evidence": [
+        "https://www.rna-seqblog.com/celldiffusion-improves-integration-of-single-cell-rna-sequencing-data-across-studies/",
+        "https://www.rna-seqblog.com/Blog/",
+        "https://europepmc.org/article/MED/42886809",
+        "https://doi.org/10.1126/sciadv.aed4155"
+      ],
+      "eligibility_basis": "Dated original publication or release",
+      "blog_date": "2026-10-20",
+      "paper_date": "2026-10-16",
+      "paper_url": "https://doi.org/10.1126/sciadv.aed4155",
+      "discovery_source": "RNA-seq Blog",
+      "date_evidence": "https://www.rna-seqblog.com/Blog/",
+      "access": "Blog and primary author abstract via Europe PMC",
+      "id": "c4c18d8a-7c74-46a7-b9f8-fbc9dd3dda3d"
+    },
+    {
+      "key": "splicecov",
+      "title": "SpliceCOV filters transcriptional noise before transcript assembly",
+      "summary": "SpliceCOV uses annotated splice and transcript-boundary features to filter noisy RNA-seq alignments before StringTie assembly. RNA-seq Blog covers the October 20 Genes paper, which reports improved precision in GTEx comparisons but weaker transfer to mouse data, highlighting the importance of organism-specific validation.",
+      "url": "https://www.rna-seqblog.com/splicecov-improves-rna-sequencing-analysis-by-filtering-transcriptional-noise/",
+      "publication_date": "2026-10-29",
+      "date_added": "2026-10-31",
+      "source": "RNA-seq Blog",
+      "primary_category": "Software & Tools",
+      "tags": [
+        "RNA-seq",
+        "transcript assembly",
+        "benchmarking"
+      ],
+      "evidence": [
+        "https://www.rna-seqblog.com/splicecov-improves-rna-sequencing-analysis-by-filtering-transcriptional-noise/",
+        "https://www.rna-seqblog.com/",
+        "https://europepmc.org/article/MED/42938423",
+        "https://doi.org/10.3390/genes17101307"
+      ],
+      "eligibility_basis": "Dated original publication or release",
+      "blog_date": "2026-10-29",
+      "paper_date": "2026-10-20",
+      "paper_url": "https://doi.org/10.3390/genes17101307",
+      "discovery_source": "RNA-seq Blog",
+      "date_evidence": "https://www.rna-seqblog.com/",
+      "access": "Blog and primary author abstract via Europe PMC",
+      "id": "1abd1283-6341-4f95-b76e-0310db16ff91"
+    },
+    {
+      "key": "rnamel",
+      "title": "RNAmel provides reproducible bulk RNA-seq analysis in Shiny",
+      "summary": "RNAmel combines bulk RNA-seq differential expression, co-expression and gene-set analysis in an R/Shiny interface. Exportable R scripts and HTML reports expose the analysis steps and dependencies, with reproducibility evaluated on two published datasets.",
+      "url": "https://link.springer.com/article/10.1186/s12859-026-06710-x",
+      "publication_date": "2026-10-14",
+      "date_added": "2026-10-31",
+      "source": "BMC Bioinformatics",
+      "primary_category": "Software & Tools",
+      "tags": [
+        "RNA-seq",
+        "R",
+        "Shiny",
+        "reproducibility"
+      ],
+      "evidence": [
+        "https://link.springer.com/article/10.1186/s12859-026-06710-x"
+      ],
+      "eligibility_basis": "Dated original publication or release",
+      "paper_date": "2026-10-14",
+      "blog_date": null,
+      "discovery_source": "RNA-seq Blog",
+      "discovery_url": "https://www.rna-seqblog.com/rnamel-simplifies-rna-sequencing-data-analysis-with-a-reproducible-integrated-platform/",
+      "access": "Primary paper; blog posting date unresolved, eligibility established by paper.",
+      "id": "323dca9c-4077-46b0-8f1d-435457937715"
+    },
+    {
+      "key": "decore",
+      "title": "DeCoRE resolves RNA conformations using direct RNA sequencing",
+      "summary": "DeCoRE combines RNA structure probing with direct RNA sequencing signals to separate alternative structural conformations. Demonstrations on riboswitches and bacterial ribosomal RNA suggest a route to studying structural heterogeneity, with conclusions limited to the evaluated experimental systems.",
+      "url": "https://doi.org/10.1126/sciadv.aef0670",
+      "publication_date": "2026-10-02",
+      "date_added": "2026-10-31",
+      "source": "Science Advances",
+      "primary_category": "Software & Tools",
+      "tags": [
+        "RNA-seq",
+        "long reads",
+        "RNA structure"
+      ],
+      "evidence": [
+        "https://doi.org/10.1126/sciadv.aef0670",
+        "https://europepmc.org/article/MED/42826179"
+      ],
+      "eligibility_basis": "Dated original publication or release",
+      "paper_date": "2026-10-02",
+      "blog_date": null,
+      "discovery_source": "RNA-seq Blog",
+      "discovery_url": "https://www.rna-seqblog.com/decore-a-computational-method-to-resolve-rna-structural-heterogeneity-from-rna-structure-probing-data-by-direct-rna-sequencing/",
+      "access": "Primary author abstract via Europe PMC; October 6 blog date seen in tag search but not independently established, so paper date used.",
+      "id": "c54846da-8663-46db-b023-22e92453de48"
+    },
+    {
+      "key": "cci",
+      "title": "CCI-seq connects cell proximity with molecular states",
+      "summary": "CCI-seq combines indexing of cell clumps with single-cell sequencing to identify proximity networks and associated molecular states. Applications in mouse tissues and human colorectal cancer show how it can complement transcriptomic studies of tissue and tumor microenvironments.",
+      "url": "https://www.nature.com/articles/s41592-026-03237-0",
+      "publication_date": "2026-10-05",
+      "date_added": "2026-10-31",
+      "source": "Nature Methods",
+      "primary_category": "Technology Platforms",
+      "tags": [
+        "single cell",
+        "tumor microenvironment",
+        "spatial"
+      ],
+      "evidence": [
+        "https://www.nature.com/articles/s41592-026-03237-0"
+      ],
+      "eligibility_basis": "Dated original publication or release",
+      "id": "ca34fa80-3a44-498d-a4e4-3e05ac42d85a"
+    },
+    {
+      "key": "recordanelles",
+      "title": "Recordanelles preserve earlier transcriptional states in living cells",
+      "summary": "Engineered recordanelles capture endogenous messenger RNA over time, allowing earlier transcriptional states to be read alongside current single-cell profiles. Demonstrations in human cells include transient interferon responses, offering an experimental approach to cellular history rather than an established clinical assay.",
+      "url": "https://www.nature.com/articles/s41587-026-03327-6",
+      "publication_date": "2026-10-21",
+      "date_added": "2026-10-31",
+      "source": "Nature Biotechnology",
+      "primary_category": "Technology Platforms",
+      "tags": [
+        "single cell",
+        "RNA-seq",
+        "synthetic biology"
+      ],
+      "evidence": [
+        "https://www.nature.com/articles/s41587-026-03327-6"
+      ],
+      "eligibility_basis": "Dated original publication or release",
+      "id": "6f3a8934-d58a-4c25-bbb2-d0dc4b8a075b"
+    },
+    {
+      "key": "scmagnify",
+      "title": "scMagnify infers dynamic regulatory programs from single-cell multiomics",
+      "summary": "scMagnify integrates single-cell multiomic measurements to infer regulatory modules and their temporal relationships. Applications to hematopoiesis, pancreas development and kidney injury illustrate hypothesis generation, while inferred regulatory direction should not be mistaken for experimental proof of causality.",
+      "url": "https://www.nature.com/articles/s41467-026-78441-9",
+      "publication_date": "2026-10-17",
+      "date_added": "2026-10-31",
+      "source": "Nature Communications",
+      "primary_category": "AI & Machine Learning",
+      "tags": [
+        "single cell",
+        "multi-omics",
+        "gene regulation"
+      ],
+      "evidence": [
+        "https://www.nature.com/articles/s41467-026-78441-9"
+      ],
+      "eligibility_basis": "Dated original publication or release",
+      "id": "de5535d7-b7d1-4fa4-b662-ac239def3810"
+    },
+    {
+      "key": "chromatinqtl",
+      "title": "Single-cell chromatin QTL resource links immune variation to disease loci",
+      "summary": "A large peripheral-blood single-cell chromatin study maps genetic effects across immune cell types and states. Integrating chromatin and expression QTL evidence helps prioritize regulatory mechanisms at disease-associated loci, providing a resource for follow-up rather than direct evidence of causality.",
+      "url": "https://www.nature.com/articles/s41586-026-11173-4",
+      "publication_date": "2026-10-28",
+      "date_added": "2026-10-31",
+      "source": "Nature",
+      "primary_category": "Other",
+      "tags": [
+        "single cell",
+        "genomics",
+        "QTL"
+      ],
+      "evidence": [
+        "https://www.nature.com/articles/s41586-026-11173-4"
+      ],
+      "eligibility_basis": "Dated original publication or release",
+      "id": "fbd3bf91-48cb-4d0c-a6eb-309aa4a1e9f5"
+    },
+    {
+      "key": "giab",
+      "title": "GIAB HG002 benchmark expands variant evaluation in difficult regions",
+      "summary": "This preprint presents an assembly-based HG002 benchmark that extends small- and structural-variant evaluation into repetitive and previously difficult genomic regions. Separate and combined benchmark sets across reference assemblies provide resources for validating sequencing pipelines; the curated manuscript is a preprint.",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.09.23.752440v1",
+      "publication_date": "2026-10-01",
+      "date_added": "2026-10-31",
+      "source": "bioRxiv",
+      "primary_category": "Technology Platforms",
+      "tags": [
+        "genomics",
+        "benchmarking",
+        "preprint"
+      ],
+      "evidence": [
+        "https://api.biorxiv.org/details/biorxiv/10.64898/2026.09.23.752440",
+        "https://www.biorxiv.org/content/10.64898/2026.09.23.752440v1"
+      ],
+      "eligibility_basis": "Dated original publication or release",
+      "doi": "10.64898/2026.09.23.752440",
+      "version": "1",
+      "channel": "preprint",
+      "first_posted_date": "2026-10-01",
+      "access": "Official API author abstract only; no full manuscript review",
+      "discovery_source": "bioRxiv interval/category API",
+      "biorxiv_category": "genomics",
+      "journal_link_status": "NA",
+      "version_history": [
+        {
+          "date": "2026-10-01",
+          "version": "1",
+          "published": "NA",
+          "title": "The Genome In A Bottle HG002 assembly-based variant benchmark set enables comprehensive benchmarking of small and structural variants."
+        }
+      ],
+      "id": "4676ebb9-642d-44c4-b48a-0c5f7d350004"
+    },
+    {
+      "key": "10xparse",
+      "title": "Matched 10x and Parse comparisons reveal platform-dependent RNA profiles",
+      "summary": "This preprint compares seven matched sample pairs from five studies and separates priming-related biases from larger platform-level differences between 10x and Parse. Reported differences in nuclear RNA representation and comparable background contamination caution against treating measurements as interchangeable; the study focuses on gene counts and composition rather than a universal platform ranking.",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.10.09.758116v1",
+      "publication_date": "2026-10-11",
+      "date_added": "2026-10-31",
+      "source": "bioRxiv",
+      "primary_category": "Technology Platforms",
+      "tags": [
+        "single cell",
+        "RNA-seq",
+        "benchmarking",
+        "preprint"
+      ],
+      "evidence": [
+        "https://api.biorxiv.org/details/biorxiv/10.64898/2026.10.09.758116",
+        "https://www.biorxiv.org/content/10.64898/2026.10.09.758116v1"
+      ],
+      "eligibility_basis": "Dated original publication or release",
+      "doi": "10.64898/2026.10.09.758116",
+      "version": "1",
+      "channel": "preprint",
+      "first_posted_date": "2026-10-11",
+      "access": "Official API author abstract only; no full manuscript review",
+      "discovery_source": "bioRxiv interval/category API",
+      "biorxiv_category": "genomics",
+      "journal_link_status": "NA",
+      "version_history": [
+        {
+          "date": "2026-10-11",
+          "version": "1",
+          "published": "NA",
+          "title": "A Unified Comparison of 10X Genomics and Parse Biosciences scRNA-seq Technologies"
+        }
+      ],
+      "id": "ba06a3bd-5843-4fb0-ae97-38a67f895f0e"
+    },
+    {
+      "key": "spatialbenchmark",
+      "title": "Spatial transcriptomics benchmark compares capture and spatial accuracy",
+      "summary": "This preprint compares sequencing-based spatial transcriptomics platforms across tissue types and preservation methods, examining capture architecture, capture efficiency and spatial accuracy. Its proposed operational metrics may help experimental planning, but performance remains dependent on the tested assays and specimens.",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.10.15.759112v1",
+      "publication_date": "2026-10-16",
+      "date_added": "2026-10-31",
+      "source": "bioRxiv",
+      "primary_category": "Technology Platforms",
+      "tags": [
+        "spatial transcriptomics",
+        "benchmarking",
+        "preprint"
+      ],
+      "evidence": [
+        "https://api.biorxiv.org/details/biorxiv/10.64898/2026.10.15.759112",
+        "https://www.biorxiv.org/content/10.64898/2026.10.15.759112v1"
+      ],
+      "eligibility_basis": "Dated original publication or release",
+      "doi": "10.64898/2026.10.15.759112",
+      "version": "1",
+      "channel": "preprint",
+      "first_posted_date": "2026-10-16",
+      "access": "Official API author abstract only; no full manuscript review",
+      "discovery_source": "bioRxiv interval/category API",
+      "biorxiv_category": "genomics",
+      "journal_link_status": "NA",
+      "version_history": [
+        {
+          "date": "2026-10-16",
+          "version": "1",
+          "published": "NA",
+          "title": "Navigating the rapidly evolving landscape of sequencing-based spatial transcriptomics technologies: a comprehensive multi-platform benchmark"
+        }
+      ],
+      "id": "9fed3e80-262b-4825-874c-f879cf7dda91"
+    },
+    {
+      "key": "rnaprotein",
+      "title": "Spatial RNA and protein measurements can imply different tumor biology",
+      "summary": "This preprint compares paired RNA and protein measurements for 21 targets in lung and prostate cancer specimens. Marker-dependent agreement and divergent spatial patterns, including for several checkpoint molecules, support orthogonal protein validation before interpreting spatial RNA as a protein proxy.",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.10.05.756660v1",
+      "publication_date": "2026-10-06",
+      "date_added": "2026-10-31",
+      "source": "bioRxiv",
+      "primary_category": "Cancer Research",
+      "tags": [
+        "spatial transcriptomics",
+        "proteomics",
+        "cancer",
+        "preprint"
+      ],
+      "evidence": [
+        "https://api.biorxiv.org/details/biorxiv/10.64898/2026.10.05.756660",
+        "https://www.biorxiv.org/content/10.64898/2026.10.05.756660v1"
+      ],
+      "eligibility_basis": "Dated original publication or release",
+      "doi": "10.64898/2026.10.05.756660",
+      "version": "1",
+      "channel": "preprint",
+      "first_posted_date": "2026-10-06",
+      "access": "Official API author abstract only; no full manuscript review",
+      "discovery_source": "bioRxiv interval/category API",
+      "biorxiv_category": "cancer biology",
+      "journal_link_status": "NA",
+      "version_history": [
+        {
+          "date": "2026-10-06",
+          "version": "1",
+          "published": "NA",
+          "title": "RNA and protein are not interchangeable in single-cell spatial multi-omics"
+        }
+      ],
+      "id": "31dd8ebe-0f6f-4214-a60e-13fd9c0300c2"
+    },
+    {
+      "key": "elperturb",
+      "title": "EL-PERTURB tests perturbation models outside their training distribution",
+      "summary": "This preprint evaluates 20 perturbation prediction models using functionally separated training and test sets. Performance deteriorated under these harder conditions, with complex architectures offering no consistent advantage over simpler baselines in the reported comparisons, emphasizing realistic validation before substituting predictions for experiments.",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.10.16.759604v1",
+      "publication_date": "2026-10-19",
+      "date_added": "2026-10-31",
+      "source": "bioRxiv",
+      "primary_category": "AI & Machine Learning",
+      "tags": [
+        "single cell",
+        "benchmarking",
+        "machine learning",
+        "preprint"
+      ],
+      "evidence": [
+        "https://api.biorxiv.org/details/biorxiv/10.64898/2026.10.16.759604",
+        "https://www.biorxiv.org/content/10.64898/2026.10.16.759604v1"
+      ],
+      "eligibility_basis": "Dated original publication or release",
+      "doi": "10.64898/2026.10.16.759604",
+      "version": "1",
+      "channel": "preprint",
+      "first_posted_date": "2026-10-19",
+      "access": "Official API author abstract only; no full manuscript review",
+      "discovery_source": "bioRxiv interval/category API",
+      "biorxiv_category": "systems biology",
+      "journal_link_status": "NA",
+      "version_history": [
+        {
+          "date": "2026-10-19",
+          "version": "1",
+          "published": "NA",
+          "title": "Genetic Perturbation Prediction Models Fail Out-of-Distribution: A Rigorous Benchmark and Systematic Evaluation"
+        }
+      ],
+      "id": "f1fd12ff-80c9-4ee2-886b-293a1ec64a72"
+    },
+    {
+      "key": "ambient-doublets",
+      "title": "Ambient RNA correction can conceal doublets in single-cell analysis",
+      "summary": "This preprint evaluates ambient RNA correction and doublet detection using engineered and multiplexed datasets. Doublet detection generally worked better before decontX or SoupX correction, with CellBender an exception, suggesting that preprocessing order should be validated rather than assumed interchangeable.",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.10.13.758369v1",
+      "publication_date": "2026-10-17",
+      "date_added": "2026-10-31",
+      "source": "bioRxiv",
+      "primary_category": "Software & Tools",
+      "tags": [
+        "single cell",
+        "RNA-seq",
+        "quality control",
+        "preprint"
+      ],
+      "evidence": [
+        "https://api.biorxiv.org/details/biorxiv/10.64898/2026.10.13.758369",
+        "https://www.biorxiv.org/content/10.64898/2026.10.13.758369v1"
+      ],
+      "eligibility_basis": "Dated original publication or release",
+      "doi": "10.64898/2026.10.13.758369",
+      "version": "1",
+      "channel": "preprint",
+      "first_posted_date": "2026-10-17",
+      "access": "Official API author abstract only; no full manuscript review",
+      "discovery_source": "bioRxiv interval/category API",
+      "biorxiv_category": "bioinformatics",
+      "journal_link_status": "NA",
+      "version_history": [
+        {
+          "date": "2026-10-17",
+          "version": "1",
+          "published": "NA",
+          "title": "Order Matters: Ambient RNA correction confounds doublet detection in single-cell RNA sequencing"
+        }
+      ],
+      "id": "c089f623-1e9d-4f55-8e43-cf6b385bf0c5"
+    },
+    {
+      "key": "claude-haiku",
+      "title": "Claude Haiku 5.5 adds adjustable effort for high-volume AI tasks",
+      "summary": "Anthropic released Claude Haiku 5.5 with adjustable effort and lower published pricing for high-volume tasks such as classification, summarization and coding subagents. It is available through the Claude Platform and supported cloud providers; performance and cost comparisons in the announcement are vendor claims, not independent biomedical validation.",
+      "url": "https://www.anthropic.com/claude-haiku-5-5",
+      "publication_date": "2026-10-07",
+      "date_added": "2026-10-31",
+      "source": "Anthropic",
+      "primary_category": "AI & Machine Learning",
+      "tags": [
+        "Claude",
+        "llm",
+        "agents"
+      ],
+      "evidence": [
+        "https://www.anthropic.com/claude-haiku-5-5",
+        "https://support.claude.com/en/articles/12138966-release-notes"
+      ],
+      "eligibility_basis": "Dated original model announcement",
+      "version": "Haiku 5.5",
+      "channel": "released model; API/cloud availability verified",
+      "id": "a76a8147-6907-4a2f-9cd6-7d8427bf2fc0"
+    }
+  ],
+  "software_coverage": [
+    {
+      "product": "uv",
+      "required": true,
+      "sources": [
+        "https://github.com/astral-sh/uv/releases",
+        "https://api.github.com/repos/astral-sh/uv/releases?per_page=100&page=1"
+      ],
+      "date_span": "2026-10-01 through 2026-10-31",
+      "versions": [
+        {
+          "version": "0.13.6",
+          "release_date": "2026-10-27",
+          "published_at": "2026-10-27T00:47:49Z",
+          "url": "https://github.com/astral-sh/uv/releases/tag/0.13.6",
+          "channel": "stable",
+          "decision": "reviewed in monthly release group; selected impact summarized in linked entries",
+          "reason": "Substantive changes summarized together; ordinary fixes are not separate entries."
+        },
+        {
+          "version": "0.13.5",
+          "release_date": "2026-10-22",
+          "published_at": "2026-10-22T01:35:54Z",
+          "url": "https://github.com/astral-sh/uv/releases/tag/0.13.5",
+          "channel": "stable",
+          "decision": "reviewed in monthly release group; selected impact summarized in linked entries",
+          "reason": "Substantive changes summarized together; ordinary fixes are not separate entries."
+        },
+        {
+          "version": "0.13.4",
+          "release_date": "2026-10-20",
+          "published_at": "2026-10-20T15:24:59Z",
+          "url": "https://github.com/astral-sh/uv/releases/tag/0.13.4",
+          "channel": "stable",
+          "decision": "reviewed in monthly release group; selected impact summarized in linked entries",
+          "reason": "Substantive changes summarized together; ordinary fixes are not separate entries."
+        },
+        {
+          "version": "0.13.3",
+          "release_date": "2026-10-20",
+          "published_at": "2026-10-20T01:15:17Z",
+          "url": "https://github.com/astral-sh/uv/releases/tag/0.13.3",
+          "channel": "stable",
+          "decision": "reviewed in monthly release group; selected impact summarized in linked entries",
+          "reason": "Substantive changes summarized together; ordinary fixes are not separate entries."
+        },
+        {
+          "version": "0.13.2",
+          "release_date": "2026-10-19",
+          "published_at": "2026-10-19T21:02:37Z",
+          "url": "https://github.com/astral-sh/uv/releases/tag/0.13.2",
+          "channel": "stable",
+          "decision": "reviewed in monthly release group; selected impact summarized in linked entries",
+          "reason": "Substantive changes summarized together; ordinary fixes are not separate entries."
+        },
+        {
+          "version": "0.13.1",
+          "release_date": "2026-10-14",
+          "published_at": "2026-10-14T05:15:30Z",
+          "url": "https://github.com/astral-sh/uv/releases/tag/0.13.1",
+          "channel": "stable",
+          "decision": "reviewed in monthly release group; selected impact summarized in linked entries",
+          "reason": "Substantive changes summarized together; ordinary fixes are not separate entries."
+        },
+        {
+          "version": "0.13.0",
+          "release_date": "2026-10-09",
+          "published_at": "2026-10-09T19:49:55Z",
+          "url": "https://github.com/astral-sh/uv/releases/tag/0.13.0",
+          "channel": "stable",
+          "decision": "reviewed in monthly release group; selected impact summarized in linked entries",
+          "reason": "Substantive changes summarized together; ordinary fixes are not separate entries."
+        },
+        {
+          "version": "0.12.24",
+          "release_date": "2026-10-08",
+          "published_at": "2026-10-08T20:06:20Z",
+          "url": "https://github.com/astral-sh/uv/releases/tag/0.12.24",
+          "channel": "stable",
+          "decision": "reviewed in monthly release group; selected impact summarized in linked entries",
+          "reason": "Substantive changes summarized together; ordinary fixes are not separate entries."
+        },
+        {
+          "version": "0.12.23",
+          "release_date": "2026-10-03",
+          "published_at": "2026-10-03T17:34:11Z",
+          "url": "https://github.com/astral-sh/uv/releases/tag/0.12.23",
+          "channel": "stable",
+          "decision": "reviewed in monthly release group; selected impact summarized in linked entries",
+          "reason": "Substantive changes summarized together; ordinary fixes are not separate entries."
+        },
+        {
+          "version": "0.12.22",
+          "release_date": "2026-10-02",
+          "published_at": "2026-10-02T00:20:42Z",
+          "url": "https://github.com/astral-sh/uv/releases/tag/0.12.22",
+          "channel": "stable",
+          "decision": "reviewed in monthly release group; selected impact summarized in linked entries",
+          "reason": "Substantive changes summarized together; ordinary fixes are not separate entries."
+        }
+      ],
+      "outcome": "added",
+      "entry_keys": [
+        "uv",
+        "python-security"
+      ],
+      "reason": "Selected substantive functionality, compatibility, correctness or security impact.",
+      "limitations": "GitHub published_at is UTC; textual release dates can differ by a day."
+    },
+    {
+      "product": "Nextflow",
+      "required": true,
+      "sources": [
+        "https://github.com/nextflow-io/nextflow/releases",
+        "https://api.github.com/repos/nextflow-io/nextflow/releases?per_page=100&page=1"
+      ],
+      "date_span": "2026-10-01 through 2026-10-31",
+      "versions": [
+        {
+          "version": "v26.10.4",
+          "release_date": "2026-10-26",
+          "published_at": "2026-10-26T21:18:59Z",
+          "url": "https://github.com/nextflow-io/nextflow/releases/tag/v26.10.4",
+          "channel": "stable",
+          "decision": "reviewed in monthly release group; selected impact summarized in linked entries",
+          "reason": "Substantive changes summarized together; ordinary fixes are not separate entries."
+        },
+        {
+          "version": "v26.04.9",
+          "release_date": "2026-10-22",
+          "published_at": "2026-10-22T18:38:13Z",
+          "url": "https://github.com/nextflow-io/nextflow/releases/tag/v26.04.9",
+          "channel": "stable",
+          "decision": "reviewed in monthly release group; selected impact summarized in linked entries",
+          "reason": "Substantive changes summarized together; ordinary fixes are not separate entries."
+        },
+        {
+          "version": "v26.10.3",
+          "release_date": "2026-10-20",
+          "published_at": "2026-10-20T16:53:41Z",
+          "url": "https://github.com/nextflow-io/nextflow/releases/tag/v26.10.3",
+          "channel": "stable",
+          "decision": "reviewed in monthly release group; selected impact summarized in linked entries",
+          "reason": "Substantive changes summarized together; ordinary fixes are not separate entries."
+        },
+        {
+          "version": "v26.04.8",
+          "release_date": "2026-10-20",
+          "published_at": "2026-10-20T20:28:31Z",
+          "url": "https://github.com/nextflow-io/nextflow/releases/tag/v26.04.8",
+          "channel": "preview",
+          "decision": "preview not separately added",
+          "reason": "Substantive changes summarized together; ordinary fixes are not separate entries."
+        },
+        {
+          "version": "v25.10.9",
+          "release_date": "2026-10-20",
+          "published_at": "2026-10-20T20:25:12Z",
+          "url": "https://github.com/nextflow-io/nextflow/releases/tag/v25.10.9",
+          "channel": "stable",
+          "decision": "reviewed in monthly release group; selected impact summarized in linked entries",
+          "reason": "Substantive changes summarized together; ordinary fixes are not separate entries."
+        },
+        {
+          "version": "v26.10.2",
+          "release_date": "2026-10-15",
+          "published_at": "2026-10-15T18:29:56Z",
+          "url": "https://github.com/nextflow-io/nextflow/releases/tag/v26.10.2",
+          "channel": "stable",
+          "decision": "reviewed in monthly release group; selected impact summarized in linked entries",
+          "reason": "Substantive changes summarized together; ordinary fixes are not separate entries."
+        },
+        {
+          "version": "v26.10.1",
+          "release_date": "2026-10-15",
+          "published_at": "2026-10-15T13:11:34Z",
+          "url": "https://github.com/nextflow-io/nextflow/releases/tag/v26.10.1",
+          "channel": "stable",
+          "decision": "reviewed in monthly release group; selected impact summarized in linked entries",
+          "reason": "Substantive changes summarized together; ordinary fixes are not separate entries."
+        },
+        {
+          "version": "v26.10.0",
+          "release_date": "2026-10-12",
+          "published_at": "2026-10-12T10:52:45Z",
+          "url": "https://github.com/nextflow-io/nextflow/releases/tag/v26.10.0",
+          "channel": "stable",
+          "decision": "reviewed in monthly release group; selected impact summarized in linked entries",
+          "reason": "Substantive changes summarized together; ordinary fixes are not separate entries."
+        },
+        {
+          "version": "v26.04.7",
+          "release_date": "2026-10-08",
+          "published_at": "2026-10-08T16:28:35Z",
+          "url": "https://github.com/nextflow-io/nextflow/releases/tag/v26.04.7",
+          "channel": "stable",
+          "decision": "reviewed in monthly release group; selected impact summarized in linked entries",
+          "reason": "Substantive changes summarized together; ordinary fixes are not separate entries."
+        },
+        {
+          "version": "v26.09.2-edge",
+          "release_date": "2026-10-06",
+          "published_at": "2026-10-06T10:08:23Z",
+          "url": "https://github.com/nextflow-io/nextflow/releases/tag/v26.09.2-edge",
+          "channel": "preview",
+          "decision": "preview not separately added",
+          "reason": "Substantive changes summarized together; ordinary fixes are not separate entries."
+        }
+      ],
+      "outcome": "added",
+      "entry_keys": [
+        "nextflow"
+      ],
+      "reason": "Selected substantive functionality, compatibility, correctness or security impact.",
+      "limitations": "GitHub published_at is UTC; textual release dates can differ by a day."
+    },
+    {
+      "product": "Positron",
+      "required": true,
+      "sources": [
+        "https://github.com/posit-dev/positron/releases",
+        "https://api.github.com/repos/posit-dev/positron/releases?per_page=100&page=1"
+      ],
+      "date_span": "2026-10-01 through 2026-10-31",
+      "versions": [
+        {
+          "version": "2026.10.2-3",
+          "release_date": "2026-10-26",
+          "published_at": "2026-10-26T15:11:31Z",
+          "url": "https://github.com/posit-dev/positron/releases/tag/2026.10.2-3",
+          "channel": "stable",
+          "decision": "reviewed in monthly release group; selected impact summarized in linked entries",
+          "reason": "Substantive changes summarized together; ordinary fixes are not separate entries."
+        },
+        {
+          "version": "2026.10.1-2",
+          "release_date": "2026-10-19",
+          "published_at": "2026-10-19T20:05:12Z",
+          "url": "https://github.com/posit-dev/positron/releases/tag/2026.10.1-2",
+          "channel": "stable",
+          "decision": "reviewed in monthly release group; selected impact summarized in linked entries",
+          "reason": "Substantive changes summarized together; ordinary fixes are not separate entries."
+        },
+        {
+          "version": "2026.10.0-297",
+          "release_date": "2026-10-08",
+          "published_at": "2026-10-08T21:09:51Z",
+          "url": "https://github.com/posit-dev/positron/releases/tag/2026.10.0-297",
+          "channel": "stable",
+          "decision": "reviewed in monthly release group; selected impact summarized in linked entries",
+          "reason": "Substantive changes summarized together; ordinary fixes are not separate entries."
+        }
+      ],
+      "outcome": "added",
+      "entry_keys": [
+        "positron"
+      ],
+      "reason": "Selected substantive functionality, compatibility, correctness or security impact.",
+      "limitations": "GitHub published_at is UTC; textual release dates can differ by a day."
+    },
+    {
+      "product": "VS Code",
+      "required": true,
+      "sources": [
+        "https://github.com/microsoft/vscode/releases",
+        "https://api.github.com/repos/microsoft/vscode/releases?per_page=100&page=1"
+      ],
+      "date_span": "2026-10-01 through 2026-10-31",
+      "versions": [
+        {
+          "version": "1.144.0",
+          "release_date": "2026-10-28",
+          "published_at": "2026-10-28T18:51:38Z",
+          "url": "https://github.com/microsoft/vscode/releases/tag/1.144.0",
+          "channel": "stable",
+          "decision": "reviewed in monthly release group; selected impact summarized in linked entries",
+          "reason": "Substantive changes summarized together; ordinary fixes are not separate entries."
+        },
+        {
+          "version": "1.143.1",
+          "release_date": "2026-10-22",
+          "published_at": "2026-10-22T23:04:14Z",
+          "url": "https://github.com/microsoft/vscode/releases/tag/1.143.1",
+          "channel": "stable",
+          "decision": "reviewed in monthly release group; selected impact summarized in linked entries",
+          "reason": "Substantive changes summarized together; ordinary fixes are not separate entries."
+        },
+        {
+          "version": "1.143.0",
+          "release_date": "2026-10-22",
+          "published_at": "2026-10-22T13:00:11Z",
+          "url": "https://github.com/microsoft/vscode/releases/tag/1.143.0",
+          "channel": "stable",
+          "decision": "reviewed in monthly release group; selected impact summarized in linked entries",
+          "reason": "Substantive changes summarized together; ordinary fixes are not separate entries."
+        },
+        {
+          "version": "1.142.0",
+          "release_date": "2026-10-14",
+          "published_at": "2026-10-14T19:46:12Z",
+          "url": "https://github.com/microsoft/vscode/releases/tag/1.142.0",
+          "channel": "stable",
+          "decision": "reviewed in monthly release group; selected impact summarized in linked entries",
+          "reason": "Substantive changes summarized together; ordinary fixes are not separate entries."
+        },
+        {
+          "version": "1.141.2",
+          "release_date": "2026-10-14",
+          "published_at": "2026-10-14T14:32:33Z",
+          "url": "https://github.com/microsoft/vscode/releases/tag/1.141.2",
+          "channel": "stable",
+          "decision": "reviewed in monthly release group; selected impact summarized in linked entries",
+          "reason": "Substantive changes summarized together; ordinary fixes are not separate entries."
+        },
+        {
+          "version": "1.141.1",
+          "release_date": "2026-10-13",
+          "published_at": "2026-10-13T21:53:53Z",
+          "url": "https://github.com/microsoft/vscode/releases/tag/1.141.1",
+          "channel": "stable",
+          "decision": "reviewed in monthly release group; selected impact summarized in linked entries",
+          "reason": "Substantive changes summarized together; ordinary fixes are not separate entries."
+        },
+        {
+          "version": "1.141.0",
+          "release_date": "2026-10-07",
+          "published_at": "2026-10-07T11:01:16Z",
+          "url": "https://github.com/microsoft/vscode/releases/tag/1.141.0",
+          "channel": "stable",
+          "decision": "reviewed in monthly release group; selected impact summarized in linked entries",
+          "reason": "Substantive changes summarized together; ordinary fixes are not separate entries."
+        }
+      ],
+      "outcome": "added",
+      "entry_keys": [
+        "vscode"
+      ],
+      "reason": "Selected substantive functionality, compatibility, correctness or security impact.",
+      "limitations": "GitHub published_at is UTC; textual release dates can differ by a day."
+    },
+    {
+      "product": "Claude Code",
+      "required": true,
+      "sources": [
+        "https://github.com/anthropics/claude-code/releases",
+        "https://api.github.com/repos/anthropics/claude-code/releases?per_page=100&page=1"
+      ],
+      "date_span": "2026-10-01 through 2026-10-31",
+      "versions": [
+        {
+          "version": "v2.1.316",
+          "release_date": "2026-10-31",
+          "published_at": "2026-10-31T01:01:35Z",
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.316",
+          "channel": "stable",
+          "decision": "reviewed in monthly release group; selected impact summarized in linked entries",
+          "reason": "Substantive changes summarized together; ordinary fixes are not separate entries."
+        },
+        {
+          "version": "v2.1.314",
+          "release_date": "2026-10-30",
+          "published_at": "2026-10-30T01:06:26Z",
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.314",
+          "channel": "stable",
+          "decision": "reviewed in monthly release group; selected impact summarized in linked entries",
+          "reason": "Substantive changes summarized together; ordinary fixes are not separate entries."
+        },
+        {
+          "version": "v2.1.312",
+          "release_date": "2026-10-27",
+          "published_at": "2026-10-27T20:24:20Z",
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.312",
+          "channel": "stable",
+          "decision": "reviewed in monthly release group; selected impact summarized in linked entries",
+          "reason": "Substantive changes summarized together; ordinary fixes are not separate entries."
+        },
+        {
+          "version": "v2.1.311",
+          "release_date": "2026-10-26",
+          "published_at": "2026-10-26T21:51:23Z",
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.311",
+          "channel": "stable",
+          "decision": "reviewed in monthly release group; selected impact summarized in linked entries",
+          "reason": "Substantive changes summarized together; ordinary fixes are not separate entries."
+        },
+        {
+          "version": "v2.1.310",
+          "release_date": "2026-10-23",
+          "published_at": "2026-10-23T23:39:00Z",
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.310",
+          "channel": "stable",
+          "decision": "reviewed in monthly release group; selected impact summarized in linked entries",
+          "reason": "Substantive changes summarized together; ordinary fixes are not separate entries."
+        },
+        {
+          "version": "v2.1.309",
+          "release_date": "2026-10-22",
+          "published_at": "2026-10-22T22:18:57Z",
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.309",
+          "channel": "stable",
+          "decision": "reviewed in monthly release group; selected impact summarized in linked entries",
+          "reason": "Substantive changes summarized together; ordinary fixes are not separate entries."
+        },
+        {
+          "version": "v2.1.308",
+          "release_date": "2026-10-22",
+          "published_at": "2026-10-22T04:34:55Z",
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.308",
+          "channel": "stable",
+          "decision": "reviewed in monthly release group; selected impact summarized in linked entries",
+          "reason": "Substantive changes summarized together; ordinary fixes are not separate entries."
+        },
+        {
+          "version": "v2.1.307",
+          "release_date": "2026-10-21",
+          "published_at": "2026-10-21T22:17:02Z",
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.307",
+          "channel": "stable",
+          "decision": "reviewed in monthly release group; selected impact summarized in linked entries",
+          "reason": "Substantive changes summarized together; ordinary fixes are not separate entries."
+        },
+        {
+          "version": "v2.1.306",
+          "release_date": "2026-10-21",
+          "published_at": "2026-10-21T03:16:31Z",
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.306",
+          "channel": "stable",
+          "decision": "reviewed in monthly release group; selected impact summarized in linked entries",
+          "reason": "Substantive changes summarized together; ordinary fixes are not separate entries."
+        },
+        {
+          "version": "v2.1.305",
+          "release_date": "2026-10-20",
+          "published_at": "2026-10-20T20:46:50Z",
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.305",
+          "channel": "stable",
+          "decision": "reviewed in monthly release group; selected impact summarized in linked entries",
+          "reason": "Substantive changes summarized together; ordinary fixes are not separate entries."
+        },
+        {
+          "version": "v2.1.304",
+          "release_date": "2026-10-19",
+          "published_at": "2026-10-19T21:34:39Z",
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.304",
+          "channel": "stable",
+          "decision": "reviewed in monthly release group; selected impact summarized in linked entries",
+          "reason": "Substantive changes summarized together; ordinary fixes are not separate entries."
+        },
+        {
+          "version": "v2.1.303",
+          "release_date": "2026-10-18",
+          "published_at": "2026-10-18T22:26:54Z",
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.303",
+          "channel": "stable",
+          "decision": "reviewed in monthly release group; selected impact summarized in linked entries",
+          "reason": "Substantive changes summarized together; ordinary fixes are not separate entries."
+        },
+        {
+          "version": "v2.1.302",
+          "release_date": "2026-10-16",
+          "published_at": "2026-10-16T20:53:06Z",
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.302",
+          "channel": "stable",
+          "decision": "reviewed in monthly release group; selected impact summarized in linked entries",
+          "reason": "Substantive changes summarized together; ordinary fixes are not separate entries."
+        },
+        {
+          "version": "v2.1.301",
+          "release_date": "2026-10-15",
+          "published_at": "2026-10-15T19:22:06Z",
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.301",
+          "channel": "stable",
+          "decision": "reviewed in monthly release group; selected impact summarized in linked entries",
+          "reason": "Substantive changes summarized together; ordinary fixes are not separate entries."
+        },
+        {
+          "version": "v2.1.300",
+          "release_date": "2026-10-14",
+          "published_at": "2026-10-14T18:24:25Z",
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.300",
+          "channel": "stable",
+          "decision": "reviewed in monthly release group; selected impact summarized in linked entries",
+          "reason": "Substantive changes summarized together; ordinary fixes are not separate entries."
+        },
+        {
+          "version": "v2.1.299",
+          "release_date": "2026-10-14",
+          "published_at": "2026-10-14T02:49:42Z",
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.299",
+          "channel": "stable",
+          "decision": "reviewed in monthly release group; selected impact summarized in linked entries",
+          "reason": "Substantive changes summarized together; ordinary fixes are not separate entries."
+        },
+        {
+          "version": "v2.1.296",
+          "release_date": "2026-10-09",
+          "published_at": "2026-10-09T19:28:59Z",
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.296",
+          "channel": "stable",
+          "decision": "reviewed in monthly release group; selected impact summarized in linked entries",
+          "reason": "Substantive changes summarized together; ordinary fixes are not separate entries."
+        },
+        {
+          "version": "v2.1.295",
+          "release_date": "2026-10-08",
+          "published_at": "2026-10-08T19:48:38Z",
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.295",
+          "channel": "stable",
+          "decision": "reviewed in monthly release group; selected impact summarized in linked entries",
+          "reason": "Substantive changes summarized together; ordinary fixes are not separate entries."
+        },
+        {
+          "version": "v2.1.294",
+          "release_date": "2026-10-08",
+          "published_at": "2026-10-08T05:03:54Z",
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.294",
+          "channel": "stable",
+          "decision": "reviewed in monthly release group; selected impact summarized in linked entries",
+          "reason": "Substantive changes summarized together; ordinary fixes are not separate entries."
+        },
+        {
+          "version": "v2.1.293",
+          "release_date": "2026-10-07",
+          "published_at": "2026-10-07T18:10:20Z",
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.293",
+          "channel": "stable",
+          "decision": "reviewed in monthly release group; selected impact summarized in linked entries",
+          "reason": "Substantive changes summarized together; ordinary fixes are not separate entries."
+        },
+        {
+          "version": "v2.1.292",
+          "release_date": "2026-10-06",
+          "published_at": "2026-10-06T18:59:30Z",
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.292",
+          "channel": "stable",
+          "decision": "reviewed in monthly release group; selected impact summarized in linked entries",
+          "reason": "Substantive changes summarized together; ordinary fixes are not separate entries."
+        },
+        {
+          "version": "v2.1.291",
+          "release_date": "2026-10-06",
+          "published_at": "2026-10-06T03:55:19Z",
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.291",
+          "channel": "stable",
+          "decision": "reviewed in monthly release group; selected impact summarized in linked entries",
+          "reason": "Substantive changes summarized together; ordinary fixes are not separate entries."
+        },
+        {
+          "version": "v2.1.290",
+          "release_date": "2026-10-05",
+          "published_at": "2026-10-05T23:33:17Z",
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.290",
+          "channel": "stable",
+          "decision": "reviewed in monthly release group; selected impact summarized in linked entries",
+          "reason": "Substantive changes summarized together; ordinary fixes are not separate entries."
+        },
+        {
+          "version": "v2.1.289",
+          "release_date": "2026-10-03",
+          "published_at": "2026-10-03T23:07:17Z",
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.289",
+          "channel": "stable",
+          "decision": "reviewed in monthly release group; selected impact summarized in linked entries",
+          "reason": "Substantive changes summarized together; ordinary fixes are not separate entries."
+        },
+        {
+          "version": "v2.1.288",
+          "release_date": "2026-10-02",
+          "published_at": "2026-10-02T20:19:57Z",
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.288",
+          "channel": "stable",
+          "decision": "reviewed in monthly release group; selected impact summarized in linked entries",
+          "reason": "Substantive changes summarized together; ordinary fixes are not separate entries."
+        },
+        {
+          "version": "v2.1.287",
+          "release_date": "2026-10-01",
+          "published_at": "2026-10-01T18:00:22Z",
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.287",
+          "channel": "stable",
+          "decision": "reviewed in monthly release group; selected impact summarized in linked entries",
+          "reason": "Substantive changes summarized together; ordinary fixes are not separate entries."
+        }
+      ],
+      "outcome": "added",
+      "entry_keys": [
+        "claude-code"
+      ],
+      "reason": "Selected substantive functionality, compatibility, correctness or security impact.",
+      "limitations": "GitHub published_at is UTC; textual release dates can differ by a day."
+    },
+    {
+      "product": "Quarto",
+      "required": false,
+      "sources": [
+        "https://github.com/quarto-dev/quarto-cli/releases",
+        "https://api.github.com/repos/quarto-dev/quarto-cli/releases?per_page=100&page=1"
+      ],
+      "date_span": "2026-10-01 through 2026-10-31",
+      "versions": [
+        {
+          "version": "v1.11.9",
+          "release_date": "2026-10-30",
+          "published_at": "2026-10-30T16:05:23Z",
+          "url": "https://github.com/quarto-dev/quarto-cli/releases/tag/v1.11.9",
+          "channel": "stable",
+          "decision": "reviewed in monthly release group; selected impact summarized in linked entries",
+          "reason": "Substantive changes summarized together; ordinary fixes are not separate entries."
+        },
+        {
+          "version": "v1.10.20",
+          "release_date": "2026-10-30",
+          "published_at": "2026-10-30T11:21:01Z",
+          "url": "https://github.com/quarto-dev/quarto-cli/releases/tag/v1.10.20",
+          "channel": "stable",
+          "decision": "reviewed in monthly release group; selected impact summarized in linked entries",
+          "reason": "Substantive changes summarized together; ordinary fixes are not separate entries."
+        },
+        {
+          "version": "v1.11.8",
+          "release_date": "2026-10-29",
+          "published_at": "2026-10-29T12:58:40Z",
+          "url": "https://github.com/quarto-dev/quarto-cli/releases/tag/v1.11.8",
+          "channel": "preview",
+          "decision": "preview not separately added",
+          "reason": "Substantive changes summarized together; ordinary fixes are not separate entries."
+        },
+        {
+          "version": "v1.11.7",
+          "release_date": "2026-10-27",
+          "published_at": "2026-10-27T13:33:55Z",
+          "url": "https://github.com/quarto-dev/quarto-cli/releases/tag/v1.11.7",
+          "channel": "preview",
+          "decision": "preview not separately added",
+          "reason": "Substantive changes summarized together; ordinary fixes are not separate entries."
+        },
+        {
+          "version": "v1.11.6",
+          "release_date": "2026-10-14",
+          "published_at": "2026-10-14T09:05:02Z",
+          "url": "https://github.com/quarto-dev/quarto-cli/releases/tag/v1.11.6",
+          "channel": "preview",
+          "decision": "preview not separately added",
+          "reason": "Substantive changes summarized together; ordinary fixes are not separate entries."
+        },
+        {
+          "version": "v1.10.19",
+          "release_date": "2026-10-06",
+          "published_at": "2026-10-06T08:59:49Z",
+          "url": "https://github.com/quarto-dev/quarto-cli/releases/tag/v1.10.19",
+          "channel": "stable",
+          "decision": "reviewed in monthly release group; selected impact summarized in linked entries",
+          "reason": "Substantive changes summarized together; ordinary fixes are not separate entries."
+        }
+      ],
+      "outcome": "added",
+      "entry_keys": [
+        "quarto",
+        "python-security"
+      ],
+      "reason": "1.11.9 stable October 30 selected; previews 1.11.6/7/8 not separately added; 1.10 maintenance not separate entries.",
+      "limitations": "GitHub published_at is UTC; textual release dates can differ by a day."
+    },
+    {
+      "product": "Snakemake",
+      "required": false,
+      "sources": [
+        "https://github.com/snakemake/snakemake/releases",
+        "https://api.github.com/repos/snakemake/snakemake/releases?per_page=100&page=1"
+      ],
+      "date_span": "2026-10-01 through 2026-10-31",
+      "versions": [
+        {
+          "version": "v9.27.1",
+          "release_date": "2026-10-21",
+          "published_at": "2026-10-21T08:52:27Z",
+          "url": "https://github.com/snakemake/snakemake/releases/tag/v9.27.1",
+          "channel": "stable",
+          "decision": "reviewed in monthly release group; selected impact summarized in linked entries",
+          "reason": "Substantive changes summarized together; ordinary fixes are not separate entries."
+        }
+      ],
+      "outcome": "added",
+      "entry_keys": [
+        "python-security"
+      ],
+      "reason": "9.27.1 Dockerfile certificate-response fix included in shared security entry.",
+      "limitations": "GitHub published_at is UTC; textual release dates can differ by a day."
+    },
+    {
+      "product": "nf-core pipelines",
+      "required": false,
+      "sources": [
+        "https://github.com/nf-core/rnaseq/releases",
+        "https://api.github.com/repos/nf-core/rnaseq/releases?per_page=100&page=1",
+        "https://nf-co.re/blog",
+        "https://nf-co.re/blog/2026/tools-4_2_0"
+      ],
+      "date_span": "2026-10-01 through 2026-10-31",
+      "versions": [],
+      "outcome": "added maintainer announcement; no October rnaseq release found",
+      "entry_keys": [
+        "nfcore-tools"
+      ],
+      "reason": "rnaseq release history enumerated; tools 4.2 blog adds migration and CI security guidance.",
+      "limitations": "Other nf-core pipelines were not exhaustively enumerated."
+    },
+    {
+      "product": "Scanpy / scverse",
+      "required": false,
+      "sources": [
+        "https://github.com/scverse/scanpy/releases",
+        "https://api.github.com/repos/scverse/scanpy/releases?per_page=100&page=1"
+      ],
+      "date_span": "2026-10-01 through 2026-10-31",
+      "versions": [
+        {
+          "version": "1.12.5",
+          "release_date": "2026-10-29",
+          "published_at": "2026-10-29T14:01:47Z",
+          "url": "https://github.com/scverse/scanpy/releases/tag/1.12.5",
+          "channel": "stable",
+          "decision": "reviewed in monthly release group; selected impact summarized in linked entries",
+          "reason": "Substantive changes summarized together; ordinary fixes are not separate entries."
+        }
+      ],
+      "outcome": "added",
+      "entry_keys": [
+        "scanpy"
+      ],
+      "reason": "Selected substantive functionality, compatibility, correctness or security impact.",
+      "limitations": "Public stable docs stopped at 1.12.4; tagged 1.12.5 source notes supplied the fixes."
+    },
+    {
+      "product": "Ruff",
+      "required": false,
+      "sources": [
+        "https://github.com/astral-sh/ruff/releases",
+        "https://api.github.com/repos/astral-sh/ruff/releases?per_page=100&page=1"
+      ],
+      "date_span": "2026-10-01 through 2026-10-31",
+      "versions": [
+        {
+          "version": "0.17.3",
+          "release_date": "2026-10-27",
+          "published_at": "2026-10-27T00:35:07Z",
+          "url": "https://github.com/astral-sh/ruff/releases/tag/0.17.3",
+          "channel": "stable",
+          "decision": "reviewed in monthly release group; selected impact summarized in linked entries",
+          "reason": "Substantive changes summarized together; ordinary fixes are not separate entries."
+        },
+        {
+          "version": "0.17.2",
+          "release_date": "2026-10-22",
+          "published_at": "2026-10-22T18:39:46Z",
+          "url": "https://github.com/astral-sh/ruff/releases/tag/0.17.2",
+          "channel": "stable",
+          "decision": "reviewed in monthly release group; selected impact summarized in linked entries",
+          "reason": "Substantive changes summarized together; ordinary fixes are not separate entries."
+        },
+        {
+          "version": "0.17.1",
+          "release_date": "2026-10-15",
+          "published_at": "2026-10-15T15:24:28Z",
+          "url": "https://github.com/astral-sh/ruff/releases/tag/0.17.1",
+          "channel": "stable",
+          "decision": "reviewed in monthly release group; selected impact summarized in linked entries",
+          "reason": "Substantive changes summarized together; ordinary fixes are not separate entries."
+        },
+        {
+          "version": "0.17.0",
+          "release_date": "2026-10-09",
+          "published_at": "2026-10-09T19:48:30Z",
+          "url": "https://github.com/astral-sh/ruff/releases/tag/0.17.0",
+          "channel": "stable",
+          "decision": "reviewed in monthly release group; selected impact summarized in linked entries",
+          "reason": "Substantive changes summarized together; ordinary fixes are not separate entries."
+        },
+        {
+          "version": "0.16.10",
+          "release_date": "2026-10-01",
+          "published_at": "2026-10-01T18:04:27Z",
+          "url": "https://github.com/astral-sh/ruff/releases/tag/0.16.10",
+          "channel": "stable",
+          "decision": "reviewed in monthly release group; selected impact summarized in linked entries",
+          "reason": "Substantive changes summarized together; ordinary fixes are not separate entries."
+        }
+      ],
+      "outcome": "added",
+      "entry_keys": [
+        "ruff"
+      ],
+      "reason": "Selected substantive functionality, compatibility, correctness or security impact.",
+      "limitations": "GitHub published_at is UTC; textual release dates can differ by a day."
+    },
+    {
+      "product": "Polars",
+      "required": false,
+      "sources": [
+        "https://github.com/pola-rs/polars/releases",
+        "https://api.github.com/repos/pola-rs/polars/releases?per_page=100&page=1"
+      ],
+      "date_span": "2026-10-01 through 2026-10-31",
+      "versions": [
+        {
+          "version": "py-2.1.0",
+          "release_date": "2026-10-25",
+          "published_at": "2026-10-25T18:24:39Z",
+          "url": "https://github.com/pola-rs/polars/releases/tag/py-2.1.0",
+          "channel": "stable",
+          "decision": "reviewed in monthly release group; selected impact summarized in linked entries",
+          "reason": "Substantive changes summarized together; ordinary fixes are not separate entries."
+        },
+        {
+          "version": "py-2.0.0",
+          "release_date": "2026-10-06",
+          "published_at": "2026-10-06T11:52:15Z",
+          "url": "https://github.com/pola-rs/polars/releases/tag/py-2.0.0",
+          "channel": "stable",
+          "decision": "reviewed in monthly release group; selected impact summarized in linked entries",
+          "reason": "Substantive changes summarized together; ordinary fixes are not separate entries."
+        }
+      ],
+      "outcome": "added",
+      "entry_keys": [
+        "polars"
+      ],
+      "reason": "2.0 migration and analytical correctness selected; 2.1 follow-up reviewed, not a separate entry.",
+      "limitations": "GitHub published_at is UTC; textual release dates can differ by a day."
+    },
+    {
+      "product": "DuckDB",
+      "required": false,
+      "sources": [
+        "https://github.com/duckdb/duckdb/releases",
+        "https://api.github.com/repos/duckdb/duckdb/releases?per_page=100&page=1"
+      ],
+      "date_span": "2026-10-01 through 2026-10-31",
+      "versions": [
+        {
+          "version": "v2.0.0",
+          "release_date": "2026-10-21",
+          "published_at": "2026-10-21T12:49:12Z",
+          "url": "https://github.com/duckdb/duckdb/releases/tag/v2.0.0",
+          "channel": "stable",
+          "decision": "reviewed in monthly release group; selected impact summarized in linked entries",
+          "reason": "Substantive changes summarized together; ordinary fixes are not separate entries."
+        }
+      ],
+      "outcome": "added",
+      "entry_keys": [
+        "duckdb"
+      ],
+      "reason": "Selected substantive functionality, compatibility, correctness or security impact.",
+      "limitations": "GitHub published_at is UTC; textual release dates can differ by a day."
+    },
+    {
+      "product": "Python",
+      "required": true,
+      "sources": [
+        "https://www.python.org/downloads/"
+      ],
+      "date_span": "2026-10-01 through 2026-10-31",
+      "versions": [
+        {
+          "version": "3.15.0",
+          "release_date": "2026-10-09",
+          "channel": "stable"
+        },
+        {
+          "version": "3.15.1",
+          "release_date": "2026-10-21",
+          "channel": "stable"
+        },
+        {
+          "version": "3.15.2",
+          "release_date": "2026-10-25",
+          "channel": "stable"
+        },
+        {
+          "version": "3.14.9",
+          "release_date": "2026-10-21",
+          "channel": "stable"
+        },
+        {
+          "version": "3.14.10",
+          "release_date": "2026-10-25",
+          "channel": "stable"
+        },
+        {
+          "version": "3.13.17",
+          "release_date": "2026-10-21",
+          "channel": "stable"
+        },
+        {
+          "version": "3.13.18",
+          "release_date": "2026-10-25",
+          "channel": "stable"
+        },
+        {
+          "version": "3.12.16",
+          "release_date": "2026-10-25",
+          "channel": "stable"
+        },
+        {
+          "version": "3.11.17",
+          "release_date": "2026-10-01",
+          "channel": "stable"
+        },
+        {
+          "version": "3.11.18",
+          "release_date": "2026-10-25",
+          "channel": "stable"
+        },
+        {
+          "version": "3.10.22",
+          "release_date": "2026-10-01",
+          "channel": "stable"
+        }
+      ],
+      "outcome": "added",
+      "entry_keys": [
+        "python",
+        "python-security"
+      ],
+      "reason": "Language release plus coherent security group selected; older-branch maintenance not duplicated.",
+      "limitations": "Use Python release page date, not the planned date quoted by other projects."
+    },
+    {
+      "product": "R",
+      "required": true,
+      "sources": [
+        "https://cran.r-project.org/doc/manuals/r-release/NEWS.html",
+        "https://stat.ethz.ch/pipermail/r-announce/2026/000729.html"
+      ],
+      "date_span": "2026-10-01 through 2026-10-31",
+      "versions": [
+        {
+          "version": "4.6.2",
+          "release_date": "2026-10-29",
+          "channel": "stable"
+        }
+      ],
+      "outcome": "added",
+      "entry_keys": [
+        "r"
+      ],
+      "reason": "Numerical correctness fixes qualify despite patch designation.",
+      "limitations": ""
+    },
+    {
+      "product": "renv",
+      "required": true,
+      "sources": [
+        "https://rstudio.github.io/renv/news/index.html"
+      ],
+      "date_span": "2026-10-01 through 2026-10-31",
+      "versions": [
+        {
+          "version": "1.3.1",
+          "release_date": "2026-10-06",
+          "channel": "stable"
+        }
+      ],
+      "outcome": "added",
+      "entry_keys": [
+        "renv"
+      ],
+      "reason": "Cache concurrency and restoration integrity are consequential for shared environments.",
+      "limitations": ""
+    },
+    {
+      "product": "RStudio",
+      "required": true,
+      "sources": [
+        "https://docs.posit.co/ide/news/index.html"
+      ],
+      "date_span": "2026-10-01 through 2026-10-31",
+      "versions": [
+        {
+          "version": "2026.10.0",
+          "release_date": "2026-10-14",
+          "channel": "stable"
+        },
+        {
+          "version": "2026.10.1",
+          "release_date": "2026-10-28",
+          "channel": "stable"
+        }
+      ],
+      "outcome": "added",
+      "entry_keys": [
+        "rstudio"
+      ],
+      "reason": "One coherent IDE entry; Workbench-only features not attributed to free RStudio.",
+      "limitations": ""
+    },
+    {
+      "product": "ChatGPT",
+      "required": true,
+      "sources": [
+        "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+        "https://learn.chatgpt.com/docs/changelog"
+      ],
+      "date_span": "2026-10-01 through 2026-10-31",
+      "versions": [
+        {
+          "version": "GPT-6.1 Terra in Work",
+          "release_date": "2026-10-26",
+          "channel": "released with restrictions"
+        },
+        {
+          "version": "mobile maintenance",
+          "release_date": "2026-10-02",
+          "channel": "stable"
+        },
+        {
+          "version": "mobile maintenance",
+          "release_date": "2026-10-07",
+          "channel": "stable"
+        },
+        {
+          "version": "mobile maintenance",
+          "release_date": "2026-10-13",
+          "channel": "stable"
+        },
+        {
+          "version": "mobile maintenance",
+          "release_date": "2026-10-22",
+          "channel": "stable"
+        },
+        {
+          "version": "mobile maintenance",
+          "release_date": "2026-10-27",
+          "channel": "stable"
+        }
+      ],
+      "outcome": "added",
+      "entry_keys": [
+        "terra"
+      ],
+      "reason": "Terra selected jointly with Codex; routine mobile fixes not separate entries.",
+      "limitations": "Work and Chat are distinct. Eligible plans and region/admin restrictions recorded in entry."
+    },
+    {
+      "product": "Codex",
+      "required": true,
+      "sources": [
+        "https://developers.openai.com/codex/changelog",
+        "https://learn.chatgpt.com/docs/changelog"
+      ],
+      "date_span": "2026-10-01 through 2026-10-31",
+      "versions": [
+        {
+          "version": "CLI 0.160.0",
+          "release_date": "2026-10-01",
+          "channel": "stable"
+        },
+        {
+          "version": "CLI 0.160.1",
+          "release_date": "2026-10-05",
+          "channel": "stable"
+        },
+        {
+          "version": "CLI 0.161.0",
+          "release_date": "2026-10-07",
+          "channel": "stable"
+        },
+        {
+          "version": "CLI 0.162.0",
+          "release_date": "2026-10-08",
+          "channel": "stable"
+        },
+        {
+          "version": "CLI 0.162.1",
+          "release_date": "2026-10-09",
+          "channel": "stable"
+        },
+        {
+          "version": "CLI 0.163.0",
+          "release_date": "2026-10-15",
+          "channel": "stable"
+        },
+        {
+          "version": "CLI 0.164.0",
+          "release_date": "2026-10-23",
+          "channel": "stable"
+        },
+        {
+          "version": "CLI 0.165.0",
+          "release_date": "2026-10-27",
+          "channel": "stable"
+        },
+        {
+          "version": "CLI 0.166.0",
+          "release_date": "2026-10-29",
+          "channel": "stable"
+        },
+        {
+          "version": "GPT-6.1 Sol Ultrafast",
+          "release_date": "2026-10-08",
+          "channel": "restricted rollout"
+        },
+        {
+          "version": "composer predictions",
+          "release_date": "2026-10-09",
+          "channel": "beta"
+        },
+        {
+          "version": "GPT-5.5 retirement",
+          "release_date": "2026-10-14",
+          "channel": "access change"
+        },
+        {
+          "version": "GPT-6.1 Terra",
+          "release_date": "2026-10-26",
+          "channel": "released with restrictions"
+        }
+      ],
+      "outcome": "added",
+      "entry_keys": [
+        "terra",
+        "codex-cli"
+      ],
+      "reason": "Terra and CLI updates selected; retirement already covered in September; Ultrafast useful overflow; composer predictions beta not prioritized.",
+      "limitations": "Ultrafast limited to Pro 500 and eligible Enterprise/Edu with regional/admin restrictions. CLI/app/model channels are separate."
+    },
+    {
+      "product": "Claude",
+      "required": true,
+      "sources": [
+        "https://support.claude.com/en/articles/12138966-release-notes",
+        "https://www.anthropic.com/claude-haiku-5-5",
+        "https://claude.com/resources/articles/claude-duet"
+      ],
+      "date_span": "2026-10-01 through 2026-10-31",
+      "versions": [
+        {
+          "version": "Haiku 5.5",
+          "release_date": "2026-10-07",
+          "channel": "released model"
+        },
+        {
+          "version": "Max/Team monthly API credits",
+          "release_date": "2026-10-07",
+          "channel": "staged rollout"
+        },
+        {
+          "version": "Duet",
+          "release_date": "2026-10-21",
+          "channel": "research preview"
+        }
+      ],
+      "outcome": "added",
+      "entry_keys": [
+        "claude-haiku"
+      ],
+      "reason": "Haiku selected; API credit rollout not separate; Duet preview recorded as overflow.",
+      "limitations": "Help center initially failed locally; web retrieval eventually exposed October 7 and 21. Do not infer model access in every app plan from cloud availability."
+    },
+    {
+      "product": "Bioconductor",
+      "required": false,
+      "sources": [
+        "https://bioconductor.org/about/release-announcements/",
+        "https://new.bioconductor.org/developers/release-schedule/"
+      ],
+      "date_span": "2026-10-01 through 2026-10-31",
+      "versions": [],
+      "outcome": "no October core release found",
+      "entry_keys": [],
+      "reason": "Official release list has 3.23 (April 29); 3.24 scheduled November 25, outside requested window.",
+      "limitations": "Individual package releases not exhaustively enumerated."
+    },
+    {
+      "product": "Shiny for Python",
+      "required": false,
+      "sources": [
+        "https://opensource.posit.co/blog/2026-10-29_shiny-python-1-9/"
+      ],
+      "date_span": "2026-10-01 through 2026-10-31",
+      "versions": [
+        {
+          "version": "1.9",
+          "release_date": "2026-10-29",
+          "channel": "stable"
+        }
+      ],
+      "outcome": "added",
+      "entry_keys": [
+        "shiny"
+      ],
+      "reason": "Concurrent async changes and migration requirements.",
+      "limitations": ""
+    },
+    {
+      "product": "Pillow",
+      "required": false,
+      "sources": [
+        "https://pillow.readthedocs.io/en/stable/releasenotes/13.0.0.html"
+      ],
+      "date_span": "2026-10-01 through 2026-10-31",
+      "versions": [
+        {
+          "version": "13.0.0",
+          "release_date": "2026-10-16",
+          "channel": "stable"
+        }
+      ],
+      "outcome": "added",
+      "entry_keys": [
+        "pillow"
+      ],
+      "reason": "Security, image data integrity and Python support changes.",
+      "limitations": ""
+    }
+  ],
+  "source_coverage": [
+    {
+      "source": "RNA-seq Blog",
+      "status": "partial",
+      "requested_date_span": "2026-10-01 through 2026-10-31",
+      "routes": [
+        "https://www.rna-seqblog.com/2026/10/",
+        "https://www.rna-seqblog.com/Blog/",
+        "https://www.rna-seqblog.com/Blog/page/2/",
+        "https://www.rna-seqblog.com/tag/rna-sequencing/",
+        "https://www.rna-seqblog.com/"
+      ],
+      "selected_entry_keys": [
+        "celldiffusion",
+        "splicecov",
+        "rnamel",
+        "decore"
+      ],
+      "limitations_and_decisions": "Month archive returned 403; pagination failed and some tag snapshots were stale. Multiple early/mid/late October targeted searches supplemented dated listings. Two blog entries have verified listing dates; RNAmel and DeCoRE qualify by primary paper dates. Full monthly coverage not established."
+    },
+    {
+      "source": "bioRxiv",
+      "status": "checked",
+      "requested_date_span": "2026-10-01 through 2026-10-31",
+      "routes": [
+        "https://api.biorxiv.org/"
+      ],
+      "selected_entry_keys": [
+        "giab",
+        "10xparse",
+        "spatialbenchmark",
+        "rnaprotein",
+        "elperturb",
+        "ambient-doublets"
+      ],
+      "limitations_and_decisions": "All pages of four interval/category APIs retrieved (1,585 version records across 55 pages). Title/abstract screening is selective, not full-text review of all manuscripts; selected versions checked against DOI histories. Six abstract-only preprints added."
+    },
+    {
+      "source": "Nature",
+      "status": "partial",
+      "requested_date_span": "2026-10-01 through 2026-10-31",
+      "routes": [
+        "https://www.nature.com/nature/research-articles",
+        "https://www.nature.com/nmeth/",
+        "https://www.nature.com/nbt/",
+        "https://www.nature.com/ncomms/"
+      ],
+      "selected_entry_keys": [
+        "cci",
+        "recordanelles",
+        "scmagnify",
+        "chromatinqtl"
+      ],
+      "limitations_and_decisions": "Date-filtered discovery and primary article checks; selected article HTML retrieved directly when web reader hit cookies. Not an exhaustive scan of every Nature journal."
+    },
+    {
+      "source": "Science",
+      "status": "partial",
+      "requested_date_span": "2026-10-01 through 2026-10-31",
+      "routes": [
+        "https://www.science.org/",
+        "https://europepmc.org/"
+      ],
+      "selected_entry_keys": [
+        "celldiffusion",
+        "decore"
+      ],
+      "limitations_and_decisions": "Publisher access limited; DOI searches and Europe PMC author abstracts verified two Science Advances papers and first-publication dates. Science and Science Translational Medicine not exhaustively enumerated."
+    },
+    {
+      "source": "Python Weekly",
+      "status": "checked",
+      "requested_date_span": "2026-10-01 through 2026-10-31",
+      "routes": [
+        "https://www.pythonweekly.com/archive/",
+        "https://www.pythonweekly.com/p/python-weekly-issue-765-october-1-2026",
+        "https://www.pythonweekly.com/p/python-weekly-issue-766-october-8-2026",
+        "https://www.pythonweekly.com/p/python-weekly-issue-767-october-15-2026",
+        "https://www.pythonweekly.com/p/python-weekly-issue-768-october-22-2026",
+        "https://www.pythonweekly.com/p/python-weekly-issue-769-october-29-2026"
+      ],
+      "selected_entry_keys": [
+        "pillow",
+        "python",
+        "python-security"
+      ],
+      "limitations_and_decisions": "All five October issue pages retrieved and screened for relevant discovery; selected items verified at official sources. Newsletter alone never establishes a software release date."
+    },
+    {
+      "source": "Planet Python",
+      "status": "partial",
+      "requested_date_span": "2026-10-01 through 2026-10-31",
+      "routes": [
+        "https://planetpython.org/",
+        "https://planetpython.org/rss20.xml"
+      ],
+      "selected_entry_keys": [],
+      "limitations_and_decisions": "Homepage snapshot is November; web RSS reader rejects XML. Date-filtered searches did not establish a full historical October listing; no unique addition attributable to this source."
+    },
+    {
+      "source": "R-bloggers",
+      "status": "partial",
+      "requested_date_span": "2026-10-01 through 2026-10-31",
+      "routes": [
+        "https://www.r-bloggers.com/2026/10/",
+        "https://www.r-bloggers.com/"
+      ],
+      "selected_entry_keys": [],
+      "limitations_and_decisions": "Month archive blocked; pagination/archives yielded stale content or shortcode. Targeted searches exposed candidates but did not establish full coverage; no item inserted solely from snippets."
+    },
+    {
+      "source": "Posit Open Source Blog",
+      "status": "checked",
+      "requested_date_span": "2026-10-01 through 2026-10-31",
+      "routes": [
+        "https://opensource.posit.co/blog/"
+      ],
+      "selected_entry_keys": [
+        "shiny",
+        "positron"
+      ],
+      "limitations_and_decisions": "October index and selected posts checked. October 13 Positron recap duplicates October 8 release; rig and Great Tables coverage and genomics/Shiny resource retained as overflow."
+    },
+    {
+      "source": "Bioconductor community blog",
+      "status": "checked",
+      "requested_date_span": "2026-10-01 through 2026-10-31",
+      "routes": [
+        "https://blog.bioconductor.org/"
+      ],
+      "selected_entry_keys": [],
+      "limitations_and_decisions": "October cytometry training and sponsorship/community posts considered; lower priority than selected research/software. Core release checked separately."
+    },
+    {
+      "source": "scverse blog",
+      "status": "partial",
+      "requested_date_span": "2026-10-01 through 2026-10-31",
+      "routes": [
+        "https://scverse.org/blog/"
+      ],
+      "selected_entry_keys": [
+        "scanpy"
+      ],
+      "limitations_and_decisions": "Retrieved index showed no October post; Scanpy official version history checked separately. Other scverse packages not exhaustively enumerated."
+    },
+    {
+      "source": "nf-core blog",
+      "status": "checked",
+      "requested_date_span": "2026-10-01 through 2026-10-31",
+      "routes": [
+        "https://nf-co.re/blog",
+        "https://nf-co.re/blog/2026/tools-4_2_0"
+      ],
+      "selected_entry_keys": [
+        "nfcore-tools"
+      ],
+      "limitations_and_decisions": "Selected tools migration/security guidance; rnaseq release enumeration found no October release."
+    },
+    {
+      "source": "Ming Tang's blog",
+      "status": "partial",
+      "requested_date_span": "2026-10-01 through 2026-10-31",
+      "routes": [
+        "https://divingintogeneticsandgenomics.com/",
+        "https://divingintogeneticsandgenomics.com/post/"
+      ],
+      "selected_entry_keys": [],
+      "limitations_and_decisions": "Index and targeted search inspected; dates for listed posts not verified for October. No claim of no publications."
+    },
+    {
+      "source": "Genome Biology",
+      "status": "partial",
+      "requested_date_span": "2026-10-01 through 2026-10-31",
+      "routes": [
+        "https://link.springer.com/journal/13059"
+      ],
+      "selected_entry_keys": [],
+      "limitations_and_decisions": "Journal listing retrieval limited; targeted discovery did not yield a fully verified selected item."
+    },
+    {
+      "source": "BMC Bioinformatics",
+      "status": "partial",
+      "requested_date_span": "2026-10-01 through 2026-10-31",
+      "routes": [
+        "https://link.springer.com/journal/12859",
+        "https://link.springer.com/article/10.1186/s12859-026-06710-x"
+      ],
+      "selected_entry_keys": [
+        "rnamel"
+      ],
+      "limitations_and_decisions": "RNAmel primary article verified; no exhaustive issue enumeration."
+    },
+    {
+      "source": "Bioinformatics",
+      "status": "partial",
+      "requested_date_span": "2026-10-01 through 2026-10-31",
+      "routes": [
+        "https://academic.oup.com/bioinformatics/issue/42/10"
+      ],
+      "selected_entry_keys": [],
+      "limitations_and_decisions": "October issue retrieved as discovery; issue membership alone not treated as first-publication evidence. No additional item fully screened for insertion."
+    },
+    {
+      "source": "PLOS Computational Biology",
+      "status": "partial",
+      "requested_date_span": "2026-10-01 through 2026-10-31",
+      "routes": [
+        "https://journals.plos.org/ploscompbiol/"
+      ],
+      "selected_entry_keys": [],
+      "limitations_and_decisions": "Issue/browse retrieval failed; no verified selected item. This is an access gap, not no qualifying research."
+    },
+    {
+      "source": "PyCoder's Weekly",
+      "status": "partial",
+      "requested_date_span": "2026-10-01 through 2026-10-31",
+      "routes": [
+        "https://pycoders.com/"
+      ],
+      "selected_entry_keys": [],
+      "limitations_and_decisions": "Homepage latest issue only; October archive not enumerated. Python Weekly was the primary newsletter scan."
+    }
+  ],
+  "not_added": [
+    {
+      "title": "Handling biological replicates in long-read RNA sequencing",
+      "status": "duplicate",
+      "url": "https://www.nature.com/articles/s41467-026-77367-6",
+      "reason": "October 5 blog coverage repeats existing September paper entry."
+    },
+    {
+      "title": "GPT-5.5 retirement in Codex",
+      "status": "duplicate",
+      "url": "https://learn.chatgpt.com/docs/changelog#codex-2026-10-14-gpt-55-retirement",
+      "reason": "September model-notices entry already covers the October retirement; no second entry."
+    },
+    {
+      "title": "Double-dipping in phenotype testing",
+      "status": "unresolved",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.10.02.756269v1",
+      "reason": "Title/abstract overlap strongly with September 10.64898/2026.09.17.752411 already in database. Different DOI requires lineage clarification; held out rather than duplicated."
+    },
+    {
+      "title": "RNA-seq Blog original dates for RNAmel and DeCoRE",
+      "status": "unresolved",
+      "reason": "Blog dates not independently established; primary October papers added, with discovery contribution recorded."
+    },
+    {
+      "title": "RNA-seq Blog scFlowReport",
+      "status": "unresolved",
+      "reason": "Early October discovery candidate not fully verified at primary source; not inserted."
+    },
+    {
+      "title": "MCP Python SDK OAuth update",
+      "status": "unresolved",
+      "reason": "Newsletter lead not fully checked against dated primary release/security record; not inserted."
+    },
+    {
+      "title": "Claude Duet",
+      "status": "overflow",
+      "url": "https://claude.com/resources/articles/claude-duet",
+      "reason": "October 21 research preview, US waitlist and eligible paid plans; broad personal assistant rather than a priority research-computing update."
+    },
+    {
+      "title": "GPT-6.1 Sol Ultrafast",
+      "status": "overflow",
+      "url": "https://learn.chatgpt.com/docs/changelog#codex-2026-10-08-gpt-61-sol-ultrafast",
+      "reason": "October 8 restricted rollout; potentially useful for eligible Pro 500/Enterprise/Edu users, but Terra and substantive CLI updates prioritized."
+    },
+    {
+      "title": "Genomes, prompts, and Shiny",
+      "status": "overflow",
+      "url": "https://opensource.posit.co/blog/2026-10-08_genomes-prompts-and-shiny/",
+      "reason": "October 8 practical resource covering an earlier presentation; useful follow-up, not a newly released genomics suite."
+    },
+    {
+      "title": "Posit rig 0.11 and Great Tables 1.1 coverage",
+      "status": "overflow",
+      "url": "https://opensource.posit.co/blog/",
+      "reason": "Additional October tooling candidates; selected R/IDE/Shiny and correctness/security updates prioritized."
+    },
+    {
+      "title": "SPATNIC / spatial SCNA / cit_gsa preprints",
+      "status": "overflow",
+      "reason": "Relevant October API candidates; six selected preprints prioritize benchmarking, platform interpretation and practical preprocessing. Full text/version screening would be needed before adding these."
+    },
+    {
+      "title": "Bioconductor 3.24",
+      "status": "outside_window",
+      "url": "https://new.bioconductor.org/developers/release-schedule/",
+      "reason": "Scheduled November 25, not an October release."
+    },
+    {
+      "title": "Quarto previews and Nextflow edge releases",
+      "status": "not_separate",
+      "reason": "Stable releases and consequential fixes curated; preview/edge and ordinary maintenance not separate entries."
+    },
+    {
+      "title": "Positron October blog recap",
+      "status": "duplicate_within_run",
+      "url": "https://opensource.posit.co/blog/",
+      "reason": "Later blog recap of October 8 release, represented once by versioned official release."
+    }
+  ],
+  "coverage_lessons": [
+    "Enumerate bioRxiv interval pages before relying on search: 1,585 version records required 55 requests; date-like DOI prefixes did not match posting dates.",
+    "Compare abstracts and underlying developments across DOIs. A different DOI is not sufficient evidence of a new study; keep uncertain lineage unresolved.",
+    "Check version-tagged source release notes when published documentation lags. Scanpy 1.12.5 was absent from the stable documentation snapshot but present in the official tag.",
+    "Use actual release calendars rather than assuming Bioconductor releases every October. The checked 3.24 schedule points to November 25.",
+    "Retry alternate official release-note routes before finalizing a product gap. Claude help-center web retrieval eventually exposed an October 7 model launch missed by the earlier snapshot.",
+    "Separate planned, release-page, blog-recap and API UTC dates. Use actual Python release pages; preserve uv textual/API date discrepancy; do not date software by later marketing recaps.",
+    "Keep incomplete aggregator archives visible as partial coverage. RNA-seq Blog, Planet Python and R-bloggers could not be exhaustively enumerated during this run."
+  ],
+  "retrieved_at": "2026-11-13T03:56:51.794194+00:00",
+  "selection_note": "35 selected entries exceed the 15\u201325 target because the required software sweep found consequential updates alongside 14 research/method entries. No quota filling.",
+  "counts": {
+    "prepared": 35,
+    "not_added_review_records": 14,
+    "unresolved_review_records": 4,
+    "overflow_review_records": 5,
+    "added": 35,
+    "skipped_review_records": 10
+  },
+  "backup": "/Users/mkaufman/BBSR_Projects/Misc/omics-radar/data/backups/omics_radar-before-2026-10-20261113T035728Z.duckdb",
+  "before_count": 101,
+  "inserted_ids": [
+    "9ee93d15-67b1-4c53-8c8e-b155fba3630a",
+    "015e47e3-af31-4bc0-a73a-8bea20e9eac3",
+    "59fb7da9-0148-484c-aa4d-0e66c1803e15",
+    "433f7dbf-b69f-4ade-84b4-644f357b6f97",
+    "8476c224-35b0-40c7-b748-9fce72e2e9aa",
+    "9920126e-7b86-4dee-ba96-791251eb4ad7",
+    "13bf328e-33d8-491d-948d-ec5f9059b7e0",
+    "e45643b0-a152-41c4-a7f7-ef1ded40fe79",
+    "ed227f66-708d-4c9d-8c11-4dfbd51d7211",
+    "dea4f295-2d1d-4cb2-aa40-3640fa7d9a24",
+    "9a1c9213-76f8-4995-8b88-d699628ee007",
+    "76018357-7087-4c2c-9ed7-ad7996e28f25",
+    "c53dc7e8-463f-4873-ab6d-735a587811a9",
+    "2029940f-a714-4224-983a-8381a775873d",
+    "6f6c59a8-a0c1-40bb-bb83-ba88b8de06af",
+    "ca26b380-4f96-46b2-b281-602408508cc7",
+    "c7dc7c85-1733-4c46-8020-3217541ebc28",
+    "746cf1ff-ef89-4893-85a0-f4415a4f2413",
+    "95d957e9-cad2-4556-a4b5-8c5e30b55033",
+    "abb4686c-7dcf-4b30-b96a-477f32b219d8",
+    "c4c18d8a-7c74-46a7-b9f8-fbc9dd3dda3d",
+    "1abd1283-6341-4f95-b76e-0310db16ff91",
+    "323dca9c-4077-46b0-8f1d-435457937715",
+    "c54846da-8663-46db-b023-22e92453de48",
+    "ca34fa80-3a44-498d-a4e4-3e05ac42d85a",
+    "6f3a8934-d58a-4c25-bbb2-d0dc4b8a075b",
+    "de5535d7-b7d1-4fa4-b662-ac239def3810",
+    "fbd3bf91-48cb-4d0c-a6eb-309aa4a1e9f5",
+    "4676ebb9-642d-44c4-b48a-0c5f7d350004",
+    "ba06a3bd-5843-4fb0-ae97-38a67f895f0e",
+    "9fed3e80-262b-4825-874c-f879cf7dda91",
+    "31dd8ebe-0f6f-4214-a60e-13fd9c0300c2",
+    "f1fd12ff-80c9-4ee2-886b-293a1ec64a72",
+    "c089f623-1e9d-4f55-8e43-cf6b385bf0c5",
+    "a76a8147-6907-4a2f-9cd6-7d8427bf2fc0"
+  ],
+  "after_count": 136,
+  "verification": {
+    "inserted_count": 35,
+    "existing_records_unchanged": 101,
+    "other_tables_unchanged": [
+      "report_entries",
+      "reports"
+    ],
+    "schema_unchanged": true,
+    "all_inserted_fields_verified": true,
+    "requested_date_verified": true,
+    "published_files_and_september_audits_unchanged": true,
+    "backup_verified": true,
+    "partial_failures": 0
+  }
+}

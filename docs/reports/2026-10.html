@@ -1,0 +1,333 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Scanning the frontiers of bioinformatics, AI, and cancer research.">
+  <title>October 2026 · BBSR Omics Radar</title>
+  <link rel="canonical" href="https://uccc-bbsr.github.io/omics-radar/reports/2026-10.html">
+  <link rel="alternate" type="application/rss+xml" title="BBSR Omics Radar" href="../feed.xml">
+  <link rel="stylesheet" href="../assets/styles.css">
+</head>
+<body>
+  <header class="site-header"><div class="shell">
+    <div class="eyebrow">University of Colorado Cancer Center</div>
+    <h1>BBSR Omics Radar</h1>
+    <p class="subtitle">Scanning the frontiers of bioinformatics, AI, and cancer research.</p>
+    <nav aria-label="Primary"><a href="../index.html">Latest issue</a><a href="../archive.html">Archive</a><a href="../feed.xml">RSS</a></nav>
+  </div></header>
+  <main class="shell"><section class="issue-heading">
+<div><div class="eyebrow">Monthly briefing</div><h2>October 2026</h2></div>
+<div class="date-window">October 1, 2026–October 31, 2026</div>
+</section>
+<section><h2 class="category">Technology Platforms</h2>
+
+<article class="article">
+  <h3><a href="https://www.nature.com/articles/s41592-026-03289-2" rel="noopener noreferrer">ATLAS scales spatial cell mapping using learned transcriptional signatures</a></h3>
+  <p>ATLAS learns signatures from single-cell RNA-seq references and decodes them from tissue measurements to infer cell types and transcriptomes. Profiling millions of mouse-brain cells demonstrates comparative mapping across genetic backgrounds, while imputed expression should be distinguished from directly measured genes.</p>
+  <div class="tags" aria-label="Tags"><span class="tag">reference mapping</span><span class="tag">single cell</span><span class="tag">spatial transcriptomics</span></div>
+</article>
+
+<article class="article">
+  <h3><a href="https://www.nature.com/articles/s41592-026-03237-0" rel="noopener noreferrer">CCI-seq connects cell proximity with molecular states</a></h3>
+  <p>CCI-seq combines indexing of cell clumps with single-cell sequencing to identify proximity networks and associated molecular states. Applications in mouse tissues and human colorectal cancer show how it can complement transcriptomic studies of tissue and tumor microenvironments.</p>
+  <div class="tags" aria-label="Tags"><span class="tag">single cell</span><span class="tag">spatial</span><span class="tag">tumor microenvironment</span></div>
+</article>
+
+<article class="article">
+  <h3><a href="https://www.biorxiv.org/content/10.64898/2026.10.09.758116v1" rel="noopener noreferrer">Matched 10x and Parse comparisons reveal platform-dependent RNA profiles</a></h3>
+  <p>This preprint compares seven matched sample pairs from five studies and separates priming-related biases from larger platform-level differences between 10x and Parse. Reported differences in nuclear RNA representation and comparable background contamination caution against treating measurements as interchangeable; the study focuses on gene counts and composition rather than a universal platform ranking.</p>
+  <div class="tags" aria-label="Tags"><span class="tag">benchmarking</span><span class="tag">preprint</span><span class="tag">RNA-seq</span><span class="tag">single cell</span></div>
+</article>
+
+<article class="article">
+  <h3><a href="https://www.nature.com/articles/s41592-026-03262-z" rel="noopener noreferrer">OpenDVP links image analysis and spatial proteomics in archival tissues</a></h3>
+  <p>OpenDVP combines open image-analysis tools with AnnData and SpatialData in an experimental and computational workflow for deep visual proteomics. Demonstrations in placenta, lung cancer and relapsed breast cancer connect spatial cell phenotypes with exploratory proteomic measurements and neighborhood profiling.</p>
+  <div class="tags" aria-label="Tags"><span class="tag">cancer</span><span class="tag">proteomics</span><span class="tag">spatial</span><span class="tag">workflows</span></div>
+</article>
+
+<article class="article">
+  <h3><a href="https://www.biorxiv.org/content/10.64898/2026.10.15.759112v1" rel="noopener noreferrer">Spatial transcriptomics benchmark compares capture and spatial accuracy</a></h3>
+  <p>This preprint compares sequencing-based spatial transcriptomics platforms across tissue types and preservation methods, examining capture architecture, capture efficiency and spatial accuracy. Its proposed operational metrics may help experimental planning, but performance remains dependent on the tested assays and specimens.</p>
+  <div class="tags" aria-label="Tags"><span class="tag">benchmarking</span><span class="tag">preprint</span><span class="tag">spatial transcriptomics</span></div>
+</article>
+</section>
+<section><h2 class="category">Software &amp; Tools</h2>
+
+<article class="article">
+  <h3><a href="https://www.biorxiv.org/content/10.64898/2026.10.13.758369v1" rel="noopener noreferrer">Ambient RNA correction can conceal doublets in single-cell analysis</a></h3>
+  <p>This preprint evaluates ambient RNA correction and doublet detection using engineered and multiplexed datasets. Doublet detection generally worked better before decontX or SoupX correction, with CellBender an exception, suggesting that preprocessing order should be validated rather than assumed interchangeable.</p>
+  <div class="tags" aria-label="Tags"><span class="tag">preprint</span><span class="tag">quality control</span><span class="tag">RNA-seq</span><span class="tag">single cell</span></div>
+</article>
+
+<article class="article">
+  <h3><a href="https://www.rna-seqblog.com/cell2space-restores-spatial-context-to-single-cell-rna-sequencing-data/" rel="noopener noreferrer">Cell2space infers tissue domains and neighborhoods for dissociated cells</a></h3>
+  <p>RNA-seq Blog covers Cell2space, which learns spatial affinity from a spatial-transcriptomics reference and reconstructs cell domains and neighborhood relationships stepwise. Demonstrations in mouse cortex and human skin illustrate inferred spatial context, which should not be treated as direct measurement of each dissociated cell’s location.</p>
+  <div class="tags" aria-label="Tags"><span class="tag">reference mapping</span><span class="tag">single cell</span><span class="tag">spatial transcriptomics</span></div>
+</article>
+
+<article class="article">
+  <h3><a href="https://www.rna-seqblog.com/cellart-extracts-single-cell-information-from-high-resolution-spatial-transcriptomics/" rel="noopener noreferrer">CellART combines segmentation and annotation in spatial transcriptomics</a></h3>
+  <p>CellART integrates tissue images, spatial measurements and scRNA-seq references to recover cell boundaries and assign cell identities. RNA-seq Blog highlights analyses including breast cancer, with the inferred profiles and labels dependent on reference quality and the spatial platform.</p>
+  <div class="tags" aria-label="Tags"><span class="tag">cancer</span><span class="tag">segmentation</span><span class="tag">single cell</span><span class="tag">spatial transcriptomics</span></div>
+</article>
+
+<article class="article">
+  <h3><a href="https://www.rna-seqblog.com/celldiffusion-improves-integration-of-single-cell-rna-sequencing-data-across-studies/" rel="noopener noreferrer">CellDiffusion integrates single-cell studies using graph diffusion</a></h3>
+  <p>CellDiffusion learns relationships among cells to correct batch effects while preserving cell-type structure and trajectories. RNA-seq Blog covers the October 16 Science Advances paper, whose evaluations include human endometrium data; reported performance remains specific to the tested datasets.</p>
+  <div class="tags" aria-label="Tags"><span class="tag">batch correction</span><span class="tag">RNA-seq</span><span class="tag">single cell</span></div>
+</article>
+
+<article class="article">
+  <h3><a href="https://doi.org/10.1126/sciadv.aef0670" rel="noopener noreferrer">DeCoRE resolves RNA conformations using direct RNA sequencing</a></h3>
+  <p>DeCoRE combines RNA structure probing with direct RNA sequencing signals to separate alternative structural conformations. Demonstrations on riboswitches and bacterial ribosomal RNA suggest a route to studying structural heterogeneity, with conclusions limited to the evaluated experimental systems.</p>
+  <div class="tags" aria-label="Tags"><span class="tag">long reads</span><span class="tag">RNA structure</span><span class="tag">RNA-seq</span></div>
+</article>
+
+<article class="article">
+  <h3><a href="https://www.rna-seqblog.com/new-marker-panel-and-web-tool-help-define-early-human-cell-fates/" rel="noopener noreferrer">DeepDiff classifies early developmental states using a curated marker panel</a></h3>
+  <p>RNA-seq Blog describes a marker framework validated across stem-cell experiments and public transcriptomic datasets, with DeepDiff providing a web interface for early fate classification. Its value is in evaluating developmental identity across assays, with marker specificity still dependent on biological context.</p>
+  <div class="tags" aria-label="Tags"><span class="tag">cell annotation</span><span class="tag">RNA-seq</span><span class="tag">single cell</span></div>
+</article>
+
+<article class="article">
+  <h3><a href="https://www.nature.com/articles/s41587-026-03332-9" rel="noopener noreferrer">HitSV detects structural variants across sequencing technologies</a></h3>
+  <p>HitSV combines repeat-aware breakpoint detection with haplotype-resolved local assembly to reconstruct and genotype structural variants from short, long or hybrid reads. Reported benchmark and cohort results make it a candidate for variant-pipeline evaluation, with performance dependent on the sequencing and genomic contexts tested.</p>
+  <div class="tags" aria-label="Tags"><span class="tag">benchmarking</span><span class="tag">genomics</span><span class="tag">structural variants</span></div>
+</article>
+
+<article class="article">
+  <h3><a href="https://www.rna-seqblog.com/nanopore-rna-sequencing-reveals-new-patterns-associated-with-rna-modifications/" rel="noopener noreferrer">Nanopore RNA motif analysis prioritizes modification candidates</a></h3>
+  <p>RNA-seq Blog covers an approach that analyzes direct-RNA sequencing predictions to nominate sequence motifs associated with pseudouridine, inosine and m5C. Results from cell-line and blood data prioritize candidate contexts for biological validation rather than proving new modification sites.</p>
+  <div class="tags" aria-label="Tags"><span class="tag">long reads</span><span class="tag">RNA modifications</span><span class="tag">RNA-seq</span></div>
+</article>
+
+<article class="article">
+  <h3><a href="https://github.com/nextflow-io/nextflow/releases/tag/v26.10.0" rel="noopener noreferrer">Nextflow 26.10 updates workflow controls and fixes credential exposure</a></h3>
+  <p>Nextflow 26.10 adds resource-limit handling and workflow typing improvements while deprecating process-level when conditions in favor of configuration-based controls. The October 26.10.3 and 25.10.9 security fixes prevent Bitbucket Cloud tokens from appearing in repository URLs and logs; affected users should follow the release guidance on token rotation.</p>
+  <div class="tags" aria-label="Tags"><span class="tag">Nextflow</span><span class="tag">security</span><span class="tag">workflows</span></div>
+</article>
+
+<article class="article">
+  <h3><a href="https://github.com/pola-rs/polars/releases/tag/py-2.0.0" rel="noopener noreferrer">Polars 2.0 expands out-of-core analysis and corrects SQL behavior</a></h3>
+  <p>Polars 2.0 enables out-of-core execution by default and expands SQL window and Decimal handling. It also corrects analytical-query edge cases and changes APIs, making migration checks important for pipelines that depend on precise types, ordering and numerical results.</p>
+  <div class="tags" aria-label="Tags"><span class="tag">data analysis</span><span class="tag">Polars</span><span class="tag">python</span></div>
+</article>
+
+<article class="article">
+  <h3><a href="https://github.com/posit-dev/positron/releases/tag/2026.10.0-297" rel="noopener noreferrer">Positron October release expands assistant access to the IDE</a></h3>
+  <p>Positron adds assistant tools that can interact with the IDE, alongside data-connection and Quarto workflow improvements. An experimental MCP server exposes IDE capabilities to other agents, so teams evaluating integrations should distinguish this preview interface from established editor features.</p>
+  <div class="tags" aria-label="Tags"><span class="tag">mcp</span><span class="tag">Positron</span><span class="tag">python</span><span class="tag">R</span></div>
+</article>
+
+<article class="article">
+  <h3><a href="https://www.python.org/downloads/release/python-3150/" rel="noopener noreferrer">Python 3.15 adds lazy imports and new runtime capabilities</a></h3>
+  <p>Python 3.15 introduces lazy imports, immutable frozendict objects and sentinel support, while making UTF-8 the default encoding. These changes offer new options for scientific applications, but teams should check dependencies and encoding assumptions before migrating; the JIT remains experimental.</p>
+  <div class="tags" aria-label="Tags"><span class="tag">python</span><span class="tag">reproducibility</span></div>
+</article>
+
+<article class="article">
+  <h3><a href="https://github.com/quarto-dev/quarto-cli/releases/tag/v1.11.9" rel="noopener noreferrer">Quarto 1.11 improves accessible outputs and updates its runtime</a></h3>
+  <p>Quarto 1.11 improves accessible document output, including alternative text handling for DOCX figures and Mermaid diagrams. Its runtime update also changes compatibility requirements, including macOS 12 or later, so teams maintaining automated reports should review deployment environments before upgrading.</p>
+  <div class="tags" aria-label="Tags"><span class="tag">accessibility</span><span class="tag">Quarto</span><span class="tag">reproducibility</span></div>
+</article>
+
+<article class="article">
+  <h3><a href="https://stat.ethz.ch/pipermail/r-announce/2026/000729.html" rel="noopener noreferrer">R 4.6.2 fixes constrained optimization and large-count sampling</a></h3>
+  <p>R 4.6.2 fixes a compiler-related problem in constrained nlminb optimization and prevents integer overflow in rhyper when population counts exceed the integer limit. These numerical fixes matter for reproducible statistical analyses even though this is a patch release.</p>
+  <div class="tags" aria-label="Tags"><span class="tag">biostatistics</span><span class="tag">R</span><span class="tag">reproducibility</span></div>
+</article>
+
+<article class="article">
+  <h3><a href="https://link.springer.com/article/10.1186/s12859-026-06710-x" rel="noopener noreferrer">RNAmel provides reproducible bulk RNA-seq analysis in Shiny</a></h3>
+  <p>RNAmel combines bulk RNA-seq differential expression, co-expression and gene-set analysis in an R/Shiny interface. Exportable R scripts and HTML reports expose the analysis steps and dependencies, with reproducibility evaluated on two published datasets.</p>
+  <div class="tags" aria-label="Tags"><span class="tag">R</span><span class="tag">reproducibility</span><span class="tag">RNA-seq</span><span class="tag">Shiny</span></div>
+</article>
+
+<article class="article">
+  <h3><a href="https://docs.posit.co/ide/news/index.html#rstudio-2026.10.0" rel="noopener noreferrer">RStudio 2026.10 adds Git worktrees and higher-resolution plot export</a></h3>
+  <p>RStudio 2026.10 adds Git worktree workflows and fixed-size plot export with resolution options up to 600 DPI. Improved source diagnostics and atomic state-file writes support analysis development and more reliable IDE sessions.</p>
+  <div class="tags" aria-label="Tags"><span class="tag">R</span><span class="tag">RStudio</span><span class="tag">visualization</span></div>
+</article>
+
+<article class="article">
+  <h3><a href="https://opensource.posit.co/blog/2026-10-29_shiny-python-1-9/" rel="noopener noreferrer">Shiny for Python 1.9 makes asynchronous outputs concurrent</a></h3>
+  <p>Shiny for Python 1.9 runs asynchronous effects and outputs concurrently, preventing one slow await from holding up other outputs or sessions. Background-task UI updates and accessibility improvements help interactive research applications, while existing apps should be checked for assumptions about effect execution order.</p>
+  <div class="tags" aria-label="Tags"><span class="tag">python</span><span class="tag">Shiny</span><span class="tag">visualization</span></div>
+</article>
+
+<article class="article">
+  <h3><a href="https://www.nature.com/articles/s41592-026-03272-x" rel="noopener noreferrer">Spatial transcriptomics benchmark compares 11 segmentation methods</a></h3>
+  <p>This study compares 11 segmentation methods across 15 datasets from five spatial technologies using metrics for transcript recovery, expression purity, morphology and downstream interpretation. A shared Nextflow evaluation pipeline supports method selection, with results emphasizing context-dependent trade-offs rather than a universally best segmentation tool.</p>
+  <div class="tags" aria-label="Tags"><span class="tag">benchmarking</span><span class="tag">Nextflow</span><span class="tag">segmentation</span><span class="tag">spatial transcriptomics</span></div>
+</article>
+
+<article class="article">
+  <h3><a href="https://www.rna-seqblog.com/splicecov-improves-rna-sequencing-analysis-by-filtering-transcriptional-noise/" rel="noopener noreferrer">SpliceCOV filters transcriptional noise before transcript assembly</a></h3>
+  <p>SpliceCOV uses annotated splice and transcript-boundary features to filter noisy RNA-seq alignments before StringTie assembly. RNA-seq Blog covers the October 20 Genes paper, which reports improved precision in GTEx comparisons but weaker transfer to mouse data, highlighting the importance of organism-specific validation.</p>
+  <div class="tags" aria-label="Tags"><span class="tag">benchmarking</span><span class="tag">RNA-seq</span><span class="tag">transcript assembly</span></div>
+</article>
+
+<article class="article">
+  <h3><a href="https://www.nature.com/articles/s41592-026-03236-1" rel="noopener noreferrer">VIMA tests disease-associated microniches in spatial molecular data</a></h3>
+  <p>VIMA learns continuous tissue-patch representations and tests overlapping microniches for associations with case–control status, avoiding reliance on a fixed set of cell types or tissue regions. Simulations and applications across three diseases evaluate calibration and power, offering a framework for study-level spatial comparisons.</p>
+  <div class="tags" aria-label="Tags"><span class="tag">biostatistics</span><span class="tag">differential abundance</span><span class="tag">spatial transcriptomics</span></div>
+</article>
+
+<article class="article">
+  <h3><a href="https://www.biorxiv.org/content/10.64898/2026.10.13.758831v1" rel="noopener noreferrer">cit_gsa tests single-cell gene sets with covariate adjustment</a></h3>
+  <p>This preprint introduces a one-step gene-set differential-expression approach supporting covariate adjustment and more than two conditions. Its reported benchmarks suggest value for complex study designs, while users should assess model assumptions and calibration for their own cohorts.</p>
+  <div class="tags" aria-label="Tags"><span class="tag">biostatistics</span><span class="tag">gene sets</span><span class="tag">preprint</span><span class="tag">single cell</span></div>
+</article>
+
+<article class="article">
+  <h3><a href="https://nf-co.re/blog/2026/tools-4_2_0" rel="noopener noreferrer">nf-core/tools 4.2 guidance covers template migration and CI security</a></h3>
+  <p>The nf-core/tools 4.2 announcement explains pipeline diagrams, regenerating container configuration and migrating GPU settings to Nextflow accelerator directives. It also documents a reusable lint-workflow token leak fix and template synchronization corrections, making the post useful for pipeline maintainers.</p>
+  <div class="tags" aria-label="Tags"><span class="tag">Nextflow</span><span class="tag">nf-core</span><span class="tag">security</span><span class="tag">workflows</span></div>
+</article>
+
+<article class="article">
+  <h3><a href="https://rstudio.github.io/renv/news/index.html#renv-131" rel="noopener noreferrer">renv 1.3.1 improves concurrent cache use and restoration checks</a></h3>
+  <p>renv 1.3.1 addresses concurrent cache races and cross-filesystem installation handling, and warns when a retrieved package does not match the requested package. Restoration and system-requirement fixes help make shared R environments more dependable.</p>
+  <div class="tags" aria-label="Tags"><span class="tag">R</span><span class="tag">renv</span><span class="tag">reproducibility</span></div>
+</article>
+
+<article class="article">
+  <h3><a href="https://www.rna-seqblog.com/scflowreport-brings-multiple-single-cell-rna-sequencing-analyses-into-one-workflow/" rel="noopener noreferrer">scFlowReport coordinates comparative single-cell analyses and reports</a></h3>
+  <p>October RNA-seq Blog coverage describes the September scFlowReport workflow for propagating one comparison across pseudobulk expression, enrichment, regulon export and cell-communication analyses. It starts from an annotated Seurat object and produces a portable HTML report, helping organize established methods rather than replacing their statistical assumptions.</p>
+  <div class="tags" aria-label="Tags"><span class="tag">reproducibility</span><span class="tag">Seurat</span><span class="tag">single cell</span><span class="tag">workflows</span></div>
+</article>
+
+<article class="article">
+  <h3><a href="https://github.com/astral-sh/uv/releases/tag/0.13.0" rel="noopener noreferrer">uv 0.13 changes Python defaults and hash-checking behavior</a></h3>
+  <p>uv 0.13 selects Python 3.15 when an unpinned environment needs a default interpreter and changes hash checking for constrained dependencies. Its cache-format change can require rebuilding cached artifacts, so reproducible workflows should specify interpreter versions and review lock/install behavior.</p>
+  <div class="tags" aria-label="Tags"><span class="tag">python</span><span class="tag">reproducibility</span><span class="tag">uv</span></div>
+</article>
+</section>
+<section><h2 class="category">Cancer Research</h2>
+
+<article class="article">
+  <h3><a href="https://www.nature.com/articles/s41592-026-03264-x" rel="noopener noreferrer">AmpliconSuite analyzes focal amplification and ecDNA in cancer genomes</a></h3>
+  <p>AmpliconSuite organizes whole-genome sequencing analysis of focal amplifications, including extrachromosomal DNA and breakage–fusion–bridge structures. Orthogonal validation and pan-cancer analyses accompany AmpliconRepository, a shared resource for exploring amplification results across thousands of samples.</p>
+  <div class="tags" aria-label="Tags"><span class="tag">cancer</span><span class="tag">ecDNA</span><span class="tag">genomics</span><span class="tag">workflows</span></div>
+</article>
+
+<article class="article">
+  <h3><a href="https://www.nature.com/articles/s41592-026-03278-5" rel="noopener noreferrer">JEEPERS corrects jagged-end artifacts in cfDNA methylation analysis</a></h3>
+  <p>JEEPERS identifies and corrects methylation errors introduced when jagged cell-free DNA ends are repaired during library preparation. Evaluations in cancer-related profiling illustrate joint methylation and mutation analysis, but clinical deployment requires further validation and the software carries a noncommercial research license.</p>
+  <div class="tags" aria-label="Tags"><span class="tag">cancer</span><span class="tag">cfDNA</span><span class="tag">methylation</span><span class="tag">quality control</span></div>
+</article>
+
+<article class="article">
+  <h3><a href="https://www.rna-seqblog.com/overlooked-off-switch-in-lung-tumors-may-explain-why-immunotherapy-doesnt-work-for-everyone/" rel="noopener noreferrer">Long-read RNA sequencing links STAT2 splicing to lung-cancer immune responses</a></h3>
+  <p>RNA-seq Blog covers a study using long-read sequencing to identify alternative isoforms in lung adenocarcinoma and experimentally examine STAT2 intron retention. Associations with immunotherapy outcomes motivate further biomarker research but do not establish a validated treatment-selection test.</p>
+  <div class="tags" aria-label="Tags"><span class="tag">alternative splicing</span><span class="tag">cancer</span><span class="tag">long reads</span><span class="tag">RNA-seq</span></div>
+</article>
+
+<article class="article">
+  <h3><a href="https://www.rna-seqblog.com/single-cell-rna-sequencing-reveals-the-diversity-of-human-neutrophils-across-health-and-disease/" rel="noopener noreferrer">SCAHN maps human neutrophil diversity across tissues and disease</a></h3>
+  <p>RNA-seq Blog covers SCAHN, an integrated atlas of approximately one million neutrophils spanning multiple tissues and conditions, including cancer. Reference mapping and bulk-cohort analyses reveal conserved and context-dependent signatures, while outcome associations require further validation before clinical use.</p>
+  <div class="tags" aria-label="Tags"><span class="tag">cancer</span><span class="tag">cell atlas</span><span class="tag">immunology</span><span class="tag">single cell</span></div>
+</article>
+
+<article class="article">
+  <h3><a href="https://www.biorxiv.org/content/10.64898/2026.10.21.760612v1" rel="noopener noreferrer">SPATNIC uses pathology labels to identify cancer cells across omics platforms</a></h3>
+  <p>This preprint trains a classifier on Xenium cells labeled from matched H&amp;E images and evaluates transfer across spatial and single-cell modalities in colorectal cancer. The reported applications support cancer-cell annotation and target-screening research, but external validation is needed before clinical interpretation.</p>
+  <div class="tags" aria-label="Tags"><span class="tag">cancer</span><span class="tag">preprint</span><span class="tag">single cell</span><span class="tag">spatial transcriptomics</span></div>
+</article>
+
+<article class="article">
+  <h3><a href="https://www.biorxiv.org/content/10.64898/2026.10.05.756660v1" rel="noopener noreferrer">Spatial RNA and protein measurements can imply different tumor biology</a></h3>
+  <p>This preprint compares paired RNA and protein measurements for 21 targets in lung and prostate cancer specimens. Marker-dependent agreement and divergent spatial patterns, including for several checkpoint molecules, support orthogonal protein validation before interpreting spatial RNA as a protein proxy.</p>
+  <div class="tags" aria-label="Tags"><span class="tag">cancer</span><span class="tag">preprint</span><span class="tag">proteomics</span><span class="tag">spatial transcriptomics</span></div>
+</article>
+
+<article class="article">
+  <h3><a href="https://www.biorxiv.org/content/10.64898/2026.10.23.761433v1" rel="noopener noreferrer">Spatial RNA profiles infer copy-number-defined cancer cell populations</a></h3>
+  <p>This preprint infers somatic copy-number aberrations from Xenium data and maps populations sharing those profiles in ovarian, cervical and breast cancer. The approach highlights candidate early transformation states, while RNA-derived copy-number estimates remain indirect and benefit from orthogonal validation.</p>
+  <div class="tags" aria-label="Tags"><span class="tag">cancer</span><span class="tag">copy number</span><span class="tag">preprint</span><span class="tag">spatial transcriptomics</span></div>
+</article>
+
+<article class="article">
+  <h3><a href="https://www.rna-seqblog.com/scientists-identify-the-neuroblastoma-cells-that-signal-poor-outcomes/" rel="noopener noreferrer">Spatial omics identifies mesenchymal neuroblastoma cell states</a></h3>
+  <p>RNA-seq Blog covers integrated single-cell, spatial and model-system analyses that refine adrenergic and mesenchymal signatures in neuroblastoma. The revised signatures reveal tumor cell populations associated with poorer outcomes, providing a research framework rather than an established prognostic assay.</p>
+  <div class="tags" aria-label="Tags"><span class="tag">cancer</span><span class="tag">neuroblastoma</span><span class="tag">single cell</span><span class="tag">spatial transcriptomics</span></div>
+</article>
+
+<article class="article">
+  <h3><a href="https://www.nature.com/articles/s41587-026-03310-1" rel="noopener noreferrer">Targeted lipid nanoparticles generate CAR NK cells in vivo</a></h3>
+  <p>Ligand-directed lipid nanoparticles deliver CAR messenger RNA to natural killer cells, with antitumor effects demonstrated in preclinical models. The study offers a nonviral cell-engineering strategy, but mouse and humanized-model results do not establish safety or effectiveness in patients.</p>
+  <div class="tags" aria-label="Tags"><span class="tag">cancer</span><span class="tag">immunotherapy</span><span class="tag">RNA</span></div>
+</article>
+
+<article class="article">
+  <h3><a href="https://www.rna-seqblog.com/urine-test-may-improve-bladder-cancer-diagnosis-and-guide-treatment-decisions/" rel="noopener noreferrer">Urine cfRNA profiling supports bladder-cancer detection research</a></h3>
+  <p>RNA-seq Blog covers uRARE-seq, a urine cell-free RNA assay evaluated for detecting bladder cancer and characterizing treatment-response biology. Its cohort results support further investigation of noninvasive profiling, but prospective studies are needed to establish clinical utility.</p>
+  <div class="tags" aria-label="Tags"><span class="tag">bladder cancer</span><span class="tag">cancer</span><span class="tag">liquid biopsy</span><span class="tag">RNA-seq</span></div>
+</article>
+</section>
+<section><h2 class="category">AI &amp; Machine Learning</h2>
+
+<article class="article">
+  <h3><a href="https://www.rna-seqblog.com/machine-learning-reveals-how-rna-splicing-is-regulated-in-individual-cell-types/" rel="noopener noreferrer">CASREL infers cell-type-specific RNA splicing regulation</a></h3>
+  <p>October RNA-seq Blog coverage revisits CASREL, an interpretable ensemble-learning method for linking RNA-binding proteins with alternative splicing from scRNA-seq data. Its inferred regulatory relationships help prioritize mechanistic hypotheses, with model associations requiring experimental confirmation.</p>
+  <div class="tags" aria-label="Tags"><span class="tag">alternative splicing</span><span class="tag">gene regulation</span><span class="tag">single cell</span></div>
+</article>
+
+<article class="article">
+  <h3><a href="https://www.nature.com/articles/s41592-026-03274-9" rel="noopener noreferrer">CauTrigger prioritizes candidate drivers of biological state transitions</a></h3>
+  <p>CauTrigger uses hierarchical latent-variable modeling to separate proposed causal signals from confounding variation and predict perturbation outcomes across regulatory layers. Applications to single-cell multiomics generate testable hypotheses; causal interpretation remains dependent on modeling assumptions and experimental follow-up.</p>
+  <div class="tags" aria-label="Tags"><span class="tag">causal inference</span><span class="tag">multi-omics</span><span class="tag">single cell</span></div>
+</article>
+
+<article class="article">
+  <h3><a href="https://www.nature.com/articles/s41587-026-03348-1" rel="noopener noreferrer">DynaVelo predicts regulatory perturbations from single-cell multiomics</a></h3>
+  <p>DynaVelo learns joint RNA-expression and transcription-factor motif dynamics with a neural differential-equation model, enabling in silico perturbations of germinal-center B cells. Predicted rescue targets for Arid1a loss were tested in mice, supporting a route from multiomic trajectories to experimentally testable regulatory hypotheses.</p>
+  <div class="tags" aria-label="Tags"><span class="tag">gene regulation</span><span class="tag">multi-omics</span><span class="tag">single cell</span></div>
+</article>
+
+<article class="article">
+  <h3><a href="https://www.biorxiv.org/content/10.64898/2026.10.16.759604v1" rel="noopener noreferrer">EL-PERTURB tests perturbation models outside their training distribution</a></h3>
+  <p>This preprint evaluates 20 perturbation prediction models using functionally separated training and test sets. Performance deteriorated under these harder conditions, with complex architectures offering no consistent advantage over simpler baselines in the reported comparisons, emphasizing realistic validation before substituting predictions for experiments.</p>
+  <div class="tags" aria-label="Tags"><span class="tag">benchmarking</span><span class="tag">machine learning</span><span class="tag">preprint</span><span class="tag">single cell</span></div>
+</article>
+
+<article class="article">
+  <h3><a href="https://www.rna-seqblog.com/garage-improves-rare-cell-detection-in-single-cell-rna-sequencing-analysis-using-ai/" rel="noopener noreferrer">GARAGE generates rare-cell-aware synthetic single-cell profiles</a></h3>
+  <p>RNA-seq Blog describes GARAGE, which combines graph attention and adversarial generation to better represent rare cell populations in synthetic scRNA-seq data. Reported feature-selection and clustering gains support evaluation as an augmentation tool, but generated cells do not replace independent biological replicates.</p>
+  <div class="tags" aria-label="Tags"><span class="tag">benchmarking</span><span class="tag">single cell</span><span class="tag">synthetic data</span></div>
+</article>
+
+<article class="article">
+  <h3><a href="https://www.rna-seqblog.com/gp-dht-uses-single-cell-rna-sequencing-to-map-gene-regulatory-networks/" rel="noopener noreferrer">GP-DHT predicts single-cell regulatory links with shared-gene pretraining</a></h3>
+  <p>RNA-seq Blog covers GP-DHT, which combines human–mouse shared-gene representations, a heterogeneous graph and a dual-head Transformer for regulatory-link prediction. BEELINE evaluations examine label construction and leakage controls, emphasizing that inferred edges are candidate relationships rather than demonstrated causal regulation.</p>
+  <div class="tags" aria-label="Tags"><span class="tag">deep learning</span><span class="tag">gene regulation</span><span class="tag">single cell</span></div>
+</article>
+
+<article class="article">
+  <h3><a href="https://www.nature.com/articles/s41592-026-03247-y" rel="noopener noreferrer">MassNet supplies a large standardized corpus for proteomics AI</a></h3>
+  <p>MassNet curates 1.5 billion tandem mass spectra across 35 species and introduces a tensor format for reusable proteomics training data. The study demonstrates de novo peptide sequencing and other learning tasks, providing a resource for benchmarking models rather than guaranteeing performance on every instrument or sample type.</p>
+  <div class="tags" aria-label="Tags"><span class="tag">benchmarking</span><span class="tag">deep learning</span><span class="tag">mass spectrometry</span><span class="tag">proteomics</span></div>
+</article>
+
+<article class="article">
+  <h3><a href="https://www.nature.com/articles/s41592-026-03270-z" rel="noopener noreferrer">Self-supervised models benchmark morphological profiling of perturbations</a></h3>
+  <p>A large Cell Painting study compares self-supervised image representations against classical morphological profiling and releases pretrained models. Held-out evaluations show gains for selected architectures across perturbations and cell types, offering alternatives to segmentation-based feature extraction with dataset-specific performance limits.</p>
+  <div class="tags" aria-label="Tags"><span class="tag">benchmarking</span><span class="tag">drug discovery</span><span class="tag">imaging</span></div>
+</article>
+
+<article class="article">
+  <h3><a href="https://www.rna-seqblog.com/tracing-700-million-years-of-cell-evolution/" rel="noopener noreferrer">Unify compares cell states across species using multimodal gene embeddings</a></h3>
+  <p>October RNA-seq Blog coverage explains a July study that combines expression, protein-sequence and gene-function embeddings into shared macrogenes. Unify supports cross-species cell comparisons beyond one-to-one orthologs, with transfer and perturbation predictions requiring validation in the intended species and context.</p>
+  <div class="tags" aria-label="Tags"><span class="tag">cross-species</span><span class="tag">reference mapping</span><span class="tag">single cell</span></div>
+</article>
+
+<article class="article">
+  <h3><a href="https://www.nature.com/articles/s41467-026-78441-9" rel="noopener noreferrer">scMagnify infers dynamic regulatory programs from single-cell multiomics</a></h3>
+  <p>scMagnify integrates single-cell multiomic measurements to infer regulatory modules and their temporal relationships. Applications to hematopoiesis, pancreas development and kidney injury illustrate hypothesis generation, while inferred regulatory direction should not be mistaken for experimental proof of causality.</p>
+  <div class="tags" aria-label="Tags"><span class="tag">gene regulation</span><span class="tag">multi-omics</span><span class="tag">single cell</span></div>
+</article>
+</section></main>
+  <footer><div class="shell">Published by the Biostatistics and Bioinformatics Shared Resource.</div></footer>
+</body>
+</html>

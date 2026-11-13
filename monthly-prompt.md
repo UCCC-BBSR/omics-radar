@@ -68,6 +68,10 @@ clinical usefulness from preliminary or purely computational results.
 Aim for about **15–25 strong entries** unless I specify otherwise. This is a target,
 not a quota: add fewer when warranted, avoid padding, and report useful overflow.
 Seek a mix of research, tools, and practical resources without forcing categories.
+Complete source enumeration and candidate verification before applying this target.
+Unless I set an explicit maximum, include additional verified, nonduplicate items
+with clear value in the priority topics rather than deferring them solely because
+15–25 entries have already been found.
 
 ### Sources to scan
 
@@ -76,14 +80,17 @@ and date-filtered searches as available; search snippets alone are not evidence.
 Follow discovery links to original articles and official release announcements.
 For RNA-seq Blog and other prolific sources, work through dated archive/category/
 tag listings and pagination covering the whole requested period; do not stop at
-the homepage. If archives fail, use multiple targeted searches and record the
-remaining coverage gaps. Distinguish original post dates from modified timestamps.
+the homepage. Use the required first-pass procedures below, including public APIs
+and publisher metadata fallbacks, before relying on targeted searches or declaring
+a coverage gap. Distinguish original post dates from modified timestamps.
 
 | Core source | Focus |
 | --- | --- |
 | [RNA-seq Blog](https://www.rna-seqblog.com/) | Transcriptomics methods and news |
 | [bioRxiv](https://www.biorxiv.org/) | Preprints in bioinformatics, genomics, cancer biology, and systems biology; use the official API and label preprints clearly |
-| [Nature](https://www.nature.com/) | Relevant research, especially Nature Methods, Nature Biotechnology, Nature Genetics, Nature Cancer, and Nature Communications |
+| [Nature Methods](https://www.nature.com/nmeth/articles) | Required full monthly listing scan: computational methods, single-cell/spatial omics, benchmarks, research software and cancer-related methods |
+| [Nature Biotechnology](https://www.nature.com/nbt/articles) | Required full monthly listing scan: single-cell/multiomic methods, computational biology, cancer technologies and relevant platforms |
+| [Other Nature journals](https://www.nature.com/) | Relevant research, especially Nature Genetics, Nature Cancer, and Nature Communications; does not substitute for the two journal-specific scans above |
 | [Science](https://www.science.org/) | Relevant research in Science, Science Advances, and Science Translational Medicine |
 | [Python Weekly archives](https://www.pythonweekly.com/archive/) | Python tools and tutorials relevant to scientific work |
 | [Planet Python](https://planetpython.org/) | Python community posts, scientific computing, and analysis tooling; verify dates on original posts |
@@ -110,6 +117,93 @@ release notes, or GitHub releases. Substantive blog coverage can qualify by its
 own posting date; a bare aggregator/newsletter link cannot. Verify the underlying
 research and record both dates. Prefer one entry for a development covered by
 multiple sources, and do not re-add an existing paper solely for a later write-up.
+
+#### Required first-pass research coverage
+
+Perform these steps during the initial monthly run, not only when asked for a
+follow-up. Enumeration means collecting the dated inventory; screening means
+reading titles and relevant abstracts/posts. Neither implies a full-text review
+of every item.
+
+**RNA-seq Blog**
+
+1. Attempt the public WordPress REST API on every run, alongside the dated HTML
+   archive. Use `https://www.rna-seqblog.com/wp-json/wp/v2/posts` with the requested
+   interval, `per_page=100`, and `page=1`, then increment `page` as needed. An
+   October example is
+   `https://www.rna-seqblog.com/wp-json/wp/v2/posts?after=2026-09-30T23:59:59&before=2026-11-01T00:00:00&per_page=100&page=1`.
+   Adapt both boundaries for the requested period; allow a boundary buffer when
+   needed, then filter by verified original posting dates so endpoint items are
+   not lost. Do not reuse the example month or October's observed counts.
+2. Record `X-WP-Total`, `X-WP-TotalPages`, pages fetched and unique post IDs.
+   Reconcile the inventory with the reported total; flag missing pages or changing
+   totals. Retain `id`, `date`, `date_gmt`, `modified`, `link`, `title`, and access
+   to `content.rendered`. Use original `date`/`date_gmt`, documenting timezone
+   interpretation, rather than `modified`. Strip script/style markup before
+   reading rendered content.
+3. Screen **every in-window post title**. Read the full post for plausible
+   bioinformatics, RNA-seq, single-cell, spatial, multi-omics or cancer candidates,
+   follow its primary paper/tool links, and verify the underlying evidence.
+   Record both blog and paper dates. Substantive current-month coverage of older
+   research remains eligible unless the development is already in the database.
+4. If the API fails, try dated HTML archives, category/tag pagination and multiple
+   targeted searches spanning the beginning, middle and end of the period. A
+   homepage or stale tag snapshot is not full coverage. Record failed routes and
+   the actual date span recovered; keep coverage partial if enumeration fails.
+
+**Nature Methods and Nature Biotechnology — audit each journal separately**
+
+1. Enumerate `https://www.nature.com/nmeth/articles?year=YYYY&page=1` and
+   `https://www.nature.com/nbt/articles?year=YYYY&page=1`, following pagination
+   through the requested period. Inspect the newest boundary and continue until
+   listings pass the oldest boundary, or the year archive ends. For a period
+   crossing years, enumerate each year. Save each page's URL, date span and count.
+2. Use the **all-content listing**, without `type=article`. Screen all in-window
+   titles, including Analyses, Brief Communications, Resources, Correspondence,
+   reviews and relevant tutorials. Read abstracts or visible article text for
+   every plausible candidate. Prioritize computational biology/bioinformatics,
+   scRNA-seq, spatial and multimodal analysis, statistical benchmarks, regulatory
+   inference, cancer genomics, liquid biopsy, tumor biology and useful software.
+   Do not restrict discovery to titles containing “RNA-seq” or “cancer.”
+3. Verify each selected paper's first online publication date on its article page
+   (including publisher metadata such as `dc.date`). Issue membership, acceptance
+   dates and search timestamps do not establish eligibility. A November issue
+   paper first online in October belongs to October. Deduplicate research
+   briefings, highlights, preprints and blog coverage against the primary study.
+4. If the web reader encounters cookie/redirect errors, try an ordinary public
+   HTML retrieval of the same publisher page. If it remains unavailable, use
+   publisher DOI metadata/Crossref `published-online`, Europe PMC/PubMed author
+   abstracts, and public author/project resources. Do not bypass access controls.
+   Distinguish first-online dates from generic issue/print dates, disclose
+   abstract-only access and date disagreements, and leave unverified candidates
+   unresolved. Topic searches supplement the inventory; they do not replace it.
+
+**Other archive and evidence fallbacks**
+
+- Fetch RSS directly when the web reader rejects XML, but inspect its oldest and
+  newest item dates. A current feed that omits the requested month is an archive
+  gap, not evidence of no posts. Try dated archives and original author pages.
+- For other WordPress aggregators such as R-bloggers, try their public REST API
+  when HTML archives fail. Record 403s or other failures without assuming the
+  RNA-seq Blog fallback works for every site.
+- Resolve plausible candidates within the same run using the available primary
+  evidence routes. Do not stop after a failed landing-page request or defer a
+  strong candidate merely because the selection target has been reached.
+
+**First-pass completion check, before finalizing additions**
+
+- RNA-seq Blog has a reconciled monthly inventory, or an explicit partial-coverage
+  record with attempted fallbacks and missing date spans.
+- Nature Methods and Nature Biotechnology each have a separate paginated monthly
+  inventory and boundary evidence, or an explicit retrieval limitation.
+- Every inventory item has a screening decision: selected, already covered,
+  excluded with a reason, or unresolved with the missing evidence stated. Plausible
+  priority candidates have received abstract/post review and primary verification
+  attempts; “title screened” is not “paper reviewed.”
+- bioRxiv pagination, all other core-source checks and every required software
+  product check are also complete or explicitly marked partial/inaccessible.
+- No verified priority candidate is omitted solely to stay within 15–25 entries.
+  If I supplied an explicit cap, rank the candidates and report the remainder.
 
 ### Software and AI product watchlist
 
@@ -201,7 +295,7 @@ an entry when the month contains only routine maintenance.
 
 ### Source coverage lessons and fallback instructions
 
-These notes reflect the September 2026 passes. Treat observed failures as limits
+These notes reflect the September and October 2026 passes. Treat observed failures as limits
 of those retrieval attempts, not proof that a source is permanently unavailable.
 
 - **bioRxiv:** It was optional in the first pass; a targeted search found a PBMC
@@ -263,6 +357,32 @@ of those retrieval attempts, not proof that a source is permanently unavailable.
   query correctness or unsafe automatic code rewrites, without treating every
   maintenance release as a separate entry.
 
+October follow-up lessons:
+
+- The October follow-up recovered all 47 RNA-seq Blog posts through its public
+  API and additional methods papers through paginated, all-content journal
+  listings. These are now mandatory procedures under **Required first-pass
+  research coverage**, rather than optional follow-up suggestions.
+- Check the actual date span of RSS results. A successful current feed fetch may
+  contain no historical coverage of the requested month. For bibliographic date
+  conflicts, distinguish publisher/Crossref online dates from issue-level dates
+  in aggregators and preserve the discrepancy in the audit.
+- If public documentation lags a dated software release, inspect the release tag's
+  own changelog files. Scanpy 1.12.5 had relevant import and dependency fixes that
+  were missing from the retrieved stable documentation snapshot.
+- Consult actual release calendars rather than assuming seasonal release dates.
+  Bioconductor 3.24 was scheduled for November 25, not October. Distinguish a
+  planned Python release date quoted by another project from Python's actual
+  version-specific release page. Preserve discrepancies between textual release
+  dates and GitHub's UTC publication timestamps in the audit.
+- Retry an alternate official release-note route before closing a coverage gap.
+  A later Claude help-center retrieval exposed an October 7 launch absent from
+  an earlier snapshot. Failed or stale retrievals cannot establish no updates.
+- Compare study abstracts and underlying contributions as well as DOIs. October
+  screening found a differently numbered preprint closely overlapping a September
+  entry; hold uncertain publication lineage for review rather than automatically
+  treating a different DOI as new research.
+
 ### Research and prepare entries
 
 1. Read repository instructions, `README.md`, and the current database helpers in
@@ -315,6 +435,8 @@ Return:
    and both blog/paper dates where applicable, so source contributions are visible.
 3. Source coverage: sources checked, qualifying items found, and any access or
    archive limitations. Distinguish “no qualifying items found” from “unable to check.”
+   Include the RNA-seq Blog inventory/pagination totals and separate Nature Methods
+   and Nature Biotechnology inventories, boundary evidence and screening decisions.
    Include the software watchlist audit with an outcome for every required product,
    selected release versions/dates, availability restrictions, and skipped-update reasons.
 4. Notable duplicates, uncertain dates, excluded candidates, and useful overflow,

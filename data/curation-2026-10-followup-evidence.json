@@ -1,0 +1,1621 @@
+{
+  "rna_api": {
+    "url": "https://www.rna-seqblog.com/wp-json/wp/v2/posts?after=2026-10-01T00:00:00&before=2026-11-01T00:00:00&per_page=100&_fields=id,date,date_gmt,modified,link,title",
+    "total": "47",
+    "total_pages": "1",
+    "count": 47
+  },
+  "rna_posts": [
+    {
+      "id": 64164,
+      "date": "2026-10-30T11:19:50",
+      "date_gmt": "2026-10-30T11:19:50",
+      "modified": "2026-11-09T12:13:05",
+      "link": "https://www.rna-seqblog.com/ualbany-joins-10-million-effort-to-map-rna-modifications-in-the-human-body/",
+      "title": "UAlbany Joins $10 Million Effort to Map RNA Modifications in the Human Body",
+      "decision": "lower-priority candidate",
+      "reason": "Title/blog screened; biological application, community news or narrower experimental topic outside the selected computational/single-cell/cancer priorities. Underlying primary paper not fully verified in this follow-up."
+    },
+    {
+      "id": 64156,
+      "date": "2026-10-30T11:19:42",
+      "date_gmt": "2026-10-30T11:19:42",
+      "modified": "2026-11-02T12:12:14",
+      "link": "https://www.rna-seqblog.com/tempus-receives-ivdr-certification-for-xr-rna-sequencing-for-solid-tumor-profiling/",
+      "title": "Tempus Receives IVDR Certification for xR RNA Sequencing for Solid Tumor Profiling",
+      "decision": "not selected",
+      "reason": "Recruitment, promotional/event/business or regulatory coverage; not prioritized for this focused methods/cancer pass. Primary claims not independently validated for insertion."
+    },
+    {
+      "id": 64139,
+      "date": "2026-10-29T11:08:34",
+      "date_gmt": "2026-10-29T11:08:34",
+      "modified": "2026-11-02T12:12:18",
+      "link": "https://www.rna-seqblog.com/splicecov-improves-rna-sequencing-analysis-by-filtering-transcriptional-noise/",
+      "title": "SpliceCOV improves RNA sequencing analysis by filtering transcriptional noise",
+      "decision": "already covered",
+      "reason": "SpliceCOV already in database; no duplicate for new blog coverage."
+    },
+    {
+      "id": 64143,
+      "date": "2026-10-29T11:08:23",
+      "date_gmt": "2026-10-29T11:08:23",
+      "modified": "2026-10-30T11:19:58",
+      "link": "https://www.rna-seqblog.com/nanopore-rna-sequencing-reveals-new-patterns-associated-with-rna-modifications/",
+      "title": "Nanopore RNA sequencing reveals new patterns associated with RNA modifications",
+      "decision": "added",
+      "entry_key": "rna-motifs"
+    },
+    {
+      "id": 64127,
+      "date": "2026-10-28T12:35:05",
+      "date_gmt": "2026-10-28T12:35:05",
+      "modified": "2026-10-30T11:20:04",
+      "link": "https://www.rna-seqblog.com/overlooked-off-switch-in-lung-tumors-may-explain-why-immunotherapy-doesnt-work-for-everyone/",
+      "title": "Overlooked \u2018off switch\u2019 in lung tumors may explain why immunotherapy doesn\u2019t work for everyone",
+      "decision": "added",
+      "entry_key": "stat2"
+    },
+    {
+      "id": 64123,
+      "date": "2026-10-28T12:34:55",
+      "date_gmt": "2026-10-28T12:34:55",
+      "modified": "2026-10-29T11:08:37",
+      "link": "https://www.rna-seqblog.com/squids-edit-rna-for-novel-protein-functions/",
+      "title": "Squids Edit RNA for Novel Protein Functions",
+      "decision": "lower-priority candidate",
+      "reason": "Title/blog screened; biological application, community news or narrower experimental topic outside the selected computational/single-cell/cancer priorities. Underlying primary paper not fully verified in this follow-up."
+    },
+    {
+      "id": 64110,
+      "date": "2026-10-27T12:02:28",
+      "date_gmt": "2026-10-27T12:02:28",
+      "modified": "2026-10-29T11:08:43",
+      "link": "https://www.rna-seqblog.com/new-marker-panel-and-web-tool-help-define-early-human-cell-fates/",
+      "title": "New marker panel and web tool help define early human cell fates",
+      "decision": "added",
+      "entry_key": "deepdiff"
+    },
+    {
+      "id": 64106,
+      "date": "2026-10-27T12:02:17",
+      "date_gmt": "2026-10-27T12:02:17",
+      "modified": "2026-10-28T12:35:17",
+      "link": "https://www.rna-seqblog.com/rna-sequencing-reveals-molecular-changes-driving-right-ventricular-heart-failure/",
+      "title": "RNA sequencing reveals molecular changes driving right ventricular heart failure",
+      "decision": "lower-priority candidate",
+      "reason": "Title/blog screened; biological application, community news or narrower experimental topic outside the selected computational/single-cell/cancer priorities. Underlying primary paper not fully verified in this follow-up."
+    },
+    {
+      "id": 64089,
+      "date": "2026-10-26T12:19:40",
+      "date_gmt": "2026-10-26T12:19:40",
+      "modified": "2026-10-28T12:35:23",
+      "link": "https://www.rna-seqblog.com/researchers-develop-ai-tool-to-map-microrna-binding-sites-on-circular-rnas/",
+      "title": "Researchers Develop AI Tool to Map MicroRNA Binding Sites on Circular RNAs",
+      "decision": "added",
+      "entry_key": "circmac"
+    },
+    {
+      "id": 64093,
+      "date": "2026-10-26T12:19:31",
+      "date_gmt": "2026-10-26T12:19:31",
+      "modified": "2026-10-27T12:02:37",
+      "link": "https://www.rna-seqblog.com/single-cell-rna-sequencing-reveals-the-diversity-of-human-neutrophils-across-health-and-disease/",
+      "title": "Single-cell RNA sequencing reveals the diversity of human neutrophils across health and disease",
+      "decision": "added",
+      "entry_key": "scahn"
+    },
+    {
+      "id": 64075,
+      "date": "2026-10-23T11:25:50",
+      "date_gmt": "2026-10-23T11:25:50",
+      "modified": "2026-10-27T12:02:42",
+      "link": "https://www.rna-seqblog.com/recordanelles-enable-rna-sequencing-to-capture-a-history-of-gene-activity-in-living-cells/",
+      "title": "Recordanelles enable RNA sequencing to capture a history of gene activity in living cells",
+      "decision": "already covered",
+      "reason": "Recordanelles already in database; no duplicate for new blog coverage."
+    },
+    {
+      "id": 64080,
+      "date": "2026-10-23T11:25:40",
+      "date_gmt": "2026-10-23T11:25:40",
+      "modified": "2026-10-26T12:19:51",
+      "link": "https://www.rna-seqblog.com/yale-researchers-improve-rna-extraction-from-precision-cut-lung-slices/",
+      "title": "Yale researchers improve RNA extraction from precision-cut lung slices",
+      "decision": "lower-priority candidate",
+      "reason": "Title/blog screened; biological application, community news or narrower experimental topic outside the selected computational/single-cell/cancer priorities. Underlying primary paper not fully verified in this follow-up."
+    },
+    {
+      "id": 64066,
+      "date": "2026-10-22T11:10:36",
+      "date_gmt": "2026-10-22T11:10:36",
+      "modified": "2026-10-26T12:19:53",
+      "link": "https://www.rna-seqblog.com/rna-sequencing-reveals-how-genes-combine-to-regulate-inflammation-and-immune-responses/",
+      "title": "RNA sequencing reveals how genes combine to regulate inflammation and immune responses",
+      "decision": "lower-priority candidate",
+      "reason": "Title/blog screened; biological application, community news or narrower experimental topic outside the selected computational/single-cell/cancer priorities. Underlying primary paper not fully verified in this follow-up."
+    },
+    {
+      "id": 64060,
+      "date": "2026-10-22T11:10:26",
+      "date_gmt": "2026-10-22T11:10:26",
+      "modified": "2026-10-23T11:25:53",
+      "link": "https://www.rna-seqblog.com/rnaffinitydb-a-curated-database-of-experimental-rna-protein-binding-affinities/",
+      "title": "RNAffinityDB \u2013 a curated database of experimental RNA\u2013protein binding affinities",
+      "decision": "added",
+      "entry_key": "rnaffinity"
+    },
+    {
+      "id": 64051,
+      "date": "2026-10-21T11:34:23",
+      "date_gmt": "2026-10-21T11:34:23",
+      "modified": "2026-10-23T11:25:58",
+      "link": "https://www.rna-seqblog.com/raman-genome-for-sars-cov-2-new-raman-technology-distinguishes-viral-variants-by-their-molecular-rna-architecture/",
+      "title": "\u201cRaman Genome\u201d for SARS-CoV-2: new Raman technology distinguishes viral variants by their molecular RNA architecture",
+      "decision": "lower-priority candidate",
+      "reason": "Title/blog screened; biological application, community news or narrower experimental topic outside the selected computational/single-cell/cancer priorities. Underlying primary paper not fully verified in this follow-up."
+    },
+    {
+      "id": 64048,
+      "date": "2026-10-21T11:34:14",
+      "date_gmt": "2026-10-21T11:34:14",
+      "modified": "2026-10-22T11:10:41",
+      "link": "https://www.rna-seqblog.com/transcripta-bio-announces-research-collaboration-to-advance-discovery-of-new-als-treatments/",
+      "title": "Transcripta Bio Announces Research Collaboration to Advance Discovery of New ALS Treatments",
+      "decision": "not selected",
+      "reason": "Recruitment, promotional/event/business or regulatory coverage; not prioritized for this focused methods/cancer pass. Primary claims not independently validated for insertion."
+    },
+    {
+      "id": 64043,
+      "date": "2026-10-21T11:34:05",
+      "date_gmt": "2026-10-21T11:34:05",
+      "modified": "2026-10-22T11:10:47",
+      "link": "https://www.rna-seqblog.com/phd-position-in-rna-structure-computational-analysis-neural-sublocalization-of-transcripts/",
+      "title": "PhD position in RNA structure computational analysis neural sublocalization of transcripts",
+      "decision": "not selected",
+      "reason": "Recruitment, promotional/event/business or regulatory coverage; not prioritized for this focused methods/cancer pass. Primary claims not independently validated for insertion."
+    },
+    {
+      "id": 64035,
+      "date": "2026-10-20T11:13:53",
+      "date_gmt": "2026-10-20T11:13:53",
+      "modified": "2026-10-21T11:34:27",
+      "link": "https://www.rna-seqblog.com/advanced-paternal-age-has-sex-specific-effects-on-fetal-brain-gene-expression/",
+      "title": "Advanced paternal age has sex-specific effects on fetal brain gene expression",
+      "decision": "lower-priority candidate",
+      "reason": "Title/blog screened; biological application, community news or narrower experimental topic outside the selected computational/single-cell/cancer priorities. Underlying primary paper not fully verified in this follow-up."
+    },
+    {
+      "id": 64031,
+      "date": "2026-10-20T11:13:43",
+      "date_gmt": "2026-10-20T11:13:43",
+      "modified": "2026-10-21T11:34:32",
+      "link": "https://www.rna-seqblog.com/celldiffusion-improves-integration-of-single-cell-rna-sequencing-data-across-studies/",
+      "title": "CellDiffusion improves integration of single-cell RNA sequencing data across studies",
+      "decision": "already covered",
+      "reason": "CellDiffusion already in database; no duplicate for new blog coverage."
+    },
+    {
+      "id": 64023,
+      "date": "2026-10-19T11:13:51",
+      "date_gmt": "2026-10-19T11:13:51",
+      "modified": "2026-10-21T11:34:36",
+      "link": "https://www.rna-seqblog.com/exercise-is-good-for-us-but-why/",
+      "title": "Exercise is good for us\u2014but why?",
+      "decision": "lower-priority candidate",
+      "reason": "Title/blog screened; biological application, community news or narrower experimental topic outside the selected computational/single-cell/cancer priorities. Underlying primary paper not fully verified in this follow-up."
+    },
+    {
+      "id": 64019,
+      "date": "2026-10-19T11:13:39",
+      "date_gmt": "2026-10-19T11:13:39",
+      "modified": "2026-10-20T11:13:57",
+      "link": "https://www.rna-seqblog.com/ribosome-profiling-reveals-shared-patterns-in-ribosome-diversity-and-collisions/",
+      "title": "Ribosome profiling reveals shared patterns in ribosome diversity and collisions",
+      "decision": "lower-priority candidate",
+      "reason": "Title/blog screened; biological application, community news or narrower experimental topic outside the selected computational/single-cell/cancer priorities. Underlying primary paper not fully verified in this follow-up."
+    },
+    {
+      "id": 64010,
+      "date": "2026-10-16T11:18:58",
+      "date_gmt": "2026-10-16T11:18:58",
+      "modified": "2026-10-20T11:14:03",
+      "link": "https://www.rna-seqblog.com/rnamel-simplifies-rna-sequencing-data-analysis-with-a-reproducible-integrated-platform/",
+      "title": "RNAmel simplifies RNA sequencing data analysis with a reproducible, integrated platform",
+      "decision": "already covered",
+      "reason": "RNAmel already in database; no duplicate for new blog coverage."
+    },
+    {
+      "id": 64006,
+      "date": "2026-10-16T11:18:49",
+      "date_gmt": "2026-10-16T11:18:49",
+      "modified": "2026-10-19T11:13:55",
+      "link": "https://www.rna-seqblog.com/heart-failure-reshapes-bone-marrow-to-create-inflammation-related-immune-memory/",
+      "title": "Heart failure reshapes bone marrow to create inflammation-related immune memory",
+      "decision": "lower-priority candidate",
+      "reason": "Title/blog screened; biological application, community news or narrower experimental topic outside the selected computational/single-cell/cancer priorities. Underlying primary paper not fully verified in this follow-up."
+    },
+    {
+      "id": 63998,
+      "date": "2026-10-15T11:11:11",
+      "date_gmt": "2026-10-15T11:11:11",
+      "modified": "2026-10-19T11:14:00",
+      "link": "https://www.rna-seqblog.com/overlooked-dna-regions-surrounding-microexons-hold-missing-pieces-of-autisms-genetic-puzzle/",
+      "title": "Overlooked DNA regions surrounding \u2018microexons\u2019 hold missing pieces of autism\u2019s genetic puzzle",
+      "decision": "lower-priority candidate",
+      "reason": "Title/blog screened; biological application, community news or narrower experimental topic outside the selected computational/single-cell/cancer priorities. Underlying primary paper not fully verified in this follow-up."
+    },
+    {
+      "id": 63994,
+      "date": "2026-10-15T11:11:01",
+      "date_gmt": "2026-10-15T11:11:01",
+      "modified": "2026-10-16T11:19:02",
+      "link": "https://www.rna-seqblog.com/riboba-improves-detection-of-hidden-protein-coding-regions-using-ribosome-profiling/",
+      "title": "RiboBA improves detection of hidden protein-coding regions using ribosome profiling",
+      "decision": "added",
+      "entry_key": "riboba"
+    },
+    {
+      "id": 63975,
+      "date": "2026-10-14T11:20:43",
+      "date_gmt": "2026-10-14T11:20:43",
+      "modified": "2026-10-16T11:19:07",
+      "link": "https://www.rna-seqblog.com/an-anti-senescence-gene-may-fight-spinal-disc-deterioration/",
+      "title": "An anti-senescence gene may fight spinal disc deterioration",
+      "decision": "lower-priority candidate",
+      "reason": "Title/blog screened; biological application, community news or narrower experimental topic outside the selected computational/single-cell/cancer priorities. Underlying primary paper not fully verified in this follow-up."
+    },
+    {
+      "id": 63980,
+      "date": "2026-10-14T11:20:26",
+      "date_gmt": "2026-10-14T11:20:26",
+      "modified": "2026-10-15T11:11:15",
+      "link": "https://www.rna-seqblog.com/bulk-rna-seq-analysis-a-complete-beginners-guide/",
+      "title": "Bulk RNA-seq Analysis: A Complete Beginner\u2019s Guide",
+      "decision": "not selected",
+      "reason": "Recruitment, promotional/event/business or regulatory coverage; not prioritized for this focused methods/cancer pass. Primary claims not independently validated for insertion."
+    },
+    {
+      "id": 63984,
+      "date": "2026-10-14T11:20:15",
+      "date_gmt": "2026-10-14T11:20:15",
+      "modified": "2026-10-15T11:11:20",
+      "link": "https://www.rna-seqblog.com/lexogen-and-mithrl-connect-rna-seq-library-prep-to-ai-powered-biological-interpretation/",
+      "title": "Lexogen and Mithrl connect RNA-Seq library prep to AI-powered biological interpretation",
+      "decision": "not selected",
+      "reason": "Recruitment, promotional/event/business or regulatory coverage; not prioritized for this focused methods/cancer pass. Primary claims not independently validated for insertion."
+    },
+    {
+      "id": 63968,
+      "date": "2026-10-12T11:16:00",
+      "date_gmt": "2026-10-12T11:16:00",
+      "modified": "2026-10-14T11:20:31",
+      "link": "https://www.rna-seqblog.com/scientists-identify-the-neuroblastoma-cells-that-signal-poor-outcomes/",
+      "title": "Scientists identify the neuroblastoma cells that signal poor outcomes",
+      "decision": "added",
+      "entry_key": "neuroblastoma"
+    },
+    {
+      "id": 63964,
+      "date": "2026-10-12T11:15:50",
+      "date_gmt": "2026-10-12T11:15:50",
+      "modified": "2026-10-14T11:20:37",
+      "link": "https://www.rna-seqblog.com/garage-improves-rare-cell-detection-in-single-cell-rna-sequencing-analysis-using-ai/",
+      "title": "GARAGE improves rare cell detection in single-cell RNA sequencing analysis using AI",
+      "decision": "added",
+      "entry_key": "garage"
+    },
+    {
+      "id": 63943,
+      "date": "2026-10-09T11:29:40",
+      "date_gmt": "2026-10-09T11:29:40",
+      "modified": "2026-10-14T11:20:48",
+      "link": "https://www.rna-seqblog.com/machine-learning-reveals-how-rna-splicing-is-regulated-in-individual-cell-types/",
+      "title": "Machine learning reveals how RNA splicing is regulated in individual cell types",
+      "decision": "added",
+      "entry_key": "casrel"
+    },
+    {
+      "id": 63953,
+      "date": "2026-10-09T11:29:24",
+      "date_gmt": "2026-10-09T11:29:24",
+      "modified": "2026-10-12T11:16:05",
+      "link": "https://www.rna-seqblog.com/illumina-releases-spliceai2-to-help-advance-rare-disease-research/",
+      "title": "Illumina releases SpliceAI2 to help advance rare disease research",
+      "decision": "not selected",
+      "reason": "Recruitment, promotional/event/business or regulatory coverage; not prioritized for this focused methods/cancer pass. Primary claims not independently validated for insertion."
+    },
+    {
+      "id": 63947,
+      "date": "2026-10-09T11:29:13",
+      "date_gmt": "2026-10-09T11:29:13",
+      "modified": "2026-10-12T11:16:15",
+      "link": "https://www.rna-seqblog.com/postdoctoral-fellow-long-read-rna-methods-development-for-neurodegeneration/",
+      "title": "Postdoctoral Fellow \u2013 Long-Read RNA Methods Development for Neurodegeneration",
+      "decision": "not selected",
+      "reason": "Recruitment, promotional/event/business or regulatory coverage; not prioritized for this focused methods/cancer pass. Primary claims not independently validated for insertion."
+    },
+    {
+      "id": 63919,
+      "date": "2026-10-08T11:22:49",
+      "date_gmt": "2026-10-08T11:22:49",
+      "modified": "2026-10-09T11:29:37",
+      "link": "https://www.rna-seqblog.com/novel-biosensor-uses-dna-barcodes-to-uncover-disease-signals-in-cells/",
+      "title": "Novel biosensor uses DNA \u2018barcodes\u2019 to uncover disease signals in cells",
+      "decision": "covered by new primary-paper entry",
+      "entry_key": "detectrons"
+    },
+    {
+      "id": 63924,
+      "date": "2026-10-08T11:22:39",
+      "date_gmt": "2026-10-08T11:22:39",
+      "modified": "2026-10-09T11:29:44",
+      "link": "https://www.rna-seqblog.com/gp-dht-uses-single-cell-rna-sequencing-to-map-gene-regulatory-networks/",
+      "title": "GP-DHT uses single-cell RNA sequencing to map gene regulatory networks",
+      "decision": "added",
+      "entry_key": "gpdht"
+    },
+    {
+      "id": 63931,
+      "date": "2026-10-08T11:22:29",
+      "date_gmt": "2026-10-08T11:22:29",
+      "modified": "2026-10-09T11:29:48",
+      "link": "https://www.rna-seqblog.com/boehringer-taps-envisagenics-ai-to-mine-rna-splicing-for-cancer-targets/",
+      "title": "Boehringer taps Envisagenics\u2019 AI to mine RNA splicing for cancer targets",
+      "decision": "not selected",
+      "reason": "Recruitment, promotional/event/business or regulatory coverage; not prioritized for this focused methods/cancer pass. Primary claims not independently validated for insertion."
+    },
+    {
+      "id": 63904,
+      "date": "2026-10-07T11:42:51",
+      "date_gmt": "2026-10-07T11:42:51",
+      "modified": "2026-10-08T11:22:52",
+      "link": "https://www.rna-seqblog.com/cellart-extracts-single-cell-information-from-high-resolution-spatial-transcriptomics/",
+      "title": "CellART extracts single-cell information from high-resolution spatial transcriptomics",
+      "decision": "added",
+      "entry_key": "cellart"
+    },
+    {
+      "id": 63900,
+      "date": "2026-10-07T11:42:40",
+      "date_gmt": "2026-10-07T11:42:40",
+      "modified": "2026-10-08T11:22:58",
+      "link": "https://www.rna-seqblog.com/cell2space-restores-spatial-context-to-single-cell-rna-sequencing-data/",
+      "title": "Cell2space restores spatial context to single-cell RNA sequencing data",
+      "decision": "added",
+      "entry_key": "cell2space"
+    },
+    {
+      "id": 63908,
+      "date": "2026-10-07T11:42:30",
+      "date_gmt": "2026-10-07T11:42:30",
+      "modified": "2026-10-08T11:23:13",
+      "link": "https://www.rna-seqblog.com/pacbio-and-tychobio-collaborate-to-train-ai-models-for-rare-disease/",
+      "title": "PacBio and TychoBio Collaborate to Train AI Models for Rare Disease",
+      "decision": "not selected",
+      "reason": "Recruitment, promotional/event/business or regulatory coverage; not prioritized for this focused methods/cancer pass. Primary claims not independently validated for insertion."
+    },
+    {
+      "id": 63878,
+      "date": "2026-10-06T11:34:00",
+      "date_gmt": "2026-10-06T11:34:00",
+      "modified": "2026-10-07T11:43:00",
+      "link": "https://www.rna-seqblog.com/urine-test-may-improve-bladder-cancer-diagnosis-and-guide-treatment-decisions/",
+      "title": "Urine test may improve bladder cancer diagnosis and guide treatment decisions",
+      "decision": "added",
+      "entry_key": "urare"
+    },
+    {
+      "id": 63886,
+      "date": "2026-10-06T11:22:45",
+      "date_gmt": "2026-10-06T11:22:45",
+      "modified": "2026-10-07T11:43:04",
+      "link": "https://www.rna-seqblog.com/decore-a-computational-method-to-resolve-rna-structural-heterogeneity-from-rna-structure-probing-data-by-direct-rna-sequencing/",
+      "title": "DeCoRE \u2013 a computational method to resolve RNA structural heterogeneity from RNA structure probing data by direct RNA sequencing",
+      "decision": "already covered",
+      "reason": "DeCoRE already in database; no duplicate for new blog coverage."
+    },
+    {
+      "id": 63868,
+      "date": "2026-10-05T11:13:31",
+      "date_gmt": "2026-10-05T11:13:31",
+      "modified": "2026-10-07T11:43:09",
+      "link": "https://www.rna-seqblog.com/tracing-700-million-years-of-cell-evolution/",
+      "title": "Tracing 700 million years of cell evolution",
+      "decision": "added",
+      "entry_key": "unify"
+    },
+    {
+      "id": 63864,
+      "date": "2026-10-05T11:13:21",
+      "date_gmt": "2026-10-05T11:13:21",
+      "modified": "2026-10-06T11:34:24",
+      "link": "https://www.rna-seqblog.com/how-should-biological-replicates-be-handled-in-long-read-rna-sequencing/",
+      "title": "How should biological replicates be handled in long-read RNA sequencing?",
+      "decision": "already covered",
+      "reason": "Biological replicates in long-read RNA sequencing already in database; no duplicate for new blog coverage."
+    },
+    {
+      "id": 63855,
+      "date": "2026-10-02T11:07:27",
+      "date_gmt": "2026-10-02T11:07:27",
+      "modified": "2026-10-06T11:34:29",
+      "link": "https://www.rna-seqblog.com/rna-seq-reveals-a-new-way-the-developing-heart-controls-its-growth/",
+      "title": "RNA-Seq reveals a new way the developing heart controls its growth",
+      "decision": "lower-priority candidate",
+      "reason": "Title/blog screened; biological application, community news or narrower experimental topic outside the selected computational/single-cell/cancer priorities. Underlying primary paper not fully verified in this follow-up."
+    },
+    {
+      "id": 63851,
+      "date": "2026-10-02T10:08:38",
+      "date_gmt": "2026-10-02T10:08:38",
+      "modified": "2026-10-05T11:13:39",
+      "link": "https://www.rna-seqblog.com/nanopore-direct-rna-sequencing-reveals-the-challenges-of-detecting-rna-modifications/",
+      "title": "Nanopore direct RNA sequencing reveals the challenges of detecting RNA modifications",
+      "decision": "added",
+      "entry_key": "nanopore-review"
+    },
+    {
+      "id": 63838,
+      "date": "2026-10-01T11:09:28",
+      "date_gmt": "2026-10-01T11:09:28",
+      "modified": "2026-10-05T11:13:58",
+      "link": "https://www.rna-seqblog.com/the-human-rnome-project-consortium-seeks-to-publish-first-ever-complete-sequence-of-the-bodys-rna/",
+      "title": "The Human RNome Project Consortium seeks to publish first-ever complete sequence of the body\u2019s RNA",
+      "decision": "lower-priority candidate",
+      "reason": "Title/blog screened; biological application, community news or narrower experimental topic outside the selected computational/single-cell/cancer priorities. Underlying primary paper not fully verified in this follow-up."
+    },
+    {
+      "id": 63844,
+      "date": "2026-10-01T11:09:16",
+      "date_gmt": "2026-10-01T11:09:16",
+      "modified": "2026-10-02T11:07:41",
+      "link": "https://www.rna-seqblog.com/scflowreport-brings-multiple-single-cell-rna-sequencing-analyses-into-one-workflow/",
+      "title": "scFlowReport brings multiple single-cell RNA sequencing analyses into one workflow",
+      "decision": "added",
+      "entry_key": "scflow"
+    }
+  ],
+  "nature_october": [
+    {
+      "journal": "nmeth",
+      "page": 2,
+      "date": "2026-10-30",
+      "url": "https://www.nature.com/articles/s41592-026-03271-y",
+      "title": "Foundation models unlock robust phenotypic representations from Cell Painting images",
+      "decision": "covered by selected primary paper",
+      "reason": "Research briefing duplicates a selected primary article."
+    },
+    {
+      "journal": "nmeth",
+      "page": 2,
+      "date": "2026-10-30",
+      "url": "https://www.nature.com/articles/s41592-026-03275-8",
+      "title": "Continuous mass measurement of single proteins",
+      "decision": "not selected in focused pass",
+      "reason": "Lower-priority topic, commentary/highlight, correction or experimentally focused item; not independently verified for insertion. Listing dates are discovery evidence only."
+    },
+    {
+      "journal": "nmeth",
+      "page": 2,
+      "date": "2026-10-30",
+      "url": "https://www.nature.com/articles/s41592-026-03285-6",
+      "title": "Multivalent ADAR1 recruitment for precise RNA editing",
+      "decision": "not selected in focused pass",
+      "reason": "Lower-priority topic, commentary/highlight, correction or experimentally focused item; not independently verified for insertion. Listing dates are discovery evidence only."
+    },
+    {
+      "journal": "nmeth",
+      "page": 2,
+      "date": "2026-10-30",
+      "url": "https://www.nature.com/articles/s41592-026-03289-2",
+      "title": "Spatial single-cell mapping of transcriptional differences across genetic backgrounds in mouse brains",
+      "decision": "added",
+      "entry_key": "atlas"
+    },
+    {
+      "journal": "nmeth",
+      "page": 2,
+      "date": "2026-10-29",
+      "url": "https://www.nature.com/articles/s41592-026-03325-1",
+      "title": "Population-scale ancestral recombination graphs with tskit 1.0",
+      "decision": "not selected in focused pass",
+      "reason": "Lower-priority topic, commentary/highlight, correction or experimentally focused item; not independently verified for insertion. Listing dates are discovery evidence only."
+    },
+    {
+      "journal": "nmeth",
+      "page": 2,
+      "date": "2026-10-29",
+      "url": "https://www.nature.com/articles/s41592-026-03270-z",
+      "title": "Advancing morphological profiling with self-supervised learning through comparative insights into representation learning of cellular perturbations",
+      "decision": "added",
+      "entry_key": "cellpainting"
+    },
+    {
+      "journal": "nmeth",
+      "page": 2,
+      "date": "2026-10-29",
+      "url": "https://www.nature.com/articles/s41592-026-03278-5",
+      "title": "Enhanced cfDNA methylation profiling by detection and correction of jagged ends",
+      "decision": "added",
+      "entry_key": "jeepers"
+    },
+    {
+      "journal": "nmeth",
+      "page": 2,
+      "date": "2026-10-28",
+      "url": "https://www.nature.com/articles/s41592-026-03346-w",
+      "title": "Author Correction: Prediction of protein subcellular localization in single cells",
+      "decision": "not selected in focused pass",
+      "reason": "Lower-priority topic, commentary/highlight, correction or experimentally focused item; not independently verified for insertion. Listing dates are discovery evidence only."
+    },
+    {
+      "journal": "nmeth",
+      "page": 2,
+      "date": "2026-10-28",
+      "url": "https://www.nature.com/articles/s41592-026-03290-9",
+      "title": "CopilotJ: a conversational multi-agent system for intelligent and efficient bioimage analysis",
+      "decision": "added",
+      "entry_key": "copilotj"
+    },
+    {
+      "journal": "nmeth",
+      "page": 2,
+      "date": "2026-10-28",
+      "url": "https://www.nature.com/articles/s41592-026-03305-5",
+      "title": "Thyra: bridging mass spectrometry imaging and SpatialData for unified multimodal analysis",
+      "decision": "added",
+      "entry_key": "thyra"
+    },
+    {
+      "journal": "nmeth",
+      "page": 2,
+      "date": "2026-10-28",
+      "url": "https://www.nature.com/articles/s41592-026-03251-2",
+      "title": "Cellular-resolution three-photon ultra-deep imaging (TrUDI) of neuronal population activity at 2-mm depth in the mammalian brain",
+      "decision": "not selected in focused pass",
+      "reason": "Lower-priority topic, commentary/highlight, correction or experimentally focused item; not independently verified for insertion. Listing dates are discovery evidence only."
+    },
+    {
+      "journal": "nmeth",
+      "page": 2,
+      "date": "2026-10-28",
+      "url": "https://www.nature.com/articles/s41592-026-03284-7",
+      "title": "Aptamer-mediated multivalent endogenous ADAR1 recruitment for highly efficient RNA editing",
+      "decision": "not selected in focused pass",
+      "reason": "Lower-priority topic, commentary/highlight, correction or experimentally focused item; not independently verified for insertion. Listing dates are discovery evidence only."
+    },
+    {
+      "journal": "nmeth",
+      "page": 2,
+      "date": "2026-10-26",
+      "url": "https://www.nature.com/articles/s41592-026-03252-1",
+      "title": "Continuous mass photometry by single-molecule trapping",
+      "decision": "not selected in focused pass",
+      "reason": "Lower-priority topic, commentary/highlight, correction or experimentally focused item; not independently verified for insertion. Listing dates are discovery evidence only."
+    },
+    {
+      "journal": "nmeth",
+      "page": 2,
+      "date": "2026-10-23",
+      "url": "https://www.nature.com/articles/s41592-026-03272-x",
+      "title": "Benchmarking segmentation methods for spatial transcriptomics",
+      "decision": "added",
+      "entry_key": "segmentation"
+    },
+    {
+      "journal": "nmeth",
+      "page": 2,
+      "date": "2026-10-22",
+      "url": "https://www.nature.com/articles/s41592-026-03273-w",
+      "title": "Tracing causal cascades underlying biological state changes",
+      "decision": "covered by selected primary paper",
+      "reason": "Research briefing duplicates a selected primary article."
+    },
+    {
+      "journal": "nmeth",
+      "page": 2,
+      "date": "2026-10-22",
+      "url": "https://www.nature.com/articles/s41592-026-03262-z",
+      "title": "OpenDVP: an experimental and computational framework for community-empowered deep visual proteomics",
+      "decision": "added",
+      "entry_key": "opendvp"
+    },
+    {
+      "journal": "nmeth",
+      "page": 2,
+      "date": "2026-10-22",
+      "url": "https://www.nature.com/articles/s41592-026-03274-9",
+      "title": "CauTrigger: deciphering biological system state transitions by hierarchical causal decomposition",
+      "decision": "added",
+      "entry_key": "cautrigger"
+    },
+    {
+      "journal": "nmeth",
+      "page": 2,
+      "date": "2026-10-19",
+      "url": "https://www.nature.com/articles/s41592-026-03245-0",
+      "title": "Multi-immersion oblique plane microscope (miOPM): a reconfigurable platform for high-resolution light-sheet fluorescence microscopy",
+      "decision": "not selected in focused pass",
+      "reason": "Lower-priority topic, commentary/highlight, correction or experimentally focused item; not independently verified for insertion. Listing dates are discovery evidence only."
+    },
+    {
+      "journal": "nmeth",
+      "page": 2,
+      "date": "2026-10-16",
+      "url": "https://www.nature.com/articles/s41592-026-03268-7",
+      "title": "Recent developments of fluorescent proteins and biosensors driven by cross-disciplinary insights",
+      "decision": "not selected in focused pass",
+      "reason": "Lower-priority topic, commentary/highlight, correction or experimentally focused item; not independently verified for insertion. Listing dates are discovery evidence only."
+    },
+    {
+      "journal": "nmeth",
+      "page": 3,
+      "date": "2026-10-16",
+      "url": "https://www.nature.com/articles/s41592-026-03264-x",
+      "title": "AmpliconSuite: an end-to-end workflow for analyzing focal amplifications in cancer genomes",
+      "decision": "added",
+      "entry_key": "ampliconsuite"
+    },
+    {
+      "journal": "nmeth",
+      "page": 3,
+      "date": "2026-10-14",
+      "url": "https://www.nature.com/articles/s41592-026-03266-9",
+      "title": "Integrating sex as a biological variable into one\u2019s science",
+      "decision": "not selected in focused pass",
+      "reason": "Lower-priority topic, commentary/highlight, correction or experimentally focused item; not independently verified for insertion. Listing dates are discovery evidence only."
+    },
+    {
+      "journal": "nmeth",
+      "page": 3,
+      "date": "2026-10-14",
+      "url": "https://www.nature.com/articles/s41592-026-03249-w",
+      "title": "LoL-align: sensitive and fast probabilistic protein structure alignment",
+      "decision": "not selected in focused pass",
+      "reason": "Lower-priority topic, commentary/highlight, correction or experimentally focused item; not independently verified for insertion. Listing dates are discovery evidence only."
+    },
+    {
+      "journal": "nmeth",
+      "page": 3,
+      "date": "2026-10-14",
+      "url": "https://www.nature.com/articles/s41592-026-03247-y",
+      "title": "MassNet: billion-scale AI-ready mass spectral corpus empowering scalable deep learning in proteomics",
+      "decision": "added",
+      "entry_key": "massnet"
+    },
+    {
+      "journal": "nmeth",
+      "page": 3,
+      "date": "2026-10-13",
+      "url": "https://www.nature.com/articles/s41592-026-03276-7",
+      "title": "The companion website",
+      "decision": "not selected in focused pass",
+      "reason": "Lower-priority topic, commentary/highlight, correction or experimentally focused item; not independently verified for insertion. Listing dates are discovery evidence only."
+    },
+    {
+      "journal": "nmeth",
+      "page": 3,
+      "date": "2026-10-13",
+      "url": "https://www.nature.com/articles/s41592-026-03255-y",
+      "title": "Near-infrared photochromic miniprotein enables photoacoustic molecular imaging of acute inflammation and intracellular antigens",
+      "decision": "not selected in focused pass",
+      "reason": "Lower-priority topic, commentary/highlight, correction or experimentally focused item; not independently verified for insertion. Listing dates are discovery evidence only."
+    },
+    {
+      "journal": "nmeth",
+      "page": 3,
+      "date": "2026-10-12",
+      "url": "https://www.nature.com/articles/s41592-026-03267-8",
+      "title": "Early-career balancing act: training, moving, relationships and language learning",
+      "decision": "not selected in focused pass",
+      "reason": "Lower-priority topic, commentary/highlight, correction or experimentally focused item; not independently verified for insertion. Listing dates are discovery evidence only."
+    },
+    {
+      "journal": "nmeth",
+      "page": 3,
+      "date": "2026-10-09",
+      "url": "https://www.nature.com/articles/s41592-026-03265-w",
+      "title": "An integrated open-source acquisition and analysis ecosystem for high-throughput single-molecule imaging",
+      "decision": "not selected in focused pass",
+      "reason": "Lower-priority topic, commentary/highlight, correction or experimentally focused item; not independently verified for insertion. Listing dates are discovery evidence only."
+    },
+    {
+      "journal": "nmeth",
+      "page": 3,
+      "date": "2026-10-08",
+      "url": "https://www.nature.com/articles/s41592-026-03254-z",
+      "title": "Tangermeme: a toolkit for understanding cis-regulatory logic using deep learning models",
+      "decision": "added",
+      "entry_key": "tangermeme"
+    },
+    {
+      "journal": "nmeth",
+      "page": 3,
+      "date": "2026-10-07",
+      "url": "https://www.nature.com/articles/s41592-026-03260-1",
+      "title": "Generalizable perturbation prediction",
+      "decision": "not selected in focused pass",
+      "reason": "Lower-priority topic, commentary/highlight, correction or experimentally focused item; not independently verified for insertion. Listing dates are discovery evidence only."
+    },
+    {
+      "journal": "nmeth",
+      "page": 3,
+      "date": "2026-10-07",
+      "url": "https://www.nature.com/articles/s41592-026-03258-9",
+      "title": "Extracting brain-wide interactions with CURBD",
+      "decision": "not selected in focused pass",
+      "reason": "Lower-priority topic, commentary/highlight, correction or experimentally focused item; not independently verified for insertion. Listing dates are discovery evidence only."
+    },
+    {
+      "journal": "nmeth",
+      "page": 3,
+      "date": "2026-10-07",
+      "url": "https://www.nature.com/articles/s41592-026-03259-8",
+      "title": "Designing rhodamine-binding proteins from scratch",
+      "decision": "not selected in focused pass",
+      "reason": "Lower-priority topic, commentary/highlight, correction or experimentally focused item; not independently verified for insertion. Listing dates are discovery evidence only."
+    },
+    {
+      "journal": "nmeth",
+      "page": 3,
+      "date": "2026-10-07",
+      "url": "https://www.nature.com/articles/s41592-026-03257-w",
+      "title": "Recording time via brain organoids",
+      "decision": "not selected in focused pass",
+      "reason": "Lower-priority topic, commentary/highlight, correction or experimentally focused item; not independently verified for insertion. Listing dates are discovery evidence only."
+    },
+    {
+      "journal": "nmeth",
+      "page": 3,
+      "date": "2026-10-07",
+      "url": "https://www.nature.com/articles/s41592-026-03261-0",
+      "title": "How to write a rebuttal letter",
+      "decision": "not selected in focused pass",
+      "reason": "Lower-priority topic, commentary/highlight, correction or experimentally focused item; not independently verified for insertion. Listing dates are discovery evidence only."
+    },
+    {
+      "journal": "nmeth",
+      "page": 3,
+      "date": "2026-10-06",
+      "url": "https://www.nature.com/articles/s41592-026-03242-3",
+      "title": "Flexible discovery of disease-associated tissue structures",
+      "decision": "covered by selected primary paper",
+      "reason": "Research briefing duplicates a selected primary article."
+    },
+    {
+      "journal": "nmeth",
+      "page": 3,
+      "date": "2026-10-06",
+      "url": "https://www.nature.com/articles/s41592-026-03236-1",
+      "title": "Accurate and well-powered case\u2013control analysis of spatial molecular data",
+      "decision": "added",
+      "entry_key": "vima"
+    },
+    {
+      "journal": "nmeth",
+      "page": 3,
+      "date": "2026-10-05",
+      "url": "https://www.nature.com/articles/s41592-026-03237-0",
+      "title": "Resolving cell\u2013cell interaction networks and their molecular logic in complex tissues",
+      "decision": "already covered",
+      "reason": "Primary study already in October database."
+    },
+    {
+      "journal": "nmeth",
+      "page": 3,
+      "date": "2026-10-01",
+      "url": "https://www.nature.com/articles/s41592-026-03243-2",
+      "title": "Times are changing but order matters: transferable prediction of small-molecule liquid chromatography retention times",
+      "decision": "not selected in focused pass",
+      "reason": "Lower-priority topic, commentary/highlight, correction or experimentally focused item; not independently verified for insertion. Listing dates are discovery evidence only."
+    },
+    {
+      "journal": "nbt",
+      "page": 2,
+      "date": "2026-10-28",
+      "url": "https://www.nature.com/articles/s41587-026-03352-5",
+      "title": "An engineered, compact Cas12m variant for multiplexed gene activation in vivo",
+      "decision": "not selected in focused pass",
+      "reason": "Lower-priority topic, commentary/highlight, correction or experimentally focused item; not independently verified for insertion. Listing dates are discovery evidence only."
+    },
+    {
+      "journal": "nbt",
+      "page": 2,
+      "date": "2026-10-28",
+      "url": "https://www.nature.com/articles/s41587-026-03343-6",
+      "title": "An mRNA\u2013lipid nanoparticle vaccine against H5N1 influenza virus protects lactating dairy cows from infection",
+      "decision": "not selected in focused pass",
+      "reason": "Lower-priority topic, commentary/highlight, correction or experimentally focused item; not independently verified for insertion. Listing dates are discovery evidence only."
+    },
+    {
+      "journal": "nbt",
+      "page": 2,
+      "date": "2026-10-26",
+      "url": "https://www.nature.com/articles/s41587-026-03369-w",
+      "title": "Giving AI a seat at the peer review table",
+      "decision": "not selected in focused pass",
+      "reason": "Lower-priority topic, commentary/highlight, correction or experimentally focused item; not independently verified for insertion. Listing dates are discovery evidence only."
+    },
+    {
+      "journal": "nbt",
+      "page": 2,
+      "date": "2026-10-22",
+      "url": "https://www.nature.com/articles/s41587-026-03350-7",
+      "title": "Recordanelles capture transient gene expression in single human cells",
+      "decision": "already covered",
+      "reason": "Primary study already in October database."
+    },
+    {
+      "journal": "nbt",
+      "page": 2,
+      "date": "2026-10-22",
+      "url": "https://www.nature.com/articles/s41587-026-03358-z",
+      "title": "Human Argonaute 2 is a programmable targeting domain for RNA editing",
+      "decision": "not selected in focused pass",
+      "reason": "Lower-priority topic, commentary/highlight, correction or experimentally focused item; not independently verified for insertion. Listing dates are discovery evidence only."
+    },
+    {
+      "journal": "nbt",
+      "page": 2,
+      "date": "2026-10-21",
+      "url": "https://www.nature.com/articles/s41587-026-03348-1",
+      "title": "Deep dynamical models of single-cell multiomic velocities predict loss-of-function and rescue perturbations in B cells",
+      "decision": "added",
+      "entry_key": "dynavelo"
+    },
+    {
+      "journal": "nbt",
+      "page": 2,
+      "date": "2026-10-21",
+      "url": "https://www.nature.com/articles/s41587-026-03327-6",
+      "title": "Recordanelles for transcriptome-wide single-cell RNA recording in human cells",
+      "decision": "already covered",
+      "reason": "Primary study already in October database."
+    },
+    {
+      "journal": "nbt",
+      "page": 2,
+      "date": "2026-10-20",
+      "url": "https://www.nature.com/articles/s41587-026-03360-5",
+      "title": "Genetic code expansion enables plant-directed control of bacterial activity",
+      "decision": "not selected in focused pass",
+      "reason": "Lower-priority topic, commentary/highlight, correction or experimentally focused item; not independently verified for insertion. Listing dates are discovery evidence only."
+    },
+    {
+      "journal": "nbt",
+      "page": 2,
+      "date": "2026-10-20",
+      "url": "https://www.nature.com/articles/s41587-026-03359-y",
+      "title": "Engineered human Argonaute 2 for targeted C-to-U RNA base editing",
+      "decision": "not selected in focused pass",
+      "reason": "Lower-priority topic, commentary/highlight, correction or experimentally focused item; not independently verified for insertion. Listing dates are discovery evidence only."
+    },
+    {
+      "journal": "nbt",
+      "page": 2,
+      "date": "2026-10-19",
+      "url": "https://www.nature.com/articles/s41587-026-03345-4",
+      "title": "Editor\u2019s pick: Bioptimus",
+      "decision": "not selected in focused pass",
+      "reason": "Lower-priority topic, commentary/highlight, correction or experimentally focused item; not independently verified for insertion. Listing dates are discovery evidence only."
+    },
+    {
+      "journal": "nbt",
+      "page": 2,
+      "date": "2026-10-15",
+      "url": "https://www.nature.com/articles/s41587-026-03332-9",
+      "title": "Structural variant detection across sequencing technologies",
+      "decision": "added",
+      "entry_key": "hitsv"
+    },
+    {
+      "journal": "nbt",
+      "page": 2,
+      "date": "2026-10-13",
+      "url": "https://www.nature.com/articles/s41587-026-03361-4",
+      "title": "Proteomic aging clocks go to trial",
+      "decision": "not selected in focused pass",
+      "reason": "Lower-priority topic, commentary/highlight, correction or experimentally focused item; not independently verified for insertion. Listing dates are discovery evidence only."
+    },
+    {
+      "journal": "nbt",
+      "page": 2,
+      "date": "2026-10-13",
+      "url": "https://www.nature.com/articles/s41587-026-03310-1",
+      "title": "In vivo engineering of CAR natural killer cells for immunotherapy using ligand-directed lipid nanoparticles",
+      "decision": "added",
+      "entry_key": "carnk"
+    },
+    {
+      "journal": "nbt",
+      "page": 2,
+      "date": "2026-10-12",
+      "url": "https://www.nature.com/articles/s41587-026-03355-2",
+      "title": "Engrafting human cortical organoids",
+      "decision": "not selected in focused pass",
+      "reason": "Lower-priority topic, commentary/highlight, correction or experimentally focused item; not independently verified for insertion. Listing dates are discovery evidence only."
+    },
+    {
+      "journal": "nbt",
+      "page": 3,
+      "date": "2026-10-12",
+      "url": "https://www.nature.com/articles/s41587-026-03324-9",
+      "title": "Genome editing",
+      "decision": "not selected in focused pass",
+      "reason": "Lower-priority topic, commentary/highlight, correction or experimentally focused item; not independently verified for insertion. Listing dates are discovery evidence only."
+    },
+    {
+      "journal": "nbt",
+      "page": 3,
+      "date": "2026-10-12",
+      "url": "https://www.nature.com/articles/s41587-026-03353-4",
+      "title": "Tracing the origins of CRISPR\u2013Cas",
+      "decision": "not selected in focused pass",
+      "reason": "Lower-priority topic, commentary/highlight, correction or experimentally focused item; not independently verified for insertion. Listing dates are discovery evidence only."
+    },
+    {
+      "journal": "nbt",
+      "page": 3,
+      "date": "2026-10-12",
+      "url": "https://www.nature.com/articles/s41587-026-03349-0",
+      "title": "FDA nod for rare neurology drug",
+      "decision": "not selected in focused pass",
+      "reason": "Lower-priority topic, commentary/highlight, correction or experimentally focused item; not independently verified for insertion. Listing dates are discovery evidence only."
+    },
+    {
+      "journal": "nbt",
+      "page": 3,
+      "date": "2026-10-12",
+      "url": "https://www.nature.com/articles/s41587-026-03363-2",
+      "title": "RevMed\u2019s pancreatic cancer drug first",
+      "decision": "not selected in focused pass",
+      "reason": "Lower-priority topic, commentary/highlight, correction or experimentally focused item; not independently verified for insertion. Listing dates are discovery evidence only."
+    },
+    {
+      "journal": "nbt",
+      "page": 3,
+      "date": "2026-10-12",
+      "url": "https://www.nature.com/articles/s41587-026-03347-2",
+      "title": "Biotech news from around the world",
+      "decision": "not selected in focused pass",
+      "reason": "Lower-priority topic, commentary/highlight, correction or experimentally focused item; not independently verified for insertion. Listing dates are discovery evidence only."
+    },
+    {
+      "journal": "nbt",
+      "page": 3,
+      "date": "2026-10-12",
+      "url": "https://www.nature.com/articles/s41587-026-03354-3",
+      "title": "Live-cell imaging goes WHOLISTIC",
+      "decision": "not selected in focused pass",
+      "reason": "Lower-priority topic, commentary/highlight, correction or experimentally focused item; not independently verified for insertion. Listing dates are discovery evidence only."
+    },
+    {
+      "journal": "nbt",
+      "page": 3,
+      "date": "2026-10-12",
+      "url": "https://www.nature.com/articles/s41587-026-03340-9",
+      "title": "Five questions with Bowen Li",
+      "decision": "not selected in focused pass",
+      "reason": "Lower-priority topic, commentary/highlight, correction or experimentally focused item; not independently verified for insertion. Listing dates are discovery evidence only."
+    },
+    {
+      "journal": "nbt",
+      "page": 3,
+      "date": "2026-10-12",
+      "url": "https://www.nature.com/articles/s41587-026-03346-3",
+      "title": "Regeneron approval brings relief for \u2018second skeleton\u2019 bone disorder",
+      "decision": "not selected in focused pass",
+      "reason": "Lower-priority topic, commentary/highlight, correction or experimentally focused item; not independently verified for insertion. Listing dates are discovery evidence only."
+    },
+    {
+      "journal": "nbt",
+      "page": 3,
+      "date": "2026-10-12",
+      "url": "https://www.nature.com/articles/s41587-026-03365-0",
+      "title": "Ten years, tens of millions of cells",
+      "decision": "not selected in focused pass",
+      "reason": "Lower-priority topic, commentary/highlight, correction or experimentally focused item; not independently verified for insertion. Listing dates are discovery evidence only."
+    },
+    {
+      "journal": "nbt",
+      "page": 3,
+      "date": "2026-10-12",
+      "url": "https://www.nature.com/articles/s41587-026-03341-8",
+      "title": "People",
+      "decision": "not selected in focused pass",
+      "reason": "Lower-priority topic, commentary/highlight, correction or experimentally focused item; not independently verified for insertion. Listing dates are discovery evidence only."
+    },
+    {
+      "journal": "nbt",
+      "page": 3,
+      "date": "2026-10-12",
+      "url": "https://www.nature.com/articles/s41587-026-03338-3",
+      "title": "Expanding global access to synthetic biology",
+      "decision": "not selected in focused pass",
+      "reason": "Lower-priority topic, commentary/highlight, correction or experimentally focused item; not independently verified for insertion. Listing dates are discovery evidence only."
+    },
+    {
+      "journal": "nbt",
+      "page": 3,
+      "date": "2026-10-12",
+      "url": "https://www.nature.com/articles/s41587-026-03337-4",
+      "title": "The global patent landscape of CRISPR\u2013Cas applications in medicine",
+      "decision": "not selected in focused pass",
+      "reason": "Lower-priority topic, commentary/highlight, correction or experimentally focused item; not independently verified for insertion. Listing dates are discovery evidence only."
+    },
+    {
+      "journal": "nbt",
+      "page": 3,
+      "date": "2026-10-06",
+      "url": "https://www.nature.com/articles/s41587-026-03329-4",
+      "title": "Shotgun engineering fires up mammalian metabolic design",
+      "decision": "not selected in focused pass",
+      "reason": "Lower-priority topic, commentary/highlight, correction or experimentally focused item; not independently verified for insertion. Listing dates are discovery evidence only."
+    },
+    {
+      "journal": "nbt",
+      "page": 3,
+      "date": "2026-10-06",
+      "url": "https://www.nature.com/articles/s41587-026-03317-8",
+      "title": "High-throughput metabolic engineering in mammalian cells",
+      "decision": "not selected in focused pass",
+      "reason": "Lower-priority topic, commentary/highlight, correction or experimentally focused item; not independently verified for insertion. Listing dates are discovery evidence only."
+    },
+    {
+      "journal": "nbt",
+      "page": 3,
+      "date": "2026-10-06",
+      "url": "https://www.nature.com/articles/s41587-026-03303-0",
+      "title": "Decoding systemic vascular health and hypertensive disorders in pregnancy through retinal imaging and Visionary AI",
+      "decision": "not selected in focused pass",
+      "reason": "Lower-priority topic, commentary/highlight, correction or experimentally focused item; not independently verified for insertion. Listing dates are discovery evidence only."
+    },
+    {
+      "journal": "nbt",
+      "page": 3,
+      "date": "2026-10-06",
+      "url": "https://www.nature.com/articles/s41587-026-03318-7",
+      "title": "Highly multiplexed mammalian metabolic engineering with a shotgun approach",
+      "decision": "not selected in focused pass",
+      "reason": "Lower-priority topic, commentary/highlight, correction or experimentally focused item; not independently verified for insertion. Listing dates are discovery evidence only."
+    },
+    {
+      "journal": "nbt",
+      "page": 3,
+      "date": "2026-10-05",
+      "url": "https://www.nature.com/articles/s41587-026-03356-1",
+      "title": "Behind (cell) walls",
+      "decision": "not selected in focused pass",
+      "reason": "Lower-priority topic, commentary/highlight, correction or experimentally focused item; not independently verified for insertion. Listing dates are discovery evidence only."
+    },
+    {
+      "journal": "nbt",
+      "page": 3,
+      "date": "2026-10-05",
+      "url": "https://www.nature.com/articles/s41587-026-03315-w",
+      "title": "Discovery and engineering of avian R2 retrotransposons for all-RNA-mediated targeted DNA integration in human cells",
+      "decision": "not selected in focused pass",
+      "reason": "Lower-priority topic, commentary/highlight, correction or experimentally focused item; not independently verified for insertion. Listing dates are discovery evidence only."
+    },
+    {
+      "journal": "nbt",
+      "page": 3,
+      "date": "2026-10-05",
+      "url": "https://www.nature.com/articles/s41587-026-03334-7",
+      "title": "Detectrons convert transient RNA sequences into stable DNA barcodes for high-throughput analysis of RNA-dependent processes",
+      "decision": "added",
+      "entry_key": "detectrons"
+    },
+    {
+      "journal": "nbt",
+      "page": 3,
+      "date": "2026-10-01",
+      "url": "https://www.nature.com/articles/s41587-026-03307-w",
+      "title": "Deep learning perturbation models can outperform baselines on calibrated metrics",
+      "decision": "not selected in focused pass",
+      "reason": "Lower-priority topic, commentary/highlight, correction or experimentally focused item; not independently verified for insertion. Listing dates are discovery evidence only."
+    }
+  ],
+  "bibliographic_metadata": [
+    {
+      "DOI": "10.3390/biom16091288",
+      "title": [
+        "scFlowReport: A Reproducible Workflow for Comparative Downstream Biological Analysis of Single-Cell RNA-seq Data"
+      ],
+      "URL": "https://doi.org/10.3390/biom16091288",
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            9,
+            6
+          ]
+        ]
+      },
+      "published-online": {
+        "date-parts": [
+          [
+            2026,
+            9,
+            6
+          ]
+        ]
+      },
+      "published-print": null
+    },
+    {
+      "DOI": "10.1038/s41467-026-77627-5",
+      "title": [
+        "Interpretable machine learning enables de novo mapping of cell type-specific RNA splicing regulation from scRNA-seq data"
+      ],
+      "URL": "https://doi.org/10.1038/s41467-026-77627-5",
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            9,
+            8
+          ]
+        ]
+      },
+      "published-online": {
+        "date-parts": [
+          [
+            2026,
+            9,
+            8
+          ]
+        ]
+      },
+      "published-print": null
+    },
+    {
+      "DOI": "10.1186/s12859-026-06724-5",
+      "title": [
+        "Extracting candidate motif patterns for multiple RNA modifications using direct RNA sequencing"
+      ],
+      "URL": "https://doi.org/10.1186/s12859-026-06724-5",
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            23
+          ]
+        ]
+      },
+      "published-online": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            23
+          ]
+        ]
+      },
+      "published-print": null
+    },
+    {
+      "DOI": "10.1093/bib/bbag531",
+      "title": [
+        "Stepwise multi-scale reconstruction of cell spatial organization from single-cell RNA sequencing data with Cell2space"
+      ],
+      "URL": "https://doi.org/10.1093/bib/bbag531",
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            9,
+            1
+          ]
+        ]
+      },
+      "published-online": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            1
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            9,
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "DOI": "10.1093/bib/bbag492",
+      "title": [
+        "circMAC: microRNA-conditioned binding-site localization on circular RNA isoforms"
+      ],
+      "URL": "https://doi.org/10.1093/bib/bbag492",
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            9,
+            1
+          ]
+        ]
+      },
+      "published-online": {
+        "date-parts": [
+          [
+            2026,
+            9,
+            9
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            9,
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "DOI": "10.1126/science.aea7156",
+      "title": [
+        "Intron retention regulates STAT2 function and associates with immunotherapy response in lung cancer"
+      ],
+      "URL": "https://doi.org/10.1126/science.aea7156",
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            22
+          ]
+        ]
+      },
+      "published-online": null,
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            22
+          ]
+        ]
+      }
+    },
+    {
+      "DOI": "10.1038/s41467-026-76230-y",
+      "title": [
+        "Unify learns cellular evolution with universal multimodal embeddings"
+      ],
+      "URL": "https://doi.org/10.1038/s41467-026-76230-y",
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            31
+          ]
+        ]
+      },
+      "published-online": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            31
+          ]
+        ]
+      },
+      "published-print": null
+    },
+    {
+      "DOI": "10.1038/s41590-026-02671-8",
+      "title": [
+        "A single-cell atlas of human neutrophils reveals neutrophil heterogeneity across health and disease"
+      ],
+      "URL": "https://doi.org/10.1038/s41590-026-02671-8",
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            21
+          ]
+        ]
+      },
+      "published-online": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            21
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      }
+    },
+    {
+      "DOI": "10.1038/s43588-026-01054-1",
+      "title": [
+        "CellART: a unified framework for extracting single-cell information from high-resolution spatial transcriptomics"
+      ],
+      "URL": "https://doi.org/10.1038/s43588-026-01054-1",
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            5
+          ]
+        ]
+      },
+      "published-online": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            5
+          ]
+        ]
+      },
+      "published-print": null
+    },
+    {
+      "DOI": "10.1016/j.stemcr.2026.103123",
+      "title": [
+        "Defining early human developmental identity: A curated, cross-platform marker framework"
+      ],
+      "URL": "https://doi.org/10.1016/j.stemcr.2026.103123",
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "published-online": null,
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      }
+    },
+    {
+      "DOI": "10.1038/s41591-026-04673-3",
+      "title": [
+        "Urine cell-free RNA for bladder cancer detection and treatment response prediction"
+      ],
+      "URL": "https://doi.org/10.1038/s41591-026-04673-3",
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            2
+          ]
+        ]
+      },
+      "published-online": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            2
+          ]
+        ]
+      },
+      "published-print": null
+    },
+    {
+      "DOI": "10.1371/journal.pone.0359164",
+      "title": [
+        "GP-DHT: A dual-head transformer with supervised contrastive learning for shared-gene pretraining and single-cell GRN prediction"
+      ],
+      "URL": "https://doi.org/10.1371/journal.pone.0359164",
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            6
+          ]
+        ]
+      },
+      "published-online": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            6
+          ]
+        ]
+      },
+      "published-print": null
+    },
+    {
+      "DOI": "10.1007/s44307-025-00093-5",
+      "title": [
+        "Nanopore direct RNA sequencing for RNA modification analysis: workflow assessment and computational tool benchmarking"
+      ],
+      "URL": "https://doi.org/10.1007/s44307-025-00093-5",
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            3,
+            10
+          ]
+        ]
+      },
+      "published-online": {
+        "date-parts": [
+          [
+            2026,
+            3,
+            10
+          ]
+        ]
+      },
+      "published-print": null
+    },
+    {
+      "DOI": "10.1093/nar/gkag984",
+      "title": [
+        "RNAffinityDB: a curated database of experimental RNA\u2013protein binding affinities"
+      ],
+      "URL": "https://doi.org/10.1093/nar/gkag984",
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            19
+          ]
+        ]
+      },
+      "published-online": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            19
+          ]
+        ]
+      },
+      "published-print": null
+    },
+    {
+      "DOI": "10.1371/journal.pcbi.1014601",
+      "title": [
+        "A graph-attentive GAN for rare-cell-aware single-cell RNA-seq data generation"
+      ],
+      "URL": "https://doi.org/10.1371/journal.pcbi.1014601",
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            5
+          ]
+        ]
+      },
+      "published-online": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            5
+          ]
+        ]
+      },
+      "published-print": null
+    },
+    {
+      "DOI": "10.1093/nar/gkag969",
+      "title": [
+        "RiboBA: a bias-aware probabilistic framework for robust ORF identification across diverse ribosome profiling protocols"
+      ],
+      "URL": "https://doi.org/10.1093/nar/gkag969",
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            13
+          ]
+        ]
+      },
+      "published-online": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            14
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            13
+          ]
+        ]
+      }
+    },
+    {
+      "DOI": "10.1016/j.ccell.2026.09.008",
+      "title": [
+        "Spatial omics resolves adrenergic and mesenchymal cell states in neuroblastoma"
+      ],
+      "URL": "https://doi.org/10.1016/j.ccell.2026.09.008",
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      },
+      "published-online": null,
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            11
+          ]
+        ]
+      }
+    }
+  ],
+  "selected_preprint_histories": [
+    [
+      {
+        "doi": "10.64898/2026.10.21.760612",
+        "date": "2026-10-22",
+        "version": "1",
+        "title": "SPATNIC enables H&E-grounded cancer-cell identification across spatial and single-cell transcriptomic modalities in colorectal cancer",
+        "published": "NA"
+      }
+    ],
+    [
+      {
+        "doi": "10.64898/2026.10.23.761433",
+        "date": "2026-10-27",
+        "version": "1",
+        "title": "Inferring somatic copy number aberrations from spatial transcriptomics data to study early cancer development",
+        "published": "NA"
+      }
+    ],
+    [
+      {
+        "doi": "10.64898/2026.10.13.758831",
+        "date": "2026-10-14",
+        "version": "1",
+        "title": "cit_gsa: gene set analysis for scRNA-seq with covariate adjustment",
+        "published": "NA"
+      }
+    ]
+  ]
+}
